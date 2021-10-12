@@ -1,0 +1,41 @@
+Output A is a quantized version of input X; the closest whole-semitone value to the unquantized V/octave pitch CV X. Similarly output B is a quantized version of input Y.
+
+As well as providing a chromatic scale, this algorithm can also constrain the quantized values to a musical scale or chord. This is controlled by the Z knob/CV.
+
+When Z changes, the scale is displayed on the LEDs. The scale's number in the following table is shown, and after a short pause, the scale's name.
+
+0 chromatic
+
+1 major scale
+
+2 minor scale
+
+3 major triad
+
+4 minor triad
+
+5 root+5th
+
+6 major triad+6th
+
+7 minor triad+6th
+
+8 major triad+7th
+
+9 minor triad+7th
+
+10 root+5th+6th
+
+11 root+5th+7th
+
+12 pentatonic major
+
+13 pentatonic minor
+
+14 natural minor scale
+
+15 harmonic minor scale
+
+For each quantizer, a parameter provides a transpose control. The transposition is applied to the input before it is forced into the chosen scale i.e. the transposition moves the notes around within the same key.
+
+MIDI Output: each new note is output as a MIDI note message on the MIDI channel selected in the settings (input X/output A) or on the next highest channel (input Y/output B). E.g. if the settings specify MIDI channel 4, the notes are output on channels 4 (X/A) and 5 (Y/B).

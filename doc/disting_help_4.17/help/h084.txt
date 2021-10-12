@@ -1,0 +1,17 @@
+Output A is a quantized version of the sum of inputs X & Y, according to the scale chosen with parameter 0.
+
+The scales are defined by files on the MicroSD card – see “Scala Support”, above. The keyboard mapping file is used to define the subset of notes that the quantizer may use. For example, in the provided example files, the file 'root+fifth.kbm' can be used with a 12 note scale to make the quantizer only output the root or fifth in each octave.
+
+Output B is a trigger signal which fires whenever output A changes - a 5V pulse approximately 10ms long.
+
+Parameters 1 & 2 are attenuators for inputs X & Y respectively. At -1 the input is completely attenuated; at 31 the input is unattenuated.
+
+If parameter 2 is set to -2, input Y becomes a trigger. In this mode, input X is only sampled and converted to a new quantized value when input Y rises over approximately 1V. (In non-triggered mode, X is constantly sampled and a new note is output as soon as X moves to the next scale degree.)
+
+Parameter 3 is a transpose control. The transposition occurs after the quantization, and is in terms of the mapped notes of the scale. For example, if you're using a seven tone scale, with all tones mapped, then a transposition of 7 raises or lowers the pitch by an octave.
+
+Parameter 4 sets an offset between the timing of the X & Y inputs (in sample frames). When using Y as a trigger, it is often a good idea to delay it slightly relative to the pitch, to ensure that the pitch has changed and settled before the trigger samples a new note.
+
+The Z knob/CV controls the slew rate of output A. At the minimum value of Z, changes in A are instantaneous. As Z increases, changes in A take place more slowly.
+
+MIDI Output: each new note (i.e. when the Output B trigger fires) is output as a MIDI note message on the MIDI channel selected in the settings. The note value is that of the position in the keyboard mapping of the current output.

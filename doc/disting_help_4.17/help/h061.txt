@@ -1,0 +1,19 @@
+Outputs A & B are pulse generators (0-5V) triggered by inputs X & Y respectively (1V required to trigger). The delay between the trigger and the output pulse, and the length of the pulse, can both be controlled.
+
+Unless in a mode where they are set by the Z input/CV, the delay and length are set from parameters 2 & 3. Parameter 1 provides a range control, which scales both the delay and length times. When the range parameter is 0, the maximum time is 10ms. Higher settings for range progressively double the maximum time; at the maximum ranage setting of 12, the maximum time is therefore 40.96s.
+
+Parameter 0 controls the function of Z:
+
+0 Z controls delay
+
+1 Z controls length
+
+2 Output override (high). Z over 1V forces both outputs high.
+
+3 Output override (low). Z over 1V forces both outputs low.
+
+4 Input enable. Z below 1V disables input triggers.
+
+5 Input disable. Z above 1V disables input triggers.
+
+6 Z is an additional trigger input which triggers both outputs.

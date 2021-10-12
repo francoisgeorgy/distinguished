@@ -1,0 +1,5 @@
+Outputs A & B are both slew rate limited copies of the sum of X & Y. Output A uses linear slew rate limiting; a step change in the input will typically result in a ramp output, until the output reaches its desired value, at which point it will be constant. Output B uses logarithmic slew rate limiting; a step change in input results in a smooth curve that gradually approaches the desired value.
+
+The Z knob/CV controls the slew rate for both outputs. At the minimum value of Z, changes are very rapid. As Z increases, changes take place more slowly.
+
+Parameters 0 & 1 allow for independent control of the slew times when the signal is rising or falling. If each parameter is -1, the corresponding slew rate is controlled by Z. Otherwise, the slew rate is set by the parameter value.

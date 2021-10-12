@@ -1,0 +1,3 @@
+This is stereo filter which sweeps from lowpass to highpass on a single knob.
+
+The Z knob/CV sets the filter cutoff. At the central, zero position no filter effect is applied. If the knob is turned anticlockwise, a lowpass filter is applied, with a cutoff frequency that sweeps down the more you turn. If the knob is turned clockwise from centre, a highpass filter is applied, with a cutoff frequency that sweeps up the more you turn.

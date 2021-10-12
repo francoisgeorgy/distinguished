@@ -1,0 +1,11 @@
+This algorithm recreates a popular analogue circuit variously known as a waveform animator or wave multiplier. Such a circuit, when given (typically) a sawtooth waveform as input, uses a comparator to generate a square wave of suitable phase and pulsewidth such that when the square and saw waves are added together the result is a phase shifted saw waveform. This is usually done a number of times and the results added with the overall effect of turning the original, rather plain, waveform into a much richer one which to all intents and purposes is the same as if you'd started with a number of VCOs rather than just one, and so sounds "fatter". In combination with LFOs varying the comparator thresholds, very rich textures can be generated.
+
+Here, four comparators and four LFOs are used. X is the audio input.
+
+The thresholds of the comparators are set by a combination of Y and Z. Y sets the 'centre' threshold; Z sets a 'spread' of the individual thresholds around the centre. Parameter 1 also sets the centre.
+
+Parameter 0 sets the LFO depth. Parameter 2 scales the LFO rates; the four LFOs have preset individual speeds, which the parameter multiplies.
+
+Parameter 3 sets the 'scale'. The recreation of phase shifted sawtooths works best when the square wave amplitude is matched to that of the saw. The default setting of -1 uses an envelope tracker to automatically set the square amplitude from the incoming audio. Other values directly set the amplitude (31 corresponds to ±8V). Fixing the amplitude of the square waves and varying the input signal's amplitude is a useful effect in its own right.
+
+Output A is the animated output (sum of the orignal signal and the comparator outputs). Output B is just the square waves.

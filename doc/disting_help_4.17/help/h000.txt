@@ -1,0 +1,13 @@
+Outputs A & B are simple sums of inputs X & Y and an offset, according to parameter 1:
+
+0: A is Sum of inputs X & Y, plus the offset. B is Difference between inputs X & Y, minus the offset. With nothing plugged into input X, B is therefore simply an inverted copy of Y.
+
+1: A is X plus the offset. B is Y minus the offset. This is particularly useful for shifting between bipolar (e.g. ±5V) and unipolar (e.g. 0-10V) CVs and back again.
+
+2: A is X plus the offset. B is Y plus the offset.
+
+The Z knob/CV sets an offset which is applied to both A and B. The offset is a whole number of Volts. If X/Y are 1V/Octave pitch CVs, Z is therefore an octave shift control. The maximum shift is 10V, positive or negative.
+
+When Z changes, the offset is shown on the display. After a short while the display reverts to showing the current algorithm.
+
+When parameter 0 is 1, the offset is not restricted to 1V steps, and changes smoothly with Z.

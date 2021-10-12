@@ -1,0 +1,15 @@
+This algorithm was designed for interfacing Eurorack (or more generally, any analogue synths using the 1V/octave standard) with Buchla synths, though it has options to cater for other, non-standard formats.
+
+Input X/Output A convert a pitch CV from the 1V/octave standard to the 1.2V/octave standard by default. The exact scaling is set by parameters 1 & 2:
+
+scale = 1.0 + 0.002 * ( parameter 1 ) + 0.0002 * ( parameters 2 )
+
+Input Y is a gate input, triggering when the level exceeds 1V. From this, a Buchla-format combined gate & trigger is generated from output B. This is a 4ms pulse at 10V, followed by a sustained gate at 5V.
+
+The Z knob/CV provides a tuning control, with a range of approximately ±0.5 octaves.
+
+Parameter 0 shifts the X input by whole octaves, equivalent to adding a whole number of Volts to the X CV.
+
+Parameter 3 applies an offset in mV to the A output.
+
+Parameter 4 sets the gate level as (1+the parameter value)% of the 10V trigger pulse. The default value of 49 therefore gives a 50% gate level i.e. 5V.

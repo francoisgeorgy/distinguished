@@ -1,0 +1,17 @@
+This algorithm provides an emulation of a rotary speaker effect.
+
+X is the audio input; A & B are the stereo audio outputs.
+
+The dry/wet mix is controlled by the sum of the Y input and parameter 0.
+
+The Z knob/CV controls the rotation speed. The 0-5V range corresponds to speeds from 0.8Hz to 6.7Hz. Below about -1V the speed decreases and eventually stops altogether.
+
+Parameter 1 sets the depth of the pitch modulation.
+
+Parameter 2 sets the slew rate for speed changes. This plus a 5V gate signal into Z are your route to the classic slow/fast rotary speed transitions.
+
+Parameter 3 controls the frequency of a (first order) crossover filter. The part of the signal above the filter frequency is fed into the rotary pitch modulation effect. The bass signal (below the crossover frequency) is not pitch modulated, but is amplitude modulated at a slightly slower rate than the treble modulation. The depth of the bass modulation is set by parameter 4.
+
+If parameter 3 is zero, the crossover is disabled and the separate bass modulation is not applied.
+
+If the crossover is used, but parameter 4 is zero, this essentially removes the effect entirely from the bass portion of the input, keeping it centre stereo and at unmodulated pitch.

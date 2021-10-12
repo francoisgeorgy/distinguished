@@ -1,0 +1,19 @@
+This algorithm is a VCO with a 1V/octave pitch CV input (X), and a linear FM input (Y), scaled at 100Hz/V. Note that, if the FM input goes sufficiently negative, it will take the frequency through and below zero, resulting in a phase inversion ("thru-zero FM").
+
+The 0V point for the pitch input is C3 (approximately 130.81Hz).
+
+The Z knob/CV provides a tuning control, with a range of approximately ±0.5 octaves. The A and B outputs provide waveforms according to the following table:
+
+0 Triangle.
+
+1 Sine.
+
+2 Square.
+
+3 Saw.
+
+4 Sub-octave square.
+
+Parameters 3 & 4 control the waveform of outputs A & B respectively. The output signals are ±8V (16V peak-to-peak) by default, but can be attenuated via parameters 1 & 2.
+
+MIDI Input: MIDI note messages received on the MIDI channel set in the Settings are converted to a CV which is added to that on input X. The 0V note is 48 (C3).

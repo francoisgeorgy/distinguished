@@ -1,0 +1,1 @@
+This algorithm is basically the same as A-1 Precision Adder above, except that where the other algorithm has offsets in steps of 1V, this algorithm allows you to set a divisor for the offset. This defaults to 12, so when used to offset a 1V/octave pitch CV the offsets correspond to semitones.

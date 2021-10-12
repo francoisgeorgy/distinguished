@@ -1,0 +1,9 @@
+This algorithm provides a chromatic tuner. The pitch of the input signal is tracked and displayed as a note name, with indication of whether the note is sharp or flat.
+
+Natural notes are shown in capitals i.e. 'C', 'D', 'E' etc. Lower case letters indicate sharps e.g. 'c' indicates C sharp, 'd', indicates D sharp.
+
+Following the note name a '-' indicates that the note is below the true pitch (flat) and '+' indicates that the note is above the true pitch (sharp). If the note is within 1 cent of the true pitch, neither '-' nor '+' is shown.
+
+Output A is a copy of X, so the tuner can be left inline without needing a mult.
+
+Output B is a sine wave at the pitch of the detected note. The amplitude of the sine wave is set by the Z knob/CV.

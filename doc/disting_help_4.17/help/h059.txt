@@ -1,0 +1,51 @@
+Output A is a quantized version of input X; the closest whole-semitone value to the unquantized V/octave pitch CV X. Similarly output B is a quantized version of input Y.
+
+As well as providing a chromatic scale, this algorithm can also constrain the quantized values to a musical scale or chord. This is controlled by parameters 2 & 3.
+
+0, ±1	chromatic
+
+±2	major scale
+
+±3	minor scale
+
+±4	major triad
+
+±5	minor triad
+
+±6	root +5th
+
+±7	major triad +6th
+
+±8	minor triad +6th
+
+±9	major triad +7th
+
+±10	minor triad +7th
+
+±11	root +5th +6th
+
+±12	root +5th +7th
+
+±13	pentatonic major
+
+±14	pentatonic minor
+
+±15	natural minor
+
+±16	harmonic minor
+
+±17	MIDI 1
+
+±18	MIDI 2
+
+Additionally, the parameter being positive or negative controls whether the quantizer works in triggered mode or not. The triggers are provided by input Z (approximately 1V is required to trigger it). If the parameter is negative, the quantizer is triggered - the input is only sampled and converted to a new quantized value when triggered by input Z. If the parameter is positive, the input is constantly sampled and a new note is output as soon as the input moves into the next semitone range.
+
+If the scale selected is 'MIDI 1' or 'MIDI 2' (values 17 & 18) the candidate notes for quantization are set via MIDI. The algorithm listens for MIDI note on messages and uses the received notes for the quantization pattern. While any notes are held, playing new notes adds to the pattern. When all notes are released and a new note played, the pattern is reset and formed from the new note.
+
+In 'MIDI 1' mode the played MIDI notes set the note names, but quantization can happen in any octave (i.e. if you play a 'D' the output will always be 'D' but the octave will depend on the octave of the incoming CV).
+
+In 'MIDI 2' mode the played MIDI notes are the only ones that can be output (so say if you play middle C and the D above, the output will always be one of those two notes, depending on whether the input CV is below or above middle C).
+
+MIDI Output: each new note is output as a MIDI note message on the MIDI channel selected in the settings (input X/output A) or on the next highest channel (input Y/output B). E.g. if the settings specify MIDI channel 4, the notes are output on channels 4 (X/A) and 5 (Y/B).
+
+The MIDI Gate parameter works in the same way as for the Quantizer, above.

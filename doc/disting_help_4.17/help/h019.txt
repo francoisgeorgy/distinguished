@@ -1,0 +1,11 @@
+This algorithm is a stereo ping-pong delay/echo effect, primarily intended for processing audio signals, where the delay time is set from a clock pulse. It operates at a quarter of the standard sample rate (i.e. at about 19kHz) and offers a maximum delay time of about 900ms.
+
+Input X is the signal input. Any audio signal can be fed in here.
+
+Input Y is the clock input. Any clock pulse in excess of 1V can be used. The time between rising trigger edges is used to set the delay time. If the time between triggers is greater than the maximum delay time, the time is divided by two until it is small enough. This way, you always end up with a rhythmically useful delay time.
+
+Parameter 1 applies a multiplier to the delay time, according to the table above. The Z knob/CV controls the left/right pan position of the input signal.
+
+Outputs A & B are the left and right outputs respectively. If the output mode parameter is 0 (the default), they are a mix of the dry (undelayed) signal and the delay effect. The amount of delay in the mix rises in direct proportion to the amount of feedback. If the output mode parameter is 1, the outputs are the delayed signals only. Use this and the input signal, plus an external mixer, if you need more flexibility in the dry/wet balance than is offered by output mode 0.
+
+The delay feedback is set via parameter 0.

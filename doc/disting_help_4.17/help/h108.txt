@@ -1,0 +1,25 @@
+This algorithm is an implementation of pulsar synthesis, inspired by the description in Curtis Roads's book Microsound (MIT Press) pp137-157.
+
+In pulsar synthesis, a small grain of sound (known as a pulsaret, typically a pulse or single cycle waveform) is repeated periodically, followed by a small section of silence. The length of the sound within the repeating period (equivalently, the speed at which it is played) offers a means of control the timbre without affecting the perceived pitch of the sound. By the same token, changing the fundamental pitch without changing the speed at which the grain of sound is played offers pitch change without simply shifting the entire spectrum up and down, an effect reminiscent of 'vocal' or 'formant' synthesis.
+
+This algorithm uses wavetables from the SD card as the source of the pulsarets. See 'Loading wavetables' above for a description of how to load wavetables onto the SD card.
+
+Input X sets the fundamental frequency – the rate at which the pulsaret train is generated.
+
+Input Y sets the 'formant' frequency – the rate at which the pulsaret is played. By default this is independent of the fundamental frequency. If parameter 3 is set to 1, the X input is added to the Y input, so changing the fundamental frequency also changes the formant frequency.
+
+Parameters 0 & 1 choose the wavetable and the wave within the table, respectively. Parameter 2 chooses the window or envelope to apply to the pulsaret. The options are:
+
+0 Rectangular
+
+1 Linear attack
+
+2 Linear decay
+
+3 Gaussian
+
+The Z knob/CV depends on parameter 4. When parameter 4 is zero (the default), Z is a tuning control, with a range of approximately ±0.5 octaves. Otherwise, masking is applied – that is, pulsarets are omitted from the train. In this case, outputs A & B use inverse masks – output B will output a pulsaret when output A is suppressed, and vice versa. If parameter 4 is 1, stochastic masking is applied i.e. pulsarets are randomly masked. The likelihood of a pulsaret being masked is set by Z. If parameter 4 is 2 or more, burst masking is applied – the parameter sets a number of pulsarets, and Z controls how many pulsarets within that number will be masked.
+
+Parameter 5 offsets the X input in octave steps.
+
+MIDI Input: MIDI note messages received on the MIDI channel set in the Settings are converted to a CV which is added to that on input X. The 0V note is 48 (C3).

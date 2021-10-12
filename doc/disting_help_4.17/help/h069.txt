@@ -1,0 +1,11 @@
+In this algorithm the sample playback position is directly driven from the Y input. Imagine a piece of audio tape passing over a tape head – in other algorithms, that tape is constantly moving at some speed or other as if driven by a motor, but in this algorithm you're basically dragging the tape back and forwards over the playhead yourself.
+
+Parameter 1 sets a limit on the speed at which the audio can play. With long samples or rapidly changing Y inputs it is easy to demand very high playback speeds, and this parameter enables you to put a cap on that.
+
+Parameter 2 sets a slew limit, effectively putting a low-pass filter on the Y input. This is useful particularly when using a manually-generated CV to remove any “twitchiness”.
+
+Parameter 3 sets an offset on the Y input, essentially adding or subtracting a constant voltage.
+
+The algorithm caches a reversed copy of each sample to the MicroSD card. It does this once only for each sample, when it finds a new sample or one that has changed. This may take a few seconds, during which time the message “Processing...” scrolls across the display. Do not remove the MicroSD card or turn off the disting during this time, in case the MicroSD card becomes corrupted.
+
+Parameter 0 is the standard sample folder parameter, described above.

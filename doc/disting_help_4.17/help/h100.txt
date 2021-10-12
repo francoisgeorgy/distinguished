@@ -1,0 +1,1 @@
+A stereo filter, switchable between low-, band-, and high-pass (via parameter 0). Parameter 1 sets the filter resonance.

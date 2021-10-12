@@ -1,0 +1,15 @@
+A mono chorus/flange effect. X is the audio input.
+
+A and B are audio outputs. Output A is a mix of the input and the chorus output; output B is just the chorus output.
+
+Z is a wet/dry control. At zero, the output A is 100% dry i.e. the input signal with no chorus added. For positive Z, chorus is added while holding the dry level constant. For negative Z, the dry and chorus signals are progressively crossfaded, until eventually the output is 100% wet i.e. just the chorus signal.
+
+The chorus effect is generated via a number of LFOs. The LFO depth is set with parameter 0. The LFO speeds are set with a combination of parameter 1 and input Y, which is a 1V/octave input centred on 4Hz for 0V.
+
+Parameter 2 controls a feedback loop around the effect. Parameter 7 engages a saturation stage in the feedback loop, which can prevent clipping, while adding some colouration to the sound.
+
+Parameter 3 applies a low pass filter to the chorus input. It does not affect the dry portion of the signal.
+
+Parameters 4 & 5 together set the delay time, with a range of approximately 200ms. Very small values give flanging; medium values (25-50ms) are more typical for chorus. Larger values give recognisable echoes.
+
+Parameter 6 sets the number of stages i.e. the number of simultaneous delayed/modulated signals that combine to produce the effect. Higher values will give a smoother, lusher chorus; small values are more appropriate to give a sharper, more defined modulation, especially for flanging.

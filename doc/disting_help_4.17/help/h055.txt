@@ -1,0 +1,5 @@
+Generates MIDI notes (on the MIDI channel selected in the settings) from the pitch and gate CVs on the X & Y inputs.
+
+Parameter 0 sets an offset between the timing of the X & Y inputs (in sample frames). It is generally a good idea to delay the pitch slightly relative to the gate, to ensure that the pitch has changed and settled before the gate triggers a new note.
+
+Parameter 1 chooses the function of the Z knob/CV. If 0, Z sets the velocity of the generated MIDI notes. If 1, Z generates CC 1 (mod wheel) messages, and the note velocity is fixed at 64.

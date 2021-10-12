@@ -1,0 +1,27 @@
+This algorithm combines LFOs and a ramp generator, a combination often used for vibrato which starts gradually from the beginning of each note. The LFO is in fact not 'delayed' as such, but the naming is a nod to the equivalent feature on such classic synths as the Juno-6.
+
+Input X triggers the ramp, which starts from zero and ramps linearly up to a maximum over a time set from Y, which is an exponential, 1V/octave, input. The LFO may be multiplied by the ramp, so it also starts from zero and ramps up to full amplitude.
+
+The trigger also resets the LFO phase to zero. This could be used even without the ramp to give you a resettable LFO.
+
+The Z knob/input controls the LFO speed, which is also an exponential control.
+
+Parameters 0 and 1 select the output waveforms on outputs A & B respectively. The choices are:
+
+0 the ramp itself
+
+1 triangle affected by ramp
+
+2 sine affected by ramp
+
+3 square affected by ramp
+
+4 triangle
+
+5 sine
+
+6 square
+
+Parameters 2 & 3 set the range of the LFO and ramp times, both in quarter octaves (i.e. raising the value by 4 doubles the speed).
+
+Parameters 4 & 5 are attenuverters for outputs A & B, which apply whatever the selected output waveforms. Negative values mean you can have a descending ramp, or LFOs with inverted phase. The unattenuated levels are 0-8V for the ramp and ±8V for the LFOs.

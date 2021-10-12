@@ -1,0 +1,29 @@
+This algorithm performs logical operations on the X & Y inputs. The inputs first pass through adjustable comparators, so you can feed X & Y either with straight gate/trigger signals, or with more general CVs.
+
+X & Y are the inputs. A & B are the outputs, which are 0/5V logical (on/off) signals.
+
+The Z knob/CV sets the logical operation performed for output A. The options are AND, OR, XOR, NAND, NOR, and XNOR; the name of the operation selected is shown in the display as Z changes.
+
+Parameter 0 sets the logical operation performed for output B:
+
+-2
+
+Output B follows output A
+
+-1
+
+Output B is inverse of output A
+
+0 AND
+
+1 OR
+
+2 XOR
+
+3 NAND
+
+4 NOR
+
+5 XNOR
+
+Parameters 1-4 set the input comparator thresholds and hysteresis (for an explanation of hysteresis see here). All are scaled such that 100 corresponds to 5V. The input is taken as logical '1' if the input voltage exceeds the threshold voltage.

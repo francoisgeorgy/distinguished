@@ -1,0 +1,15 @@
+This algorithm implements a vocoder. The spectral characteristics of the modulator input are applied to the carrier input. In classic usage, the modulator might be a human voice, and the carrier might be a synth sound, or simply noise.
+
+X is the modulator input, and Y is the carrier input.
+
+A is the audio output. B outputs a CV related to the envelope of the modulator signal.
+
+The Z control sets the decay time of the internal envelope trackers, which track each band of the modulator signal. Use low values (negative Z) for most intelligible speech.
+
+Parameter 0 selects between alternative filter banks:
+
+0 Half octave spacing, based on 100Hz.
+
+1 Third octave spacing, based on 250Hz.
+
+Parameters 1 & 2 provide attenuation or gain of outputs A & B respectively.

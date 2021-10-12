@@ -1,0 +1,31 @@
+A dual vowel filter effect. A set of three bandpass filters (BPFs) is used to mimic the response of the human vocal tract, resulting in vowel-like sounds when provided suitable source material.
+
+The algorithm can be used as a dual-mono effect, or as stereo (in which case you'd want to select the same vowels for each channel).
+
+Parameters 0 & 1 select the vowel sound for X/A and Y/B respectively. The available sounds are as follows:
+
+-1
+
+Chosen from the range below by the Z knob/CV.
+
+0 /ow/ bought
+
+1 /oo/ boot
+
+2 /a/ hot
+
+3 /uh/ but
+
+4 /er/ bird
+
+5 /ae/ bat
+
+6 /e/ bet
+
+7 /i/ bit
+
+8 /iy/ beet
+
+For a good vowel effect, the input audio should be rich in harmonics. A simple sawtooth works reasonably well. However, you can of course put any audio you want through the filters.
+
+Parameters 2 & 3 allow fine tuning of the gains of the second and third BPFs, which can be used to tweak the vowel sounds if they're not quite right for your usage.

@@ -1,0 +1,13 @@
+This algorithm implements a resonator, which is a kind of filter, but which is also often found as the basis for analogue drum synthesis.
+
+X is the input for the signal to filter. If used as a drum synth, this is the trigger input. The amplitude and nature of the trigger signal will affect the resulting sound.
+
+Y sets the pitch of the resonator, with a 1V/octave response. The 0V point for the pitch input is C3 (approximately 130.81Hz). Parameter 0 provides a pitch offset in semitones.
+
+Z sets the gain. In terms of drum synthesis, more gain means a longer decay time.
+
+A is the audio output.
+
+B outputs the result of envelope tracking the audio output A.
+
+Pressing Z simulates hitting X with a 1ms 5V pulse, and so works as a manual trigger of the 'drum'.

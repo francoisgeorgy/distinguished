@@ -1,0 +1,11 @@
+Generates sine and square waves at a fixed frequency, specified in Hz.
+
+Z sets the amplitude of the outputs.
+
+When the pitch is changed, the frequency is scrolled across the display (e.g. '440Hz').
+
+This algorithm uses an interface unlike any other, in order to be able to set the digits of the frequency individually. It is somewhat like the usual parameters interface, in that pressing Z advances through the digits, and turning S changes the values.
+
+When S is turned, a pair of digits is displayed. The first is the decimal place that is being edited in the frequency value e.g. '0' is ones, '1' is tens, '2' is hundreds and so on. The second digit is the value of that digit within the frequency value.
+
+Pressing Z advances the decimal place, and displays a pair of digits as above representing that new part of the frequency value, which can then be edited with S.

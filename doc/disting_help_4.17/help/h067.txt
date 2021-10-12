@@ -1,0 +1,9 @@
+This algorithm is much the same as the 'I-1 Audio Playback' algorithm, except that it forgoes voltage control of the current sample and instead offers a speed control.
+
+Z is the linear speed control. The central position corresponds to the sample playing at its natural pitch. Positive voltages speed up playback; negative voltages slow it down. Because the scale is linear it is possible to slow it down all the way to being stopped.
+
+The current sample is selected via parameter 1.
+
+Parameters 0 & 2 are the standard sample folder and envelope time parameters, described above.
+
+MIDI Input: MIDI note on & off messages are handled equivalently to a trigger or gate on the X input – that is, a note on retriggers the sample, and if the envelope time is non-zero, a note off will stop the playback.
