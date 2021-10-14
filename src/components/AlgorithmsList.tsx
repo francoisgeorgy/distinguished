@@ -1,33 +1,36 @@
+import {observer} from "mobx-react-lite";
+import {stores} from "../stores";
+import {indexToXY} from "../model";
 import HELP_TEXTS from "../data/help-texts.json";
 import ALGO_NAMES from "../data/algo-names.json";
-import {indexToXY} from "../model";
-import {stores} from "../stores";
-import {observer} from "mobx-react-lite";
 
 export const AlgorithmsList = observer(() => {
 
-    function selectAlgorithm(index) {
+    function selectAlgorithm(index: number) {
         stores.state.setCurrentAlgorithm(index);
     }
 
     return (
         <div className="presets-list">
+            <h2>
+                Algorithms
+            </h2>
             <div>
-                {Object.keys(HELP_TEXTS).length} presets
-            </div>
-            <div>
-                <h2>{stores.state.currentAlgorithm}</h2>
-            </div>
-            <div>
-                {Object.keys(HELP_TEXTS).sort().map((index: string) => {
-                    const xy = indexToXY(parseInt(index, 10));
-                    // @ts-ignore
+                {Object.keys(HELP_TEXTS).map(s => parseInt(s, 10)).sort((a, b) => a-b).map((num: number) => {
+                    // const num = parseInt(index, 10);
+                    // if (isNaN(num)) {
+                    //     console.warn("AlgorithmList: invalid index", index);
+                    //     return null;
+                    // }
+                    const xy = indexToXY(num);
+                   // @ts-ignore
                     const name = ALGO_NAMES[xy] ?? '?';
                     // @ts-ignore
-                    const texts = HELP_TEXTS[index];
+                    const texts = HELP_TEXTS[num.toString(10)];
                     return (
                         <div>
-                            <a href={`#${index}`} onClick={() => selectAlgorithm(index)}>{index} {indexToXY(parseInt(index, 10))}: {name} {texts.length}</a>
+                            <a href={`#${num}`}>{xy} - {name}</a>
+                            {/*<a href={`#${index}`} onClick={() => selectAlgorithm(num)}>{xy} - {name}</a>*/}
                         </div>);
                 })}
             </div>

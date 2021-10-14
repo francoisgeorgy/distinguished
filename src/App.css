@@ -1,3 +1,51 @@
+/* General layout */
+
+/*
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+*/
+
+header {
+    background-color: #eee; /* debug */
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+main .left {
+    width: 25%;
+    min-width: 25%;
+}
+
+main .middle {
+    flex-grow: 1;
+}
+
+main .right {
+    width: 20%;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: #eee; /* debug */
+}
+
+/*  */
+
+.scrollable {
+    overflow-y: auto;
+}
+
+/* Utilities */
+
 pre {
     margin: 0;
 }

@@ -1,11 +1,11 @@
 import {makeAutoObservable} from 'mobx';
-import {RootStore} from "./index";
+import {RootStore, stores} from "./index";
 
 export class StateStore {
 
     stores: RootStore;
 
-    currentAlgorithm: number = -1;
+    currentAlgorithm: number = 0;
 
     constructor(stores: RootStore) {
         makeAutoObservable(this, {
@@ -14,8 +14,19 @@ export class StateStore {
         this.stores = stores;
     }
 
-    setCurrentAlgorithm(num: number) {
-        this.currentAlgorithm = num;
+    setCurrentAlgorithm(num: number|string) {
+        console.log("setCurrentAlgorithm", num);
+        if (num === undefined || num === null) return;
+        let n;
+        if (typeof num === "string") {
+            n = parseInt(num);
+            if (isNaN(n)) {
+                console.warn("setCurrentAlgorithm: invalid parameter", num);
+            }
+        } else {
+            n = num;
+        }
+        this.currentAlgorithm = n;
     }
 
 }

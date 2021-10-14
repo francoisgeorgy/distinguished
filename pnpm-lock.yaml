@@ -10,6 +10,7 @@ specifiers:
   mobx-react-lite: ^3.2.1
   react: ^17.0.0
   react-dom: ^17.0.0
+  react-keyboard-input-hook: ^1.0.3
   storejs: ^2.0.1
   typescript: ^4.3.2
   vite: ^2.6.4
@@ -19,6 +20,7 @@ dependencies:
   mobx-react-lite: 3.2.1_8aec6830c9f393111667240500a3b25c
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
+  react-keyboard-input-hook: 1.0.3
   storejs: 2.0.1
 
 devDependencies:
@@ -738,6 +740,12 @@ packages:
       object-assign: 4.1.1
       react: 17.0.2
       scheduler: 0.20.2
+    dev: false
+
+  /react-keyboard-input-hook/1.0.3:
+    resolution: {integrity: sha512-dSm6wZzZSayaoi/ons7v+1Pu9/+KEO9UW37Wx445gZBXfTBXmt7uVNheKmI5ONsMU72A+ZqQ0hcZDg9acrm8Bg==}
+    dependencies:
+      react: 17.0.2
     dev: false
 
   /react-refresh/0.10.0:

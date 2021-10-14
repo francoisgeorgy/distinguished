@@ -11,6 +11,7 @@
         "mobx-react-lite": "^3.2.1",
         "react": "^17.0.0",
         "react-dom": "^17.0.0",
+        "react-keyboard-input-hook": "^1.0.3",
         "storejs": "^2.0.1"
     },
     "devDependencies": {
