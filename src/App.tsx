@@ -5,8 +5,35 @@ import {ExampleMIDIMessages} from "./components/ExampleMIDIMessages";
 import {indexToXY, xyToIndex} from "./model";
 import {AlgorithmsList} from "./components/AlgorithmsList";
 import {AlgorithmDetails} from "./components/AlgorithmDetails";
+import {useEffect} from "react";
+import {stores} from "./stores";
 
 function App() {
+
+/*
+    useEffect(() => {
+        const h = window.location.hash;
+        console.log("App: hash", h);
+        if (h) {
+            const index = parseInt(h.substring(1));
+            if (!isNaN(index)) stores.state.setCurrentAlgorithm(index);
+        }
+    }, []);
+*/
+
+    function dummy() {
+        console.log("hash change");
+        const h = window.location.hash;
+        console.log("App: hash", h);
+        if (h) {
+            const index = parseInt(h.substring(1));
+            if (!isNaN(index)) stores.state.setCurrentAlgorithm(index);
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener("hashchange", dummy, false);
+    }, [])
 
     return (
         <div className="App">
