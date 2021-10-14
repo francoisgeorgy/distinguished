@@ -1,4 +1,4 @@
-import {makeAutoObservable} from 'mobx';
+import {action, makeAutoObservable} from 'mobx';
 import {RootStore, stores} from "./index";
 
 export class StateStore {
@@ -9,7 +9,8 @@ export class StateStore {
 
     constructor(stores: RootStore) {
         makeAutoObservable(this, {
-            stores: false
+            stores: false,
+            setCurrentAlgorithm: action
         });
         this.stores = stores;
     }

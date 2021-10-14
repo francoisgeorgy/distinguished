@@ -12,30 +12,40 @@
 header {
     background-color: #eee; /* debug */
     flex-shrink: 0;
+    padding: 10px;
 }
 
 main {
     flex-grow: 1;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 
 main .left {
     width: 25%;
     min-width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 main .middle {
     flex-grow: 1;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 main .right {
     width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 footer {
     flex-shrink: 0;
     background-color: #eee; /* debug */
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*  */
@@ -44,8 +54,37 @@ footer {
     overflow-y: auto;
 }
 
+/* */
+
+header .title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
 /* Utilities */
 
 pre {
     margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.center {
+    justify-self: center;
+}
+
+.centerV {
+    align-self: center;
+}
+
+.grid1x3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /*justify-items: center;*/
 }

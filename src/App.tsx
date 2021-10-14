@@ -5,10 +5,13 @@ import {AlgorithmsList} from "./components/AlgorithmsList";
 import {AlgorithmDetails} from "./components/AlgorithmDetails";
 import { useKeyUp, useKeyDown } from "react-keyboard-input-hook";
 import './App.css'
+import {AlgorithmControls} from "./components/AlgorithmControls";
+import {AlgorithmName} from "./components/AlgorithmName";
 
 function App() {
 
     function handleHashChange() {
+        console.log("handleHashChange", window.location.hash);
         stores.state.setCurrentAlgorithm(window.location.hash?.substring(1));
     }
 
@@ -20,16 +23,25 @@ function App() {
         }
     }, [])
 
+    useEffect(() => {
+        console.log("App useEffect", window.location.hash);
+        stores.state.setCurrentAlgorithm(window.location.hash?.substring(1));
+    }, [])
+
     // @ts-ignore
-    const handleKeyUp = ({ keyName }) => {
-        console.log("the " + keyName + " was just released!");
+    const handleKeyUp = ({ keyName, keyCode, e }) => {
+        console.log(keyName, keyCode, e);
+        e.PreventDefault();
         if (stores.state.currentAlgorithm > 0) stores.state.setCurrentAlgorithm(stores.state.currentAlgorithm - 1);
+        return false;
     };
 
     // @ts-ignore
-    const handleKeyDown = ({ keyName }) => {
-        console.log("the " + keyName + " was just pressed down!");
+    const handleKeyDown = ({ keyName, keyCode, e }) => {
+        console.log(keyName, keyCode, e);
+        e.PreventDefault();
         stores.state.setCurrentAlgorithm(stores.state.currentAlgorithm + 1);
+        return false;
     };
 
     const { keyCode, keyCodeHistory, keyName, keyNameHistory } = useKeyUp();
@@ -38,17 +50,28 @@ function App() {
 
     return (
         <Fragment>
-            <header className="App-header">
-                <div>
+            <header>
+                <div className="title">
                     Distinguished - A webmidi utility for the Expert Sleepers Disting Mk4
                 </div>
                 <MidiPortsSelect />
             </header>
-            <main className="scrollable">
-                <div className="left">
+            <main>
+                <div className="left scrollable">
                     <AlgorithmsList />
                 </div>
                 <div className="middle">
+{/*
+                    <div className="grid1x3">
+                        <AlgorithmName />
+                        <div className="center centerV">
+                            <button>USE THIS ALGORITHM</button>
+                        </div>
+                        <div></div>
+                    </div>
+*/}
+                    <AlgorithmName />
+                    <AlgorithmControls />
                     <AlgorithmDetails />
                 </div>
             </main>
