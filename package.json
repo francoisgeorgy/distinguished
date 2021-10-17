@@ -12,6 +12,7 @@
         "react": "^17.0.0",
         "react-dom": "^17.0.0",
         "react-keyboard-input-hook": "^1.0.3",
+        "react-svg-knob": "^0.5.0",
         "storejs": "^2.0.1"
     },
     "devDependencies": {

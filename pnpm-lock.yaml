@@ -11,6 +11,7 @@ specifiers:
   react: ^17.0.0
   react-dom: ^17.0.0
   react-keyboard-input-hook: ^1.0.3
+  react-svg-knob: ^0.5.0
   storejs: ^2.0.1
   typescript: ^4.3.2
   vite: ^2.6.4
@@ -21,6 +22,7 @@ dependencies:
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-keyboard-input-hook: 1.0.3
+  react-svg-knob: 0.5.0_react@17.0.2
   storejs: 2.0.1
 
 devDependencies:
@@ -752,6 +754,15 @@ packages:
     resolution: {integrity: sha512-PgidR3wST3dDYKr6b4pJoqQFpPGNKDSCDx4cZoshjXipw3LzO7mG1My2pwEzz2JVkF+inx3xRpDeQLFQGH/hsQ==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /react-svg-knob/0.5.0_react@17.0.2:
+    resolution: {integrity: sha512-2gNEkagqEukgf8tB4OHH5Fd7/oNdG0XsQsIaYKd/TX9qu1ZNNkAfZs2uEmuc7wT7MXCq0vfwXPjmmBQtgonV/Q==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: '>=16'
+    dependencies:
+      react: 17.0.2
+    dev: false
 
   /react/17.0.2:
     resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}

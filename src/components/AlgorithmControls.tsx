@@ -1,16 +1,15 @@
 import {observer} from "mobx-react-lite";
 import {stores} from "../stores";
 import "./AlgorithmControls.css";
+import {ControlKnob} from "./ControlKnob";
 
 export const AlgorithmControls = observer(() => {
     return (
         <div className="algorithm-controls">
-            <div>
-                <button>USE THIS ALGORITHM</button>
-            </div>
             <div className="controls-grid">
                 {/* row 1 */}
                 <div>
+                    <ControlKnob />
                     Param 0
                 </div>
                 <div>

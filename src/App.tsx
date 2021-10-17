@@ -7,6 +7,7 @@ import { useKeyUp, useKeyDown } from "react-keyboard-input-hook";
 import './App.css'
 import {AlgorithmControls} from "./components/AlgorithmControls";
 import {AlgorithmName} from "./components/AlgorithmName";
+import { Algorithm } from "./components/Algorithm";
 
 function App() {
 
@@ -44,9 +45,9 @@ function App() {
         return false;
     };
 
-    const { keyCode, keyCodeHistory, keyName, keyNameHistory } = useKeyUp();
-    useKeyUp(handleKeyUp);
-    useKeyDown(handleKeyDown);
+    // const { keyCode, keyCodeHistory, keyName, keyNameHistory } = useKeyUp();
+    // useKeyUp(handleKeyUp);
+    // useKeyDown(handleKeyDown);
 
     return (
         <Fragment>
@@ -70,9 +71,7 @@ function App() {
                         <div></div>
                     </div>
 */}
-                    <AlgorithmName />
-                    <AlgorithmControls />
-                    <AlgorithmDetails />
+                    <Algorithm />
                 </div>
             </main>
             <footer>
