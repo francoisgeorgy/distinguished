@@ -46,7 +46,8 @@
         },
         "parameters": [
             {
-                "name": "Z Mode (when 1, the scale is not restricted to integer steps, and changes smoothly with Z).",
+                "name": "Z Mode",
+                "description": "(when 1, the scale is not restricted to integer steps, and changes smoothly with Z).",
                 "min": 0,
                 "max": 1,
                 "def": 0,
@@ -377,7 +378,7 @@
         },
         "parameters": [
             {
-                "name": "Sets an attenuation for output A.",
+                "name": "Attenuation for output A.",
                 "min": 0,
                 "max": 40,
                 "def": 32,
@@ -385,7 +386,7 @@
                 "control": "knob"
             },
             {
-                "name": "Sets an attenuation for output B.",
+                "name": "Attenuation for output B.",
                 "min": 0,
                 "max": 40,
                 "def": 32,
@@ -393,7 +394,7 @@
                 "control": "knob"
             },
             {
-                "name": "Sets an offset for output A.",
+                "name": "Offset for output A.",
                 "min": -40,
                 "max": 40,
                 "def": 0,
@@ -401,7 +402,7 @@
                 "control": "knob"
             },
             {
-                "name": "Sets an offset for output B.",
+                "name": "Offset for output B.",
                 "min": -40,
                 "max": 40,
                 "def": 0,
@@ -481,7 +482,7 @@
                 "control": "knob"
             },
             {
-                "name": "Sets an attenuation for output A.",
+                "name": "Attenuation for output A.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
@@ -489,7 +490,7 @@
                 "control": "knob"
             },
             {
-                "name": "Sets an attenuation for output B.",
+                "name": "Attenuation for output B.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
@@ -537,7 +538,7 @@
                 "control": "knob"
             },
             {
-                "name": "Sets an attenuation for output A.",
+                "name": "Attenuation for output A.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
@@ -545,7 +546,7 @@
                 "control": "knob"
             },
             {
-                "name": "Sets an attenuation for output B.",
+                "name": "Attenuation for output B.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
@@ -1150,7 +1151,7 @@
                 "max": 2,
                 "def": 0,
                 "unit": "",
-                "control": "knob"
+                "control": "list"
             },
             {
                 "name": "Z Mode.",
@@ -1158,7 +1159,7 @@
                 "max": 1,
                 "def": 0,
                 "unit": "",
-                "control": "knob"
+                "control": "list"
             },
             {
                 "name": "Output A Attenuverter.",

@@ -17,6 +17,14 @@ code {
     margin-bottom: 20px;
 }
 
+.ml-20 {
+    margin-left: 20px;
+}
+
 .mr-20 {
     margin-right: 20px;
+}
+
+.span-2-cols {
+    grid-column: span 2;
 }

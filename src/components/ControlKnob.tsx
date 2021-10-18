@@ -31,7 +31,7 @@ const knobValueFormater = (v: number) => {
 
 export const ControlKnob = () => {
     return (
-        <div style={{"width": "102px"}}>
+        <div style={{"width": "102px"}} className="parameter-knob">
             <Knob initialValue={initialValue()} onKnobChange={updatePeriod}
                   config={{format: knobValueFormater, value_resolution: 0.01}}
                   skin={knobSkin}/>

@@ -1,0 +1,14 @@
+.ios-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    justify-content: start;
+}
+
+.ios-grid > div {
+
+}
+
+.ios-grid div.label {
+    font-weight: bold;
+}

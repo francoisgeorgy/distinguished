@@ -2,12 +2,9 @@ import {Fragment, useEffect} from "react";
 import {stores} from "./stores";
 import {MidiPortsSelect} from "./components/midi/MidiPortsSelect";
 import {AlgorithmsList} from "./components/AlgorithmsList";
-import {AlgorithmDetails} from "./components/AlgorithmDetails";
-import { useKeyUp, useKeyDown } from "react-keyboard-input-hook";
+import { Algorithm } from "./components/algorithm/Algorithm";
 import './App.css'
-import {AlgorithmControls} from "./components/AlgorithmControls";
-import {AlgorithmName} from "./components/AlgorithmName";
-import { Algorithm } from "./components/Algorithm";
+import {Description} from "./components/algorithm/Description";
 
 function App() {
 
@@ -72,6 +69,9 @@ function App() {
                     </div>
 */}
                     <Algorithm />
+                </div>
+                <div className="right scrollable">
+                    <Description />
                 </div>
             </main>
             <footer>

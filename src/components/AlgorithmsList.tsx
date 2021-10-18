@@ -1,13 +1,14 @@
 import {observer} from "mobx-react-lite";
 import {stores} from "../stores";
 import {indexToXY} from "../model";
-import HELP_TEXTS from "../data/help-texts.json";
-import ALGO_NAMES from "../data/algo-names.json";
+// import HELP_TEXTS from "../data/help-texts.json";
+// import ALGO_NAMES from "../data/algo-names.json";
+import ALGORITHMS from "../data/algorithms.json";
 import "./AlgorithmsList.css";
 
 export const AlgorithmsList = observer(() => {
 
-    function selectAlgorithm(index: number) {
+    function selectAlgorithm(index: string) {
         stores.state.setCurrentAlgorithm(index);
         return false;
     }
@@ -18,19 +19,21 @@ export const AlgorithmsList = observer(() => {
                 Algorithms
             </h2>
             <div className="presets-list-items">
-                {Object.keys(HELP_TEXTS).map(s => parseInt(s, 10)).sort((a, b) => a-b).map((num: number) => {
+                {Object.keys(ALGORITHMS).sort().map((index: string) => {
                     // const num = parseInt(index, 10);
                     // if (isNaN(num)) {
                     //     console.warn("AlgorithmList: invalid index", index);
                     //     return null;
                     // }
-                    const xy = indexToXY(num);
+                    // const xy = indexToXY(num);
                    // @ts-ignore
-                    const name = ALGO_NAMES[xy] ?? '?';
+                   //  const name = ALGO_NAMES[xy] ?? '?';
                     // @ts-ignore
-                    const texts = HELP_TEXTS[num.toString(10)];
+                    // const texts = HELP_TEXTS[num.toString(10)];
+                    // @ts-ignore
+                    const name = ALGORITHMS[index].name;
                     return (
-                            <a key={num} href={`#${num}`} onClick={() => selectAlgorithm(num)}>{xy} - {name}</a>
+                            <a key={index} href={`#${index}`} onClick={() => selectAlgorithm(index)}>{index} - {name}</a>
                         );
                 })}
             </div>

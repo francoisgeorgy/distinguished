@@ -23,20 +23,23 @@ main {
 }
 
 main .left {
-    width: 25%;
-    min-width: 25%;
+    /*width: 25%;*/
+    /*min-width: 25%;*/
+    min-width: 350px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 main .middle {
-    flex-grow: 1;
+    flex-grow: 2;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 main .right {
-    width: 20%;
+    flex-grow: 1;
+    max-width: 30%;
+    /*width: 20%;*/
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -69,6 +72,10 @@ pre {
 
 .row {
     display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .grow {

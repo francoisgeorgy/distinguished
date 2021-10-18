@@ -1,19 +1,19 @@
 import {observer} from "mobx-react-lite";
 import {useEffect, useState} from "react";
 import Markdown from "markdown-to-jsx";
-import {indexToXY} from "../model";
-import {stores} from "../stores";
+import {stores} from "../../stores";
 
-export const AlgorithmDescription = observer(() => {
+export const Description = observer(() => {
 
     // const filename = "C8.md";
 
-    const xy = indexToXY(stores.state.currentAlgorithm);
+    // const xy = indexToXY(stores.state.currentAlgorithm);
+    const index = stores.state.currentAlgorithm;
 
     const [text, setText] = useState('');
 
     useEffect(() => {
-        fetch(`/app/texts/${xy}.md`)
+        fetch(`/app/texts/${index}.md`)
             .then((response) => {
                 if (response.ok) {
                     return response.text();
@@ -31,7 +31,7 @@ export const AlgorithmDescription = observer(() => {
                 setText("");
                 console.log(error)
             });
-    }, [xy]);
+    }, [index]);
 
     console.log("AlgorithmDescription");
 

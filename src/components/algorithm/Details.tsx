@@ -1,10 +1,9 @@
 import {observer} from "mobx-react-lite";
-import {stores} from "../stores";
-import {indexToXY} from "../model";
-import HELP_TEXTS from "../data/help-texts.json";
-import { Key } from "react";
+import {stores} from "../../stores";
+import {indexToXY} from "../../model";
+// import HELP_TEXTS from "../../data/help-texts.json";
 
-export const AlgorithmDetails = observer(() => {
+export const Details = observer(() => {
     // const index = xyToIndex(xy);
     // @ts-ignore
     // console.log(HELP_TEXTS[stores.state.currentAlgorithm.toString()]);

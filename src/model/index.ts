@@ -9,3 +9,11 @@ export function xyToIndex(xy: string): number {
     let num = parseInt(xy[1], 10);
     return bank * 8 + num - 1;
 }
+
+export function formatIndex(index: string) {
+    if (index.includes("-")) {
+        return index;
+    } else {
+        return index.substr(0, 1) + "-" + index.substr(1);
+    }
+}
