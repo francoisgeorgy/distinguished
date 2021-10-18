@@ -1,0 +1,4935 @@
+{
+    "A1": {
+        "name": "Precision Adder",
+        "category": "CV Processing",
+        "Z-button": "",
+        "Z": "offset = ±10V in 1V steps derived from Z",
+        "X": "",
+        "Y": "",
+        "A": "A = X + Y + offset, or X + offset",
+        "B": "B = X – Y – offset, or Y ± offset",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Z Mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Sum Mode.",
+                "min": 0,
+                "max": 2,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "A2": {
+        "name": "Four Quadrant Multiplier",
+        "category": "Modulation Effects",
+        "Z-button": "",
+        "Z": "scale = 1/10 to 10x in steps derived from Z",
+        "X": "",
+        "Y": "",
+        "A": "A = X * Y * scale",
+        "B": "B = -X * Y * scale",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Z Mode (when 1, the scale is not restricted to integer steps, and changes smoothly with Z).",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y Offset",
+                "min": -10,
+                "max": 10,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "A3": {
+        "name": "Full-wave Rectifier",
+        "category": "Waveshaping",
+        "Z-button": "",
+        "Z": "Z selects mode",
+        "X": "",
+        "Y": "",
+        "A": "A = abs( X + Y ) or abs( X )",
+        "B": "B = abs( X - Y ) or abs( Y )",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": []
+    },
+    "A4": {
+        "name": "Minimum/maximum",
+        "category": "Waveshaping",
+        "Z-button": "",
+        "Z": "Z is gate",
+        "X": "",
+        "Y": "",
+        "A": "A = min( X, Y )",
+        "B": "B = max( X, Y )",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": []
+    },
+    "A5": {
+        "name": "Linear/Exponential Converter",
+        "category": "CV Processing",
+        "Z-button": "",
+        "Z": "Z is Hz/V scale, centred on 1kHz",
+        "X": "",
+        "Y": "",
+        "A": "A = ( 2 ^ X ) * scale",
+        "B": "B = log2( Y / scale )",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Type A.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Type B.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "A6": {
+        "name": "Quantizer",
+        "category": "Quantizers",
+        "Z-button": "",
+        "Z": "Z chooses scale & function of Y",
+        "X": "",
+        "Y": "Y = transpose (Z positive) or trigger (Z negative)",
+        "A": "A = quantized( X )",
+        "B": "B = trigger on note change",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Input X attenuation.",
+                "min": -1,
+                "max": 31,
+                "def": 31,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Transpose mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Key.",
+                "min": -31,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Offset.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "MIDI Gate.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "A7": {
+        "name": "Comparator",
+        "category": "CV Processing",
+        "Z-button": "",
+        "Z": "Z is hysteresis",
+        "X": "",
+        "Y": "",
+        "A": "A = gate from X > Y",
+        "B": "B = inverted gate",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": []
+    },
+    "A8": {
+        "name": "Dual Waveshaper",
+        "category": "Waveshaping",
+        "Z-button": "",
+        "Z": "Z is gain",
+        "X": "",
+        "Y": "",
+        "A": "A = folded X",
+        "B": "B = triangle-to-sine Y",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": []
+    },
+    "B1": {
+        "name": "Sample and Hold",
+        "category": "Randomness & Patterns",
+        "Z-button": "",
+        "Z": "Z is slew rate",
+        "X": "",
+        "Y": "",
+        "A": "A = X when Y exceeds 1V ",
+        "B": "B = noise ±8V",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Offset.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Noise colour.",
+                "min": 0,
+                "max": 3,
+                "def": 1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Noise X.",
+                "min": 0,
+                "max": 64,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Atten B.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Up slew.",
+                "min": -1,
+                "max": 31,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Down slew.",
+                "min": -1,
+                "max": 31,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "B2": {
+        "name": "Slew Rate Limiter",
+        "category": "CV Processing",
+        "Z-button": "",
+        "Z": "Z is slew rate",
+        "X": "",
+        "Y": "",
+        "A": "A = linear slew rate limited ( X + Y )",
+        "B": "B = log slew rate limited ( X + Y )",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Up slew.",
+                "min": -1,
+                "max": 32,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Down slew.",
+                "min": -1,
+                "max": 32,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "B3": {
+        "name": "Pitch and Envelope Tracker",
+        "category": "CV Processing",
+        "Z-button": "",
+        "Z": "Z is slew rate for envelope",
+        "X": "",
+        "Y": "",
+        "A": "A = V/octave pitch derived from X, plus Y",
+        "B": "B = envelope dervied from X",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": []
+    },
+    "B4": {
+        "name": "Clockable Delay/Echo",
+        "category": "Delay",
+        "Z-button": "",
+        "Z": "Z is feedback",
+        "X": "X is signal",
+        "Y": "Y is clock input",
+        "A": "A = output according to mode",
+        "B": "B = output according to mode",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Delay time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output mode.",
+                "min": 0,
+                "max": 2,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "B5": {
+        "name": "LFO",
+        "category": "LFO",
+        "Z-button": "",
+        "Z": "Z is tune",
+        "X": "X is Hz/V frequency",
+        "Y": "Y is waveshape",
+        "A": "A is saw -> sine -> triangle",
+        "B": "B is pulse -> square -> pulse",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Sets an attenuation for output A.",
+                "min": 0,
+                "max": 40,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Sets an attenuation for output B.",
+                "min": 0,
+                "max": 40,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Sets an offset for output A.",
+                "min": -40,
+                "max": 40,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Sets an offset for output B.",
+                "min": -40,
+                "max": 40,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y offset.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "B6": {
+        "name": "Clockable LFO",
+        "category": "LFO",
+        "Z-button": "",
+        "Z": "Z is integer multiplier/divider",
+        "X": "X is clock input",
+        "Y": "Y is waveshape",
+        "A": "A is saw -> sine -> triangle",
+        "B": "B is pulse -> square -> pulse",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Output A attenuverter.",
+                "min": -32,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B attenuverter.",
+                "min": -32,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y Offset.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "B7": {
+        "name": "VCO with linear FM",
+        "category": "Oscillators",
+        "Z-button": "",
+        "Z": "Z is tune ±0.5 octaves",
+        "X": "X is V/Oct pitch input",
+        "Y": "Y is linear FM input",
+        "A": "A & B are selectable output waveforms",
+        "B": "",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Octave shift.",
+                "min": -16,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Sets an attenuation for output A.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Sets an attenuation for output B.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Type A.",
+                "min": 0,
+                "max": 4,
+                "def": 1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Type B.",
+                "min": 0,
+                "max": 4,
+                "def": 3,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "B8": {
+        "name": "VCO with waveshaping",
+        "category": "Oscillators",
+        "Z-button": "",
+        "Z": "Z is tune ±0.5 octaves or sync",
+        "X": "X is V/Oct pitch input",
+        "Y": "Y is waveshape/PWM",
+        "A": "A & B are selectable output waveforms",
+        "B": "",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Octave shift.",
+                "min": -16,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Sets an attenuation for output A.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Sets an attenuation for output B.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Offset for input Y (manual shape control).",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Selects output waveforms.",
+                "min": 0,
+                "max": 2,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Transpose.",
+                "min": -12,
+                "max": 12,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Fine tune/enable sync.",
+                "min": -51,
+                "max": 50,
+                "def": -51,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "C1": {
+        "name": "Precision Adder (fractional offsets)",
+        "category": "CV Processing",
+        "Z-button": "",
+        "Z": "offset in steps derived from Z",
+        "X": "",
+        "Y": "",
+        "A": "A = X + Y + offset",
+        "B": "B = X - Y - offset",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Sets the offset divisor.",
+                "min": 1,
+                "max": 12,
+                "def": 12,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Sum Mode.",
+                "min": 0,
+                "max": 2,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "C2": {
+        "name": "Voltage Controlled Delay Line",
+        "category": "Delay",
+        "Z-button": "",
+        "Z": "Z is feedback (bipolar)",
+        "X": "X is audio input",
+        "Y": "Y is delay time",
+        "A": "A is delay output",
+        "B": "B is delay output plus input signal",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Applies an offset to the Y input.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attenuator for the Y input.",
+                "min": -32,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Enable saturation.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "C3": {
+        "name": "Clockable Ping Pong Delay (Z feedback)",
+        "category": "Delay",
+        "Z-button": "",
+        "Z": "Z is feedback",
+        "X": "X is audio input Y is clock",
+        "Y": "",
+        "A": "A is left output",
+        "B": "B is right output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Output mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Delay time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Input pan.",
+                "min": -32,
+                "max": 32,
+                "def": -32,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "C4": {
+        "name": "Clockable Ping Pong Delay (Z input pan)",
+        "category": "Delay",
+        "Z-button": "",
+        "Z": "Z is input pan",
+        "X": "X is audio input Y is clock",
+        "Y": "",
+        "A": "A is left output",
+        "B": "B is right output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Feedback.",
+                "min": 0,
+                "max": 31,
+                "def": 24,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Delay time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "C5": {
+        "name": "Resonator",
+        "category": "Filters",
+        "Z-button": "",
+        "Z": "",
+        "X": "X is audio input",
+        "Y": "Y is centre frequency (pitch) Z is gain",
+        "A": "A is audio output",
+        "B": "B is envelope of audio output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Applies an offset to the Y input.",
+                "min": -31,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "C6": {
+        "name": "Vocoder",
+        "category": "Filters",
+        "Z-button": "",
+        "Z": "Z sets the decay time",
+        "X": "X is modulator input",
+        "Y": "Y is carrier input",
+        "A": "A is audio output",
+        "B": "B is envelope output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Selects the filter bank.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A attenuation/gain.",
+                "min": 0,
+                "max": 64,
+                "def": 16,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B attenuation/gain.",
+                "min": 0,
+                "max": 64,
+                "def": 16,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "C7": {
+        "name": "Phaser",
+        "category": "Modulation Effects",
+        "Z-button": "",
+        "Z": "Z is feedback (bipolar)",
+        "X": "X is audio input",
+        "Y": "Y is sweep",
+        "A": "A is phase-shifted output plus input signal",
+        "B": "B is phase-shifted output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Applies an offset to the Y input.",
+                "min": -31,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Sets the number of phaser stages.",
+                "min": 1,
+                "max": 10,
+                "def": 10,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "C8": {
+        "name": "Bit Crusher",
+        "category": "Waveshaping",
+        "Z-button": "",
+        "Z": "",
+        "X": "X is signal input",
+        "Y": "Y is sample rate input Z sets bit reduction",
+        "A": "A is signal output",
+        "B": "B is comparator output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Applies an offset to the Y input.",
+                "min": -31,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Selects the bit reduction mode.",
+                "min": 0,
+                "max": 7,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Selects the bit mangling mode.",
+                "min": 0,
+                "max": 7,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "D1": {
+        "name": "DJ Filter",
+        "category": "Filters",
+        "Z-button": "",
+        "Z": "Z is filter sweep",
+        "X": "X & Y are stereo audio input",
+        "Y": "",
+        "A": "A & B are stereo audio output",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Filter resonance.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "D2": {
+        "name": "Tape Delay",
+        "category": "Delay",
+        "Z-button": "",
+        "Z": "Z is feedback",
+        "X": "X is audio input",
+        "Y": "Y is tape speed",
+        "A": "A = output according to mode",
+        "B": "B = output according to mode",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Tape length.",
+                "min": 0,
+                "max": 43,
+                "def": 43,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Fine length control.",
+                "min": -9,
+                "max": 9,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Tape speed.",
+                "min": -8,
+                "max": 16,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output mode.",
+                "min": 0,
+                "max": 2,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "D3": {
+        "name": "Waveform Animator",
+        "category": "Waveshaping",
+        "Z-button": "",
+        "Z": "Z is separation",
+        "X": "X is audio input",
+        "Y": "Y is threshold",
+        "A": "A = animated output",
+        "B": "B = square waves output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "LFO depth.",
+                "min": -1,
+                "max": 31,
+                "def": 11,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y offset.",
+                "min": -31,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "LFO rate.",
+                "min": 0,
+                "max": 31,
+                "def": 23,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Scale.",
+                "min": -1,
+                "max": 31,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "D4": {
+        "name": "State Variable Filter",
+        "category": "Filters",
+        "Z-button": "",
+        "Z": "Z is filter type",
+        "X": "X is audio input",
+        "Y": "Y is filter frequency",
+        "A": "A is filter output LP->BP->HP",
+        "B": "B is filter output HP->BP->LP",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Y Offset.",
+                "min": -80,
+                "max": 80,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Filter resonance.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "D5": {
+        "name": "LP/HP Filter",
+        "category": "Filters",
+        "Z-button": "",
+        "Z": "Z is filter resonance",
+        "X": "X is audio input",
+        "Y": "Y is filter frequency",
+        "A": "A is low pass filter output B is high pass filter output",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Y Offset.",
+                "min": -80,
+                "max": 80,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "D6": {
+        "name": "LP/BP Filter",
+        "category": "Filters",
+        "Z-button": "",
+        "Z": "Z is filter resonance",
+        "X": "X isLP/BP Filter audio input",
+        "Y": "Y is filter frequency",
+        "A": "A is low pass filter output",
+        "B": "B is band pass filter output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Y Offset.",
+                "min": -80,
+                "max": 80,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "D7": {
+        "name": "BP/HP Filter",
+        "category": "Filters",
+        "Z-button": "",
+        "Z": "Z is filter resonance",
+        "X": "X is audio input",
+        "Y": "Y is filter frequency",
+        "A": "A is band pass filter output",
+        "B": "B is high pass filter output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Y Offset.",
+                "min": -80,
+                "max": 80,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "D8": {
+        "name": "BP/Notch Filter",
+        "category": "Filters",
+        "Z-button": "",
+        "Z": "Z is filter resonance",
+        "X": "X is audio input",
+        "Y": "Y is filter frequency",
+        "A": "A is band pass filter output",
+        "B": "B is notch filter output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Y Offset.",
+                "min": -80,
+                "max": 80,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "E1": {
+        "name": "AR Envelope",
+        "category": "Envelopes & VCA",
+        "Z-button": "",
+        "Z": "Z sets the envelope times ",
+        "X": "X is trigger input",
+        "Y": "Y is trigger input",
+        "A": "A is envelope output",
+        "B": "B is envelope output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Trigger Mode.",
+                "min": 0,
+                "max": 2,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Z Mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A Attenuverter.",
+                "min": -40,
+                "max": 41,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B Attenuverter.",
+                "min": -40,
+                "max": 40,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A Offset.",
+                "min": -40,
+                "max": 40,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B Offset.",
+                "min": -40,
+                "max": 40,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attack shape (exponential to linear).",
+                "min": 0,
+                "max": 32,
+                "def": 26,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Release shape (exponential to linear).",
+                "min": 0,
+                "max": 32,
+                "def": 10,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "E2": {
+        "name": "AR Envelope & VCA",
+        "category": "Envelopes & VCA",
+        "Z-button": "",
+        "Z": "Z sets the envelope times",
+        "X": "X is trigger input",
+        "Y": "Y is VCA input",
+        "A": "A is envelope output",
+        "B": "B is VCA output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Trigger Mode.",
+                "min": 0,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Z Mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A Attenuverter.",
+                "min": -40,
+                "max": 41,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B Attenuverter.",
+                "min": -40,
+                "max": 40,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A Offset.",
+                "min": -40,
+                "max": 40,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B Offset.",
+                "min": -40,
+                "max": 40,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attack shape (exponential to linear).",
+                "min": 0,
+                "max": 32,
+                "def": 26,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Release shape (exponential to linear).",
+                "min": 0,
+                "max": 32,
+                "def": 10,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "E3": {
+        "name": "Dual AR Envelope",
+        "category": "Envelopes & VCA",
+        "Z-button": "",
+        "Z": "Z sets the envelope times A is envelope output A",
+        "X": "X is trigger input A",
+        "Y": "Y is trigger input B",
+        "A": "",
+        "B": "B is envelope output B",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Trigger Mode.",
+                "min": 0,
+                "max": 2,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Z Mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A Attenuverter.",
+                "min": -40,
+                "max": 41,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B Attenuverter.",
+                "min": -40,
+                "max": 40,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A Offset.",
+                "min": -40,
+                "max": 40,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B Offset.",
+                "min": -40,
+                "max": 40,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attack shape (exponential to linear).",
+                "min": 0,
+                "max": 32,
+                "def": 26,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Release shape (exponential to linear).",
+                "min": 0,
+                "max": 32,
+                "def": 10,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "E4": {
+        "name": "Stereo Compressor",
+        "category": "Compression",
+        "Z-button": "",
+        "Z": "Z is compression ratio",
+        "X": "X is left input",
+        "Y": "Y is right input",
+        "A": "A is left output",
+        "B": "B is right output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Threshold.",
+                "min": -36,
+                "max": 0,
+                "def": -12,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attack time.",
+                "min": 0,
+                "max": 99,
+                "def": 20,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Release time.",
+                "min": 0,
+                "max": 99,
+                "def": 20,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Make-up gain.",
+                "min": -1,
+                "max": 36,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Lookahead.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "E5": {
+        "name": "Side-chain Compressor",
+        "category": "Compression",
+        "Z-button": "",
+        "Z": "Z is side-chain input",
+        "X": "X is left input",
+        "Y": "Y is right input",
+        "A": "A is left output",
+        "B": "B is right output ",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Threshold.",
+                "min": -36,
+                "max": 0,
+                "def": -12,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attack time.",
+                "min": 0,
+                "max": 99,
+                "def": 20,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Release time.",
+                "min": 0,
+                "max": 99,
+                "def": 20,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Make-up gain.",
+                "min": -1,
+                "max": 36,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Lookahead.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Compression ratio.",
+                "min": 0,
+                "max": 99,
+                "def": 50,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "E6": {
+        "name": "Mono Compressor",
+        "category": "Compression",
+        "Z-button": "",
+        "Z": "Z is compression ratio",
+        "X": "X is audio input",
+        "Y": "Y is side-chain input",
+        "A": "A is audio output",
+        "B": "B is gain reduction output ",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Threshold.",
+                "min": -36,
+                "max": 0,
+                "def": -12,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attack time.",
+                "min": 0,
+                "max": 99,
+                "def": 20,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Release time.",
+                "min": 0,
+                "max": 99,
+                "def": 20,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Make-up gain.",
+                "min": -1,
+                "max": 36,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Lookahead.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Side-chain mix.",
+                "min": -80,
+                "max": 12,
+                "def": -80,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "E7": {
+        "name": "Euro to Buchla Converter",
+        "category": "Utility",
+        "Z-button": "",
+        "Z": "Z is tune ±0.5 octaves",
+        "X": "X is 1V/octave input",
+        "Y": "Y is gate input",
+        "A": "A is 1.2V/octave output",
+        "B": "B is gate/trigger output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Octave shift.",
+                "min": -8,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Coarse.",
+                "min": -99,
+                "max": 99,
+                "def": 99,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Fine.",
+                "min": -99,
+                "max": 99,
+                "def": 10,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Offsest.",
+                "min": -99,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Gate level.",
+                "min": 0,
+                "max": 99,
+                "def": 49,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "E8": {
+        "name": "Buchla to Euro Converter",
+        "category": "Utility",
+        "Z-button": "",
+        "Z": "Z is tune ±0.5 octaves",
+        "X": "X is 1.2V/octave input",
+        "Y": "Y is gate/trigger input",
+        "A": "A is 1V/octave output",
+        "B": "B is trigger output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Octave shift.",
+                "min": -8,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "F1": {
+        "name": "Clockable AD Envelope (with mute)",
+        "category": "Envelopes & VCA",
+        "Z-button": "",
+        "Z": "Z sets the envelope shape",
+        "X": "X is clock input",
+        "Y": "Y is mute input",
+        "A": "A is envelope output",
+        "B": "B is envelope output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Delay time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A Attenuverter.",
+                "min": -40,
+                "max": 41,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B Attenuverter.",
+                "min": -40,
+                "max": 20,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attack shape.",
+                "min": 0,
+                "max": 32,
+                "def": 26,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Decay shape.",
+                "min": 0,
+                "max": 32,
+                "def": 10,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "F2": {
+        "name": "Clockable AD Envelope (with gate)",
+        "category": "Envelopes & VCA",
+        "Z-button": "",
+        "Z": "Z sets the envelope shape ",
+        "X": "X is clock input",
+        "Y": "Y is gate input",
+        "A": "A is envelope output",
+        "B": "B is envelope output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Delay time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A Attenuverter.",
+                "min": -40,
+                "max": 41,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B Attenuverter.",
+                "min": -40,
+                "max": 41,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attack shape.",
+                "min": 0,
+                "max": 32,
+                "def": 26,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Decay shape.",
+                "min": 0,
+                "max": 32,
+                "def": 10,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "F3": {
+        "name": "Clockable AD Envelope (with trigger)",
+        "category": "Envelopes & VCA",
+        "Z-button": "",
+        "Z": "Z sets the envelope shape ",
+        "X": "X is clock input",
+        "Y": "Y is trigger input",
+        "A": "A is envelope output",
+        "B": "B is envelope output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Delay time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A Attenuverter.",
+                "min": -40,
+                "max": 41,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B Attenuverter.",
+                "min": -40,
+                "max": 40,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attack shape.",
+                "min": 0,
+                "max": 32,
+                "def": 26,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Decay shape.",
+                "min": 0,
+                "max": 32,
+                "def": 10,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "F4": {
+        "name": "Clockable AD Envelope & VCA",
+        "category": "Envelopes & VCA",
+        "Z-button": "",
+        "Z": "Z sets the envelope shape",
+        "X": "X is clock input",
+        "Y": "Y is VCA input",
+        "A": "A is envelope output",
+        "B": "B is VCA output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Delay time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A Attenuverter.",
+                "min": -40,
+                "max": 41,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B Attenuverter.",
+                "min": -40,
+                "max": 40,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attack shape.",
+                "min": 0,
+                "max": 32,
+                "def": 26,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Decay shape.",
+                "min": 0,
+                "max": 32,
+                "def": 10,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "F5": {
+        "name": "Shift Register Random CVs",
+        "category": "Randomness & Patterns",
+        "Z-button": "",
+        "Z": "Z sets the randomness",
+        "X": "X is clock input",
+        "Y": "Y is modify input",
+        "A": "A is unipolar output",
+        "B": "B is bipolar output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Direction.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Length.",
+                "min": 1,
+                "max": 32,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Slew rate.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output attenuverter.",
+                "min": -40,
+                "max": 40,
+                "def": 40,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Offset.",
+                "min": -40,
+                "max": 40,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "F6": {
+        "name": "Shift Register Random Quantized CVs",
+        "category": "Randomness & Patterns",
+        "Z-button": "",
+        "Z": "Z sets the randomness",
+        "X": "X is clock input",
+        "Y": "Y is modify input",
+        "A": "A is quantized CV output",
+        "B": "B is trigger output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Direction.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Length.",
+                "min": 1,
+                "max": 32,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Scale.",
+                "min": 0,
+                "max": 15,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output attenuverter.",
+                "min": -40,
+                "max": 40,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "MIDI Gate.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Transpose.",
+                "min": -48,
+                "max": 48,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Slew.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "F7": {
+        "name": "Shift Register Random Triggers",
+        "category": "Randomness & Patterns",
+        "Z-button": "",
+        "Z": "Z sets the randomness",
+        "X": "X is clock input",
+        "Y": "Y is modify input",
+        "A": "A is trigger output",
+        "B": "B is inverse trigger output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Length.",
+                "min": 1,
+                "max": 32,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Pulse A.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Pulse B.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "F8": {
+        "name": "Shift Register Random Dual Triggers",
+        "category": "Randomness & Patterns",
+        "Z-button": "",
+        "Z": "Z sets the randomness",
+        "X": "X is clock input",
+        "Y": "Y is modify input",
+        "A": "A is trigger output A",
+        "B": "B is trigger output B",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Length A.",
+                "min": 1,
+                "max": 32,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Length B.",
+                "min": 1,
+                "max": 32,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Pulse A.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Pulse B.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "G1": {
+        "name": "ES-1 Emulation",
+        "category": "MIDI & External Control",
+        "Z-button": "",
+        "Z": "Z is trim",
+        "X": "X is input 1",
+        "Y": "Y is input 2",
+        "A": "A is output 1",
+        "B": "B is output 2",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": []
+    },
+    "G2": {
+        "name": "ES-2 Emulation",
+        "category": "MIDI & External Control",
+        "Z-button": "",
+        "Z": "Z is trim",
+        "X": "X is input 1",
+        "Y": "Y is input 2",
+        "A": "A is output 1",
+        "B": "B is output 2",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": []
+    },
+    "G3": {
+        "name": "Pitch Reference",
+        "category": "Utility",
+        "Z-button": "",
+        "Z": "Z sets the amplitude of A & B",
+        "X": "X & Y are not used",
+        "Y": "",
+        "A": "A is sine output",
+        "B": "B is square output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Semitone.",
+                "min": 0,
+                "max": 11,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Octave",
+                "min": -1,
+                "max": 9,
+                "def": 4,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "G4": {
+        "name": "Frequency Reference",
+        "category": "Utility",
+        "Z-button": "",
+        "Z": "Z sets the amplitude of A & B",
+        "X": "X & Y are not used",
+        "Y": "",
+        "A": "A is sine output",
+        "B": "B is square output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": []
+    },
+    "G5": {
+        "name": "Tuner",
+        "category": "Utility",
+        "Z-button": "",
+        "Z": "Z sets the amplitude of B",
+        "X": "X is input",
+        "Y": "Y is not used",
+        "A": "A is a copy of X",
+        "B": "B is a sine wave at the tracked pitch",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": []
+    },
+    "G6": {
+        "name": "Clock",
+        "category": "MIDI & External Control",
+        "Z-button": "",
+        "Z": "Z is not used",
+        "X": "X is clock input",
+        "Y": "Y is run/stop input",
+        "A": "A & B are clock outputs",
+        "B": "",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Mode.",
+                "min": 0,
+                "max": 5,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Clock divisor for A.",
+                "min": -2,
+                "max": 14,
+                "def": 6,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Clock divisor for B.",
+                "min": -2,
+                "max": 14,
+                "def": -2,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Clock divisor for X.",
+                "min": 0,
+                "max": 11,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y mode.",
+                "min": 0,
+                "max": 3,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Tempo",
+                "min": -120,
+                "max": -120,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Z mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "G7": {
+        "name": "MIDI/CV",
+        "category": "MIDI & External Control",
+        "Z-button": "",
+        "Z": "Z is not used",
+        "X": "X & Y are not used",
+        "Y": "",
+        "A": "A is pitch CV output",
+        "B": "B is gate output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Transpose.",
+                "min": -31,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Pitch bend depth.",
+                "min": 0,
+                "max": 24,
+                "def": 2,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Scale.",
+                "min": -1,
+                "max": 99,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Portamento.",
+                "min": 0,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Interrupt.",
+                "min": 0,
+                "max": 100,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Priority.",
+                "min": 0,
+                "max": 2,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "G8": {
+        "name": "CV/MIDI",
+        "category": "MIDI & External Control",
+        "Z-button": "",
+        "Z": "Z is mod wheel or velocity CV input",
+        "X": "X is pitch CV input",
+        "Y": "Y is gate input",
+        "A": "A & B pass through X & Y",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Channel offset.",
+                "min": 0,
+                "max": 99,
+                "def": 16,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Z mode.",
+                "min": 0,
+                "max": 127,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "X CC.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y CC.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "H1": {
+        "name": "Crossfade/Pan",
+        "category": "Modulation Effects",
+        "Z-button": "",
+        "Z": "",
+        "X": "",
+        "Y": "",
+        "A": "A = Mix of X & Y according to Z",
+        "B": "B = Inverted mix of X & Y according to Z, or LFO",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Crossfade/pan law.",
+                "min": 0,
+                "max": 3,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Clip mode.",
+                "min": 0,
+                "max": 2,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B option/LFO speed.",
+                "min": -1,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B attenuation.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "H2": {
+        "name": "Dual Sample and Hold",
+        "category": "Randomness & Patterns",
+        "Z-button": "",
+        "Z": "",
+        "X": "",
+        "Y": "",
+        "A": "A = X when Z exceeds 1V",
+        "B": "B = Y when Z exceeds 1V",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Offset.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Noise X.",
+                "min": 0,
+                "max": 64,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Noise Y.",
+                "min": 0,
+                "max": 64,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Slew A.",
+                "min": 0,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Slew B.",
+                "min": 0,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "H3": {
+        "name": "Dual Quantizer (Z scale)",
+        "category": "Quantizers",
+        "Z-button": "",
+        "Z": "Z chooses scale",
+        "X": "",
+        "Y": "",
+        "A": "A = quantized( X )",
+        "B": "B = quantized( Y )",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Input X attenuation.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Input Y attenuation.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "X transpose.",
+                "min": -31,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y transpose.",
+                "min": -31,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "H4": {
+        "name": "Dual Quantizer",
+        "category": "Quantizers",
+        "Z-button": "",
+        "Z": "Z is trigger",
+        "X": "",
+        "Y": "",
+        "A": "A = quantized( X )",
+        "B": "B = quantized( Y )",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Input X attenuation.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Input Y attenuation.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "X scale/trigger mode.",
+                "min": -18,
+                "max": 18,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y scale/trigger mode.",
+                "min": -18,
+                "max": 18,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "MIDI Gate.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "H5": {
+        "name": "Dual Euclidean Patterns",
+        "category": "Randomness & Patterns",
+        "Z-button": "",
+        "Z": "Z sets the 'pulses' for pattern 2",
+        "X": "X is clock input",
+        "Y": "Y is reset input",
+        "A": "A is pattern 1 out",
+        "B": "B is pattern 2 out",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Steps.",
+                "min": 1,
+                "max": 16,
+                "def": 16,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Pulses (pattern 1).",
+                "min": 1,
+                "max": 16,
+                "def": 4,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "A Rotation.",
+                "min": 0,
+                "max": 96,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Pulse length.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "B Rotation.",
+                "min": -1,
+                "max": 96,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Repeat.",
+                "min": 0,
+                "max": 96,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "H6": {
+        "name": "Dual Delayed Pulse Generator",
+        "category": "Utility",
+        "Z-button": "",
+        "Z": "Z function depends on parameter setting",
+        "X": "",
+        "Y": "",
+        "A": "A is pulse triggered by X",
+        "B": "B is pulse triggered by Y",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Z mode.",
+                "min": 0,
+                "max": 6,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Range.",
+                "min": 0,
+                "max": 12,
+                "def": 6,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Delay.",
+                "min": -1,
+                "max": 31,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Length.",
+                "min": 0,
+                "max": 31,
+                "def": 7,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "H7": {
+        "name": "Noise",
+        "category": "Oscillators",
+        "Z-button": "",
+        "Z": "Z is blend",
+        "X": "",
+        "Y": "",
+        "A": "A is noise, optionally scaled by X",
+        "B": "B is noise, optionally scaled by Y",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Type A.",
+                "min": -1,
+                "max": 3,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Type B.",
+                "min": -1,
+                "max": 3,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attenuation A.",
+                "min": -1,
+                "max": 31,
+                "def": 31,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attenuation B.",
+                "min": -1,
+                "max": 31,
+                "def": 31,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "H8": {
+        "name": "Quantizer 2",
+        "category": "Quantizers",
+        "Z-button": "",
+        "Z": "Z sets the interval between A & B",
+        "X": "X is pitch CV input",
+        "Y": "Y is trigger input or pitch CV input ",
+        "A": "A is quantized CV out",
+        "B": "B is quantized CV out",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Pattern.",
+                "min": "N/A",
+                "max": "N/A",
+                "def": "N/A",
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Scale.",
+                "min": 0,
+                "max": 2,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Key.",
+                "min": -12,
+                "max": 12,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Input X attenuation.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Trigger mode / offset / Y attenuation.",
+                "min": -32,
+                "max": 32,
+                "def": -32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Slew rate.",
+                "min": 0,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "I1": {
+        "name": "Audio Playback",
+        "category": "Sample Players",
+        "Z-button": "",
+        "Z": "Z selects the sample",
+        "X": "X is retrigger CV",
+        "Y": "Y is start position CV",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Folder.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Envelope time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "I2": {
+        "name": "Clocked Audio Playback",
+        "category": "Sample Players",
+        "Z-button": "",
+        "Z": "Z selects the sample, or start position",
+        "X": "X is retrigger CV",
+        "Y": "Y is clock",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Folder.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Envelope time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Selects the sample and function of Z.",
+                "min": -1,
+                "max": 99,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "I3": {
+        "name": "Audio Playback with V/Oct",
+        "category": "Sample Players",
+        "Z-button": "",
+        "Z": "Z selects the sample",
+        "X": "X is retrigger CV",
+        "Y": "Y is V/octave pitch CV",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Folder.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Octave shift.",
+                "min": -8,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Envelope time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "MIDI mode.",
+                "min": -1,
+                "max": 4,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Pitch bend depth.",
+                "min": 0,
+                "max": 24,
+                "def": 2,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "I4": {
+        "name": "Audio Playback with Z Speed",
+        "category": "Sample Players",
+        "Z-button": "",
+        "Z": "Z sets the playback speed",
+        "X": "X is retrigger CV",
+        "Y": "Y is start position CV",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Folder.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Selects the sample.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Envelope time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "I5": {
+        "name": "Audio Playback with Reverse",
+        "category": "Sample Players",
+        "Z-button": "",
+        "Z": "Z sets the playback speed",
+        "X": "X is retrigger CV",
+        "Y": "Y selects the sample",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Folder.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y offset.",
+                "min": -49,
+                "max": 49,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Envelope time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "I6": {
+        "name": "Audio Playback with Scrub",
+        "category": "Sample Players",
+        "Z-button": "",
+        "Z": "Z selects the sample",
+        "X": "X is not used",
+        "Y": "Y is playback position",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Folder.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Speed limit.",
+                "min": 1,
+                "max": 99,
+                "def": 16,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Slew limit.",
+                "min": 0,
+                "max": 20,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y offset.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "I7": {
+        "name": "Dual Audio Playback",
+        "category": "Sample Players",
+        "Z-button": "",
+        "Z": "Z selects the samples",
+        "X": "X is trigger A",
+        "Y": "Y is trigger B",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Folder.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Selects the panning option.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Envelope time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "I8": {
+        "name": "Dual Audio Playback with Z Speed",
+        "category": "Sample Players",
+        "Z-button": "",
+        "Z": "Z sets the playback speed",
+        "X": "X is trigger A",
+        "Y": "Y is trigger B",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Folder.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Selects sample A.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Selects sample B.",
+                "min": 0,
+                "max": 99,
+                "def": 1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Selects the panning option.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Select which sample(s) are affected by Z.",
+                "min": 0,
+                "max": 3,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Envelope time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "J1": {
+        "name": "MIDI File Playback (Clocked)",
+        "category": "MIDI & External Control",
+        "Z-button": "",
+        "Z": "Z selects the MIDI file",
+        "X": "X is clock",
+        "Y": "Y is retrigger CV",
+        "A": "A is pitch CV output",
+        "B": "B is gate output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Selects the MIDI file.",
+                "min": -1,
+                "max": 31,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "J2": {
+        "name": "Multisample 2 Audio Playback",
+        "category": "Sample Players",
+        "Z-button": "",
+        "Z": "Z is tune ±0.5 octaves",
+        "X": "X is retrigger CV",
+        "Y": "Y is V/octave pitch CV",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Folder.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Octave shift.",
+                "min": -8,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Envelope time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "MIDI mode.",
+                "min": -1,
+                "max": 4,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Pitch bend depth.",
+                "min": 0,
+                "max": 24,
+                "def": 2,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Selects the panning option.",
+                "min": 0,
+                "max": 1,
+                "def": 1,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "J3": {
+        "name": "MIDI File Playback (Free Running)",
+        "category": "MIDI & External Control",
+        "Z-button": "",
+        "Z": "Z sets the playback speed",
+        "X": "X is V/octave speed CV",
+        "Y": "Y is retrigger CV",
+        "A": "A is pitch CV output",
+        "B": "B is gate output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Selects the MIDI file.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "J4": {
+        "name": "Audio Playback with End CV",
+        "category": "Sample Players",
+        "Z-button": "",
+        "Z": "Z is end position or retrigger CV",
+        "X": "X is retrigger or end position CV",
+        "Y": "Y is start position CV",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Folder.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Selects the sample.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Envelope time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "J5": {
+        "name": "Audio Recorder",
+        "category": "Recorders",
+        "Z-button": "",
+        "Z": "Z controls recording",
+        "X": "X is left audio input",
+        "Y": "Y is right audio input",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": []
+    },
+    "J6": {
+        "name": "Multisample Audio Playback",
+        "category": "Sample Players",
+        "Z-button": "",
+        "Z": "Z is tune ±0.5 octaves",
+        "X": "X is retrigger CV",
+        "Y": "Y is V/octave pitch CV",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Folder.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Octave shift.",
+                "min": -8,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Envelope time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "MIDI mode.",
+                "min": -1,
+                "max": 4,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Pitch bend depth.",
+                "min": 0,
+                "max": 24,
+                "def": 2,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "J7": {
+        "name": "Mono Audio Recorder",
+        "category": "Recorders",
+        "Z-button": "",
+        "Z": "Z controls recording",
+        "X": "X is audio input",
+        "Y": "Y is unused",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": []
+    },
+    "J8": {
+        "name": "Audio Playback with Crossfade",
+        "category": "Sample Players",
+        "Z-button": "",
+        "Z": "Z selects the sample",
+        "X": "X is gate/clock CV",
+        "Y": "Y is V/octave pitch CV",
+        "A": "A is left audio output",
+        "B": "B is right audio output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Folder.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Octave shift.",
+                "min": -8,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Crossfade time.",
+                "min": 0,
+                "max": 99,
+                "def": 50,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Gate mode.",
+                "min": 0,
+                "max": 2,
+                "def": 1,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "K1": {
+        "name": "Wavetable VCO",
+        "category": "Oscillators",
+        "Z-button": "",
+        "Z": "Z is tune ±0.5 octaves",
+        "X": "X is V/Oct pitch input",
+        "Y": "Y is wavetable input",
+        "A": "A is wavetable output",
+        "B": "B is sub-octave square output or detuned output",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Chooses the wavetable.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Octave shift.",
+                "min": -16,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y offset.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B option/detune.",
+                "min": -3,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B phase",
+                "min": -1,
+                "max": 127,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "K2": {
+        "name": "Clockable Wavetable LFO",
+        "category": "LFO",
+        "Z-button": "",
+        "Z": "Z is integer multiplier/divider",
+        "X": "X is clock input",
+        "Y": "Y is wavetable input",
+        "A": "A & B are wavetable output",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Chooses the wavetable.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y Offset.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A attenuverter.",
+                "min": -32,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B attenuverter.",
+                "min": -32,
+                "max": 32,
+                "def": -32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "LFO time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "K3": {
+        "name": "Wavetable Waveshaper",
+        "category": "Waveshaping",
+        "Z-button": "",
+        "Z": "Z is gain",
+        "X": "X is signal input",
+        "Y": "Y is wavetable input",
+        "A": "A is wavetable output",
+        "B": "B is complementary wavetable output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Chooses the wavetable.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y Offset.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "K4": {
+        "name": "Clockable Wavetable Envelope",
+        "category": "Envelopes & VCA",
+        "Z-button": "",
+        "Z": "Z is trigger",
+        "X": "X is clock input",
+        "Y": "Y is wavetable input",
+        "A": "A & B are wavetable output",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Chooses the wavetable.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y Offset.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output A attenuverter.",
+                "min": -32,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output B attenuverter.",
+                "min": -32,
+                "max": 32,
+                "def": -32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Envelope time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "K5": {
+        "name": "Programmable Quantizer",
+        "category": "Quantizers",
+        "Z-button": "",
+        "Z": "Z is slew",
+        "X": "",
+        "Y": "Y = pitch or trigger",
+        "A": "A = quantized( X+Y )",
+        "B": "B = trigger on note change",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Scale.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Input X attenuation.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Input Y attenuation.",
+                "min": -1,
+                "max": 32,
+                "def": 31,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Transpose.",
+                "min": -31,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Offset.",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "K6": {
+        "name": "Clockable SD Delay",
+        "category": "Delay",
+        "Z-button": "",
+        "Z": "Z is feedback",
+        "X": "X is signal",
+        "Y": "Y is clock input",
+        "A": "A = output according to mode ",
+        "B": "B = output according to mode",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Delay time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Maximum feedback.",
+                "min": 0,
+                "max": 8,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output mode.",
+                "min": 0,
+                "max": 2,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "K7": {
+        "name": "Stereo Clockable SD Delay",
+        "category": "Delay",
+        "Z-button": "",
+        "Z": "Z is feedback",
+        "X": "X & Y are stereo audio inputs ",
+        "Y": "",
+        "A": "A & B are stereo audio outputs ",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Delay time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Maximum feedback.",
+                "min": 0,
+                "max": 8,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "K8": {
+        "name": "Stereo Clockable SD Delay (Z clock)",
+        "category": "Delay",
+        "Z-button": "",
+        "Z": "Z is clock input",
+        "X": "X & Y are stereo audio inputs",
+        "Y": "",
+        "A": "A & B are stereo audio outputs",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Delay time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Feedback.",
+                "min": 0,
+                "max": 40,
+                "def": 16,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "L1": {
+        "name": "Stereo Reverb",
+        "category": "Reverb",
+        "Z-button": "",
+        "Z": "Z is wet/dry or freeze",
+        "X": "X is left input",
+        "Y": "Y is right input",
+        "A": "A is left output",
+        "B": "B is right output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Size.",
+                "min": 1,
+                "max": 32,
+                "def": 16,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Feedback.",
+                "min": 1,
+                "max": 32,
+                "def": 24,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Character.",
+                "min": 0,
+                "max": 5,
+                "def": 1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Lowpass filter.",
+                "min": -1,
+                "max": 31,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Gain.",
+                "min": 0,
+                "max": 12,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Wet/dry.",
+                "min": -33,
+                "max": 32,
+                "def": -33,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "L2": {
+        "name": "Mono-to-Stereo Reverb",
+        "category": "Reverb",
+        "Z-button": "",
+        "Z": "Z is wet/dry or freeze",
+        "X": "X is audio input",
+        "Y": "Y is feedback CV",
+        "A": "A is left output",
+        "B": "B is right output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Size.",
+                "min": 1,
+                "max": 32,
+                "def": 16,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Feedback.",
+                "min": 1,
+                "max": 32,
+                "def": 24,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Character.",
+                "min": 0,
+                "max": 5,
+                "def": 1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Lowpass filter.",
+                "min": -1,
+                "max": 31,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Gain.",
+                "min": 0,
+                "max": 12,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Wet/dry.",
+                "min": -33,
+                "max": 32,
+                "def": -33,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "L3": {
+        "name": "Dual Reverb",
+        "category": "Reverb",
+        "Z-button": "",
+        "Z": "Z is wet/dry or freeze",
+        "X": "X and Y are audio inputs",
+        "Y": "",
+        "A": "A is X plus reverb",
+        "B": "B is Y plus reverb",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Size.",
+                "min": 1,
+                "max": 32,
+                "def": 16,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Feedback.",
+                "min": 1,
+                "max": 32,
+                "def": 24,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Character.",
+                "min": 0,
+                "max": 5,
+                "def": 1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Lowpass filter.",
+                "min": -1,
+                "max": 31,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Gain.",
+                "min": 0,
+                "max": 12,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Wet/dry.",
+                "min": -33,
+                "max": 32,
+                "def": -33,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "L4": {
+        "name": "Dual Vowel Filter",
+        "category": "Filters",
+        "Z-button": "",
+        "Z": "Z is vowel selection",
+        "X": "X & Y are audio inputs",
+        "Y": "",
+        "A": "A & B are outputs",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Vowel A.",
+                "min": -1,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Vowel B.",
+                "min": -1,
+                "max": 8,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "BPF gain 2.",
+                "min": -20,
+                "max": 0,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "BPF gain 3.",
+                "min": -20,
+                "max": 0,
+                "def": -6,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "L5": {
+        "name": "Stereo Chorus",
+        "category": "Modulation Effects",
+        "Z-button": "",
+        "Z": "Z is wet/dry",
+        "X": "X is audio input",
+        "Y": "Y is LFO rate",
+        "A": "A is left output",
+        "B": "B is right output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "LFO depth.",
+                "min": 0,
+                "max": 99,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y offset.",
+                "min": -64,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Feedback.",
+                "min": -63,
+                "max": 63,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Lowpass filter.",
+                "min": -1,
+                "max": 31,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Delay time.",
+                "min": 1,
+                "max": 64,
+                "def": 16,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Fine delay time.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Stages.",
+                "min": 1,
+                "max": 6,
+                "def": 6,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Saturation.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "L6": {
+        "name": "Mono Chorus",
+        "category": "Modulation Effects",
+        "Z-button": "",
+        "Z": "Z is wet/dry",
+        "X": "X is audio input",
+        "Y": "Y is LFO rate",
+        "A": "A is blended output",
+        "B": "B is wet output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "LFO depth.",
+                "min": 0,
+                "max": 99,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y offset.",
+                "min": -64,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Feedback.",
+                "min": -63,
+                "max": 63,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Lowpass filter.",
+                "min": -1,
+                "max": 31,
+                "def": -1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Delay time.",
+                "min": 1,
+                "max": 64,
+                "def": 16,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Fine delay time.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Stages.",
+                "min": 1,
+                "max": 6,
+                "def": 6,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Saturation.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "L7": {
+        "name": "Mixer",
+        "category": "Utility",
+        "Z-button": "",
+        "Z": "Z is pan for input X",
+        "X": "X & Y are inputs ",
+        "Y": "",
+        "A": "A is left output",
+        "B": "B is right output ",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Input X gain.",
+                "min": -40,
+                "max": 6,
+                "def": -6,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Input Y gain.",
+                "min": -40,
+                "max": 6,
+                "def": -6,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y pan.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "L8": {
+        "name": "Gate",
+        "category": "Envelopes & VCA",
+        "Z-button": "",
+        "Z": "Z is threshold",
+        "X": "X is left input",
+        "Y": "Y is right input",
+        "A": "A is left output",
+        "B": "B is right output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Attack time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Hold time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Release time.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Lookahead.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "M1": {
+        "name": "Delayed LFO",
+        "category": "LFO",
+        "Z-button": "",
+        "Z": "Z is LFO speed",
+        "X": "X is trigger input",
+        "Y": "Y is ramp time",
+        "A": "A and B are LFOs, ramps, or ramped LFOs",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Output type A.",
+                "min": 0,
+                "max": 6,
+                "def": 1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output type B.",
+                "min": 0,
+                "max": 6,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "LFO speed range.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Ramp time range.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attenuverter A.",
+                "min": -32,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Attenuverter B.",
+                "min": -32,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "M2": {
+        "name": "Scaled LFO",
+        "category": "LFO",
+        "Z-button": "",
+        "Z": "Z is LFO speed",
+        "X": "X and Y are min/max or offset/scale",
+        "Y": "",
+        "A": "A and B are LFOs",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Output type A.",
+                "min": 0,
+                "max": 6,
+                "def": 1,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output type B.",
+                "min": 0,
+                "max": 6,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "LFO speed range.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "X Offset.",
+                "min": -48,
+                "max": 48,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y Offset.",
+                "min": -48,
+                "max": 48,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "M3": {
+        "name": "Logic",
+        "category": "CV Processing",
+        "Z-button": "",
+        "Z": "Z selects logical operation for output ",
+        "X": "X and Y are inputs",
+        "Y": "",
+        "A": "A and B are logic outputs",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Output B logical operation.",
+                "min": -2,
+                "max": 5,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Input X threshold.",
+                "min": -100,
+                "max": 100,
+                "def": 20,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Input Y threshold.",
+                "min": -100,
+                "max": 100,
+                "def": 20,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Input X hysteresis.",
+                "min": -100,
+                "max": 100,
+                "def": 10,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Input Y hysteresis.",
+                "min": -100,
+                "max": 100,
+                "def": 10,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "M4": {
+        "name": "Half-wave Rectifier",
+        "category": "Waveshaping",
+        "Z-button": "",
+        "Z": "Z is threshold",
+        "X": "X and Y are inputs",
+        "Y": "",
+        "A": "A and B are outputs",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Mode.",
+                "min": 0,
+                "max": 3,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "M5": {
+        "name": "Stereo Filter",
+        "category": "Filters",
+        "Z-button": "",
+        "Z": "Z is filter frequency",
+        "X": "X is left input",
+        "Y": "Y is right input",
+        "A": "A is left output",
+        "B": "B is right output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Mode (low-, band-, high-pass).",
+                "min": 0,
+                "max": 2,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Resonance (Q).",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "M6": {
+        "name": "Stereo Tape Delay",
+        "category": "Delay",
+        "Z-button": "",
+        "Z": "Z is tape speed",
+        "X": "X is left input",
+        "Y": "Y is right input",
+        "A": "A is left output",
+        "B": "B is right output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Tape length.",
+                "min": 0,
+                "max": 26,
+                "def": 26,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Fine length control.",
+                "min": -9,
+                "max": 9,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Feedback.",
+                "min": 0,
+                "max": 36,
+                "def": 24,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "M7": {
+        "name": "Granular Pitch Shifter",
+        "category": "Delay",
+        "Z-button": "",
+        "Z": "Z is mix or freeze",
+        "X": "X is audio input",
+        "Y": "Y is pitch 1V/octave",
+        "A": "A is mix output",
+        "B": "B is pitch shifted output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Grain length.",
+                "min": 0,
+                "max": 99,
+                "def": 50,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Window type.",
+                "min": 0,
+                "max": 3,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Delay.",
+                "min": 0,
+                "max": 32,
+                "def": 16,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Feedback.",
+                "min": 0,
+                "max": 64,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y Offset (semitones).",
+                "min": -48,
+                "max": 48,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Fine (cents).",
+                "min": -99,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Mix.",
+                "min": -65,
+                "max": 64,
+                "def": -65,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "M8": {
+        "name": "Chaos",
+        "category": "Randomness & Patterns",
+        "Z-button": "",
+        "Z": "Z is speed",
+        "X": "X & Y influence the chaos",
+        "Y": "",
+        "A": "A & B are chaotic outputs",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Range.",
+                "min": -64,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Outputs.",
+                "min": 0,
+                "max": 11,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Atten A.",
+                "min": -64,
+                "max": 64,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Atten B.",
+                "min": -64,
+                "max": 64,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Offset A.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Offset B.",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Clamp.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "N1": {
+        "name": "Switch",
+        "category": "Utility",
+        "Z-button": "",
+        "Z": "Z is control CV or trigger",
+        "X": "",
+        "Y": "",
+        "A": "A and B are outputs",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Hysteresis.",
+                "min": 0,
+                "max": 32,
+                "def": 3,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Fade.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Chance.",
+                "min": -1,
+                "max": 99,
+                "def": 99,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "N2": {
+        "name": "Rotary",
+        "category": "Modulation Effects",
+        "Z-button": "",
+        "Z": "Z is speed",
+        "X": "X is audio input",
+        "Y": "Y is mix",
+        "A": "A and B are stereo outputs",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Mix.",
+                "min": 0,
+                "max": 32,
+                "def": 32,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Depth.",
+                "min": 0,
+                "max": 63,
+                "def": 24,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Slew.",
+                "min": 0,
+                "max": 99,
+                "def": 10,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Crossover",
+                "min": 0,
+                "max": 32,
+                "def": 15,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Bass modulation.",
+                "min": 0,
+                "max": 64,
+                "def": 15,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "N5": {
+        "name": "Pulsar VCO",
+        "category": "Oscillators",
+        "Z-button": "",
+        "Z": "Z is tune or masking",
+        "X": "X is V/Oct pitch input (fundamental)",
+        "Y": "Y is V/Oct pitch input (formant)",
+        "A": "A & B are pulsar outputs",
+        "B": "",
+        "midi": {
+            "in": true,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Chooses the wavetable.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Chooses the wave.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Window.",
+                "min": 0,
+                "max": 3,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Y Mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Masking.",
+                "min": 0,
+                "max": 99,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Octave.",
+                "min": -16,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    },
+    "N8": {
+        "name": "Clockable SD Ping Pong",
+        "category": "Delay",
+        "Z-button": "",
+        "Z": "Z is feedback",
+        "X": "X is signal",
+        "Y": "Y is clock input",
+        "A": "A & B are stereo audio outputs",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Delay time multiplier.",
+                "min": -15,
+                "max": 8,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Maximum feedback.",
+                "min": 0,
+                "max": 8,
+                "def": 8,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Output mode.",
+                "min": 0,
+                "max": 1,
+                "def": 0,
+                "unit": "",
+                "control": "knob"
+            },
+            {
+                "name": "Input pan.",
+                "min": -32,
+                "max": 32,
+                "def": -32,
+                "unit": "",
+                "control": "knob"
+            }
+        ]
+    }
+}
