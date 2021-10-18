@@ -13,7 +13,7 @@ function App() {
 
     function handleHashChange() {
         console.log("handleHashChange", window.location.hash);
-        stores.state.setCurrentAlgorithm(window.location.hash?.substring(1));
+        if (window.location.hash) stores.state.setCurrentAlgorithm(window.location.hash.substring(1));
     }
 
     useEffect(() => {
@@ -61,7 +61,7 @@ function App() {
                 <div className="left scrollable">
                     <AlgorithmsList />
                 </div>
-                <div className="middle">
+                <div className="middle scrollable">
 {/*
                     <div className="grid1x3">
                         <AlgorithmName />

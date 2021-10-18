@@ -1,4 +1,5 @@
 import {Knob} from "react-svg-knob";
+import {PublicKnobSkinType} from "react-svg-knob/dist/skin";
 
 const knobSkin: PublicKnobSkinType = {
     cursor_length: 15,

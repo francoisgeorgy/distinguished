@@ -6,6 +6,7 @@ specifiers:
   '@types/react-dom': ^17.0.0
   '@types/webmidi': ^2.0.6
   '@vitejs/plugin-react': ^1.0.0
+  markdown-to-jsx: ^7.1.3
   mobx: ^6.3.3
   mobx-react-lite: ^3.2.1
   react: ^17.0.0
@@ -17,6 +18,7 @@ specifiers:
   vite: ^2.6.4
 
 dependencies:
+  markdown-to-jsx: 7.1.3_react@17.0.2
   mobx: 6.3.3
   mobx-react-lite: 3.2.1_8aec6830c9f393111667240500a3b25c
   react: 17.0.2
@@ -664,6 +666,15 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
+    dev: false
+
+  /markdown-to-jsx/7.1.3_react@17.0.2:
+    resolution: {integrity: sha512-jtQ6VyT7rMT5tPV0g2EJakEnXLiPksnvlYtwQsVVZ611JsWGN8bQ1tVSDX4s6JllfEH6wmsYxNjTUAMrPmNA8w==}
+    engines: {node: '>= 10'}
+    peerDependencies:
+      react: '>= 0.14.0'
+    dependencies:
+      react: 17.0.2
     dev: false
 
   /minimist/1.2.5:

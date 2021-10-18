@@ -2,6 +2,7 @@ import {AlgorithmName} from "./AlgorithmName";
 import {AlgorithmControls} from "./AlgorithmControls";
 import {AlgorithmDetails} from "./AlgorithmDetails";
 import {AlgorithmConnections} from "./AlgorithmConnections";
+import {AlgorithmDescription} from "./AlgorithmDescription";
 
 export const Algorithm = () => {
     return (
@@ -15,7 +16,10 @@ export const Algorithm = () => {
                     <AlgorithmConnections />
                     <AlgorithmControls />
                 </div>
-                <AlgorithmDetails />
+                {/*<AlgorithmDetails />*/}
+            </div>
+            <div className="my-20">
+                <AlgorithmDescription />
             </div>
         </div>
     );
