@@ -31,6 +31,7 @@ export const MidiPortsSelect = observer(() => {
     // @ts-ignore
     return (
         <div className="ports-row">
+{/*
             <div>
                 <span>MIDI input: </span>
                 <select onChange={handleInSelection} value={stores.midi.inputInUse} className={stores.midi.inputInUse ? '' : 'bg-warning'}>
@@ -38,6 +39,7 @@ export const MidiPortsSelect = observer(() => {
                     {Object.entries(stores.midi.inputs).map(([id, port]) => <option key={id} value={port.id}>{portLabel(port)}</option>)}
                 </select>
             </div>
+*/}
             <div>
                 <span>MIDI output: </span>
                 <select onChange={handleOutSelection} value={stores.midi.outputInUse} className={stores.midi.outputInUse ? '' : 'bg-warning'}>
