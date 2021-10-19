@@ -24,6 +24,7 @@ export class MidiStore {
 
     inputInUse: string = ""; //WebMidi.MIDIInput[] = [];
     outputInUse: string = ""; //WebMidi.MIDIOutput[] = [];
+    channel: number = 0;
 
     // for example, can be deleted:
     messages: Uint8Array[] = [];
@@ -41,6 +42,22 @@ export class MidiStore {
         this.onStateChange = this.onStateChange.bind(this);     // very important
         this.onMidiMessage = this.onMidiMessage.bind(this);     // very important
         this.requestMidi().then(); //.then(r => console.log(r));
+    }
+
+    //=============================================================================================
+
+    setChannel(channel: number|string) {
+        if (channel === undefined || channel === null || channel === '') return;
+        let n;
+        if (typeof channel === "string") {
+            n = parseInt(channel);
+            if (isNaN(n)) {
+                console.warn("setchannel: invalid parameter", channel, n);
+            }
+        } else {
+            n = channel;
+        }
+        this.channel = n;
     }
 
     //=============================================================================================

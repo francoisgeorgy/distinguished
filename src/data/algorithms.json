@@ -36,10 +36,10 @@
         "category": "Modulation Effects",
         "Z-button": "",
         "Z": "scale = 1/10 to 10x in steps derived from Z",
-        "X": "",
-        "Y": "",
-        "A": "A = X * Y * scale",
-        "B": "B = -X * Y * scale",
+        "X": "input X",
+        "Y": "input Y",
+        "A": "X * Y * scale",
+        "B": "-X * Y * scale",
         "midi": {
             "in": false,
             "out": false
@@ -48,11 +48,16 @@
             {
                 "name": "Z Mode",
                 "description": "(when 1, the scale is not restricted to integer steps, and changes smoothly with Z).",
-                "min": 0,
-                "max": 1,
-                "def": 0,
-                "unit": "",
-                "control": "knob"
+                "values": [
+                    {
+                        "value": 0,
+                        "label": "integer steps"
+                    },
+                    {
+                        "value": 1,
+                        "label": "smooth"
+                    }
+                ]
             },
             {
                 "name": "Y Offset",
@@ -98,31 +103,41 @@
         "name": "Linear/Exponential Converter",
         "category": "CV Processing",
         "Z-button": "",
-        "Z": "Z is Hz/V scale, centred on 1kHz",
-        "X": "",
-        "Y": "",
-        "A": "A = ( 2 ^ X ) * scale",
-        "B": "B = log2( Y / scale )",
+        "Z": "Hz/V scale, centered on 1kHz",
+        "X": "exponential input",
+        "Y": "linear input",
+        "A": "linear output = (2 ^ X) * scale",
+        "B": "exponential output = log2(Y / scale)",
         "midi": {
             "in": false,
             "out": false
         },
         "parameters": [
             {
-                "name": "Type A.",
-                "min": 0,
-                "max": 1,
-                "def": 0,
-                "unit": "",
-                "control": "knob"
+                "name": "A invert gate",
+                "values": [
+                    {
+                        "value": 0,
+                        "label": "Off"
+                    },
+                    {
+                        "value": 1,
+                        "label": "On"
+                    }
+                ]
             },
             {
-                "name": "Type B.",
-                "min": 0,
-                "max": 1,
-                "def": 0,
-                "unit": "",
-                "control": "knob"
+                "name": "B invert gate",
+                "values": [
+                    {
+                        "value": 0,
+                        "label": "Off"
+                    },
+                    {
+                        "value": 1,
+                        "label": "On"
+                    }
+                ]
             }
         ]
     },
@@ -463,11 +478,11 @@
         "name": "VCO with linear FM",
         "category": "Oscillators",
         "Z-button": "",
-        "Z": "Z is tune ±0.5 octaves",
-        "X": "X is V/Oct pitch input",
-        "Y": "Y is linear FM input",
-        "A": "A & B are selectable output waveforms",
-        "B": "",
+        "Z": "tune ±0.5 octaves",
+        "X": "V/Oct pitch input",
+        "Y": "linear FM input",
+        "A": "selectable output waveform",
+        "B": "selectable output waveform",
         "midi": {
             "in": true,
             "out": false
@@ -499,19 +514,61 @@
             },
             {
                 "name": "Type A.",
-                "min": 0,
-                "max": 4,
-                "def": 1,
-                "unit": "",
-                "control": "knob"
+                "values": [
+                    {
+                        "value": 0,
+                        "label": "Triangle"
+                    },
+                    {
+                        "value": 1,
+                        "label": "Sine"
+                    },
+                    {
+                        "value": 2,
+                        "label": "Square"
+                    },
+                    {
+                        "value": 3,
+                        "label": "Saw"
+                    },
+                    {
+                        "value": 4,
+                        "label": "Sub-octave square"
+                    },
+                    {
+                        "value": 5,
+                        "label": "MIDI gate"
+                    }
+                ]
             },
             {
                 "name": "Type B.",
-                "min": 0,
-                "max": 4,
-                "def": 3,
-                "unit": "",
-                "control": "knob"
+                "values": [
+                    {
+                        "value": 0,
+                        "label": "Triangle"
+                    },
+                    {
+                        "value": 1,
+                        "label": "Sine"
+                    },
+                    {
+                        "value": 2,
+                        "label": "Square"
+                    },
+                    {
+                        "value": 3,
+                        "label": "Saw"
+                    },
+                    {
+                        "value": 4,
+                        "label": "Sub-octave square"
+                    },
+                    {
+                        "value": 5,
+                        "label": "MIDI gate"
+                    }
+                ]
             }
         ]
     },
@@ -745,7 +802,7 @@
         "Z-button": "",
         "Z": "",
         "X": "X is audio input",
-        "Y": "Y is centre frequency (pitch) Z is gain",
+        "Y": "Y is center frequency (pitch) Z is gain",
         "A": "A is audio output",
         "B": "B is envelope of audio output",
         "midi": {

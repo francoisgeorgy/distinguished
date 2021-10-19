@@ -18,13 +18,19 @@ export const MidiPortsSelect = observer(() => {
         stores.midi.useOutput(v);
     }
 
+    function handleChannelSelection(e: FormEvent<HTMLSelectElement>) {
+        e.preventDefault();
+        const v = e.currentTarget.value;
+        stores.midi.setChannel(parseInt(v));
+    }
+
     function portLabel(port: Port): string {
         return port.name;
     }
 
     // @ts-ignore
     return (
-        <div className={`ports-row'}`}>
+        <div className="ports-row">
             <div>
                 <span>MIDI input: </span>
                 <select onChange={handleInSelection} value={stores.midi.inputInUse} className={stores.midi.inputInUse ? '' : 'bg-warning'}>
@@ -37,6 +43,14 @@ export const MidiPortsSelect = observer(() => {
                 <select onChange={handleOutSelection} value={stores.midi.outputInUse} className={stores.midi.outputInUse ? '' : 'bg-warning'}>
                     <option value="">select MIDI output...</option>
                     {Object.entries(stores.midi.outputs).map(([id, port]) => <option key={id} value={port.id}>{portLabel(port)}</option>)}
+                </select>
+            </div>
+            <div>
+                <span>Channel: </span>
+                <select onChange={handleChannelSelection} value={stores.midi.channel}>
+                    {[...Array(16)].map((_, channel) =>
+                        <option key={channel} value={channel}>{channel + 1}</option>
+                    )}
                 </select>
             </div>
         </div>

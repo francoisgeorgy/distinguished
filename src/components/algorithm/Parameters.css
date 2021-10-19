@@ -33,6 +33,7 @@
 .algorithm-parameters .parameter select {
     font-size: 1rem;
     margin-right: 10px;
+    align-self: center;
 }
 
 .parameter-knob {

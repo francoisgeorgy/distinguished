@@ -1,6 +1,6 @@
 .ports-row {
     display: flex;
-    /*margin: 20px 0;*/
+    margin: 10px 0;
 }
 
 .ports-row > div {

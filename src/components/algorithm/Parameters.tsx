@@ -8,26 +8,39 @@ import React from "react";
 
 export const Parameters = observer(() => {
     const index = stores.state.currentAlgorithm;
+    // @ts-ignore
+    const parameters = ALGORITHMS[index].parameters;
+    console.log(parameters);
     return (
         <div className="algorithm-parameters my-20">
             <div>
                 <h3>Parameters</h3>
             </div>
             <div className="Xrow Xwrap">
-                {ALGORITHMS[index].parameters.map((parameter: any, key: number) => {
-                    let isKnob = parameter["control"].toUpperCase() === "KNOB";
+                {parameters.map((parameter: any, key: number) => {
+                    let isKnob = false;
                     let control;
-                    if (isKnob) {
-                        control = <ControlKnob />;
-                    } else {
+                    if (parameter["values"]) {
                         let options = [];
-                        for (let v = parameter["min"]; v <= parameter["max"]; v++) {
-                            options.push(<option value={v}>{v}</option>);
+                        // console.log(parameters["values"], parameters);
+                        for (let v of parameter["values"]) {
+                            options.push(<option value={v["value"]}>{v["label"]}</option>);
                         }
                         control = <select>{options}</select>;
+                    } else {
+                        isKnob = parameter["control"].toUpperCase() === "KNOB";
+                        if (isKnob) {
+                            control = <ControlKnob />;
+                        } else {
+                            let options = [];
+                            for (let v = parameter["min"]; v <= parameter["max"]; v++) {
+                                options.push(<option value={v}>{v}</option>);
+                            }
+                            control = <select>{options}</select>;
+                        }
                     }
                     return (
-                        <div key={key} className={`parameter row ${isKnob ? 'is-knob' : ''}`}>
+                        <div key={key} className={`parameter row ${isKnob ? 'is-knob' : 'centerV'}`}>
                             <div className="key">{key}</div>
                             {control}
                             <div className="parameter-details">

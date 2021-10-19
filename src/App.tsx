@@ -27,20 +27,20 @@ function App() {
     }, [])
 
     // @ts-ignore
-    const handleKeyUp = ({ keyName, keyCode, e }) => {
-        console.log(keyName, keyCode, e);
-        e.PreventDefault();
-        if (stores.state.currentAlgorithm > 0) stores.state.setCurrentAlgorithm(stores.state.currentAlgorithm - 1);
-        return false;
-    };
-
-    // @ts-ignore
-    const handleKeyDown = ({ keyName, keyCode, e }) => {
-        console.log(keyName, keyCode, e);
-        e.PreventDefault();
-        stores.state.setCurrentAlgorithm(stores.state.currentAlgorithm + 1);
-        return false;
-    };
+    // const handleKeyUp = ({ keyName, keyCode, e }) => {
+    //     console.log(keyName, keyCode, e);
+    //     e.PreventDefault();
+    //     if (stores.state.currentAlgorithm > 0) stores.state.setCurrentAlgorithm(stores.state.currentAlgorithm - 1);
+    //     return false;
+    // };
+    //
+    // // @ts-ignore
+    // const handleKeyDown = ({ keyName, keyCode, e }) => {
+    //     console.log(keyName, keyCode, e);
+    //     e.PreventDefault();
+    //     stores.state.setCurrentAlgorithm(stores.state.currentAlgorithm + 1);
+    //     return false;
+    // };
 
     // const { keyCode, keyCodeHistory, keyName, keyNameHistory } = useKeyUp();
     // useKeyUp(handleKeyUp);
