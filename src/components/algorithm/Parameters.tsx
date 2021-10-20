@@ -1,16 +1,17 @@
 import {observer} from "mobx-react-lite";
 import {stores} from "../../stores";
-import {ControlKnob} from "../ControlKnob";
+import {ParameterKnob} from "./ParameterKnob";
 import "./Parameters.css";
 import ALGORITHMS from "../../data/algorithms.json";
 import {Fragment} from "react";
 import React from "react";
+import {ParameterSlider} from "./ParameterSlider";
 
 export const Parameters = observer(() => {
     const index = stores.state.currentAlgorithm;
     // @ts-ignore
     const parameters = ALGORITHMS[index].parameters;
-    console.log(parameters);
+    // console.log(parameters);
     return (
         <div className="algorithm-parameters my-20">
             <div>
@@ -30,7 +31,8 @@ export const Parameters = observer(() => {
                     } else {
                         isKnob = parameter["control"].toUpperCase() === "KNOB";
                         if (isKnob) {
-                            control = <ControlKnob />;
+                            // control = <ParameterKnob paramNumber={key} min={parameter["min"]} max={parameter["max"]} def={parameter["def"]} />;
+                            control = <ParameterSlider paramNumber={key} min={parameter["min"]} max={parameter["max"]} def={parameter["def"]} />;
                         } else {
                             let options = [];
                             for (let v = parameter["min"]; v <= parameter["max"]; v++) {

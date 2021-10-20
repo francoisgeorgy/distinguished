@@ -1,6 +1,6 @@
 import {action, makeAutoObservable} from 'mobx';
 import {RootStore} from "./index";
-import {SYSEX_END, SYSEX_START} from "../utils/midi";
+import {MIDI_VOICE_CONTROL_CHANGE, SYSEX_END, SYSEX_START} from "../utils/midi";
 import {loadPreferences, savePreferences} from "../utils/preferences";
 
 export interface Port {
@@ -264,7 +264,7 @@ export class MidiStore {
         return id ? ('[OUT ' + id.substring(0, 5) + ' ' + this.outputById(id)?.name + ']').trim() : '[OUT -]';
     }
 
-    send(messages: Uint8Array, outputId?: string) {
+    send(messages: number[] | Uint8Array, outputId?: string) {
         this.outputById(outputId ?? this.outputInUse)?.send(messages);
     }
 
@@ -278,5 +278,13 @@ export class MidiStore {
             // parse sysex message here
         }
     }
+
+
+
+    // sendCC(controller: number, channel: number, value: number): void {
+    sendCC(controller: number, value: number): void {
+        this.send([MIDI_VOICE_CONTROL_CHANGE + this.channel, controller, value]);
+    }
+
 
 }

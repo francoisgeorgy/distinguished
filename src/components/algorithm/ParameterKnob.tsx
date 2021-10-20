@@ -1,5 +1,7 @@
 import {Knob} from "react-svg-knob";
 import {PublicKnobSkinType} from "react-svg-knob/dist/skin";
+import {valueToMIDI} from "../../model";
+import { stores } from "../../stores";
 
 const knobSkin: PublicKnobSkinType = {
     cursor_length: 15,
@@ -8,15 +10,6 @@ const knobSkin: PublicKnobSkinType = {
     track_color: "#0075ff",
     cursor_color: "#0075ff"
 };
-
-// knob handler
-const updatePeriod = (v: number) => {
-    //TODO: choice linear/log
-    // console.log("updatePeriod", periodRange);
-    // knobPosition = v;
-    // let lg = logValue(v, KNOB_MIN, KNOB_MAX, pmin, pmax);
-    // modulators.setFreq(1 / lg, index);
-}
 
 const initialValue = () => {
     return 0;
@@ -29,11 +22,24 @@ const knobValueFormater = (v: number) => {
     return v.toFixed(0);
 }
 
-export const ControlKnob = () => {
+type KnobProps = {
+    paramNumber: number,
+    min: number,
+    max: number,
+    def: number
+}
+
+export const ParameterKnob = ({paramNumber, min, max, def}: KnobProps) => {
+
+    const onChange = (v: number) => {
+        // console.log("onChange", paramNumber, valueToMIDI(min, max, v), v, min, max);
+        stores.midi.sendCC(paramNumber + 1, valueToMIDI(min, max, v));
+    }
+
     return (
         <div style={{"width": "102px"}} className="parameter-knob">
-            <Knob initialValue={initialValue()} onKnobChange={updatePeriod}
-                  config={{format: knobValueFormater, value_resolution: 0.01}}
+            <Knob initialValue={initialValue()} onKnobChange={onChange}
+                  config={{format: knobValueFormater, value_resolution: 0.01, value_min: min, value_max: max}}
                   skin={knobSkin}/>
         </div>
     );
