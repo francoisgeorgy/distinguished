@@ -82,8 +82,7 @@
                 "min": -10,
                 "max": 10,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
             }
         ]
     },
@@ -178,40 +177,40 @@
                 "min": -1,
                 "max": 31,
                 "def": 31,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Transpose mode.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Key.",
                 "min": -31,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Offset.",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "MIDI Gate.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -265,56 +264,56 @@
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Offset.",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Noise colour.",
                 "min": 0,
                 "max": 3,
                 "def": 1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Noise X.",
                 "min": 0,
                 "max": 64,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Atten B.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Up slew.",
                 "min": -1,
                 "max": 31,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Down slew.",
                 "min": -1,
                 "max": 31,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -337,16 +336,16 @@
                 "min": -1,
                 "max": 32,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Down slew.",
                 "min": -1,
                 "max": 32,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -384,16 +383,16 @@
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output mode.",
                 "min": 0,
                 "max": 2,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -416,40 +415,40 @@
                 "min": 0,
                 "max": 40,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attenuation for output B.",
                 "min": 0,
                 "max": 40,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Offset for output A.",
                 "min": -40,
                 "max": 40,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Offset for output B.",
                 "min": -40,
                 "max": 40,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y offset.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -472,24 +471,24 @@
                 "min": -32,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B attenuverter.",
                 "min": -32,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y Offset.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -512,24 +511,24 @@
                 "min": -16,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attenuation for output A.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attenuation for output B.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Type A.",
@@ -610,56 +609,56 @@
                 "min": -16,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attenuation for output A.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attenuation for output B.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Offset for input Y (manual shape control).",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Selects output waveforms.",
                 "min": 0,
                 "max": 2,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Transpose.",
                 "min": -12,
                 "max": 12,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Fine tune/enable sync.",
                 "min": -51,
                 "max": 50,
                 "def": -51,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -683,16 +682,16 @@
                 "min": 1,
                 "max": 12,
                 "def": 12,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Sum Mode.",
                 "min": 0,
                 "max": 2,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -715,24 +714,24 @@
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attenuator for the Y input.",
                 "min": -32,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Enable saturation.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -741,8 +740,8 @@
         "category": "Delay",
         "Z-button": "",
         "Z": "feedback",
-        "X": "audio input Y is clock",
-        "Y": "Y",
+        "X": "audio input",
+        "Y": "clock",
         "A": "left output",
         "B": "right output",
         "midi": {
@@ -755,24 +754,24 @@
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Delay time multiplier.",
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Input pan.",
                 "min": -32,
                 "max": 32,
                 "def": -32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -781,8 +780,8 @@
         "category": "Delay",
         "Z-button": "",
         "Z": "input pan",
-        "X": "audio input Y is clock",
-        "Y": "Y",
+        "X": "audio input",
+        "Y": "clock",
         "A": "left output",
         "B": "right output",
         "midi": {
@@ -795,24 +794,24 @@
                 "min": 0,
                 "max": 31,
                 "def": 24,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Delay time multiplier.",
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output mode.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -822,7 +821,7 @@
         "Z-button": "",
         "Z": "gain",
         "X": "audio input",
-        "Y": "center frequency (pitch) Z is gain",
+        "Y": "center frequency (pitch)",
         "A": "audio output",
         "B": "envelope of audio output",
         "midi": {
@@ -835,16 +834,16 @@
                 "min": -31,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Mode.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -867,24 +866,24 @@
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output A attenuation/gain.",
                 "min": 0,
                 "max": 64,
                 "def": 16,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B attenuation/gain.",
                 "min": 0,
                 "max": 64,
                 "def": 16,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -907,16 +906,16 @@
                 "min": -31,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Sets the number of phaser stages.",
                 "min": 1,
                 "max": 10,
                 "def": 10,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -939,24 +938,24 @@
                 "min": -31,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Selects the bit reduction mode.",
                 "min": 0,
                 "max": 7,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Selects the bit mangling mode.",
                 "min": 0,
                 "max": 7,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -979,8 +978,8 @@
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1003,32 +1002,32 @@
                 "min": 0,
                 "max": 43,
                 "def": 43,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Fine length control.",
                 "min": -9,
                 "max": 9,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Tape speed.",
                 "min": -8,
                 "max": 16,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output mode.",
                 "min": 0,
                 "max": 2,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1051,32 +1050,32 @@
                 "min": -1,
                 "max": 31,
                 "def": 11,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y offset.",
                 "min": -31,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "LFO rate.",
                 "min": 0,
                 "max": 31,
                 "def": 23,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Scale.",
                 "min": -1,
                 "max": 31,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1099,16 +1098,16 @@
                 "min": -80,
                 "max": 80,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Filter resonance.",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1119,8 +1118,8 @@
         "Z": "filter resonance",
         "X": "audio input",
         "Y": "filter frequency",
-        "A": "low pass filter output B is high pass filter output",
-        "B": "",
+        "A": "low pass filter output",
+        "B": "high pass filter output",
         "midi": {
             "in": false,
             "out": false
@@ -1131,8 +1130,8 @@
                 "min": -80,
                 "max": 80,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1141,7 +1140,7 @@
         "category": "Filters",
         "Z-button": "",
         "Z": "filter resonance",
-        "X": "X isLP/BP Filter audio input",
+        "X": "LP/BP Filter audio input",
         "Y": "filter frequency",
         "A": "low pass filter output",
         "B": "band pass filter output",
@@ -1155,8 +1154,8 @@
                 "min": -80,
                 "max": 80,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1179,8 +1178,8 @@
                 "min": -80,
                 "max": 80,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1203,8 +1202,8 @@
                 "min": -80,
                 "max": 80,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1243,48 +1242,48 @@
                 "min": -40,
                 "max": 41,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B Attenuverter.",
                 "min": -40,
                 "max": 40,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output A Offset.",
                 "min": -40,
                 "max": 40,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B Offset.",
                 "min": -40,
                 "max": 40,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attack shape (exponential to linear).",
                 "min": 0,
                 "max": 32,
                 "def": 26,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Release shape (exponential to linear).",
                 "min": 0,
                 "max": 32,
                 "def": 10,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1307,64 +1306,64 @@
                 "min": 0,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Z Mode.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output A Attenuverter.",
                 "min": -40,
                 "max": 41,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B Attenuverter.",
                 "min": -40,
                 "max": 40,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output A Offset.",
                 "min": -40,
                 "max": 40,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B Offset.",
                 "min": -40,
                 "max": 40,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attack shape (exponential to linear).",
                 "min": 0,
                 "max": 32,
                 "def": 26,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Release shape (exponential to linear).",
                 "min": 0,
                 "max": 32,
                 "def": 10,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1387,64 +1386,64 @@
                 "min": 0,
                 "max": 2,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Z Mode.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output A Attenuverter.",
                 "min": -40,
                 "max": 41,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B Attenuverter.",
                 "min": -40,
                 "max": 40,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output A Offset.",
                 "min": -40,
                 "max": 40,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B Offset.",
                 "min": -40,
                 "max": 40,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attack shape (exponential to linear).",
                 "min": 0,
                 "max": 32,
                 "def": 26,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Release shape (exponential to linear).",
                 "min": 0,
                 "max": 32,
                 "def": 10,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1467,40 +1466,40 @@
                 "min": -36,
                 "max": 0,
                 "def": -12,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attack time.",
                 "min": 0,
                 "max": 99,
                 "def": 20,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Release time.",
                 "min": 0,
                 "max": 99,
                 "def": 20,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Make-up gain.",
                 "min": -1,
                 "max": 36,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Lookahead.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1523,48 +1522,48 @@
                 "min": -36,
                 "max": 0,
                 "def": -12,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attack time.",
                 "min": 0,
                 "max": 99,
                 "def": 20,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Release time.",
                 "min": 0,
                 "max": 99,
                 "def": 20,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Make-up gain.",
                 "min": -1,
                 "max": 36,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Lookahead.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Compression ratio.",
                 "min": 0,
                 "max": 99,
                 "def": 50,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1587,48 +1586,48 @@
                 "min": -36,
                 "max": 0,
                 "def": -12,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attack time.",
                 "min": 0,
                 "max": 99,
                 "def": 20,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Release time.",
                 "min": 0,
                 "max": 99,
                 "def": 20,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Make-up gain.",
                 "min": -1,
                 "max": 36,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Lookahead.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Side-chain mix.",
                 "min": -80,
                 "max": 12,
                 "def": -80,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1651,40 +1650,40 @@
                 "min": -8,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Coarse.",
                 "min": -99,
                 "max": 99,
                 "def": 99,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Fine.",
                 "min": -99,
                 "max": 99,
                 "def": 10,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Offsest.",
                 "min": -99,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Gate level.",
                 "min": 0,
                 "max": 99,
                 "def": 49,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1707,8 +1706,8 @@
                 "min": -8,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1731,40 +1730,40 @@
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output A Attenuverter.",
                 "min": -40,
                 "max": 41,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B Attenuverter.",
                 "min": -40,
                 "max": 20,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attack shape.",
                 "min": 0,
                 "max": 32,
                 "def": 26,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Decay shape.",
                 "min": 0,
                 "max": 32,
                 "def": 10,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1787,40 +1786,40 @@
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output A Attenuverter.",
                 "min": -40,
                 "max": 41,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B Attenuverter.",
                 "min": -40,
                 "max": 41,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attack shape.",
                 "min": 0,
                 "max": 32,
                 "def": 26,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Decay shape.",
                 "min": 0,
                 "max": 32,
                 "def": 10,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1843,40 +1842,40 @@
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output A Attenuverter.",
                 "min": -40,
                 "max": 41,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B Attenuverter.",
                 "min": -40,
                 "max": 40,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attack shape.",
                 "min": 0,
                 "max": 32,
                 "def": 26,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Decay shape.",
                 "min": 0,
                 "max": 32,
                 "def": 10,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1899,40 +1898,40 @@
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output A Attenuverter.",
                 "min": -40,
                 "max": 41,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B Attenuverter.",
                 "min": -40,
                 "max": 40,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attack shape.",
                 "min": 0,
                 "max": 32,
                 "def": 26,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Decay shape.",
                 "min": 0,
                 "max": 32,
                 "def": 10,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -1955,40 +1954,40 @@
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Length.",
                 "min": 1,
                 "max": 32,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Slew rate.",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output attenuverter.",
                 "min": -40,
                 "max": 40,
                 "def": 40,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Offset.",
                 "min": -40,
                 "max": 40,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2011,56 +2010,56 @@
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Length.",
                 "min": 1,
                 "max": 32,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Scale.",
                 "min": 0,
                 "max": 15,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output attenuverter.",
                 "min": -40,
                 "max": 40,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "MIDI Gate.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Transpose.",
                 "min": -48,
                 "max": 48,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Slew.",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2083,24 +2082,24 @@
                 "min": 1,
                 "max": 32,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Pulse A.",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Pulse B.",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2123,32 +2122,32 @@
                 "min": 1,
                 "max": 32,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Length B.",
                 "min": 1,
                 "max": 32,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Pulse A.",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Pulse B.",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2201,16 +2200,16 @@
                 "min": 0,
                 "max": 11,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Octave",
                 "min": -1,
                 "max": 9,
                 "def": 4,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2263,56 +2262,56 @@
                 "min": 0,
                 "max": 5,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Clock divisor for A.",
                 "min": -2,
                 "max": 14,
                 "def": 6,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Clock divisor for B.",
                 "min": -2,
                 "max": 14,
                 "def": -2,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Clock divisor for X.",
                 "min": 0,
                 "max": 11,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y mode.",
                 "min": 0,
                 "max": 3,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Tempo",
                 "min": -120,
                 "max": -120,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Z mode.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2335,48 +2334,48 @@
                 "min": -31,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Pitch bend depth.",
                 "min": 0,
                 "max": 24,
                 "def": 2,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Scale.",
                 "min": -1,
                 "max": 99,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Portamento.",
                 "min": 0,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Interrupt.",
                 "min": 0,
                 "max": 100,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Priority.",
                 "min": 0,
                 "max": 2,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2399,32 +2398,32 @@
                 "min": 0,
                 "max": 99,
                 "def": 16,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Z mode.",
                 "min": 0,
                 "max": 127,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "X CC.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y CC.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2448,32 +2447,32 @@
                 "min": 0,
                 "max": 3,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Clip mode.",
                 "min": 0,
                 "max": 2,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B option/LFO speed.",
                 "min": -1,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B attenuation.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2496,48 +2495,48 @@
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Offset.",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Noise X.",
                 "min": 0,
                 "max": 64,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Noise Y.",
                 "min": 0,
                 "max": 64,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Slew A.",
                 "min": 0,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Slew B.",
                 "min": 0,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2560,32 +2559,32 @@
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Input Y attenuation.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "X transpose.",
                 "min": -31,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y transpose.",
                 "min": -31,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2609,40 +2608,40 @@
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Input Y attenuation.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "X scale/trigger mode.",
                 "min": -18,
                 "max": 18,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y scale/trigger mode.",
                 "min": -18,
                 "max": 18,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "MIDI Gate.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2665,48 +2664,48 @@
                 "min": 1,
                 "max": 16,
                 "def": 16,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Pulses (pattern 1).",
                 "min": 1,
                 "max": 16,
                 "def": 4,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "A Rotation.",
                 "min": 0,
                 "max": 96,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Pulse length.",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "B Rotation.",
                 "min": -1,
                 "max": 96,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Repeat.",
                 "min": 0,
                 "max": 96,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2729,32 +2728,32 @@
                 "min": 0,
                 "max": 6,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Range.",
                 "min": 0,
                 "max": 12,
                 "def": 6,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Delay.",
                 "min": -1,
                 "max": 31,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Length.",
                 "min": 0,
                 "max": 31,
                 "def": 7,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2777,32 +2776,32 @@
                 "min": -1,
                 "max": 3,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Type B.",
                 "min": -1,
                 "max": 3,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attenuation A.",
                 "min": -1,
                 "max": 31,
                 "def": 31,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attenuation B.",
                 "min": -1,
                 "max": 31,
                 "def": 31,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2825,48 +2824,48 @@
                 "min": "N/A",
                 "max": "N/A",
                 "def": "N/A",
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Scale.",
                 "min": 0,
                 "max": 2,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Key.",
                 "min": -12,
                 "max": 12,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Input X attenuation.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Trigger mode / offset / Y attenuation.",
                 "min": -32,
                 "max": 32,
                 "def": -32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Slew rate.",
                 "min": 0,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2889,16 +2888,16 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Envelope time.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2921,24 +2920,24 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Envelope time.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Selects the sample and function of Z.",
                 "min": -1,
                 "max": 99,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -2961,40 +2960,40 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Octave shift.",
                 "min": -8,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Envelope time.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "MIDI mode.",
                 "min": -1,
                 "max": 4,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Pitch bend depth.",
                 "min": 0,
                 "max": 24,
                 "def": 2,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3017,24 +3016,24 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Selects the sample.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Envelope time.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3057,24 +3056,24 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y offset.",
                 "min": -49,
                 "max": 49,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Envelope time.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3097,32 +3096,32 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Speed limit.",
                 "min": 1,
                 "max": 99,
                 "def": 16,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Slew limit.",
                 "min": 0,
                 "max": 20,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y offset.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3145,24 +3144,24 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Selects the panning option.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Envelope time.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3185,48 +3184,48 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Selects sample A.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Selects sample B.",
                 "min": 0,
                 "max": 99,
                 "def": 1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Selects the panning option.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Select which sample(s) are affected by Z.",
                 "min": 0,
                 "max": 3,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Envelope time.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3249,8 +3248,8 @@
                 "min": -1,
                 "max": 31,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3273,48 +3272,48 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Octave shift.",
                 "min": -8,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Envelope time.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "MIDI mode.",
                 "min": -1,
                 "max": 4,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Pitch bend depth.",
                 "min": 0,
                 "max": 24,
                 "def": 2,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Selects the panning option.",
                 "min": 0,
                 "max": 1,
                 "def": 1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3337,8 +3336,8 @@
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3361,24 +3360,24 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Selects the sample.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Envelope time.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3416,40 +3415,40 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Octave shift.",
                 "min": -8,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Envelope time.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "MIDI mode.",
                 "min": -1,
                 "max": 4,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Pitch bend depth.",
                 "min": 0,
                 "max": 24,
                 "def": 2,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3487,32 +3486,32 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Octave shift.",
                 "min": -8,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Crossfade time.",
                 "min": 0,
                 "max": 99,
                 "def": 50,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Gate mode.",
                 "min": 0,
                 "max": 2,
                 "def": 1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3535,40 +3534,40 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Octave shift.",
                 "min": -16,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y offset.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B option/detune.",
                 "min": -3,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B phase",
                 "min": -1,
                 "max": 127,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3591,40 +3590,40 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y Offset.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output A attenuverter.",
                 "min": -32,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B attenuverter.",
                 "min": -32,
                 "max": 32,
                 "def": -32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "LFO time multiplier.",
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3647,16 +3646,16 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y Offset.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3679,40 +3678,40 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y Offset.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output A attenuverter.",
                 "min": -32,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output B attenuverter.",
                 "min": -32,
                 "max": 32,
                 "def": -32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Envelope time multiplier.",
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3735,40 +3734,40 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Input X attenuation.",
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Input Y attenuation.",
                 "min": -1,
                 "max": 32,
                 "def": 31,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Transpose.",
                 "min": -31,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Offset.",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3791,24 +3790,24 @@
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Maximum feedback.",
                 "min": 0,
                 "max": 8,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output mode.",
                 "min": 0,
                 "max": 2,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3831,16 +3830,16 @@
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Maximum feedback.",
                 "min": 0,
                 "max": 8,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3863,16 +3862,16 @@
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Feedback.",
                 "min": 0,
                 "max": 40,
                 "def": 16,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3895,48 +3894,48 @@
                 "min": 1,
                 "max": 32,
                 "def": 16,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Feedback.",
                 "min": 1,
                 "max": 32,
                 "def": 24,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Character.",
                 "min": 0,
                 "max": 5,
                 "def": 1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Lowpass filter.",
                 "min": -1,
                 "max": 31,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Gain.",
                 "min": 0,
                 "max": 12,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Wet/dry.",
                 "min": -33,
                 "max": 32,
                 "def": -33,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -3959,48 +3958,48 @@
                 "min": 1,
                 "max": 32,
                 "def": 16,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Feedback.",
                 "min": 1,
                 "max": 32,
                 "def": 24,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Character.",
                 "min": 0,
                 "max": 5,
                 "def": 1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Lowpass filter.",
                 "min": -1,
                 "max": 31,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Gain.",
                 "min": 0,
                 "max": 12,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Wet/dry.",
                 "min": -33,
                 "max": 32,
                 "def": -33,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4023,48 +4022,48 @@
                 "min": 1,
                 "max": 32,
                 "def": 16,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Feedback.",
                 "min": 1,
                 "max": 32,
                 "def": 24,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Character.",
                 "min": 0,
                 "max": 5,
                 "def": 1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Lowpass filter.",
                 "min": -1,
                 "max": 31,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Gain.",
                 "min": 0,
                 "max": 12,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Wet/dry.",
                 "min": -33,
                 "max": 32,
                 "def": -33,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4087,32 +4086,32 @@
                 "min": -1,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Vowel B.",
                 "min": -1,
                 "max": 8,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "BPF gain 2.",
                 "min": -20,
                 "max": 0,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "BPF gain 3.",
                 "min": -20,
                 "max": 0,
                 "def": -6,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4135,64 +4134,64 @@
                 "min": 0,
                 "max": 99,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y offset.",
                 "min": -64,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Feedback.",
                 "min": -63,
                 "max": 63,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Lowpass filter.",
                 "min": -1,
                 "max": 31,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Delay time.",
                 "min": 1,
                 "max": 64,
                 "def": 16,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Fine delay time.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Stages.",
                 "min": 1,
                 "max": 6,
                 "def": 6,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Saturation.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4215,64 +4214,64 @@
                 "min": 0,
                 "max": 99,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y offset.",
                 "min": -64,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Feedback.",
                 "min": -63,
                 "max": 63,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Lowpass filter.",
                 "min": -1,
                 "max": 31,
                 "def": -1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Delay time.",
                 "min": 1,
                 "max": 64,
                 "def": 16,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Fine delay time.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Stages.",
                 "min": 1,
                 "max": 6,
                 "def": 6,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Saturation.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4295,24 +4294,24 @@
                 "min": -40,
                 "max": 6,
                 "def": -6,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Input Y gain.",
                 "min": -40,
                 "max": 6,
                 "def": -6,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y pan.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4335,32 +4334,32 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Hold time.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Release time.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Lookahead.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4383,48 +4382,48 @@
                 "min": 0,
                 "max": 6,
                 "def": 1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output type B.",
                 "min": 0,
                 "max": 6,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "LFO speed range.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Ramp time range.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attenuverter A.",
                 "min": -32,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Attenuverter B.",
                 "min": -32,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4447,48 +4446,48 @@
                 "min": 0,
                 "max": 6,
                 "def": 1,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output type B.",
                 "min": 0,
                 "max": 6,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "LFO speed range.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Mode.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "X Offset.",
                 "min": -48,
                 "max": 48,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y Offset.",
                 "min": -48,
                 "max": 48,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4511,40 +4510,40 @@
                 "min": -2,
                 "max": 5,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Input X threshold.",
                 "min": -100,
                 "max": 100,
                 "def": 20,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Input Y threshold.",
                 "min": -100,
                 "max": 100,
                 "def": 20,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Input X hysteresis.",
                 "min": -100,
                 "max": 100,
                 "def": 10,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Input Y hysteresis.",
                 "min": -100,
                 "max": 100,
                 "def": 10,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4567,8 +4566,8 @@
                 "min": 0,
                 "max": 3,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4592,16 +4591,16 @@
                 "min": 0,
                 "max": 2,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Resonance (Q).",
                 "min": 0,
                 "max": 31,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4624,32 +4623,32 @@
                 "min": 0,
                 "max": 26,
                 "def": 26,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Fine length control.",
                 "min": -9,
                 "max": 9,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Feedback.",
                 "min": 0,
                 "max": 36,
                 "def": 24,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output mode.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4672,56 +4671,56 @@
                 "min": 0,
                 "max": 99,
                 "def": 50,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Window type.",
                 "min": 0,
                 "max": 3,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Delay.",
                 "min": 0,
                 "max": 32,
                 "def": 16,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Feedback.",
                 "min": 0,
                 "max": 64,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y Offset (semitones).",
                 "min": -48,
                 "max": 48,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Fine (cents).",
                 "min": -99,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Mix.",
                 "min": -65,
                 "max": 64,
                 "def": -65,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4744,56 +4743,56 @@
                 "min": -64,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Outputs.",
                 "min": 0,
                 "max": 11,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Atten A.",
                 "min": -64,
                 "max": 64,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Atten B.",
                 "min": -64,
                 "max": 64,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Offset A.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Offset B.",
                 "min": -32,
                 "max": 32,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Clamp.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4817,32 +4816,32 @@
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Hysteresis.",
                 "min": 0,
                 "max": 32,
                 "def": 3,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Fade.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Chance.",
                 "min": -1,
                 "max": 99,
                 "def": 99,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4865,40 +4864,40 @@
                 "min": 0,
                 "max": 32,
                 "def": 32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Depth.",
                 "min": 0,
                 "max": 63,
                 "def": 24,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Slew.",
                 "min": 0,
                 "max": 99,
                 "def": 10,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Crossover",
                 "min": 0,
                 "max": 32,
                 "def": 15,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Bass modulation.",
                 "min": 0,
                 "max": 64,
                 "def": 15,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4921,48 +4920,48 @@
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Chooses the wave.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Window.",
                 "min": 0,
                 "max": 3,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Y Mode.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Masking.",
                 "min": 0,
                 "max": 99,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Octave.",
                 "min": -16,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     },
@@ -4985,32 +4984,32 @@
                 "min": -15,
                 "max": 8,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Maximum feedback.",
                 "min": 0,
                 "max": 8,
                 "def": 8,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Output mode.",
                 "min": 0,
                 "max": 1,
                 "def": 0,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             },
             {
                 "name": "Input pan.",
                 "min": -32,
                 "max": 32,
                 "def": -32,
-                "unit": "",
-                "control": "knob"
+                "unit": ""
+                
             }
         ]
     }
