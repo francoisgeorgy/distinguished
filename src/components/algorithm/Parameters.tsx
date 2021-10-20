@@ -38,14 +38,27 @@ export const Parameters = observer(() => {
                     }
                 }
                 return (
-                    <div key={key} className="parameter">
-                        <div className="row mb-5" key={key}>
-                            <div className="key">{key} :</div>
-                            <div>{parameter["name"]}</div>
-                        </div>
-                        {control}
+                    <div key={key} className="parameter row stretch">
+                        {/*<div className="row mb-5" key={key}>*/}
+                            <div className="key">{key}</div>
+                            <div className="grow">{parameter["name"]}</div>
+
+                            {control}
+
+                        {/*</div>*/}
                     </div>
                 )
+                // return (
+                //     <div key={key} className="parameter">
+                //         <div className="row mb-5" key={key}>
+                //             <div className="key">{key} :</div>
+                //             <div>{parameter["name"]}</div>
+                //             <div className="grow">
+                //             {control}
+                //             </div>
+                //         </div>
+                //     </div>
+                // )
             })}
         </div>
     );

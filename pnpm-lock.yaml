@@ -16,6 +16,7 @@ specifiers:
   storejs: ^2.0.1
   typescript: ^4.3.2
   vite: ^2.6.4
+  vite-plugin-replace: ^0.1.1
 
 dependencies:
   markdown-to-jsx: 7.1.3_react@17.0.2
@@ -26,6 +27,7 @@ dependencies:
   react-keyboard-input-hook: 1.0.3
   react-svg-knob: 0.5.0_react@17.0.2
   storejs: 2.0.1
+  vite-plugin-replace: 0.1.1_vite@2.6.7
 
 devDependencies:
   '@types/node': 16.10.5
@@ -845,6 +847,14 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
+
+  /vite-plugin-replace/0.1.1_vite@2.6.7:
+    resolution: {integrity: sha512-v+okl3JNt2pf1jDYijw+WPVt6h9FWa/atTi+qnSFBqmKThLTDhlesx0r3bh+oFPmxRJmis5tNx9HtN6lGFoqWg==}
+    peerDependencies:
+      vite: ^2
+    dependencies:
+      vite: 2.6.7
+    dev: false
 
   /vite/2.6.7:
     resolution: {integrity: sha512-ewk//jve9k6vlU8PfJmWUHN8k0YYdw4VaKOMvoQ3nT2Pb6k5OSMKQi4jPOzVH/TlUqMsCrq7IJ80xcuDDVyigg==}

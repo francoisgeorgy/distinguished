@@ -14,7 +14,7 @@ export const Description = observer(() => {
     const [text, setText] = useState('');
 
     useEffect(() => {
-        fetch(`/app/texts/${index}.md`)
+        fetch(`/distinguished/texts/${index}.md`)
             .then((response) => {
                 if (response.ok) {
                     return response.text();

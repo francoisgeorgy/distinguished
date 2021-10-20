@@ -49,8 +49,13 @@ function App() {
     return (
         <Fragment>
             <header>
-                <div className="title">
-                    Distinguished - A webmidi utility for the Expert Sleepers Disting Mk4
+                <div className="row space-between">
+                    <div className="title">
+                        A webmidi utility for the Expert Sleepers Disting Mk4
+                    </div>
+                    <div>
+                        V. __CLI_VERSION__ by <a href="https://studiocode.dev/" target="_blank" rel="noopener noreferrer">StudioCode.dev</a>
+                    </div>
                 </div>
                 <MidiPortsSelect />
             </header>
@@ -59,24 +64,17 @@ function App() {
                     <AlgorithmsList />
                 </div>
                 <div className="middle scrollable">
-{/*
-                    <div className="grid1x3">
-                        <AlgorithmName />
-                        <div className="center centerV">
-                            <button>USE THIS ALGORITHM</button>
-                        </div>
-                        <div></div>
-                    </div>
-*/}
                     <Algorithm />
                 </div>
                 <div className="right scrollable">
                     <Description />
                 </div>
             </main>
+{/*
             <footer>
                 Made by StudioCode.dev
             </footer>
+*/}
         </Fragment>
     )
 }

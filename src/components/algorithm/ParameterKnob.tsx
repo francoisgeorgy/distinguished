@@ -1,7 +1,7 @@
 import {Knob} from "react-svg-knob";
 import {PublicKnobSkinType} from "react-svg-knob/dist/skin";
 import {valueToMIDI} from "../../model";
-import { stores } from "../../stores";
+import {stores} from "../../stores";
 
 const knobSkin: PublicKnobSkinType = {
     cursor_length: 15,
@@ -32,7 +32,6 @@ type KnobProps = {
 export const ParameterKnob = ({paramNumber, min, max, def}: KnobProps) => {
 
     const onChange = (v: number) => {
-        // console.log("onChange", paramNumber, valueToMIDI(min, max, v), v, min, max);
         stores.midi.sendCC(paramNumber + 1, valueToMIDI(min, max, v));
     }
 
@@ -43,4 +42,5 @@ export const ParameterKnob = ({paramNumber, min, max, def}: KnobProps) => {
                   skin={knobSkin}/>
         </div>
     );
+
 }

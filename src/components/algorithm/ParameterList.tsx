@@ -1,6 +1,5 @@
-import {valueToMIDI} from "../../model";
-import {stores} from "../../stores";
 import React, {FormEvent} from "react";
+import {stores} from "../../stores";
 
 type ParameterListProps = {
     paramNumber: number,
@@ -24,7 +23,7 @@ export const ParameterList = ({paramNumber, values}: ParameterListProps) => {
     }
 
     return (
-        <div className="mt-10">
+        <div>
             <select onChange={onChange}>
                 {options}
             </select>

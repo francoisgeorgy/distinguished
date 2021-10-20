@@ -17,8 +17,8 @@ export const Midi = observer(() => {
                 <h3>MIDI</h3>
             </div>
             <div className="row algorithm-midi-in-out">
-                <div>{midi["in"] ? "Receives MIDI" : ""}</div>
-                <div>{midi["out"] ? "Sends MIDI" : ""}</div>
+                {midi["in"] && <div>Receives MIDI</div>}
+                {midi["out"] && <div>Sends MIDI</div>}
             </div>
         </div>
     );

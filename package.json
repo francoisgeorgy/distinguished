@@ -1,6 +1,6 @@
 {
     "name": "distinguished",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
@@ -14,7 +14,8 @@
         "react-dom": "^17.0.0",
         "react-keyboard-input-hook": "^1.0.3",
         "react-svg-knob": "^0.5.0",
-        "storejs": "^2.0.1"
+        "storejs": "^2.0.1",
+        "vite-plugin-replace": "^0.1.1"
     },
     "devDependencies": {
         "@types/node": "^16.10.3",

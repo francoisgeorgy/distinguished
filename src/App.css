@@ -123,6 +123,10 @@ pre {
     justify-self: end;
 }
 
+.align-end {
+    text-align: end;
+}
+
 .grid1x3 {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
