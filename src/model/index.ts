@@ -24,18 +24,8 @@ export function valueToMIDI(min: number, max: number, value: number): number {
     // from MIDI: value = min + ((cc * range) / 127);
     // to MIDI: cc = ((value - min) * 127 + range - 1) / range;
 
-    // min = -10, max = 10
-    // range = 20
-
     const range = max - min;
-
     let cc = (127 * value / range) - (127 * min / range) ;
-
     console.log(min, max, value, Math.round(cc));
-
     return cc;
-}
-
-export function sendParameter(param: number, value: number) {
-
 }

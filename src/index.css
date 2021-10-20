@@ -12,6 +12,22 @@ code {
     monospace;
 }
 
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
 .my-20 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -27,4 +43,8 @@ code {
 
 .span-2-cols {
     grid-column: span 2;
+}
+
+.span-3-cols {
+    grid-column: span 3;
 }

@@ -4,6 +4,16 @@ table {
 
 td, th {
     border: 1px solid #999;
-    /*padding: 0.5rem;*/
+    padding: 0.25rem;
     text-align: left;
+    line-height: 140%;
+}
+
+td p {
+    margin: 0;
+    line-height: 140%;
+}
+
+.algorithm-description p {
+    line-height: 140%;
 }

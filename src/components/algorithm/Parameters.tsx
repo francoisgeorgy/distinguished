@@ -6,6 +6,7 @@ import ALGORITHMS from "../../data/algorithms.json";
 import {Fragment} from "react";
 import React from "react";
 import {ParameterSlider} from "./ParameterSlider";
+import {ParameterList} from "./ParameterList";
 
 export const Parameters = observer(() => {
     const index = stores.state.currentAlgorithm;
@@ -17,65 +18,35 @@ export const Parameters = observer(() => {
             <div>
                 <h3>Parameters</h3>
             </div>
-            <div className="Xrow Xwrap">
-                {parameters.map((parameter: any, key: number) => {
-                    let isKnob = false;
-                    let control;
-                    if (parameter["values"]) {
-                        let options = [];
-                        // console.log(parameters["values"], parameters);
-                        for (let v of parameter["values"]) {
-                            options.push(<option value={v["value"]}>{v["label"]}</option>);
+            {parameters.map((parameter: any, key: number) => {
+                let isKnob = false;
+                let control;
+                if (parameter["values"]) {
+                    control = <ParameterList paramNumber={key} values={parameter["values"]} />;
+                } else {
+                    if (parameter["max"] - parameter["min"] < 6) {
+                        const values = [];
+                        for (let i=parameter["min"]; i<=parameter["max"]; i++) {
+                            values.push({
+                                value: i,
+                                label: i.toString(10)
+                            })
                         }
-                        control = <select>{options}</select>;
+                        control = <ParameterList paramNumber={key} values={values} />;
                     } else {
-                        isKnob = parameter["control"].toUpperCase() === "KNOB";
-                        if (isKnob) {
-                            // control = <ParameterKnob paramNumber={key} min={parameter["min"]} max={parameter["max"]} def={parameter["def"]} />;
-                            control = <ParameterSlider paramNumber={key} min={parameter["min"]} max={parameter["max"]} def={parameter["def"]} />;
-                        } else {
-                            let options = [];
-                            for (let v = parameter["min"]; v <= parameter["max"]; v++) {
-                                options.push(<option value={v}>{v}</option>);
-                            }
-                            control = <select>{options}</select>;
-                        }
+                        control = <ParameterSlider paramNumber={key} min={parameter["min"]} max={parameter["max"]} def={parameter["def"]} />;
                     }
-                    return (
-                        <div key={key} className={`parameter row ${isKnob ? 'is-knob' : 'centerV'}`}>
-                            <div className="key">{key}</div>
-                            {control}
-                            <div className="parameter-details">
-                                <div>{parameter["name"]}</div>
-                                {isKnob &&
-                                <div className="row">
-                                    <div>{parameter["min"]}...{parameter["max"]}</div>
-                                    <div className="ml-20">default {parameter["def"]}</div>
-                                </div>}
-                            </div>
+                }
+                return (
+                    <div key={key} className="parameter">
+                        <div className="row mb-5" key={key}>
+                            <div className="key">{key} :</div>
+                            <div>{parameter["name"]}</div>
                         </div>
-                    )
-                })}
-            </div>
-            {/*<div className="parameters-grid">*/}
-            {/*    <div></div>*/}
-            {/*    <div>param</div>*/}
-            {/*    <div>min</div>*/}
-            {/*    <div>max</div>*/}
-            {/*    <div>def</div>*/}
-            {/*    {ALGORITHMS[index].parameters.map((parameter: any, key: number) => {*/}
-            {/*        return (*/}
-            {/*            <React.Fragment key={key}>*/}
-            {/*                <div>{key}</div>*/}
-            {/*                <div>{parameter["name"]}</div>*/}
-            {/*                <div>{parameter["min"]}</div>*/}
-            {/*                <div>{parameter["max"]}</div>*/}
-            {/*                <div>{parameter["def"]}</div>*/}
-            {/*            </React.Fragment>*/}
-            {/*        )*/}
-            {/*    })}*/}
-            {/*     row 1 */}
-            {/*</div>*/}
+                        {control}
+                    </div>
+                )
+            })}
         </div>
     );
 });

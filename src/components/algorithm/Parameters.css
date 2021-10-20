@@ -1,3 +1,4 @@
+/*
 .parameters-grid {
     display: grid;
     grid-template-columns: repeat(5, auto);
@@ -5,14 +6,15 @@
 }
 
 .parameters-grid > div {
-    padding: 5px;
     border: 1px solid #aaa;
 }
+*/
 
 .algorithm-parameters .parameter {
-    padding: 5px;
+    /*padding: 5px;*/
     /*border: 1px solid #aaa;*/
     border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
     margin-bottom: 10px;
 }
 
@@ -21,20 +23,32 @@
     margin: 0 10px 0 0;
 }
 
-.algorithm-parameters .parameter.is-knob {
-
-}
-
-.algorithm-parameters .parameter.is-knob .key {
-    font-weight: bold;
-    margin: 0;
-}
+/*.algorithm-parameters .parameter.is-knob .key {*/
+/*    font-weight: bold;*/
+/*    margin: 0;*/
+/*}*/
 
 .algorithm-parameters .parameter select {
     font-size: 1rem;
     margin-right: 10px;
     align-self: center;
 }
+
+.algorithm-parameters .parameter input[type=range] {
+    /*width: 240px;*/
+    width: 100%;
+}
+
+.parameter-slider {
+    width: 220px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.algorithm-parameters .parameter.is-knob {
+
+}
+
 
 .parameter-knob {
     margin-right: 10px;
@@ -46,3 +60,12 @@
     justify-content: space-between;
     padding: 10px 0;
 }
+
+.param-min {
+    /*font-weight: bold;*/
+}
+
+.param-max {
+    /*font-weight: bold;*/
+}
+

@@ -65,10 +65,26 @@ header .title {
     font-size: 1.25rem;
 }
 
+
+h3 {
+    margin: 10px 0 10px 0;
+    font-size: 0.85rem;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-bottom: 1px solid #aaa;
+}
+
+
 /* Utilities */
 
 pre {
     margin: 0;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
 }
 
 .row {
@@ -89,6 +105,22 @@ pre {
 
 .centerV {
     align-self: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.stretch {
+    align-content: stretch;
+}
+
+.self-justify-center {
+    justify-self: center;
+}
+
+.self-justify-end {
+    justify-self: end;
 }
 
 .grid1x3 {
