@@ -12,6 +12,7 @@
             "in": false,
             "out": false
         },
+        "knob-recorder": true,
         "parameters": [
             {
                 "name": "Z Mode",
@@ -60,6 +61,7 @@
             "in": false,
             "out": false
         },
+        "knob-recorder": true,
         "parameters": [
             {
                 "name": "Z Mode",
@@ -168,7 +170,7 @@
         "B": "trigger on note change",
         "midi": {
             "in": true,
-            "out": false
+            "out": true
         },
         "parameters": [
             {
@@ -241,6 +243,7 @@
             "in": false,
             "out": false
         },
+        "knob-recorder": true,
         "parameters": []
     },
     "B1": {
@@ -673,6 +676,7 @@
             "in": false,
             "out": false
         },
+        "knob-recorder": true,
         "parameters": [
             {
                 "name": "Sets the offset divisor.",
@@ -1942,7 +1946,7 @@
         "A": "unipolar output",
         "B": "bipolar output",
         "midi": {
-            "in": false,
+            "in": true,
             "out": false
         },
         "parameters": [
@@ -1998,8 +2002,8 @@
         "A": "quantized CV output",
         "B": "trigger output",
         "midi": {
-            "in": false,
-            "out": false
+            "in": true,
+            "out": true
         },
         "parameters": [
             {
@@ -2070,7 +2074,7 @@
         "A": "trigger output",
         "B": "inverse trigger output",
         "midi": {
-            "in": false,
+            "in": true,
             "out": false
         },
         "parameters": [
@@ -2110,7 +2114,7 @@
         "A": "trigger output A",
         "B": "trigger output B",
         "midi": {
-            "in": false,
+            "in": true,
             "out": false
         },
         "parameters": [
@@ -2251,7 +2255,7 @@
         "B": "",
         "midi": {
             "in": true,
-            "out": false
+            "out": true
         },
         "parameters": [
             {
@@ -2387,7 +2391,7 @@
         "B": "",
         "midi": {
             "in": false,
-            "out": false
+            "out": true
         },
         "parameters": [
             {
@@ -2437,6 +2441,7 @@
             "in": false,
             "out": false
         },
+        "knob-recorder": true,
         "parameters": [
             {
                 "name": "Crossfade/pan law.",
@@ -2547,7 +2552,7 @@
         "B": "quantized( Y )",
         "midi": {
             "in": false,
-            "out": false
+            "out": true
         },
         "parameters": [
             {
@@ -2595,8 +2600,9 @@
         "B": "quantized( Y )",
         "midi": {
             "in": true,
-            "out": false
+            "out": true
         },
+        "knob-recorder": true,
         "parameters": [
             {
                 "name": "Input X attenuation.",
@@ -2650,7 +2656,7 @@
         "A": "pattern 1 out",
         "B": "pattern 2 out",
         "midi": {
-            "in": false,
+            "in": true,
             "out": false
         },
         "parameters": [
@@ -3235,7 +3241,7 @@
         "B": "gate output",
         "midi": {
             "in": false,
-            "out": false
+            "out": true
         },
         "parameters": [
             {
@@ -3323,7 +3329,7 @@
         "B": "gate output",
         "midi": {
             "in": false,
-            "out": false
+            "out": true
         },
         "parameters": [
             {
@@ -3721,7 +3727,7 @@
         "B": "trigger on note change",
         "midi": {
             "in": false,
-            "out": false
+            "out": true
         },
         "parameters": [
             {
@@ -4579,6 +4585,7 @@
             "in": false,
             "out": false
         },
+        "knob-recorder": true,
         "parameters": [
             {
                 "name": "Mode (low-, band-, high-pass).",
@@ -4803,6 +4810,7 @@
             "in": false,
             "out": false
         },
+        "knob-recorder": true,
         "parameters": [
             {
                 "name": "Mode.",

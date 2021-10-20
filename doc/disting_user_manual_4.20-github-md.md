@@ -160,23 +160,23 @@ Acknowledgments...........................................<u>117</u>
 Page 4
 
 **Introduction**
->
+
 Congratulations on your purchase of an Expert Sleepers disting mk4.
 Please read this user manual before operating your new module.
->
+
 **Installation**
->
+
 House the module in a Eurorack case of your choosing. The power
 connector is . If using the power cable supplied with the module, the
 red edge of the cable is nearest the bottom of the PCB, and carries
 -12V. ("-12V" is marked on the PCB itself next to this end of the
 connector.) Be sure to connect the other end of the power cable
 correctly, again so -12V corresponds to the red stripe on the cable.
->
+
 ***Power requirements***  
 The disting mk4 draws 51mA on the +12V rail, and 19mA on the -12V
 rail.It does not use the 5V rail.
->
+
 **Inputs, Outputs and Controls**
 
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image2.png" style="width:2.28055in;height:3.45278in" />
@@ -187,29 +187,21 @@ From top to bottom, the disting has
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-A rotary encoder/push button, named 'S'.
-</th>
+<th>A rotary encoder/push button, named 'S'.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-A dot matrix display.
-</td>
+<td>A dot matrix display.</td>
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-A MicroSD card slot.
-</td>
+<td>A MicroSD card slot.</td>
 </tr>
 <tr class="odd">
 <td>•</td>
-<td>
-A knob, referred to as the 'Z' control, which controls some
-</td>
+<td>A knob, referred to as the 'Z' control, which controls some</td>
 </tr>
 <tr class="even">
 <td>•</td>
@@ -217,15 +209,11 @@ A knob, referred to as the 'Z' control, which controls some
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-function.
-</td>
+<td>function.</td>
 </tr>
 <tr class="even">
 <td></td>
-<td>
-Three input sockets.
-</td>
+<td>Three input sockets.</td>
 </tr>
 </tbody>
 </table>
@@ -233,23 +221,23 @@ Three input sockets.
 ◦ The top input is the 'Z' CV input, which controls the same thing as
 the 'Z' knob. The two are added  
 together.
->
+
 ◦ The other two inputs are 'X' and 'Y', and their function
->
+
 depends on the current algorithm.
->
+
 • Two output sockets, named 'A' and 'B'.
->
+
 The sockets are illuminated to reflect the voltage at the socket (or
 in the case of 'Z', the combined voltage of the input and the knob).
 Red indicates a positive voltage; blue indicates a negative voltage.
->
+
 **Inserting a MicroSD card**  
 The disting's MicroSD card slot is to the left of the display.
->
+
 The exposed contacts of the card should face towards the display; the
 angled side of the card itself points up.
->
+
 The slot is of the "push-push" type - to remove the card, push it in
 slightly and it will spring out.
 
@@ -265,9 +253,7 @@ When the module powers up it first runs through some patterns on its display. Th
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-Each of the seven columns in turn, from left to right.
-</th>
+<th>Each of the seven columns in turn, from left to right.</th>
 </tr>
 </thead>
 <tbody>
@@ -296,17 +282,13 @@ will normally need. In general, the menu system works like this:
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-Press the encoder to enter menu mode.
-</th>
+<th>Press the encoder to enter menu mode.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-Turn the encoder to select the menu item, and press to select.
-</td>
+<td>Turn the encoder to select the menu item, and press to select.</td>
 </tr>
 <tr class="even">
 <td>•</td>
@@ -321,41 +303,29 @@ Pressing 'Z' at any time cancels and exits the menus.The menu items are:
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-Algorithm – select algorithm
-</th>
+<th>Algorithm – select algorithm</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-Save – save a preset
-</td>
+<td>Save – save a preset</td>
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-Load – load a preset
-</td>
+<td>Load – load a preset</td>
 </tr>
 <tr class="odd">
 <td>•</td>
-<td>
-Help – access help
-</td>
+<td>Help – access help</td>
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-Settings – change settings
-</td>
+<td>Settings – change settings</td>
 </tr>
 <tr class="odd">
 <td>•</td>
-<td>
-Calibrate – begin calibration
-</td>
+<td>Calibrate – begin calibration</td>
 </tr>
 </tbody>
 </table>
@@ -388,71 +358,49 @@ The settings are:
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-<strong>Brightness</strong> – set the display brightness.
-</th>
+<th><strong>Brightness</strong> – set the display brightness.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-<strong>Recall enable</strong> – enable/disable recall from the Select Bus (see below).
-</td>
+<td><strong>Recall enable</strong> – enable/disable recall from the Select Bus (see below).</td>
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-<strong>In MIDI ch</strong> – the input MIDI channel.
-</td>
+<td><strong>In MIDI ch</strong> – the input MIDI channel.</td>
 </tr>
 <tr class="odd">
 <td>•</td>
-<td>
-<strong>Out MIDI ch</strong> – the output MIDI channel.
-</td>
+<td><strong>Out MIDI ch</strong> – the output MIDI channel.</td>
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-<strong>Thru MIDI</strong> – enables a soft MIDI thru.
-</td>
+<td><strong>Thru MIDI</strong> – enables a soft MIDI thru.</td>
 </tr>
 <tr class="odd">
 <td>•</td>
-<td>
-<strong>Pgm Chng Alg</strong> – controls whether MIDI program change messages select the current
-</td>
+<td><strong>Pgm Chng Alg</strong> – controls whether MIDI program change messages select the current</td>
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-algorithm (1) or load a preset (0).
-</td>
+<td>algorithm (1) or load a preset (0).</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-<strong>Cont filenames</strong> – if set, WAV and MIDI filenames scroll continuously in the display; if
-</td>
+<td><strong>Cont filenames</strong> – if set, WAV and MIDI filenames scroll continuously in the display; if</td>
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-unset, filenames scroll once when a new file is chosen, and then the display reverts to the
-</td>
+<td>unset, filenames scroll once when a new file is chosen, and then the display reverts to the</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-default algorithm name view.
-</td>
+<td>default algorithm name view.</td>
 </tr>
 <tr class="even">
 <td></td>
-<td>
-<strong>Scroll speed</strong> – the speed at which text scrolls across the display.
-</td>
+<td><strong>Scroll speed</strong> – the speed at which text scrolls across the display.</td>
 </tr>
 <tr class="odd">
 <td>•</td>
@@ -460,21 +408,15 @@ default algorithm name view.
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-uses the disting's usual sample rate of 75kHz. The alternative (1) uses a reduced rate of
-</td>
+<td>uses the disting's usual sample rate of 75kHz. The alternative (1) uses a reduced rate of</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-46875Hz. This can help reduce the load on the SD card, useful if e.g. you have a slower
-</td>
+<td>46875Hz. This can help reduce the load on the SD card, useful if e.g. you have a slower</td>
 </tr>
 <tr class="even">
 <td></td>
-<td>
-card.
-</td>
+<td>card.</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -482,21 +424,15 @@ card.
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-algorithms. If the time between two taps is longer than this, the second will be ignored. This
-</td>
+<td>algorithms. If the time between two taps is longer than this, the second will be ignored. This</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-also affects how much of the delay file is wiped when the algorithm is chosen, which
-</td>
+<td>also affects how much of the delay file is wiped when the algorithm is chosen, which</td>
 </tr>
 <tr class="even">
 <td></td>
-<td>
-therefore affects how long the algorithm takes to start.
-</td>
+<td>therefore affects how long the algorithm takes to start.</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -504,9 +440,7 @@ therefore affects how long the algorithm takes to start.
 </tr>
 <tr class="even">
 <td></td>
-<td>
-that parameter becomes the current parameter (and so its value is displayed).
-</td>
+<td>that parameter becomes the current parameter (and so its value is displayed).</td>
 </tr>
 </tbody>
 </table>
@@ -537,7 +471,7 @@ structure should look something like this:
 i.e. the 'help' folder is at the root level of the card, and inside is
 a file per algorithm, named 'hXXX.txt', where XXX is the algorithm
 number, starting from zero for algorithm A1.
->
+
 **Parameters**
 
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image3.png" style="width:0.30833in;height:0.21667in" />
@@ -545,27 +479,27 @@ number, starting from zero for algorithm A1.
 In addition to the control provided on the Z knob, each algorithm may
 have up to eight 'parameters', offering further control over the
 algorithm's operation.
->
+
 Unlike the Z control, which is sampled at the same high rate as the X
 & Y inputs, parameters should be considered coarse, non-real-time
 adjustments to the algorithm. They may cause glitching in the outputs
 when changed.
->
+
 Parameters are adjusted via the S knob. When changed, the parameter
 value is displayed for a couple of seconds.
->
+
 If an algorithm has more than one parameter, pressing the Z knob
 cycles through them (unless the algorithm uses Z for Tap Tempo or some
 other purpose). The current parameter number is displayed briefly
 followed by its name.
->
+
 The current parameter can also be selected by pushing in the S knob
 and turning it while holding it in. The parameter number is shown when
 you turn the knob; if you pause briefly without turning the knob, the
 parameter name is shown.
->
+
 **Knob Recorder**
->
+
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image3.png" style="width:0.30833in;height:0.21667in" />  
 In many algorithms which do not use a Z knob press for another
 purpose, pressing Z offers a 'knob
@@ -606,15 +540,13 @@ The favourites file is a simple text file which must be named
 <table>
 <tbody>
 <tr class="odd">
-<td>
-disting favourites v2<br />
+<td>disting favourites v2<br />
 B8 VCO<br />
 a1<br />
 C5 resonator<br />
 I4 SD z speed<br />
 b5 LFO<br />
-e6 dual AR w/ push
-</td>
+e6 dual AR w/ push</td>
 </tr>
 </tbody>
 </table>
@@ -629,7 +561,7 @@ what.
 Page 9
 
 **Presets**
->
+
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image3.png" style="width:0.30833in;height:0.21667in" />  
 The disting can store its current state to flash memory as a preset.
 The contents of a preset are
@@ -638,53 +570,47 @@ The contents of a preset are
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-the chosen algorithm.
-</th>
+<th>the chosen algorithm.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-the parameter values.
-</td>
+<td>the parameter values.</td>
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-the current parameter number.
-</td>
+<td>the current parameter number.</td>
 </tr>
 </tbody>
 </table>
 
 Anything controlled by the Z knob/CV is not stored – its value is
 always defined by the knob position and CV input.
->
+
 There are 64 preset slots. Presets are saved and recalled using the
 menu. To save a preset: 1. Press the encoder to enter menu mode.
->
+
 2\. Turn the encoder once (to show 'Save'), and press to confirm.
->
+
 3\. Turn the encoder to choose the preset slot.
->
+
 4\. Press the encoder to complete the save.
->
+
 As usual, pressing Z at any point exits the menu without saving.
->
+
 To load a preset:
 1. Press the encoder to enter menu mode.
->
+
 2\. Turn the encoder twice (to show 'Load'), and press to confirm.
->
+
 3\. Turn the encoder to choose the preset slot.
->
+
 4\. Press the encoder to complete the load.
->
+
 If the current algorithm was selected via the Favourites, the actual
 algorithm chosen is saved in the preset, not the favourites slot.1
->
+
 ***Preset 0***  
 Preset 0, the first slot, is special:
 
@@ -692,9 +618,7 @@ Preset 0, the first slot, is special:
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-The contents of preset 0 are loaded at power-up.
-</th>
+<th>The contents of preset 0 are loaded at power-up.</th>
 </tr>
 </thead>
 <tbody>
@@ -708,7 +632,7 @@ The contents of preset 0 are loaded at power-up.
 Therefore if you want to save the disting's state so it powers up as
 it is currently, you can manually save to preset 0, which is “click,
 turn, click, click” on the encoder.
->
+
 Preset 0 is also an exception to the above comment regarding
 favourites. The actual favourites slot is stored.
 
@@ -726,66 +650,64 @@ favourites. The actual favourites slot is stored.
 </tr>
 <tr class="even">
 <td></td>
-<td>
-back up in the same algorithm next time you start.
-</td>
+<td>back up in the same algorithm next time you start.</td>
 </tr>
 </tbody>
 </table>
 
 **Select Bus**
->
+
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image3.png" style="width:0.30833in;height:0.21667in" />  
 If enabled in the settings, the disting mk4 will respond to
 save/recall messages on the Select Bus.
->
+
 The Select Bus is a means of inter-module communication currently
 supported by a handful of modules from various manufacturers,
 including the , and the & .
->
+
 Note that the disting only responds to save/recall messages. It does
 not initiate them.
->
+
 Any MIDI that arrives on the Select Bus that is not explicitly part of
 the Select Bus protocol will be used as if it arrived on the disting's
 regular MIDI input – see below.
 
 **SD Card Playback**
->
+
 ***Supported MicroSD cards***
->
+
 In theory any MicroSD card will work, but in practice there is a huge
 variety of cards on the market and we cannot possibly test them all.
 We recommend 32GB SDHC cards, and in particular have found "SanDisk
 Extreme 32GB microSDHC UHS-I U3" cards work well.
->
+
 The MicroSD card must be formatted in FAT32 format, which is the
 as-sold state for many cards. If not, cards can easily be reformatted
 to FAT32 in Windows or macOS.
->
+
 The card also needs to be partitioned using the 'Master Boot Record'
 (MBR) scheme. In macOS's Disk Utility, you may need to select
 View-&gt;Show All Devices to inspect the partitioning scheme.
->
+
 The Erase settings should look like this:
 
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image6.png" style="width:6.69306in;height:4.17778in" />
 
 ***Supported audio files***
->
+
 As of now, the only supported audio file format is 16 bit WAV, mono or
 stereo. Any sample rate can be used, however.
->
+
 Since higher sample rates impose greater bandwidth demands on the SD
 card streaming, we suggest you use the lowest sample rate that gives
 acceptable audio quality. All our testing generally uses 44.1kHz
 files.
->
+
 Note that because the disting's outputs are DC-coupled, the 'audio'
 files can actually contain recorded or generated CVs, so all the
 sample playback modes can also be used as complex modulation or
 sequencing sources.
->
+
 ***Audio file naming & Playlists***  
 Audio files must have the extension '.wav' (or any other
 capitalisation of that e.g. '.WAV').
@@ -794,72 +716,56 @@ The files should be placed in folders on the SD card. Unless noted
 otherwise, audio playback algorithms all support up to 100 folders of
 100 sample files each. The folders themselves should be at the top
 level of the card i.e. not inside any higher level folder.
->
+
 The disting also supports 'playlist' files, which are simple text
 files that instruct the disting which files/folders to look at and
 which ones to ignore, and also allow setting of options on a
 per-sample file basis. Unless noted otherwise these files are
 optional.
->
+
 The playlist filename is 'playlist.txt'. If a playlist is found in the
 root of the card, it will be taken as a list of folders in which to
 look for WAV files. If a playlist is found inside a folder of WAV
 files, it will be used to determine which files to use, the order in
 which to use them, and to set the per-file options.
->
+
 Note that it is explicitly allowed to have a playlist file which only
 contains global settings, but lists no actual WAV files. In this case,
 the settings in the playlist will be used, and the folder scanned for
 WAV files automatically.
->
+
 If playlists are not used, folder and file names are sorted
 alphabetically.
->
+
 ***Loop markers in audio files***
->
+
 The disting supports reading loop information embedded in the WAV
 file. If this information is not present, or is disabled with the
 playlist option (see below), any mode that loops the sample simply
 loops the whole file.
->
+
 Loops are inferred either from markers (cue points in WAV format
 parlance) or regions, as follows:
 
 <table>
 <thead>
 <tr class="header">
-<th>
-1 marker point in file
-</th>
-<th>
-Marker is assumed to be loop start; loop is from the marker to the end of the sample.
-</th>
+<th>1 marker point in file</th>
+<th>Marker is assumed to be loop start; loop is from the marker to the end of the sample.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-2 marker points in file
-</td>
-<td>
-Markers are used as loop start and end.
-</td>
+<td>2 marker points in file</td>
+<td>Markers are used as loop start and end.</td>
 </tr>
 <tr class="even">
-<td>
-3 or more marker points in file
-</td>
-<td>
-First marker is ignored (assumed to be playback start point); second and third markers used as loop points. Remaining markers ignored.
-</td>
+<td>3 or more marker points in file</td>
+<td>First marker is ignored (assumed to be playback start point); second and third markers used as loop points. Remaining markers ignored.</td>
 </tr>
 <tr class="odd">
-<td>
-1 or more regions in file
-</td>
-<td>
-First region is used as the loop; other regions and markers ignored.
-</td>
+<td>1 or more regions in file</td>
+<td>First region is used as the loop; other regions and markers ignored.</td>
 </tr>
 </tbody>
 </table>
@@ -869,22 +775,22 @@ This video illustrates the use of loop markers:
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image4.png" style="width:0.30833in;height:0.21667in" />
 
 ***Supported MIDI files***
->
+
 Currently we support Format 0 files (single track). The division field
 of the header chunk must be in "ticks per quarter note" format.
->
+
 Happily this is the format that Ableton Live spits out if you do
 "Export MIDI Clip".
->
+
 ***MIDI file naming & Playlists***
->
+
 All MIDI files need to be in a folder named 'MIDI'3. They can use any
 naming convention but the extension '.mid' is usual.
->
+
 A playlist file (see below) specifies what MIDI files the algorithm
 will use, how they will be ordered, and what playback settings they
 will use. It is a simple text file, as described below, and is
->
+
 3 Note that this changed in firmware 4.19 – previously the MIDI files
 went in the card root.
 
@@ -892,24 +798,23 @@ optional. If no playlist is provided, the MIDI playback algorithms
 search for any '.mid' files in the 'MIDI' folder. Of course, if you do
 not provide a playlist, you cannot customise the settings for the MIDI
 files.
->
+
 By default, MIDI algorithms look for a file named 'midi-playlist.txt'.
 However, each MIDI playback algorithm first looks for an
 algorithm-specific playlist file, the name of which is specified in
 the algorithm descriptions below.
->
+
 The playlist files must be plain text. Note that TextEdit on macOS
 defaults to rich text. From the 'Format' menu choose, 'Make Plain
 Text'.
->
+
 ***Audio Playlist Format***  
 An audio playlist file might look something like this:
 
 <table>
 <tbody>
 <tr class="odd">
-<td>
-disting playlist v1<br />
+<td>disting playlist v1<br />
 -loop=0<br />
 -gap=0<br />
 -fadeIn=0<br />
@@ -924,8 +829,7 @@ funky_lp.wav<br />
 -loop=1<br />
 -triggers=4<br />
 586447main_JFKwechoosemoonspeech.wav<br />
--loop=1
-</td>
+-loop=1</td>
 </tr>
 </tbody>
 </table>
@@ -936,23 +840,17 @@ This breaks down as:
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-The header: "disting playlist v1"
-</th>
+<th>The header: "disting playlist v1"</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-Default settings (optional)
-</td>
+<td>Default settings (optional)</td>
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-List of audio files
-</td>
+<td>List of audio files</td>
 </tr>
 <tr class="odd">
 <td>•</td>
@@ -963,12 +861,12 @@ List of audio files
 
 Files may appear more than once in the playlist, with the same or
 different settings.
->
+
 Settings are in the format "-" &lt;setting name&gt; "=" &lt;setting
 value&gt;  
 Settings that appear before any audio file apply globally to all the
 files in the playlist, unless overridden by the per-file settings.
->
+
 The available settings are as follows.
 
 <table>
@@ -981,55 +879,29 @@ The available settings are as follows.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-loop
-</td>
-<td>
-1
-</td>
+<td>loop</td>
+<td>1</td>
 <td>Whether the sample loops (value 1) or is a one-shot (value 0).</td>
 </tr>
 <tr class="even">
-<td>
-fadeOut
-</td>
-<td>
-3
-</td>
-<td>
-Fade out to apply when a sample is retriggered, in milliseconds.
-</td>
+<td>fadeOut</td>
+<td>3</td>
+<td>Fade out to apply when a sample is retriggered, in milliseconds.</td>
 </tr>
 <tr class="odd">
-<td>
-fadeIn
-</td>
-<td>
-3
-</td>
-<td>
-Fade in to apply when a sample is retriggered, in milliseconds.
-</td>
+<td>fadeIn</td>
+<td>3</td>
+<td>Fade in to apply when a sample is retriggered, in milliseconds.</td>
 </tr>
 <tr class="even">
-<td>
-gap
-</td>
-<td>
-3
-</td>
-<td>
-Gap (silence) between fade out and fade in, in milliseconds.
-</td>
+<td>gap</td>
+<td>3</td>
+<td>Gap (silence) between fade out and fade in, in milliseconds.</td>
 </tr>
 <tr class="odd">
 <td>retriggerOnSampleChange</td>
-<td>
-1
-</td>
-<td>
-See below.
-</td>
+<td>1</td>
+<td>See below.</td>
 </tr>
 </tbody>
 </table>
@@ -1044,125 +916,59 @@ See below.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-fixedPitch
-</td>
-<td>
-0
-</td>
-<td>
-Play the sample at a fixed pitch, not controlled by the pitch CV (if any).
-</td>
+<td>fixedPitch</td>
+<td>0</td>
+<td>Play the sample at a fixed pitch, not controlled by the pitch CV (if any).</td>
 </tr>
 <tr class="even">
-<td>
-ramp
-</td>
-<td>
-0
-</td>
-<td>
-Switch Output B to emit a ramp CV.
-</td>
+<td>ramp</td>
+<td>0</td>
+<td>Switch Output B to emit a ramp CV.</td>
 </tr>
 <tr class="odd">
-<td>
-triggers
-</td>
-<td>
-0
-</td>
-<td>
-Switch Output B to emit trigger pulses.
-</td>
+<td>triggers</td>
+<td>0</td>
+<td>Switch Output B to emit trigger pulses.</td>
 </tr>
 <tr class="even">
-<td>
-clocks
-</td>
-<td>
-4
-</td>
-<td>
-Set the number of clocks per loop for the Clocked Audio Playback algorithm.
-</td>
+<td>clocks</td>
+<td>4</td>
+<td>Set the number of clocks per loop for the Clocked Audio Playback algorithm.</td>
 </tr>
 <tr class="odd">
-<td>
-wavelength
-</td>
-<td>
-600
-</td>
-<td>
-Set the number of sample frames per waveform for the Wavetable VCO algorithm.
-</td>
+<td>wavelength</td>
+<td>600</td>
+<td>Set the number of sample frames per waveform for the Wavetable VCO algorithm.</td>
 </tr>
 <tr class="even">
-<td>
-natural
-</td>
-<td>
-0
-</td>
-<td>
-The file's natural pitch as a MIDI note number.
-</td>
+<td>natural</td>
+<td>0</td>
+<td>The file's natural pitch as a MIDI note number.</td>
 </tr>
 <tr class="odd">
-<td>
-switch
-</td>
-<td>
-0
-</td>
-<td>
-The file's switch point as a MIDI note number.
-</td>
+<td>switch</td>
+<td>0</td>
+<td>The file's switch point as a MIDI note number.</td>
 </tr>
 <tr class="even">
-<td>
-playToCompletion
-</td>
-<td>
-0
-</td>
-<td>
-Prevents a one-shot sample being retriggered while playing.
-</td>
+<td>playToCompletion</td>
+<td>0</td>
+<td>Prevents a one-shot sample being retriggered while playing.</td>
 </tr>
 <tr class="odd">
-<td>
-useStartOnSampleChange
-</td>
-<td>
-0
-</td>
-<td>
-Whether switching to a new sample continues from an equivalent playback position or restarts.
-</td>
+<td>useStartOnSampleChange</td>
+<td>0</td>
+<td>Whether switching to a new sample continues from an equivalent playback position or restarts.</td>
 </tr>
 <tr class="even">
-<td>
-startQuantize
-</td>
-<td>
-0
-</td>
-<td>
-Sets the quantisation of the start position.
-</td>
+<td>startQuantize</td>
+<td>0</td>
+<td>Sets the quantisation of the start position.</td>
 </tr>
 <tr class="odd">
-<td>
-useLoopMarkers
-</td>
-<td>
-1
-</td>
-<td>
-Use loop markers from the WAV file, if available.
-</td>
+<td>useLoopMarkers</td>
+<td>1</td>
+<td>Use loop markers from the WAV file, if available.</td>
 </tr>
 </tbody>
 </table>
@@ -1171,7 +977,7 @@ The fades are useful when retriggering samples, especially when
 starting them at arbitrary points within the sample, to avoid clicks.
 However, for maximum responsiveness when triggering, say, drum
 samples, set the fades and gap to zero.
->
+
 The default behaviour (with retriggerOnSampleChange=1) when selecting
 a new sample (via S or Z depending on algorithm) is to immediately
 begin playing the new sample. If a sample has
@@ -1183,16 +989,16 @@ play until the next trigger, not changing in the middle if the sample
 select CV changes. At an extreme, you could in this case feed white
 noise into the sample select CV, to choose a random sample on each
 trigger.
->
+
 The fixedPitch setting is a floating point number, where 1.0
 corresponds to playing the sample at its natural speed, 0.5 means play
 it at half speed etc. fixedPitch=0 (the default) means that the sample
 respects the CV-controlled pitch.
->
+
 ramp=1 outputs a rising ramp from 0V to +8V corresponding to the
 current position in the sample. ramp=-1 outputs a falling ramp (+8V to
 0V).
->
+
 triggers outputs a number of triggers during the sample e.g.
 triggers=4 will output 4 trigger pulses, equally spaced over the
 sample length. The triggers are +5V pulses lasting about 10ms. The
@@ -1203,14 +1009,14 @@ demonstrates the triggers feature:
 
 ramp and triggers are mutually exclusive. The last setting in the
 playlist file for a given sample is the one that takes effect.
->
+
 natural and switch are used only by the Multisample Audio Playback
 algorithm (see below).
->
+
 playToCompletion applies to one-shot (non-looping) samples only. If
 set, the sample can not be retriggered, either by a trigger CV or by
 the current sample changing, until it has played all the way through.
->
+
 useStartOnSampleChange controls the behaviour when the current sample
 is changed, without an explicit trigger (e.g. when turning the Z knob
 in the I-1 Audio Playback algorithm).
@@ -1219,7 +1025,7 @@ When this is 0 (the default), the new sample starts playing at the
 same point relative to the start as the previous sample. When set to
 1, the new sample starts at the point defined by the start position CV
 (if the algorithm has one) or at the beginning.
->
+
 startQuantize applies to any algorithm where playback can be
 retriggered and which provides a CV for the start position. The length
 of the file will be equally divided into the number of steps set by
@@ -1227,18 +1033,17 @@ startQuantize, and retriggering will restart playback at the start of
 one of these steps. For example if you have a one bar loop (in 4/4
 time) and specify startQuantize=4 then playback will always be
 triggered at the beginning of a beat within the sample.
->
+
 The maximum number of sample files per playlist is 100. Files beyond
 that limit are ignored.
->
+
 ***MIDI Playlist Format***  
 A MIDI playlist file might look something like this:
 
 <table>
 <tbody>
 <tr class="odd">
-<td>
-disting playlist v1<br />
+<td>disting playlist v1<br />
 -zeroVNote=60<br />
 bach_2ptinv.mid<br />
 CDE_bend.mid<br />
@@ -1249,8 +1054,7 @@ cc1_2.mid<br />
 -cc1offset=-1.5<br />
 -cc1scale=3<br />
 -cc2offset=2<br />
--cc2scale=6
-</td>
+-cc2scale=6</td>
 </tr>
 </tbody>
 </table>
@@ -1261,23 +1065,17 @@ This breaks down as:
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-The header: "disting playlist v1"
-</th>
+<th>The header: "disting playlist v1"</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-Default settings (optional)
-</td>
+<td>Default settings (optional)</td>
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-List of MIDI files
-</td>
+<td>List of MIDI files</td>
 </tr>
 <tr class="odd">
 <td>•</td>
@@ -1288,12 +1086,12 @@ List of MIDI files
 
 Files may appear more than once in the playlist, with the same or
 different settings.
->
+
 Settings are in the format "-" &lt;setting name&gt; "=" &lt;setting
 value&gt;  
 Settings that appear before any MIDI file apply globally to all the
 files in the playlist, unless overridden by the per-file settings.
->
+
 The available settings are as follows.
 
 <table>
@@ -1306,81 +1104,39 @@ The available settings are as follows.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-loop
-</td>
-<td>
-1
-</td>
-<td>
-Whether the MIDI file loops (value 1) or is a one-shot (value 0).
-</td>
+<td>loop</td>
+<td>1</td>
+<td>Whether the MIDI file loops (value 1) or is a one-shot (value 0).</td>
 </tr>
 <tr class="even">
-<td>
-zeroVNote
-</td>
-<td>
-48
-</td>
-<td>
-MIDI note number corresponding to zero Volts output pitch CV.
-</td>
+<td>zeroVNote</td>
+<td>48</td>
+<td>MIDI note number corresponding to zero Volts output pitch CV.</td>
 </tr>
 <tr class="odd">
-<td>
-bendRange
-</td>
-<td>
-2
-</td>
-<td>
-Pitch bend range, in semitones.
-</td>
+<td>bendRange</td>
+<td>2</td>
+<td>Pitch bend range, in semitones.</td>
 </tr>
 <tr class="even">
-<td>
-cc1offset
-</td>
-<td>
-0
-</td>
-<td>
-Offset for CC#1, in Volts.
-</td>
+<td>cc1offset</td>
+<td>0</td>
+<td>Offset for CC#1, in Volts.</td>
 </tr>
 <tr class="odd">
-<td>
-cc1scale
-</td>
-<td>
-5
-</td>
-<td>
-Range for CC#1, in Volts.
-</td>
+<td>cc1scale</td>
+<td>5</td>
+<td>Range for CC#1, in Volts.</td>
 </tr>
 <tr class="even">
-<td>
-cc2offset
-</td>
-<td>
-0
-</td>
-<td>
-Offset for CC#2, in Volts.
-</td>
+<td>cc2offset</td>
+<td>0</td>
+<td>Offset for CC#2, in Volts.</td>
 </tr>
 <tr class="odd">
-<td>
-cc2scale
-</td>
-<td>
-5
-</td>
-<td>
-Range for CC#2, in Volts.
-</td>
+<td>cc2scale</td>
+<td>5</td>
+<td>Range for CC#2, in Volts.</td>
 </tr>
 </tbody>
 </table>
@@ -1388,15 +1144,9 @@ Range for CC#2, in Volts.
 <table>
 <tbody>
 <tr class="odd">
-<td>
-retriggerOnSampleChange
-</td>
-<td>
-1
-</td>
-<td>
-See below.
-</td>
+<td>retriggerOnSampleChange</td>
+<td>1</td>
+<td>See below.</td>
 </tr>
 </tbody>
 </table>
@@ -1405,40 +1155,40 @@ The default behaviour (with retriggerOnSampleChange=1) when selecting
 a new file is to immediately begin playing the new file. If a file has
 retriggerOnSampleChange=0 (or, if the default is set to 0) then the
 next file not begin playback until triggered by the input.
->
+
 The maximum number of MIDI files per playlist is 32. Files beyond that
 limit are ignored.
->
+
 ***Example Files***
->
+
 A simple example playlist and some audio files which are known to be
 formatted correctly can be downloaded 4.
->
+
 ***MIDI/CV conversion***  
 The are three primary modes of MIDI/CV conversion, which can be mixed
 within a MIDI file: 1. Note on/off messages, and pitch bend messages,
 are used to generate a pitch CV from output
->
+
 A and a gate CV from output B.
->
+
 2\. The two highest MIDI notes (126 & 127, aka F♯9 & G9) are converted
 to gates on outputs A
->
+
 & B respectively. The amplitude of the gates is 5V scaled by the note
 velocity.
->
+
 3\. CCs \#1 & \#2 are used to directly control voltages on outputs A &
 B respectively. The 7 bit
->
+
 CC value (0-127) is converted to a voltage according to the scale and
 offset settings (by default, 0-5V).
->
+
 **Scala Support**
->
+
 Some disting algorithms support microtonal scales, using files
 generated by the program Scala5. The files are loaded from the MicroSD
 card. See 'Supported MicroSD cards' above.
->
+
 ***Organising the files on the card***  
 To use Scala with the disting, you will need a MicroSD card set up as
 follows.
@@ -1448,66 +1198,48 @@ follows.
 <tr class="header">
 <th>4</th>
 <th>•</th>
-<th>
-<strong>An 'scl' folder.</strong> A folder named 'scl' in the root folder of the card, which contains all the
-</th>
+<th><strong>An 'scl' folder.</strong> A folder named 'scl' in the root folder of the card, which contains all the</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td></td>
-<td>
-scale (.scl) files that you wish to use. Note: you are advised not to simply unzip the archive
-</td>
+<td>scale (.scl) files that you wish to use. Note: you are advised not to simply unzip the archive</td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>
-of over 4000 scales available from the Scala website onto the card – you will find the disting
-</td>
+<td>of over 4000 scales available from the Scala website onto the card – you will find the disting</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-slow to load scales if you do.
-</td>
+<td>slow to load scales if you do.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td>•</td>
-<td>
-<strong>A 'kbm' folder.</strong> A folder named 'kbm' in the root folder of the card, which contains all the
-</td>
+<td><strong>A 'kbm' folder.</strong> A folder named 'kbm' in the root folder of the card, which contains all the</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-keyboard mapping (.kbm) files that you wish to use.
-</td>
+<td>keyboard mapping (.kbm) files that you wish to use.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td>•</td>
-<td>
-<strong>The log tables.</strong> The disting uses precomputed mathematical tables when processing the
-</td>
+<td><strong>The log tables.</strong> The disting uses precomputed mathematical tables when processing the</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-Scala files. Download the file 'logTables_16_20.bin' from here6 and place it in the root of
-</td>
+<td>Scala files. Download the file 'logTables_16_20.bin' from here6 and place it in the root of</td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
-<td>
-your SD card.
-</td>
+<td>your SD card.</td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -1522,9 +1254,7 @@ your SD card.
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>
-http://www.huygens-fokker.org/scala/
-</td>
+<td>http://www.huygens-fokker.org/scala/</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -1538,15 +1268,14 @@ http://www.huygens-fokker.org/scala/
 ***Example Files***  
 A zip file containing some example files, which are known to work, is
 7.
->
+
 ***Scale Playlist Format***  
 A scale playlist file might look something like this:
 
 <table>
 <tbody>
 <tr class="odd">
-<td>
-disting playlist v1<br />
+<td>disting playlist v1<br />
 -kbm=example.kbm<br />
 equal.scl<br />
 pyth_7a.scl<br />
@@ -1554,8 +1283,7 @@ pyth_12.scl<br />
 johnson_7.scl<br />
 -kbm=7.kbm<br />
 equal.scl<br />
--kbm=root+fifth.kbm
-</td>
+-kbm=root+fifth.kbm</td>
 </tr>
 </tbody>
 </table>
@@ -1566,23 +1294,17 @@ This breaks down as:
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-The header: "disting playlist v1"
-</th>
+<th>The header: "disting playlist v1"</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-Default settings (optional)
-</td>
+<td>Default settings (optional)</td>
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-List of scale files
-</td>
+<td>List of scale files</td>
 </tr>
 <tr class="odd">
 <td>•</td>
@@ -1593,17 +1315,17 @@ List of scale files
 
 Files may appear more than once in the playlist, with the same or
 different settings.
->
+
 Settings are in the format "-" &lt;setting name&gt; "=" &lt;setting
 value&gt;  
 Settings that appear before any scale file apply globally to all the
 files in the playlist, unless overridden by the per-file settings.
->
+
 Currently there is only one setting, which is the name of the keyboard
 mapping file to use with the scale file.
->
+
 ***Possible Sources of Error***
->
+
 If there is a problem reading or interpreting the scale files, the
 disting will not be able to use them. Possible things to check
 include:
@@ -1613,45 +1335,33 @@ include:
 <tr class="header">
 <th>7</th>
 <th>•</th>
-<th>
-The scale and keyboard mapping files must obviously be valid Scala format files, that the
-</th>
+<th>The scale and keyboard mapping files must obviously be valid Scala format files, that the</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td></td>
-<td>
-Scala application itself will load successfully.
-</td>
+<td>Scala application itself will load successfully.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td>•</td>
-<td>
-The scale and keyboard mapping must match – for example, the keyboard mapping must not
-</td>
+<td>The scale and keyboard mapping must match – for example, the keyboard mapping must not</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-refer to scale degrees that the scale does not have.
-</td>
+<td>refer to scale degrees that the scale does not have.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td>•</td>
-<td>
-For the keyboard mapping files, the reference frequency must be given for a note that is
-</td>
+<td>For the keyboard mapping files, the reference frequency must be given for a note that is</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-actually mapped.
-</td>
+<td>actually mapped.</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -1682,434 +1392,229 @@ actually mapped.
 <tr class="odd">
 <td>A</td>
 <td>Precision Adder</td>
-<td>
-Four<br />
-Quadrant Multiplier
-</td>
-<td>
-Full-wave Rectifier
-</td>
-<td>
-Minimum/ maximum
-</td>
-<td>
-Linear/<br />
-Exponential Converter
-</td>
-<td>
-Quantizer
-</td>
-<td>
-Comparator
-</td>
-<td>
-Dual
+<td>Four<br />
+Quadrant Multiplier</td>
+<td>Full-wave Rectifier</td>
+<td>Minimum/ maximum</td>
+<td>Linear/<br />
+Exponential Converter</td>
+<td>Quantizer</td>
+<td>Comparator</td>
+<td>Dual
 
 Waveshaper</td>
 </tr>
 <tr class="even">
 <td>B</td>
-<td>
-Sample and
-Hold
-</td>
-<td>
-Slew Rate Limiter
-</td>
-<td>
-Pitch and Envelope Tracker
-</td>
-<td>
-Clockable Delay/Echo
-</td>
-<td>
-LFO
-</td>
-<td>
-Clockable LFO
-</td>
-<td>
-VCO with linear FM
-</td>
-<td>
-VCO with<br />
-waveshaping
-</td>
+<td>Sample and
+Hold</td>
+<td>Slew Rate Limiter</td>
+<td>Pitch and Envelope Tracker</td>
+<td>Clockable Delay/Echo</td>
+<td>LFO</td>
+<td>Clockable LFO</td>
+<td>VCO with linear FM</td>
+<td>VCO with<br />
+waveshaping</td>
 </tr>
 <tr class="odd">
 <td>C</td>
-<td>
-Precision Adder(fractional<br />
-offsets)
-</td>
-<td>
-Voltage<br />
-Controlled Delay Line
-</td>
-<td>
-Clockable Ping Pong (Z<br />
-feedback)
-</td>
-<td>
-Clockable Ping Pong (Z input<br />
-pan)
-</td>
-<td>
-Resonator
-</td>
-<td>
-Vocoder
-</td>
-<td>
-Phaser
-</td>
-<td>
-Bit Crusher
-</td>
+<td>Precision Adder(fractional<br />
+offsets)</td>
+<td>Voltage<br />
+Controlled Delay Line</td>
+<td>Clockable Ping Pong (Z<br />
+feedback)</td>
+<td>Clockable Ping Pong (Z input<br />
+pan)</td>
+<td>Resonator</td>
+<td>Vocoder</td>
+<td>Phaser</td>
+<td>Bit Crusher</td>
 </tr>
 <tr class="even">
 <td>D</td>
-<td>
-DJ Filter
-</td>
-<td>
-Tape Delay
-</td>
-<td>
-Waveform
-Animator
-</td>
-<td>
-State<br />
-Variable Filter
-</td>
-<td>
-LP/HP Filter
-</td>
-<td>
-LP/BP Filter
-</td>
-<td>
-BP/HP Filter
-</td>
-<td>
-BP/Notch Filter
-</td>
+<td>DJ Filter</td>
+<td>Tape Delay</td>
+<td>Waveform
+Animator</td>
+<td>State<br />
+Variable Filter</td>
+<td>LP/HP Filter</td>
+<td>LP/BP Filter</td>
+<td>BP/HP Filter</td>
+<td>BP/Notch Filter</td>
 </tr>
 <tr class="odd">
 <td>E</td>
-<td>
-AR Envelope
-</td>
-<td>
-AR<br />
-Envelope &amp; VCA
-</td>
-<td>
-Dual AR Envelope
-</td>
-<td>
-Stereo<br />
-Compressor
-</td>
-<td>
-Side-chain<br />
-Compressor
-</td>
-<td>
-Mono<br />
-Compressor
-</td>
-<td>
-Euro to<br />
+<td>AR Envelope</td>
+<td>AR<br />
+Envelope &amp; VCA</td>
+<td>Dual AR Envelope</td>
+<td>Stereo<br />
+Compressor</td>
+<td>Side-chain<br />
+Compressor</td>
+<td>Mono<br />
+Compressor</td>
+<td>Euro to<br />
 Buchla<br />
-Converter
-</td>
-<td>
-Buchla to Euro<br />
-Converter
-</td>
+Converter</td>
+<td>Buchla to Euro<br />
+Converter</td>
 </tr>
 <tr class="even">
 <td>F</td>
-<td>
-Clockable AD Envelope<br />
-(with mute)
-</td>
-<td>
-Clockable AD<br />
+<td>Clockable AD Envelope<br />
+(with mute)</td>
+<td>Clockable AD<br />
 Envelope<br />
-(with gate)
-</td>
-<td>
-Clockable AD<br />
+(with gate)</td>
+<td>Clockable AD<br />
 Envelope<br />
 (with<br />
-trigger)
-</td>
-<td>
-Clockable<br />
+trigger)</td>
+<td>Clockable<br />
 AD<br />
-Envelope &amp; VCA
-</td>
-<td>
-Shift Register Random CVs
-</td>
-<td>
-Shift<br />
+Envelope &amp; VCA</td>
+<td>Shift Register Random CVs</td>
+<td>Shift<br />
 Register<br />
 Random<br />
-Quantized CVs
-</td>
-<td>
-Shift<br />
-Register Random Triggers
-</td>
-<td>
-Shift<br />
+Quantized CVs</td>
+<td>Shift<br />
+Register Random Triggers</td>
+<td>Shift<br />
 Register Random Dual<br />
-Triggers
-</td>
+Triggers</td>
 </tr>
 <tr class="odd">
 <td>G</td>
 <td>ES-1 Emulation</td>
-<td>
-ES-2<br />
-Emulation
-</td>
-<td>
-Pitch<br />
-Reference
-</td>
-<td>
-Frequency Reference
-</td>
-<td>
-Tuner
-</td>
-<td>
-Clock
-</td>
-<td>
-MIDI/CV
-</td>
-<td>
-CV/MIDI
-</td>
+<td>ES-2<br />
+Emulation</td>
+<td>Pitch<br />
+Reference</td>
+<td>Frequency Reference</td>
+<td>Tuner</td>
+<td>Clock</td>
+<td>MIDI/CV</td>
+<td>CV/MIDI</td>
 </tr>
 <tr class="even">
 <td>H</td>
-<td>
-Crossfade/Pan
-</td>
-<td>
-Dual<br />
-Sample and Hold
-</td>
-<td>
-Dual<br />
-Quantizer (Z scale)
-</td>
-<td>
-Dual<br />
-Quantizer
-</td>
-<td>
-Dual<br />
-Euclidean Patterns
-</td>
-<td>
-Dual<br />
+<td>Crossfade/Pan</td>
+<td>Dual<br />
+Sample and Hold</td>
+<td>Dual<br />
+Quantizer (Z scale)</td>
+<td>Dual<br />
+Quantizer</td>
+<td>Dual<br />
+Euclidean Patterns</td>
+<td>Dual<br />
 Delayed<br />
 Pulse<br />
-Generator
-</td>
-<td>
-Noise
-</td>
-<td>
-Quantizer 2
-</td>
+Generator</td>
+<td>Noise</td>
+<td>Quantizer 2</td>
 </tr>
 <tr class="odd">
 <td>I</td>
 <td>Audio Playback</td>
-<td>
-Clocked Audio<br />
-Playback
-</td>
-<td>
-Audio<br />
+<td>Clocked Audio<br />
+Playback</td>
+<td>Audio<br />
 Playback<br />
-with V/Oct
-</td>
-<td>
-Audio<br />
+with V/Oct</td>
+<td>Audio<br />
 Playback with Z<br />
-Speed
-</td>
-<td>
-Audio<br />
-Playback with Reverse
-</td>
-<td>
-Audio<br />
+Speed</td>
+<td>Audio<br />
+Playback with Reverse</td>
+<td>Audio<br />
 Playback<br />
-with Scrub
-</td>
-<td>
-Dual Audio Playback
-</td>
-<td>
-Dual Audio Playback<br />
+with Scrub</td>
+<td>Dual Audio Playback</td>
+<td>Dual Audio Playback<br />
 with Z<br />
-Speed
-</td>
+Speed</td>
 </tr>
 <tr class="even">
 <td>J</td>
-<td>
-MIDI File Playback<br />
-(Clocked)
-</td>
-<td>
-Multi<br />
+<td>MIDI File Playback<br />
+(Clocked)</td>
+<td>Multi<br />
 sample 2 Audio<br />
-Playback
-</td>
-<td>
-MIDI File Playback<br />
+Playback</td>
+<td>MIDI File Playback<br />
 (Free<br />
-Running)
-</td>
-<td>
-Audio<br />
-Playback with End CV
-</td>
-<td>
-Audio<br />
-Recorder
-</td>
-<td>
-Multi<br />
+Running)</td>
+<td>Audio<br />
+Playback with End CV</td>
+<td>Audio<br />
+Recorder</td>
+<td>Multi<br />
 sample<br />
 Audio<br />
-Playback
-</td>
-<td>
-Mono<br />
+Playback</td>
+<td>Mono<br />
 Audio<br />
-Recorder
-</td>
-<td>
-Audio<br />
+Recorder</td>
+<td>Audio<br />
 Playback with<br />
-Crossfade
-</td>
+Crossfade</td>
 </tr>
 <tr class="odd">
 <td>K</td>
-<td>
-Wavetable VCO
-</td>
-<td>
-Clockable Wavetable LFO
-</td>
-<td>
-Wavetable Waveshaper
-</td>
-<td>
-Clockable Wavetable Envelope
-</td>
-<td>
-Programmable Quantizer
-</td>
-<td>
-Clockable SD Delay
-</td>
-<td>
-Stereo<br />
-Clockable SD Delay
-</td>
-<td>
-Stereo<br />
-Clockable SD Delay (Z clock)
-</td>
+<td>Wavetable VCO</td>
+<td>Clockable Wavetable LFO</td>
+<td>Wavetable Waveshaper</td>
+<td>Clockable Wavetable Envelope</td>
+<td>Programmable Quantizer</td>
+<td>Clockable SD Delay</td>
+<td>Stereo<br />
+Clockable SD Delay</td>
+<td>Stereo<br />
+Clockable SD Delay (Z clock)</td>
 </tr>
 <tr class="even">
 <td>L</td>
-<td>
-Stereo Reverb
-</td>
-<td>
-Mono-to-Stereo<br />
-Reverb
-</td>
-<td>
-Dual<br />
-Reverb
-</td>
-<td>
-Dual Vowel Filter
-</td>
-<td>
-Stereo Chorus
-</td>
-<td>
-Mono
-Chorus
-</td>
-<td>
-Mixer
-</td>
-<td>
-Gate
-</td>
+<td>Stereo Reverb</td>
+<td>Mono-to-Stereo<br />
+Reverb</td>
+<td>Dual<br />
+Reverb</td>
+<td>Dual Vowel Filter</td>
+<td>Stereo Chorus</td>
+<td>Mono
+Chorus</td>
+<td>Mixer</td>
+<td>Gate</td>
 </tr>
 <tr class="odd">
 <td>M</td>
-<td>
-Delayed LFO
-</td>
+<td>Delayed LFO</td>
 <td>Scaled LFO</td>
 <td>Logic</td>
-<td>
-Half-wave Rectifier
-</td>
-<td>
-Stereo Filter
-</td>
-<td>
-Stereo Tape Delay
-</td>
-<td>
-Granular Pitch<br />
-Shifter
-</td>
-<td>
-Chaos
-</td>
+<td>Half-wave Rectifier</td>
+<td>Stereo Filter</td>
+<td>Stereo Tape Delay</td>
+<td>Granular Pitch<br />
+Shifter</td>
+<td>Chaos</td>
 </tr>
 <tr class="even">
 <td>N</td>
-<td>
-Switch
-</td>
-<td>
-Rotary
-</td>
+<td>Switch</td>
+<td>Rotary</td>
 <td></td>
 <td></td>
-<td>
-Pulsar VCO
-</td>
+<td>Pulsar VCO</td>
 <td></td>
 <td></td>
-<td>
-Clockable SD Ping<br />
-Pong
-</td>
+<td>Clockable SD Ping<br />
+Pong</td>
 </tr>
 </tbody>
 </table>
@@ -2128,38 +1633,20 @@ Pong
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong> 0
-</th>
-<th>
-<strong>Min</strong> 0
-</th>
-<th>
-<strong>Max</strong>1
-</th>
+<th><strong>Parameter</strong> 0</th>
+<th><strong>Min</strong> 0</th>
+<th><strong>Max</strong>1</th>
 <th><strong>Default</strong> 0</th>
-<th>
-<strong>Description</strong> Z Mode.
-</th>
+<th><strong>Description</strong> Z Mode.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-Sum Mode.
-</td>
+<td>1</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>Sum Mode.</td>
 </tr>
 </tbody>
 </table>
@@ -2179,44 +1666,22 @@ to parameter 1:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-Sum of inputs X &amp; Y, plus the offset.
-</td>
-<td>
-Difference between inputs X &amp; Y, minus the offset.
-</td>
-<td>
-With nothing plugged into input X, B is therefore simply an inverted copy of Y.
-</td>
+<td>0</td>
+<td>Sum of inputs X &amp; Y, plus the offset.</td>
+<td>Difference between inputs X &amp; Y, minus the offset.</td>
+<td>With nothing plugged into input X, B is therefore simply an inverted copy of Y.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-X plus the offset.
-</td>
-<td>
-Y minus the offset.
-</td>
-<td>
-This is particularly useful for<br />
-shifting between bipolar (e.g. ±5V) and unipolar (e.g. 0-10V) CVs and back again.
-</td>
+<td>1</td>
+<td>X plus the offset.</td>
+<td>Y minus the offset.</td>
+<td>This is particularly useful for<br />
+shifting between bipolar (e.g. ±5V) and unipolar (e.g. 0-10V) CVs and back again.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-X plus the offset.
-</td>
-<td>
-Y plus the offset.
-</td>
+<td>2</td>
+<td>X plus the offset.</td>
+<td>Y plus the offset.</td>
 <td></td>
 </tr>
 </tbody>
@@ -2226,13 +1691,13 @@ The Z knob/CV sets an offset which is applied to both A and B. The
 offset is a whole number of Volts. If X/Y are 1V/Octave pitch CVs, Z
 is therefore an octave shift control. The maximum shift is 10V,
 positive or negative.
->
+
 When Z changes, the offset is shown on the display. After a short
 while the display reverts to showing the current algorithm.
->
+
 When parameter 0 is 1, the offset is not restricted to 1V steps, and
 changes smoothly with Z.
->
+
 ***A-2 Four Quadrant Multiplier***
 
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image4.png" style="width:0.30833in;height:0.21667in" />
@@ -2247,45 +1712,27 @@ changes smoothly with Z.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong> 0
-</th>
-<th>
-<strong>Min</strong> 0
-</th>
-<th>
-<strong>Max</strong>1
-</th>
+<th><strong>Parameter</strong> 0</th>
+<th><strong>Min</strong> 0</th>
+<th><strong>Max</strong>1</th>
 <th><strong>Default</strong> 0</th>
-<th>
-<strong>Description</strong> Z Mode.
-</th>
+<th><strong>Description</strong> Z Mode.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-1
-</td>
-<td>
--10
-</td>
-<td>
-10
-</td>
-<td>
-0
-</td>
-<td>
-Y Offset.
-</td>
+<td>1</td>
+<td>-10</td>
+<td>10</td>
+<td>0</td>
+<td>Y Offset.</td>
 </tr>
 </tbody>
 </table>
 
 Output A is the result of multiplying inputs X & Y. Output B is the
 inverse of output A.
->
+
 If for example X is a signal and Y is an envelope, then this algorithm
 is a VCA. If both inputs are signals, then this is a ring modulator.
 
@@ -2349,12 +1796,8 @@ reverts to showing the current algorithm.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -2362,38 +1805,18 @@ reverts to showing the current algorithm.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Type A.
-</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Type A.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Type B.
-</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Type B.</td>
 </tr>
 </tbody>
 </table>
@@ -2430,12 +1853,8 @@ in excess of 1V.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -2443,89 +1862,39 @@ in excess of 1V.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
-31
-</td>
-<td>
-Input X attenuation.
-</td>
+<td>0</td>
+<td>-1</td>
+<td>31</td>
+<td>31</td>
+<td>Input X attenuation.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Transpose mode.
-</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Transpose mode.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--31
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Key.
-</td>
+<td>2</td>
+<td>-31</td>
+<td>31</td>
+<td>0</td>
+<td>Key.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Offset.
-</td>
+<td>3</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Offset.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-MIDI Gate.
-</td>
+<td>4</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>MIDI Gate.</td>
 </tr>
 </tbody>
 </table>
@@ -2619,12 +1988,8 @@ to hysteresis values of approximately 0-10V. Negative values are clamped at zero
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong> 0
-</th>
-<th>
-<strong>Min</strong>0
-</th>
+<th><strong>Parameter</strong> 0</th>
+<th><strong>Min</strong>0</th>
 <th><strong>Max</strong>1</th>
 <th><strong>Default</strong>0</th>
 <th><strong>Description</strong> Type A.</th>
@@ -2632,21 +1997,11 @@ to hysteresis values of approximately 0-10V. Negative values are clamped at zero
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-1
-</td>
-<td>
-Type B.
-</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>Type B.</td>
 </tr>
 </tbody>
 </table>
@@ -2677,12 +2032,8 @@ have a triangle wave VCO handy but really want a pure sine wave instead.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong> 0
-</th>
-<th>
-<strong>Min</strong>0
-</th>
+<th><strong>Parameter</strong> 0</th>
+<th><strong>Min</strong>0</th>
 <th><strong>Max</strong>1</th>
 <th><strong>Default</strong>0</th>
 <th><strong>Description</strong> Mode.</th>
@@ -2690,104 +2041,46 @@ have a triangle wave VCO handy but really want a pure sine wave instead.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Offset.
-</td>
+<td>1</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Offset.</td>
 </tr>
 <tr class="even">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-3
-</td>
-<td>
-1
-</td>
+<td>2</td>
+<td>0</td>
+<td>3</td>
+<td>1</td>
 <td>Noise colour.</td>
 </tr>
 <tr class="odd">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-64
-</td>
-<td>
-0
-</td>
-<td>
-Noise X.
-</td>
+<td>3</td>
+<td>0</td>
+<td>64</td>
+<td>0</td>
+<td>Noise X.</td>
 </tr>
 <tr class="even">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Atten B.
-</td>
+<td>4</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Atten B.</td>
 </tr>
 <tr class="odd">
-<td>
-5
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
--1
-</td>
-<td>
-Up slew.
-</td>
+<td>5</td>
+<td>-1</td>
+<td>31</td>
+<td>-1</td>
+<td>Up slew.</td>
 </tr>
 <tr class="even">
-<td>
-6
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
--1
-</td>
-<td>
-Down slew.
-</td>
+<td>6</td>
+<td>-1</td>
+<td>31</td>
+<td>-1</td>
+<td>Down slew.</td>
 </tr>
 </tbody>
 </table>
@@ -2812,36 +2105,20 @@ Parameter 2 controls the noise colour:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-Violet
-</td>
+<td>0</td>
+<td>Violet</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-White
-</td>
+<td>1</td>
+<td>White</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-Pink
-</td>
+<td>2</td>
+<td>Pink</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-Red
-</td>
+<td>3</td>
+<td>Red</td>
 </tr>
 </tbody>
 </table>
@@ -2872,12 +2149,8 @@ Parameter 3 adds the noise output into the input signal, equivalent to patching 
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong> 0
-</th>
-<th>
-<strong>Min</strong>-1
-</th>
+<th><strong>Parameter</strong> 0</th>
+<th><strong>Min</strong>-1</th>
 <th><strong>Max</strong>32</th>
 <th><strong>Default</strong>-1</th>
 <th><strong>Description</strong> Up slew.</th>
@@ -2885,72 +2158,32 @@ Parameter 3 adds the noise output into the input signal, equivalent to patching 
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-1
-</td>
-<td>
--1
-</td>
-<td>
-32
-</td>
-<td>
--1
-</td>
-<td>
-Down slew.
-</td>
+<td>1</td>
+<td>-1</td>
+<td>32</td>
+<td>-1</td>
+<td>Down slew.</td>
 </tr>
 <tr class="even">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Type A.
-</td>
+<td>2</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Type A.</td>
 </tr>
 <tr class="odd">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-1
-</td>
-<td>
-Type B.
-</td>
+<td>3</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>Type B.</td>
 </tr>
 <tr class="even">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Mode.
-</td>
+<td>4</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Mode.</td>
 </tr>
 </tbody>
 </table>
@@ -3006,9 +2239,7 @@ well. As Z increases, changes take place more slowly.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -3017,38 +2248,18 @@ well. As Z increases, changes take place more slowly.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Delay time multiplier.
-</td>
+<td>0</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
+<td>Delay time multiplier.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-Output mode.
-</td>
+<td>1</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>Output mode.</td>
 </tr>
 </tbody>
 </table>
@@ -3075,26 +2286,16 @@ parameter 1:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
+<td>0</td>
 <td>A is mix; B is delay only.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-A &amp; B are mix.
-</td>
+<td>1</td>
+<td>A &amp; B are mix.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-A &amp; B are delay only.
-</td>
+<td>2</td>
+<td>A &amp; B are delay only.</td>
 </tr>
 </tbody>
 </table>
@@ -3132,9 +2333,7 @@ The first parameter applies a multiplier to the delay time, according to the fol
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -3143,89 +2342,39 @@ The first parameter applies a multiplier to the delay time, according to the fol
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-40
-</td>
-<td>
-32
-</td>
-<td>
-Sets an attenuation for output A.
-</td>
+<td>0</td>
+<td>0</td>
+<td>40</td>
+<td>32</td>
+<td>Sets an attenuation for output A.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-40
-</td>
-<td>
-32
-</td>
-<td>
-Sets an attenuation for output B.
-</td>
+<td>1</td>
+<td>0</td>
+<td>40</td>
+<td>32</td>
+<td>Sets an attenuation for output B.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-0
-</td>
-<td>
-Sets an offset for output A.
-</td>
+<td>2</td>
+<td>-40</td>
+<td>40</td>
+<td>0</td>
+<td>Sets an offset for output A.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-0
-</td>
-<td>
-Sets an offset for output B.
-</td>
+<td>3</td>
+<td>-40</td>
+<td>40</td>
+<td>0</td>
+<td>Sets an offset for output B.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Y offset.
-</td>
+<td>4</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Y offset.</td>
 </tr>
 </tbody>
 </table>
@@ -3257,31 +2406,18 @@ waveshapes:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-<strong>Output A</strong>
-</td>
-<td>
-saw
-</td>
-<td>
-sine
-</td>
-<td>
-triangle
-</td>
+<td><strong>Output A</strong></td>
+<td>saw</td>
+<td>sine</td>
+<td>triangle</td>
 </tr>
 <tr class="even">
-<td>
-<strong>Output B</strong>
-</td>
+<td><strong>Output B</strong></td>
 <td>0% duty cycle pulse</td>
 <td>50% duty cycle pulse
 
-(square)
-</td>
-<td>
-100% duty cycle pulse
-</td>
+(square)</td>
+<td>100% duty cycle pulse</td>
 </tr>
 </tbody>
 </table>
@@ -3304,12 +2440,8 @@ Parameter 4 offsets the Y input, providing a way to set the waveshape manually.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -3317,55 +2449,25 @@ Parameter 4 offsets the Y input, providing a way to set the waveshape manually.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Output A attenuverter.
-</td>
+<td>0</td>
+<td>-32</td>
+<td>32</td>
+<td>32</td>
+<td>Output A attenuverter.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Output B attenuverter.
-</td>
+<td>1</td>
+<td>-32</td>
+<td>32</td>
+<td>32</td>
+<td>Output B attenuverter.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Y Offset.
-</td>
+<td>2</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Y Offset.</td>
 </tr>
 </tbody>
 </table>
@@ -3391,31 +2493,18 @@ waveshapes:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-<strong>Output A</strong>
-</td>
-<td>
-saw
-</td>
-<td>
-sine
-</td>
-<td>
-triangle
-</td>
+<td><strong>Output A</strong></td>
+<td>saw</td>
+<td>sine</td>
+<td>triangle</td>
 </tr>
 <tr class="even">
-<td>
-<strong>Output B</strong>
-</td>
+<td><strong>Output B</strong></td>
 <td>0% duty cycle pulse</td>
 <td>50% duty cycle pulse
 
-(square)
-</td>
-<td>
-100% duty cycle pulse
-</td>
+(square)</td>
+<td>100% duty cycle pulse</td>
 </tr>
 </tbody>
 </table>
@@ -3443,9 +2532,7 @@ multiplier. Note that there is no value of "-1" since dividing by 1 and multiply
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -3454,89 +2541,39 @@ multiplier. Note that there is no value of "-1" since dividing by 1 and multiply
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--16
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Octave shift.
-</td>
+<td>0</td>
+<td>-16</td>
+<td>8</td>
+<td>0</td>
+<td>Octave shift.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Sets an attenuation for output A.
-</td>
+<td>1</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Sets an attenuation for output A.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Sets an attenuation for output B.
-</td>
+<td>2</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Sets an attenuation for output B.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-5
-</td>
-<td>
-1
-</td>
-<td>
-Type A.
-</td>
+<td>3</td>
+<td>0</td>
+<td>5</td>
+<td>1</td>
+<td>Type A.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-5
-</td>
-<td>
-3
-</td>
-<td>
-Type B.
-</td>
+<td>4</td>
+<td>0</td>
+<td>5</td>
+<td>3</td>
+<td>Type B.</td>
 </tr>
 </tbody>
 </table>
@@ -3560,50 +2597,28 @@ The A and B outputs provide waveforms according to the following table:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-Triangle.
-</td>
+<td>0</td>
+<td>Triangle.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-Sine.
-</td>
+<td>1</td>
+<td>Sine.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-Square.
-</td>
+<td>2</td>
+<td>Square.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-Saw.
-</td>
+<td>3</td>
+<td>Saw.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
+<td>4</td>
 <td>Sub-octave square.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-MIDI gate.
-</td>
+<td>5</td>
+<td>MIDI gate.</td>
 </tr>
 </tbody>
 </table>
@@ -3629,9 +2644,7 @@ to that on input X. The 0V note is 48 (C3). MIDI notes also drive the 'MIDI gate
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -3640,123 +2653,53 @@ to that on input X. The 0V note is 48 (C3). MIDI notes also drive the 'MIDI gate
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--16
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Octave shift.
-</td>
+<td>0</td>
+<td>-16</td>
+<td>8</td>
+<td>0</td>
+<td>Octave shift.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Sets an attenuation for output A.
-</td>
+<td>1</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Sets an attenuation for output A.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Sets an attenuation for output B.
-</td>
+<td>2</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Sets an attenuation for output B.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Offset for input Y (manual shape control).
-</td>
+<td>3</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Offset for input Y (manual shape control).</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-Selects output waveforms.
-</td>
+<td>4</td>
+<td>0</td>
+<td>4</td>
+<td>0</td>
+<td>Selects output waveforms.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--12
-</td>
-<td>
-12
-</td>
-<td>
-0
-</td>
-<td>
-Transpose.
-</td>
+<td>5</td>
+<td>-12</td>
+<td>12</td>
+<td>0</td>
+<td>Transpose.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
--51
-</td>
-<td>
-50
-</td>
-<td>
--51
-</td>
-<td>
-Fine tune/enable sync.
-</td>
+<td>6</td>
+<td>-51</td>
+<td>50</td>
+<td>-51</td>
+<td>Fine tune/enable sync.</td>
 </tr>
 </tbody>
 </table>
@@ -3779,55 +2722,29 @@ Parameter 4 selects the output waveforms according to the following table:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-Triangle/saw
-</td>
-<td>
-Square/pulse
-</td>
+<td>0</td>
+<td>Triangle/saw</td>
+<td>Square/pulse</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-Triangle/saw
-</td>
+<td>1</td>
+<td>Triangle/saw</td>
 <td>Sub-octave square</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-Square/pulse
-</td>
+<td>2</td>
+<td>Square/pulse</td>
 <td>Sub-octave square</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-Triangle/saw
-</td>
-<td>
-MIDI gate.
-</td>
+<td>3</td>
+<td>Triangle/saw</td>
+<td>MIDI gate.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-Square/pulse
-</td>
-<td>
-MIDI gate.
-</td>
+<td>4</td>
+<td>Square/pulse</td>
+<td>MIDI gate.</td>
 </tr>
 </tbody>
 </table>
@@ -3846,31 +2763,18 @@ waveshapes:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-<strong>Triangle/saw</strong>
-</td>
-<td>
-saw (falling)
-</td>
-<td>
-triangle
-</td>
-<td>
-saw (rising)
-</td>
+<td><strong>Triangle/saw</strong></td>
+<td>saw (falling)</td>
+<td>triangle</td>
+<td>saw (rising)</td>
 </tr>
 <tr class="even">
-<td>
-<strong>Square/pulse</strong>
-</td>
+<td><strong>Square/pulse</strong></td>
 <td>0% duty cycle pulse</td>
 <td>50% duty cycle pulse
 
-(square)
-</td>
-<td>
-100% duty cycle pulse
-</td>
+(square)</td>
+<td>100% duty cycle pulse</td>
 </tr>
 </tbody>
 </table>
@@ -3888,12 +2792,12 @@ longer affects the tuning, and the parameter value is used as a fine
 tune control, in cents. Z then becomes a sync input: when Z goes over
 approximately 1V, the VCO phase is reset to zero, which can produce
 'oscillator sync' sounds8.
->
+
 **MIDI Input**: MIDI note messages received on the MIDI channel set in
 the Settings are converted to a CV which is added to that on input X.
 The 0V note is 48 (C3). MIDI notes also drive the 'MIDI gate' output
 option.
->
+
 ***C-1 Precision Adder (fractional offsets)***
 
 | **A = X + Y + offset**             |
@@ -3906,12 +2810,8 @@ option.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -3919,38 +2819,18 @@ option.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-12
-</td>
-<td>
-12
-</td>
-<td>
-Sets the offset divisor.
-</td>
+<td>0</td>
+<td>1</td>
+<td>12</td>
+<td>12</td>
+<td>Sets the offset divisor.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-Sum mode.
-</td>
+<td>1</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>Sum mode.</td>
 </tr>
 </tbody>
 </table>
@@ -3960,7 +2840,7 @@ except that where the other algorithm has offsets in steps of 1V, this
 algorithm allows you to set a divisor for the offset. This defaults to
 12, so when used to offset a 1V/octave pitch CV the offsets correspond
 to semitones.
->
+
 ***C-2 Voltage Controlled Delay Line***
 
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image3.png" style="width:0.30833in;height:0.21667in" />
@@ -3975,9 +2855,7 @@ to semitones.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -3986,55 +2864,25 @@ to semitones.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Applies an offset to the Y input.
-</td>
+<td>0</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Applies an offset to the Y input.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Attenuator for the Y input.
-</td>
+<td>1</td>
+<td>-32</td>
+<td>32</td>
+<td>32</td>
+<td>Attenuator for the Y input.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Enable saturation.
-</td>
+<td>2</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Enable saturation.</td>
 </tr>
 </tbody>
 </table>
@@ -4042,14 +2890,14 @@ Enable saturation.
 This algorithm is a voltage controlled delay line, with a maximum
 delay time of just over 200ms. As well as simple echoes, this can
 produce a wide variety of effects such as vibrato, chorus and flange.
->
+
 A control signal of 0-8V on the Y input sets the delay time, with a
 linear voltage/time relationship. Parameter 0 can be used to set this
 to a 'centre' value, which makes it easier to patch in an LFO to the Y
 input without having to add a DC offset to the LFO.
->
+
 Parameter 1 is an attenuverter for Y, applied before the offset.
->
+
 Z is a feedback control. It is zero at 0V input, and provides negative
 feedback for negative voltages.A outputs the delay signal only. Use
 this for vibrato effects, or if you want a controllable mix of dry
@@ -4058,9 +2906,7 @@ this for vibrato effects, or if you want a controllable mix of dry
 <tbody>
 <tr class="odd">
 <td>8</td>
-<td>
-https://en.wikipedia.org/wiki/Oscillator_sync
-</td>
+<td>https://en.wikipedia.org/wiki/Oscillator_sync</td>
 </tr>
 </tbody>
 </table>
@@ -4089,9 +2935,7 @@ feedback becomes high, at the expense of some colouration of the sound.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -4100,53 +2944,25 @@ feedback becomes high, at the expense of some colouration of the sound.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Output mode.
-</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Output mode.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
+<td>1</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
 <td>Delay time multiplier.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
--32
-</td>
-<td>
-Input pan.
-</td>
+<td>2</td>
+<td>-32</td>
+<td>32</td>
+<td>-32</td>
+<td>Input pan.</td>
 </tr>
 </tbody>
 </table>
@@ -4189,9 +3005,7 @@ Parameter 2 controls the left/right pan position of the input signal.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -4200,53 +3014,25 @@ Parameter 2 controls the left/right pan position of the input signal.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-24
-</td>
-<td>
-Feedback.
-</td>
+<td>0</td>
+<td>0</td>
+<td>31</td>
+<td>24</td>
+<td>Feedback.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
+<td>1</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
 <td>Delay time multiplier.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Output mode.
-</td>
+<td>2</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Output mode.</td>
 </tr>
 </tbody>
 </table>
@@ -4288,9 +3074,7 @@ The delay feedback is set via parameter 0.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -4299,38 +3083,18 @@ The delay feedback is set via parameter 0.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Applies an offset to the Y input.
-</td>
+<td>0</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Applies an offset to the Y input.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Mode.
-</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Mode.</td>
 </tr>
 </tbody>
 </table>
@@ -4368,9 +3132,7 @@ Pressing Z simulates hitting X with a 1ms 5V pulse, and so works as a manual tri
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -4379,50 +3141,24 @@ Pressing Z simulates hitting X with a 1ms 5V pulse, and so works as a manual tri
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Selects the filter bank.
-</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Selects the filter bank.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-64
-</td>
-<td>
-16
-</td>
+<td>1</td>
+<td>0</td>
+<td>64</td>
+<td>16</td>
 <td>Output A attenuation/gain.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-64
-</td>
-<td>
-16
-</td>
+<td>2</td>
+<td>0</td>
+<td>64</td>
+<td>16</td>
 <td>Output B attenuation/gain.</td>
 </tr>
 </tbody>
@@ -4450,15 +3186,11 @@ Parameter 0 selects between alternative filter banks:
 <tbody>
 <tr class="odd">
 <td><strong>0</strong></td>
-<td>
-Half octave spacing, based on 100Hz.
-</td>
+<td>Half octave spacing, based on 100Hz.</td>
 </tr>
 <tr class="even">
 <td><strong>1</strong></td>
-<td>
-Third octave spacing, based on 250Hz.
-</td>
+<td>Third octave spacing, based on 250Hz.</td>
 </tr>
 </tbody>
 </table>
@@ -4479,9 +3211,7 @@ Parameters 1 & 2 provide attenuation or gain of outputs A & B respectively.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -4490,38 +3220,18 @@ Parameters 1 & 2 provide attenuation or gain of outputs A & B respectively.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--31
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Applies an offset to the Y input.
-</td>
+<td>0</td>
+<td>-31</td>
+<td>31</td>
+<td>0</td>
+<td>Applies an offset to the Y input.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-1
-</td>
-<td>
-10
-</td>
-<td>
-10
-</td>
-<td>
-Sets the number of phaser stages.
-</td>
+<td>1</td>
+<td>1</td>
+<td>10</td>
+<td>10</td>
+<td>Sets the number of phaser stages.</td>
 </tr>
 </tbody>
 </table>
@@ -4561,9 +3271,7 @@ which results in a more pronounced effect.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -4572,55 +3280,25 @@ which results in a more pronounced effect.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--31
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Applies an offset to the Y input.
-</td>
+<td>0</td>
+<td>-31</td>
+<td>31</td>
+<td>0</td>
+<td>Applies an offset to the Y input.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-7
-</td>
-<td>
-0
-</td>
-<td>
-Selects the bit reduction mode.
-</td>
+<td>1</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+<td>Selects the bit reduction mode.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-7
-</td>
-<td>
-0
-</td>
-<td>
-Selects the bit mangling mode.
-</td>
+<td>2</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+<td>Selects the bit mangling mode.</td>
 </tr>
 </tbody>
 </table>
@@ -4645,23 +3323,17 @@ The Z control sets the bit depth reduction. There are two types of bit reduction
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-<strong>Type I</strong> - the signal is quantised to a 16 bit word, and the low bits thrown away. The
-</th>
+<th><strong>Type I</strong> - the signal is quantised to a 16 bit word, and the low bits thrown away. The</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-resulting signal uses a power of 2 bits. Changing between bit depths is therefore
-</td>
+<td>resulting signal uses a power of 2 bits. Changing between bit depths is therefore</td>
 </tr>
 <tr class="even">
 <td></td>
-<td>
-discontinous.
-</td>
+<td>discontinous.</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -4669,15 +3341,11 @@ discontinous.
 </tr>
 <tr class="even">
 <td></td>
-<td>
-the signal by a factor. Since the factor can be continuously varied, this offers a smooth
-</td>
+<td>the signal by a factor. Since the factor can be continuously varied, this offers a smooth</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-variation between 'bit depths'.
-</td>
+<td>variation between 'bit depths'.</td>
 </tr>
 </tbody>
 </table>
@@ -4688,23 +3356,17 @@ Furthermore, positive and negative values of Z have different effects.
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-Positive Z treats the whole signal range as one number to be quantised.
-</th>
+<th>Positive Z treats the whole signal range as one number to be quantised.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-Negative Z treats positive and negative sections of the input signal differently. Negative
-</td>
+<td>Negative Z treats positive and negative sections of the input signal differently. Negative</td>
 </tr>
 <tr class="even">
 <td></td>
-<td>
-sections are flipped positive, quantized, and flipped back.
-</td>
+<td>sections are flipped positive, quantized, and flipped back.</td>
 </tr>
 </tbody>
 </table>
@@ -4715,9 +3377,7 @@ types of reduction applied.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter 1 value</strong>
-</th>
+<th><strong>Parameter 1 value</strong></th>
 <th><strong>Positive signal</strong></th>
 <th><strong>Positive signal</strong></th>
 </tr>
@@ -4725,75 +3385,43 @@ types of reduction applied.
 <tbody>
 <tr class="odd">
 <td><strong>0</strong></td>
-<td>
-Type I
-</td>
-<td>
-Type I
-</td>
+<td>Type I</td>
+<td>Type I</td>
 </tr>
 <tr class="even">
 <td><strong>1</strong></td>
-<td>
-Type II
-</td>
-<td>
-Type II
-</td>
+<td>Type II</td>
+<td>Type II</td>
 </tr>
 <tr class="odd">
 <td><strong>2</strong></td>
-<td>
-Type I
-</td>
-<td>
-Type II
-</td>
+<td>Type I</td>
+<td>Type II</td>
 </tr>
 <tr class="even">
 <td><strong>3</strong></td>
-<td>
-Type II
-</td>
-<td>
-Type I
-</td>
+<td>Type II</td>
+<td>Type I</td>
 </tr>
 <tr class="odd">
 <td><strong>4</strong></td>
-<td>
-Type I
-</td>
-<td>
-None
-</td>
+<td>Type I</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td><strong>5</strong></td>
-<td>
-Type II
-</td>
-<td>
-None
-</td>
+<td>Type II</td>
+<td>None</td>
 </tr>
 <tr class="odd">
 <td><strong>6</strong></td>
-<td>
-None
-</td>
-<td>
-Type I
-</td>
+<td>None</td>
+<td>Type I</td>
 </tr>
 <tr class="even">
 <td><strong>7</strong></td>
-<td>
-None
-</td>
-<td>
-Type II
-</td>
+<td>None</td>
+<td>Type II</td>
 </tr>
 </tbody>
 </table>
@@ -4810,51 +3438,35 @@ Parameter 2 selects the bit mangling mode.
 <tbody>
 <tr class="odd">
 <td><strong>0</strong></td>
-<td>
-None
-</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td><strong>1</strong></td>
-<td>
-Bit swap variant 1
-</td>
+<td>Bit swap variant 1</td>
 </tr>
 <tr class="odd">
 <td><strong>2</strong></td>
-<td>
-Bit swap variant 2
-</td>
+<td>Bit swap variant 2</td>
 </tr>
 <tr class="even">
 <td><strong>3</strong></td>
-<td>
-Bit swap variant 3
-</td>
+<td>Bit swap variant 3</td>
 </tr>
 <tr class="odd">
 <td><strong>4</strong></td>
-<td>
-Bit rotation
-</td>
+<td>Bit rotation</td>
 </tr>
 <tr class="even">
 <td><strong>5</strong></td>
-<td>
-Previous sample XOR variant 1
-</td>
+<td>Previous sample XOR variant 1</td>
 </tr>
 <tr class="odd">
 <td><strong>6</strong></td>
-<td>
-Previous sample XOR variant 2
-</td>
+<td>Previous sample XOR variant 2</td>
 </tr>
 <tr class="even">
 <td><strong>7</strong></td>
-<td>
-Previous sample XOR variant 3
-</td>
+<td>Previous sample XOR variant 3</td>
 </tr>
 </tbody>
 </table>
@@ -4871,9 +3483,7 @@ Previous sample XOR variant 3
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -4882,21 +3492,11 @@ Previous sample XOR variant 3
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Filter resonance.
-</td>
+<td>0</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Filter resonance.</td>
 </tr>
 </tbody>
 </table>
@@ -4921,9 +3521,7 @@ turned clockwise from centre, a highpass filter is applied, with a cutoff freque
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -4932,70 +3530,32 @@ turned clockwise from centre, a highpass filter is applied, with a cutoff freque
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-43
-</td>
-<td>
-43
-</td>
-<td>
-Tape length.
-</td>
+<td>0</td>
+<td>0</td>
+<td>43</td>
+<td>43</td>
+<td>Tape length.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--9
-</td>
-<td>
-9
-</td>
-<td>
-0
-</td>
+<td>1</td>
+<td>-9</td>
+<td>9</td>
+<td>0</td>
 <td>Fine length control.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--8
-</td>
-<td>
-16
-</td>
-<td>
-0
-</td>
-<td>
-Tape speed.
-</td>
+<td>2</td>
+<td>-8</td>
+<td>16</td>
+<td>0</td>
+<td>Tape speed.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-Output mode.
-</td>
+<td>3</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>Output mode.</td>
 </tr>
 </tbody>
 </table>
@@ -5024,26 +3584,16 @@ parameter 3:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
+<td>0</td>
 <td>A is mix; B is delay only.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-A &amp; B are mix.
-</td>
+<td>1</td>
+<td>A &amp; B are mix.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-A &amp; B are delay only.
-</td>
+<td>2</td>
+<td>A &amp; B are delay only.</td>
 </tr>
 </tbody>
 </table>
@@ -5068,12 +3618,8 @@ flexibility in the dry/wet balance than is offered by the mixed mode.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong> 0
-</th>
-<th>
-<strong>Min</strong>-1
-</th>
+<th><strong>Parameter</strong> 0</th>
+<th><strong>Min</strong>-1</th>
 <th><strong>Max</strong>31</th>
 <th><strong>Default</strong>11</th>
 <th><strong>Description</strong> LFO depth.</th>
@@ -5081,55 +3627,25 @@ flexibility in the dry/wet balance than is offered by the mixed mode.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-1
-</td>
-<td>
--31
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Y offset.
-</td>
+<td>1</td>
+<td>-31</td>
+<td>31</td>
+<td>0</td>
+<td>Y offset.</td>
 </tr>
 <tr class="even">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-23
-</td>
-<td>
-LFO rate.
-</td>
+<td>2</td>
+<td>0</td>
+<td>31</td>
+<td>23</td>
+<td>LFO rate.</td>
 </tr>
 <tr class="odd">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
--1
-</td>
-<td>
-Scale.
-</td>
+<td>3</td>
+<td>-1</td>
+<td>31</td>
+<td>-1</td>
+<td>Scale.</td>
 </tr>
 </tbody>
 </table>
@@ -5175,12 +3691,8 @@ waves.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -5188,38 +3700,18 @@ waves.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--80
-</td>
-<td>
-80
-</td>
-<td>
-0
-</td>
-<td>
-Y Offset.
-</td>
+<td>0</td>
+<td>-80</td>
+<td>80</td>
+<td>0</td>
+<td>Y Offset.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Filter resonance.
-</td>
+<td>1</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Filter resonance.</td>
 </tr>
 </tbody>
 </table>
@@ -5254,12 +3746,8 @@ Parameter 1 sets the filter resonance.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -5267,21 +3755,11 @@ Parameter 1 sets the filter resonance.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--80
-</td>
-<td>
-80
-</td>
-<td>
-0
-</td>
-<td>
-Y Offset.
-</td>
+<td>0</td>
+<td>-80</td>
+<td>80</td>
+<td>0</td>
+<td>Y Offset.</td>
 </tr>
 </tbody>
 </table>
@@ -5309,12 +3787,8 @@ Z controls the filter resonance.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -5322,21 +3796,11 @@ Z controls the filter resonance.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--80
-</td>
-<td>
-80
-</td>
-<td>
-0
-</td>
-<td>
-Y Offset.
-</td>
+<td>0</td>
+<td>-80</td>
+<td>80</td>
+<td>0</td>
+<td>Y Offset.</td>
 </tr>
 </tbody>
 </table>
@@ -5364,12 +3828,8 @@ Z controls the filter resonance.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -5377,21 +3837,11 @@ Z controls the filter resonance.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--80
-</td>
-<td>
-80
-</td>
-<td>
-0
-</td>
-<td>
-Y Offset.
-</td>
+<td>0</td>
+<td>-80</td>
+<td>80</td>
+<td>0</td>
+<td>Y Offset.</td>
 </tr>
 </tbody>
 </table>
@@ -5419,12 +3869,8 @@ Z controls the filter resonance.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -5432,21 +3878,11 @@ Z controls the filter resonance.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--80
-</td>
-<td>
-80
-</td>
-<td>
-0
-</td>
-<td>
-Y Offset.
-</td>
+<td>0</td>
+<td>-80</td>
+<td>80</td>
+<td>0</td>
+<td>Y Offset.</td>
 </tr>
 </tbody>
 </table>
@@ -5480,9 +3916,7 @@ Z controls the filter resonance.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -5491,140 +3925,60 @@ Z controls the filter resonance.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-Trigger Mode.
-</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>Trigger Mode.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Z Mode.
-</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Z Mode.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--40
-</td>
-<td>
-41
-</td>
-<td>
-32
-</td>
-<td>
-Output A Attenuverter.
-</td>
+<td>2</td>
+<td>-40</td>
+<td>41</td>
+<td>32</td>
+<td>Output A Attenuverter.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-32
-</td>
-<td>
-Output B Attenuverter.
-</td>
+<td>3</td>
+<td>-40</td>
+<td>40</td>
+<td>32</td>
+<td>Output B Attenuverter.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-0
-</td>
-<td>
-Output A Offset.
-</td>
+<td>4</td>
+<td>-40</td>
+<td>40</td>
+<td>0</td>
+<td>Output A Offset.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-0
-</td>
-<td>
-Output B Offset.
-</td>
+<td>5</td>
+<td>-40</td>
+<td>40</td>
+<td>0</td>
+<td>Output B Offset.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-26
-</td>
-<td>
-Attack shape.
-</td>
+<td>6</td>
+<td>0</td>
+<td>32</td>
+<td>26</td>
+<td>Attack shape.</td>
 </tr>
 <tr class="even">
-<td>
-7
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-10
-</td>
-<td>
-Release shape.
-</td>
+<td>7</td>
+<td>0</td>
+<td>32</td>
+<td>10</td>
+<td>Release shape.</td>
 </tr>
 </tbody>
 </table>
@@ -5677,9 +4031,7 @@ Pushing the Z knob has the same effect as triggering the envelope via the X or Y
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -5688,140 +4040,60 @@ Pushing the Z knob has the same effect as triggering the envelope via the X or Y
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Trigger Mode.
-</td>
+<td>0</td>
+<td>0</td>
+<td>8</td>
+<td>0</td>
+<td>Trigger Mode.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Z Mode.
-</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Z Mode.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--40
-</td>
-<td>
-41
-</td>
-<td>
-32
-</td>
-<td>
-Output A Attenuverter.
-</td>
+<td>2</td>
+<td>-40</td>
+<td>41</td>
+<td>32</td>
+<td>Output A Attenuverter.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-32
-</td>
-<td>
-Output B Attenuverter.
-</td>
+<td>3</td>
+<td>-40</td>
+<td>40</td>
+<td>32</td>
+<td>Output B Attenuverter.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-0
-</td>
-<td>
-Output A Offset.
-</td>
+<td>4</td>
+<td>-40</td>
+<td>40</td>
+<td>0</td>
+<td>Output A Offset.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-0
-</td>
-<td>
-Output B Offset.
-</td>
+<td>5</td>
+<td>-40</td>
+<td>40</td>
+<td>0</td>
+<td>Output B Offset.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-26
-</td>
-<td>
-Attack shape.
-</td>
+<td>6</td>
+<td>0</td>
+<td>32</td>
+<td>26</td>
+<td>Attack shape.</td>
 </tr>
 <tr class="even">
-<td>
-7
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-10
-</td>
-<td>
-Release shape.
-</td>
+<td>7</td>
+<td>0</td>
+<td>32</td>
+<td>10</td>
+<td>Release shape.</td>
 </tr>
 </tbody>
 </table>
@@ -5882,9 +4154,7 @@ Pushing the Z knob has the same effect as triggering the envelope via the X inpu
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -5893,140 +4163,60 @@ Pushing the Z knob has the same effect as triggering the envelope via the X inpu
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-Trigger Mode.
-</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>Trigger Mode.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Z Mode.
-</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Z Mode.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--40
-</td>
-<td>
-41
-</td>
-<td>
-32
-</td>
-<td>
-Output A Attenuverter.
-</td>
+<td>2</td>
+<td>-40</td>
+<td>41</td>
+<td>32</td>
+<td>Output A Attenuverter.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-32
-</td>
-<td>
-Output B Attenuverter.
-</td>
+<td>3</td>
+<td>-40</td>
+<td>40</td>
+<td>32</td>
+<td>Output B Attenuverter.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-0
-</td>
-<td>
-Output A Offset.
-</td>
+<td>4</td>
+<td>-40</td>
+<td>40</td>
+<td>0</td>
+<td>Output A Offset.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-0
-</td>
-<td>
-Output B Offset.
-</td>
+<td>5</td>
+<td>-40</td>
+<td>40</td>
+<td>0</td>
+<td>Output B Offset.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-26
-</td>
-<td>
-Attack shape.
-</td>
+<td>6</td>
+<td>0</td>
+<td>32</td>
+<td>26</td>
+<td>Attack shape.</td>
 </tr>
 <tr class="even">
-<td>
-7
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-10
-</td>
-<td>
-Release shape.
-</td>
+<td>7</td>
+<td>0</td>
+<td>32</td>
+<td>10</td>
+<td>Release shape.</td>
 </tr>
 </tbody>
 </table>
@@ -6071,9 +4261,7 @@ note messages on the next channel up trigger envelope B.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -6082,89 +4270,39 @@ note messages on the next channel up trigger envelope B.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--36
-</td>
-<td>
-0
-</td>
-<td>
--12
-</td>
-<td>
-Threshold.
-</td>
+<td>0</td>
+<td>-36</td>
+<td>0</td>
+<td>-12</td>
+<td>Threshold.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-20
-</td>
-<td>
-Attack time.
-</td>
+<td>1</td>
+<td>0</td>
+<td>99</td>
+<td>20</td>
+<td>Attack time.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-20
-</td>
-<td>
-Release time.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>20</td>
+<td>Release time.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-36
-</td>
-<td>
-0
-</td>
-<td>
-Make-up gain.
-</td>
+<td>3</td>
+<td>-1</td>
+<td>36</td>
+<td>0</td>
+<td>Make-up gain.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Lookahead.
-</td>
+<td>4</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Lookahead.</td>
 </tr>
 </tbody>
 </table>
@@ -6202,9 +4340,7 @@ about 10ms.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -6213,106 +4349,46 @@ about 10ms.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--36
-</td>
-<td>
-0
-</td>
-<td>
--12
-</td>
-<td>
-Threshold.
-</td>
+<td>0</td>
+<td>-36</td>
+<td>0</td>
+<td>-12</td>
+<td>Threshold.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-20
-</td>
-<td>
-Attack time.
-</td>
+<td>1</td>
+<td>0</td>
+<td>99</td>
+<td>20</td>
+<td>Attack time.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-20
-</td>
-<td>
-Release time.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>20</td>
+<td>Release time.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-36
-</td>
-<td>
-0
-</td>
-<td>
-Make-up gain.
-</td>
+<td>3</td>
+<td>-1</td>
+<td>36</td>
+<td>0</td>
+<td>Make-up gain.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Lookahead.
-</td>
+<td>4</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Lookahead.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-50
-</td>
-<td>
-Compression ratio.
-</td>
+<td>5</td>
+<td>0</td>
+<td>99</td>
+<td>50</td>
+<td>Compression ratio.</td>
 </tr>
 </tbody>
 </table>
@@ -6342,9 +4418,7 @@ than compression).
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -6353,106 +4427,46 @@ than compression).
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--36
-</td>
-<td>
-0
-</td>
-<td>
--12
-</td>
-<td>
-Threshold.
-</td>
+<td>0</td>
+<td>-36</td>
+<td>0</td>
+<td>-12</td>
+<td>Threshold.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-20
-</td>
-<td>
-Attack time.
-</td>
+<td>1</td>
+<td>0</td>
+<td>99</td>
+<td>20</td>
+<td>Attack time.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-20
-</td>
-<td>
-Release time.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>20</td>
+<td>Release time.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-36
-</td>
-<td>
-0
-</td>
-<td>
-Make-up gain.
-</td>
+<td>3</td>
+<td>-1</td>
+<td>36</td>
+<td>0</td>
+<td>Make-up gain.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Lookahead.
-</td>
+<td>4</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Lookahead.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--80
-</td>
-<td>
-12
-</td>
-<td>
--80
-</td>
-<td>
-Side-chain mix.
-</td>
+<td>5</td>
+<td>-80</td>
+<td>12</td>
+<td>-80</td>
+<td>Side-chain mix.</td>
 </tr>
 </tbody>
 </table>
@@ -6496,12 +4510,8 @@ Parameter 5 allows the side-chain input to be mixed into the audio output. The p
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong> 0
-</th>
-<th>
-<strong>Min</strong>-8
-</th>
+<th><strong>Parameter</strong> 0</th>
+<th><strong>Min</strong>-8</th>
 <th><strong>Max</strong>8</th>
 <th><strong>Default</strong>0</th>
 <th><strong>Description</strong> Octave shift.</th>
@@ -6509,72 +4519,32 @@ Parameter 5 allows the side-chain input to be mixed into the audio output. The p
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-1
-</td>
-<td>
--99
-</td>
-<td>
-99
-</td>
-<td>
-99
-</td>
-<td>
-Coarse.
-</td>
+<td>1</td>
+<td>-99</td>
+<td>99</td>
+<td>99</td>
+<td>Coarse.</td>
 </tr>
 <tr class="even">
-<td>
-2
-</td>
-<td>
--99
-</td>
-<td>
-99
-</td>
-<td>
-10
-</td>
-<td>
-Fine.
-</td>
+<td>2</td>
+<td>-99</td>
+<td>99</td>
+<td>10</td>
+<td>Fine.</td>
 </tr>
 <tr class="odd">
-<td>
-3
-</td>
-<td>
--99
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Offset.
-</td>
+<td>3</td>
+<td>-99</td>
+<td>99</td>
+<td>0</td>
+<td>Offset.</td>
 </tr>
 <tr class="even">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-49
-</td>
-<td>
-Gate level.
-</td>
+<td>4</td>
+<td>0</td>
+<td>99</td>
+<td>49</td>
+<td>Gate level.</td>
 </tr>
 </tbody>
 </table>
@@ -6612,12 +4582,8 @@ value of 49 therefore gives a 50% gate level i.e. 5V.
 <table>
 <tbody>
 <tr class="odd">
-<td>
-<strong>Parameter</strong> 0
-</td>
-<td>
-<strong>Min</strong>-8
-</td>
+<td><strong>Parameter</strong> 0</td>
+<td><strong>Min</strong>-8</td>
 <td><strong>Max</strong>8</td>
 <td><strong>Default</strong>0</td>
 <td><strong>Description</strong> Octave shift.</td>
@@ -6654,12 +4620,8 @@ The Z knob/CV provides a tuning control, with a range of approximately ±0.5 oct
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -6667,85 +4629,39 @@ The Z knob/CV provides a tuning control, with a range of approximately ±0.5 oct
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Delay time multiplier.
-</td>
+<td>0</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
+<td>Delay time multiplier.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--40
-</td>
-<td>
-41
-</td>
-<td>
-32
-</td>
+<td>1</td>
+<td>-40</td>
+<td>41</td>
+<td>32</td>
 <td>Output A Attenuverter.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-32
-</td>
+<td>2</td>
+<td>-40</td>
+<td>40</td>
+<td>32</td>
 <td>Output B Attenuverter.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-26
-</td>
-<td>
-Attack shape.
-</td>
+<td>3</td>
+<td>0</td>
+<td>32</td>
+<td>26</td>
+<td>Attack shape.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-10
-</td>
-<td>
-Decay shape.
-</td>
+<td>4</td>
+<td>0</td>
+<td>32</td>
+<td>10</td>
+<td>Decay shape.</td>
 </tr>
 </tbody>
 </table>
@@ -6786,9 +4702,7 @@ pulse at the end of the envelope's release stage.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -6797,85 +4711,39 @@ pulse at the end of the envelope's release stage.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Delay time multiplier.
-</td>
+<td>0</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
+<td>Delay time multiplier.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--40
-</td>
-<td>
-41
-</td>
-<td>
-32
-</td>
+<td>1</td>
+<td>-40</td>
+<td>41</td>
+<td>32</td>
 <td>Output A Attenuverter.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-32
-</td>
+<td>2</td>
+<td>-40</td>
+<td>40</td>
+<td>32</td>
 <td>Output B Attenuverter.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-26
-</td>
-<td>
-Attack shape.
-</td>
+<td>3</td>
+<td>0</td>
+<td>32</td>
+<td>26</td>
+<td>Attack shape.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-10
-</td>
-<td>
-Decay shape.
-</td>
+<td>4</td>
+<td>0</td>
+<td>32</td>
+<td>10</td>
+<td>Decay shape.</td>
 </tr>
 </tbody>
 </table>
@@ -6917,9 +4785,7 @@ pulse at the end of the envelope's release stage.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -6928,85 +4794,39 @@ pulse at the end of the envelope's release stage.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Delay time multiplier.
-</td>
+<td>0</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
+<td>Delay time multiplier.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--40
-</td>
-<td>
-41
-</td>
-<td>
-32
-</td>
+<td>1</td>
+<td>-40</td>
+<td>41</td>
+<td>32</td>
 <td>Output A Attenuverter.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-32
-</td>
+<td>2</td>
+<td>-40</td>
+<td>40</td>
+<td>32</td>
 <td>Output B Attenuverter.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-26
-</td>
-<td>
-Attack shape.
-</td>
+<td>3</td>
+<td>0</td>
+<td>32</td>
+<td>26</td>
+<td>Attack shape.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-10
-</td>
-<td>
-Decay shape.
-</td>
+<td>4</td>
+<td>0</td>
+<td>32</td>
+<td>10</td>
+<td>Decay shape.</td>
 </tr>
 </tbody>
 </table>
@@ -7048,9 +4868,7 @@ pulse at the end of the envelope's release stage.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -7059,85 +4877,39 @@ pulse at the end of the envelope's release stage.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Delay time multiplier.
-</td>
+<td>0</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
+<td>Delay time multiplier.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--40
-</td>
-<td>
-41
-</td>
-<td>
-32
-</td>
+<td>1</td>
+<td>-40</td>
+<td>41</td>
+<td>32</td>
 <td>Output A Attenuverter.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-32
-</td>
+<td>2</td>
+<td>-40</td>
+<td>40</td>
+<td>32</td>
 <td>Output B Attenuverter.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-26
-</td>
-<td>
-Attack shape.
-</td>
+<td>3</td>
+<td>0</td>
+<td>32</td>
+<td>26</td>
+<td>Attack shape.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-10
-</td>
-<td>
-Decay shape.
-</td>
+<td>4</td>
+<td>0</td>
+<td>32</td>
+<td>10</td>
+<td>Decay shape.</td>
 </tr>
 </tbody>
 </table>
@@ -7181,9 +4953,7 @@ pulse at the end of the envelope's release stage.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -7192,101 +4962,45 @@ pulse at the end of the envelope's release stage.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Direction.
-</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Direction.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-1
-</td>
-<td>
-32
-</td>
-<td>
-8
-</td>
-<td>
-Length.
-</td>
+<td>1</td>
+<td>1</td>
+<td>32</td>
+<td>8</td>
+<td>Length.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Slew rate.
-</td>
+<td>2</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Slew rate.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-40
-</td>
+<td>3</td>
+<td>-40</td>
+<td>40</td>
+<td>40</td>
 <td>Output attenuverter.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-0
-</td>
-<td>
-Offset.
-</td>
+<td>4</td>
+<td>-40</td>
+<td>40</td>
+<td>0</td>
+<td>Offset.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-0
-</td>
-<td>
-15
-</td>
-<td>
-0
-</td>
+<td>5</td>
+<td>0</td>
+<td>15</td>
+<td>0</td>
 <td>MIDI clock divisor.</td>
 </tr>
 </tbody>
@@ -7337,79 +5051,49 @@ table:
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td>
-1/32
-</td>
+<td>1/32</td>
 <td>9</td>
-<td>
-1/4
-</td>
+<td>1/4</td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td>
-1/16 triplet
-</td>
+<td>1/16 triplet</td>
 <td>10</td>
-<td>
-1/2 triplet
-</td>
+<td>1/2 triplet</td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td>
-1/16
-</td>
+<td>1/16</td>
 <td>11</td>
-<td>
-3/8
-</td>
+<td>3/8</td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td>
-1/8 triplet
-</td>
+<td>1/8 triplet</td>
 <td>12</td>
-<td>
-1/2
-</td>
+<td>1/2</td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>
-3/32
-</td>
+<td>3/32</td>
 <td>13</td>
-<td>
-1/1 triplet
-</td>
+<td>1/1 triplet</td>
 </tr>
 <tr class="even">
 <td>6</td>
-<td>
-1/8
-</td>
+<td>1/8</td>
 <td>14</td>
-<td>
-3/4
-</td>
+<td>3/4</td>
 </tr>
 <tr class="odd">
 <td>7</td>
-<td>
-1/4 triplet
-</td>
+<td>1/4 triplet</td>
 <td>15</td>
-<td>
-1/1
-</td>
+<td>1/1</td>
 </tr>
 <tr class="even">
 <td>8</td>
-<td>
-3/16
-</td>
+<td>3/16</td>
 <td></td>
 <td></td>
 </tr>
@@ -7432,9 +5116,7 @@ table:
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -7443,135 +5125,59 @@ table:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Direction.
-</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Direction.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-1
-</td>
-<td>
-32
-</td>
-<td>
-8
-</td>
-<td>
-Length.
-</td>
+<td>1</td>
+<td>1</td>
+<td>32</td>
+<td>8</td>
+<td>Length.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-15
-</td>
-<td>
-0
-</td>
-<td>
-Scale.
-</td>
+<td>2</td>
+<td>0</td>
+<td>15</td>
+<td>0</td>
+<td>Scale.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--40
-</td>
-<td>
-40
-</td>
-<td>
-32
-</td>
+<td>3</td>
+<td>-40</td>
+<td>40</td>
+<td>32</td>
 <td>Output attenuverter.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-MIDI Gate.
-</td>
+<td>4</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>MIDI Gate.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--48
-</td>
-<td>
-48
-</td>
-<td>
-0
-</td>
-<td>
-Transpose.
-</td>
+<td>5</td>
+<td>-48</td>
+<td>48</td>
+<td>0</td>
+<td>Transpose.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Slew.
-</td>
+<td>6</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Slew.</td>
 </tr>
 <tr class="even">
-<td>
-7
-</td>
-<td>
-0
-</td>
-<td>
-15
-</td>
-<td>
-0
-</td>
+<td>7</td>
+<td>0</td>
+<td>15</td>
+<td>0</td>
 <td>MIDI clock divisor.</td>
 </tr>
 </tbody>
@@ -7582,7 +5188,7 @@ register method. The joy of this method is that it generates a loop of
 CVs, with a controllable likelihood of change, including the
 possibility to lock the loop so it does not change. The CVs are
 quantized to semitones or to a chosen musical scale.
->
+
 X is the clock input. Any clock pulse in excess of 1V can be used. On
 each rising edge the shift register rotates and a new CV is output. On
 each rotation, there is the possibility that one bit of the shift
@@ -7595,7 +5201,7 @@ chance of a flip goes up, reaching 100% at around -2V. This also
 effectively locks the pattern. When Z crosses the ±2V boundaries, in
 either direction, the display shows "\*\*" for a short while to let
 you know that the pattern has been locked or unlocked.
->
+
 Input Y allows for modification of the sequence, even when the loop is
 locked. If input Y is above 1V, the bit will always be flipped on a
 clock pulse, regardless of the setting of Z.
@@ -7645,9 +5251,7 @@ The MIDI Gate parameter works in the same way as for the Quantizer, above.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -7656,69 +5260,31 @@ The MIDI Gate parameter works in the same way as for the Quantizer, above.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-32
-</td>
-<td>
-8
-</td>
-<td>
-Length.
-</td>
+<td>0</td>
+<td>1</td>
+<td>32</td>
+<td>8</td>
+<td>Length.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Pulse A.
-</td>
+<td>1</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Pulse A.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Pulse B.
-</td>
+<td>2</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Pulse B.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-15
-</td>
-<td>
-0
-</td>
+<td>3</td>
+<td>0</td>
+<td>15</td>
+<td>0</td>
 <td>MIDI clock divisor.</td>
 </tr>
 </tbody>
@@ -7772,9 +5338,7 @@ above.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -7783,86 +5347,38 @@ above.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-32
-</td>
-<td>
-8
-</td>
-<td>
-Length A.
-</td>
+<td>0</td>
+<td>1</td>
+<td>32</td>
+<td>8</td>
+<td>Length A.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-1
-</td>
-<td>
-32
-</td>
-<td>
-8
-</td>
-<td>
-Length B.
-</td>
+<td>1</td>
+<td>1</td>
+<td>32</td>
+<td>8</td>
+<td>Length B.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Pulse A.
-</td>
+<td>2</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Pulse A.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Pulse B.
-</td>
+<td>3</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Pulse B.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-15
-</td>
-<td>
-0
-</td>
+<td>4</td>
+<td>0</td>
+<td>15</td>
+<td>0</td>
 <td>MIDI clock divisor.</td>
 </tr>
 </tbody>
@@ -7950,12 +5466,8 @@ adjust to minimise noise in the CV recovered from the plug-in.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong> 0
-</th>
-<th>
-<strong>Min</strong>0
-</th>
+<th><strong>Parameter</strong> 0</th>
+<th><strong>Min</strong>0</th>
 <th><strong>Max</strong>11</th>
 <th><strong>Default</strong>0</th>
 <th><strong>Description</strong> Semitone.</th>
@@ -7963,21 +5475,11 @@ adjust to minimise noise in the CV recovered from the plug-in.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-1
-</td>
-<td>
--1
-</td>
-<td>
-9
-</td>
-<td>
-4
-</td>
-<td>
-Octave.
-</td>
+<td>1</td>
+<td>-1</td>
+<td>9</td>
+<td>4</td>
+<td>Octave.</td>
 </tr>
 </tbody>
 </table>
@@ -8058,12 +5560,8 @@ Output B is a sine wave at the pitch of the detected note. The amplitude of the 
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -8071,138 +5569,60 @@ Output B is a sine wave at the pitch of the detected note. The amplitude of the 
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-5
-</td>
-<td>
-0
-</td>
-<td>
-Mode.
-</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+<td>0</td>
+<td>Mode.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--2
-</td>
-<td>
-14
-</td>
-<td>
-6
-</td>
-<td>
-Clock divisor for A.
-</td>
+<td>1</td>
+<td>-2</td>
+<td>14</td>
+<td>6</td>
+<td>Clock divisor for A.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--2
-</td>
-<td>
-14
-</td>
-<td>
--2
-</td>
-<td>
-Clock divisor for B.
-</td>
+<td>2</td>
+<td>-2</td>
+<td>14</td>
+<td>-2</td>
+<td>Clock divisor for B.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-11
-</td>
-<td>
-8
-</td>
-<td>
-Clock divisor for X.
-</td>
+<td>3</td>
+<td>0</td>
+<td>11</td>
+<td>8</td>
+<td>Clock divisor for X.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-Y mode.
-</td>
+<td>4</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>Y mode.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
+<td>5</td>
 <td>-120</td>
-<td>
-120
-</td>
-<td>
-0
-</td>
-<td>
-Tempo.
-</td>
+<td>120</td>
+<td>0</td>
+<td>Tempo.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Z mode.
-</td>
+<td>6</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Z mode.</td>
 </tr>
 <tr class="even">
-<td>
-7
-</td>
-<td>
-0
-</td>
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-Ratchet mode.
-</td>
+<td>7</td>
+<td>0</td>
+<td>6</td>
+<td>0</td>
+<td>Ratchet mode.</td>
 </tr>
 </tbody>
 </table>
@@ -8221,84 +5641,40 @@ mode of operation is determined by parameter 0.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-MIDI
-</td>
-<td>
-X
-</td>
-<td>
-Legacy disting behaviour.
-</td>
+<td>0</td>
+<td>MIDI</td>
+<td>X</td>
+<td>Legacy disting behaviour.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-X
-</td>
-<td>
-X
-</td>
-<td>
-Another module is the clock leader; disting converts to MIDI clock and generates clock divisions.
-</td>
+<td>1</td>
+<td>X</td>
+<td>X</td>
+<td>Another module is the clock leader; disting converts to MIDI clock and generates clock divisions.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-Internal
-</td>
-<td>
-X
-</td>
+<td>2</td>
+<td>Internal</td>
+<td>X</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-MIDI
-</td>
-<td>
-Internal
-</td>
-<td>
-Disting converts MIDI clock to analogue clock.
-</td>
+<td>3</td>
+<td>MIDI</td>
+<td>Internal</td>
+<td>Disting converts MIDI clock to analogue clock.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-X
-</td>
-<td>
-Internal
-</td>
+<td>4</td>
+<td>X</td>
+<td>Internal</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-Internal
-</td>
-<td>
-Internal
-</td>
-<td>
-Disting is the clock leader, generating analogue clock and MIDI clock.
-</td>
+<td>5</td>
+<td>Internal</td>
+<td>Internal</td>
+<td>Disting is the clock leader, generating analogue clock and MIDI clock.</td>
 </tr>
 </tbody>
 </table>
@@ -8317,25 +5693,14 @@ tempo clock.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-Start/Stop
-</td>
-<td>
-Push Z to start the internal clock; push it again to stop the clock. Parameter 5 sets the tempo, as 120 plus the parameter value (i.e. the range is 0-240 bpm).
-</td>
+<td>0</td>
+<td>Start/Stop</td>
+<td>Push Z to start the internal clock; push it again to stop the clock. Parameter 5 sets the tempo, as 120 plus the parameter value (i.e. the range is 0-240 bpm).</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-Tap Tempo
-</td>
-<td>
-Push Z five times to start the clock (i.e. a one bar count-in in 4 time). Hold Z for 2 seconds to stop the clock. While the clock is running, you may continue to tap Z to correct or change the tempo.
+<td>1</td>
+<td>Tap Tempo</td>
+<td>Push Z five times to start the clock (i.e. a one bar count-in in 4 time). Hold Z for 2 seconds to stop the clock. While the clock is running, you may continue to tap Z to correct or change the tempo.
 
 Parameter 5 offsets the tempo set by tapping (up or down in BPM steps).</td>
 </tr>
@@ -8344,7 +5709,7 @@ Parameter 5 offsets the tempo set by tapping (up or down in BPM steps).</td>
 
 While the internal clock is running, the top left pixel of the display
 flashes in time.
->
+
 Whatever the clock source, outputs A & B generate 5V clock pulses
 according to parameters 1 & 2. The parameter/divisor relationship is
 as per the following table:
@@ -8387,49 +5752,25 @@ Parameter 4 controls whether input Y is used as a run/stop input:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-Not used.
-</td>
-<td>
-The X clock is taken to start as soon as pulses appear on the X input, and is assumed to have stopped if no pulses appear for two seconds.
-</td>
+<td>0</td>
+<td>Not used.</td>
+<td>The X clock is taken to start as soon as pulses appear on the X input, and is assumed to have stopped if no pulses appear for two seconds.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-Run/stop for X.
-</td>
-<td>
-The X clock is ignored until Y goes high (over 1V) and stops when Y goes low.
-</td>
+<td>1</td>
+<td>Run/stop for X.</td>
+<td>The X clock is ignored until Y goes high (over 1V) and stops when Y goes low.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-Run/stop for internal.
-</td>
-<td>
-The internal clock starts when Y goes high and stops when Y goes
-low.
-</td>
+<td>2</td>
+<td>Run/stop for internal.</td>
+<td>The internal clock starts when Y goes high and stops when Y goes
+low.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-Run/stop for both.
-</td>
-<td>
-Both the X clock and the internal clock are controlled by Y as above.
-</td>
+<td>3</td>
+<td>Run/stop for both.</td>
+<td>Both the X clock and the internal clock are controlled by Y as above.</td>
 </tr>
 </tbody>
 </table>
@@ -8450,66 +5791,38 @@ powers of 2 only (1, 2, 4, 8, 16), or by multiples of 2 and 3 (1, 2,
 <tbody>
 <tr class="odd">
 <td>0</td>
-<td>
-Off
-</td>
-<td>
-Off
-</td>
+<td>Off</td>
+<td>Off</td>
 </tr>
 <tr class="even">
 <td>1</td>
-<td>
-2's
-</td>
-<td>
-Off
-</td>
+<td>2's</td>
+<td>Off</td>
 </tr>
 <tr class="odd">
 <td>2</td>
-<td>
-Off
-</td>
-<td>
-2's
-</td>
+<td>Off</td>
+<td>2's</td>
 </tr>
 <tr class="even">
 <td>3</td>
-<td>
-2's
-</td>
-<td>
-2's
-</td>
+<td>2's</td>
+<td>2's</td>
 </tr>
 <tr class="odd">
 <td>4</td>
-<td>
-2's/3's
-</td>
-<td>
-Off
-</td>
+<td>2's/3's</td>
+<td>Off</td>
 </tr>
 <tr class="even">
 <td>5</td>
-<td>
-Off
-</td>
-<td>
-2's/3's
-</td>
+<td>Off</td>
+<td>2's/3's</td>
 </tr>
 <tr class="odd">
 <td>6</td>
-<td>
-2's/3's
-</td>
-<td>
-2's/3's
-</td>
+<td>2's/3's</td>
+<td>2's/3's</td>
 </tr>
 </tbody>
 </table>
@@ -8535,9 +5848,7 @@ clockwise to bias the input positive.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -8546,123 +5857,53 @@ clockwise to bias the input positive.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--48
-</td>
-<td>
-48
-</td>
-<td>
-0
-</td>
-<td>
-Transpose.
-</td>
+<td>0</td>
+<td>-48</td>
+<td>48</td>
+<td>0</td>
+<td>Transpose.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-24
-</td>
-<td>
-2
-</td>
-<td>
-Pitch bend depth.
-</td>
+<td>1</td>
+<td>0</td>
+<td>24</td>
+<td>2</td>
+<td>Pitch bend depth.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--1
-</td>
-<td>
-99
-</td>
-<td>
--1
-</td>
-<td>
-Scale.
-</td>
+<td>2</td>
+<td>-1</td>
+<td>99</td>
+<td>-1</td>
+<td>Scale.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Portamento.
-</td>
+<td>3</td>
+<td>0</td>
+<td>32</td>
+<td>0</td>
+<td>Portamento.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-100
-</td>
-<td>
-0
-</td>
-<td>
-Interrupt.
-</td>
+<td>4</td>
+<td>0</td>
+<td>100</td>
+<td>0</td>
+<td>Interrupt.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-0
-</td>
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-Priority.
-</td>
+<td>5</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>Priority.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Mode.
-</td>
+<td>6</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Mode.</td>
 </tr>
 </tbody>
 </table>
@@ -8705,9 +5946,7 @@ Parameter 5 sets the note priority mode. The options are Last, Low, and High.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -8716,72 +5955,32 @@ Parameter 5 sets the note priority mode. The options are Last, Low, and High.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-16
-</td>
-<td>
-Channel offset.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>16</td>
+<td>Channel offset.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-127
-</td>
-<td>
-0
-</td>
-<td>
-Z mode.
-</td>
+<td>1</td>
+<td>0</td>
+<td>127</td>
+<td>0</td>
+<td>Z mode.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-X CC.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>X CC.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Y CC.
-</td>
+<td>3</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Y CC.</td>
 </tr>
 </tbody>
 </table>
@@ -8811,12 +6010,8 @@ the CC number). If Y is to be converted to a CC, then notes are no longer genera
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -8824,70 +6019,32 @@ the CC number). If Y is to be converted to a CC, then notes are no longer genera
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-Crossfade/pan law.
-</td>
+<td>0</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>Crossfade/pan law.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-Clip mode.
-</td>
+<td>1</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>Clip mode.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--1
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
+<td>2</td>
+<td>-1</td>
+<td>99</td>
+<td>0</td>
 <td>Output B option/LFO speed.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Output B attenuation.
-</td>
+<td>3</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Output B attenuation.</td>
 </tr>
 </tbody>
 </table>
@@ -8904,34 +6061,22 @@ Parameter 0 sets the pan/crossfade law:
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>0</strong> Equal gain
-</th>
-<th>
-Appropriate for crossfading phase-coherent material.
-</th>
+<th><strong>0</strong> Equal gain</th>
+<th>Appropriate for crossfading phase-coherent material.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-<strong>1</strong> Equal power Appropriate for crossfading non-phase-coherent material.
-</td>
+<td><strong>1</strong> Equal power Appropriate for crossfading non-phase-coherent material.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>
-<strong>2</strong> Transition
-</td>
+<td><strong>2</strong> Transition</td>
 <td>DJ-style crossfade where both sources are at full gain at the 50% position.</td>
 </tr>
 <tr class="odd">
-<td>
-<strong>3</strong> FX Loop
-</td>
-<td>
-Output A is unattenuated input X plus a faded amount of input Y.
-</td>
+<td><strong>3</strong> FX Loop</td>
+<td>Output A is unattenuated input X plus a faded amount of input Y.</td>
 </tr>
 </tbody>
 </table>
@@ -8941,36 +6086,22 @@ Parameter 1 sets the clipping/saturation mode, for when the mix of the inputs ex
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>0</strong> Legacy
-</th>
-<th>
-The behaviour pre-firmware 4.8, which could cause digital overflows and
-</th>
+<th><strong>0</strong> Legacy</th>
+<th>The behaviour pre-firmware 4.8, which could cause digital overflows and</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td></td>
-<td>
-fairly drastic wavefolding-type sounds.
-</td>
+<td>fairly drastic wavefolding-type sounds.</td>
 </tr>
 <tr class="even">
-<td>
-<strong>1</strong> Hard clip
-</td>
-<td>
-A hard digital clip is applied.
-</td>
+<td><strong>1</strong> Hard clip</td>
+<td>A hard digital clip is applied.</td>
 </tr>
 <tr class="odd">
-<td>
-<strong>2</strong> Soft clip
-</td>
-<td>
-A soft clip/saturation is applied.
-</td>
+<td><strong>2</strong> Soft clip</td>
+<td>A soft clip/saturation is applied.</td>
 </tr>
 </tbody>
 </table>
@@ -8980,39 +6111,25 @@ Parameter 2 controls the function of output B:
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>-1</strong> Copy
-</th>
-<th>
-Output B follows input X.
-</th>
+<th><strong>-1</strong> Copy</th>
+<th>Output B follows input X.</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>0</strong></td>
-<td>
-Normal
-</td>
-<td>
-Normal crossfade/pan function.
-</td>
+<td>Normal</td>
+<td>Normal crossfade/pan function.</td>
 </tr>
 <tr class="even">
-<td>
-<strong>1-99</strong> LFO
-</td>
-<td>
-Output B is a ±5V triangle wave LFO, the speed of which is set from the
-</td>
+<td><strong>1-99</strong> LFO</td>
+<td>Output B is a ±5V triangle wave LFO, the speed of which is set from the</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-parameter.
-</td>
+<td>parameter.</td>
 <td></td>
 </tr>
 </tbody>
@@ -9039,10 +6156,8 @@ is constant, so Z gives you a simple fader on the effect return.
 <table>
 <tbody>
 <tr class="odd">
-<td>
-<strong>A = X when Z exceeds 1V</strong><br />
-<strong>B = Y when Z exceeds 1V</strong>
-</td>
+<td><strong>A = X when Z exceeds 1V</strong><br />
+<strong>B = Y when Z exceeds 1V</strong></td>
 </tr>
 </tbody>
 </table>
@@ -9050,12 +6165,8 @@ is constant, so Z gives you a simple fader on the effect return.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong> 0
-</th>
-<th>
-<strong>Min</strong>0
-</th>
+<th><strong>Parameter</strong> 0</th>
+<th><strong>Min</strong>0</th>
 <th><strong>Max</strong>1</th>
 <th><strong>Default</strong>0</th>
 <th><strong>Description</strong> Mode.</th>
@@ -9063,89 +6174,39 @@ is constant, so Z gives you a simple fader on the effect return.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Offset.
-</td>
+<td>1</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Offset.</td>
 </tr>
 <tr class="even">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-64
-</td>
-<td>
-0
-</td>
-<td>
-Noise X.
-</td>
+<td>2</td>
+<td>0</td>
+<td>64</td>
+<td>0</td>
+<td>Noise X.</td>
 </tr>
 <tr class="odd">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-64
-</td>
-<td>
-0
-</td>
-<td>
-Noise Y.
-</td>
+<td>3</td>
+<td>0</td>
+<td>64</td>
+<td>0</td>
+<td>Noise Y.</td>
 </tr>
 <tr class="even">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Slew A.
-</td>
+<td>4</td>
+<td>0</td>
+<td>32</td>
+<td>0</td>
+<td>Slew A.</td>
 </tr>
 <tr class="odd">
-<td>
-5
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Slew B.
-</td>
+<td>5</td>
+<td>0</td>
+<td>32</td>
+<td>0</td>
+<td>Slew B.</td>
 </tr>
 </tbody>
 </table>
@@ -9183,12 +6244,8 @@ Parameters 4 & 5 control the amount of slew applied to outputs A & B respectivel
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -9196,72 +6253,32 @@ Parameters 4 & 5 control the amount of slew applied to outputs A & B respectivel
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Input X attenuation.
-</td>
+<td>0</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Input X attenuation.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Input Y attenuation.
-</td>
+<td>1</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Input Y attenuation.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--31
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-X transpose.
-</td>
+<td>2</td>
+<td>-31</td>
+<td>31</td>
+<td>0</td>
+<td>X transpose.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--31
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Y transpose.
-</td>
+<td>3</td>
+<td>-31</td>
+<td>31</td>
+<td>0</td>
+<td>Y transpose.</td>
 </tr>
 </tbody>
 </table>
@@ -9318,9 +6335,7 @@ are output on channels 4 (X/A) and 5 (Y/B).
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -9329,89 +6344,39 @@ are output on channels 4 (X/A) and 5 (Y/B).
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Input X attenuation.
-</td>
+<td>0</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Input X attenuation.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Input Y attenuation.
-</td>
+<td>1</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Input Y attenuation.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--18
-</td>
-<td>
-18
-</td>
-<td>
-0
-</td>
-<td>
-X scale/trigger mode.
-</td>
+<td>2</td>
+<td>-18</td>
+<td>18</td>
+<td>0</td>
+<td>X scale/trigger mode.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--18
-</td>
-<td>
-18
-</td>
-<td>
-0
-</td>
-<td>
-Y scale/trigger mode.
-</td>
+<td>3</td>
+<td>-18</td>
+<td>18</td>
+<td>0</td>
+<td>Y scale/trigger mode.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-MIDI Gate.
-</td>
+<td>4</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>MIDI Gate.</td>
 </tr>
 </tbody>
 </table>
@@ -9455,30 +6420,30 @@ listens for MIDI note on messages and uses the received notes for the
 quantization pattern. While any notes are held, playing new notes adds
 to the pattern. When all notes are released and a new note played, the
 pattern is reset and formed from the new note.
->
+
 In 'MIDI 1' mode the played MIDI notes set the note names, but
 quantization can happen in any octave (i.e. if you play a 'D' the
 output will always be 'D' but the octave will depend on the octave of
 the incoming CV).
->
+
 In 'MIDI 2' mode the played MIDI notes are the only ones that can be
 output (so say if you play middle C and the D above, the output will
 always be one of those two notes, depending on whether the input CV is
 below or above middle C).
->
+
 The quantized notes names are shown on the display (A left, B right).
 Natural notes are shown in capitals i.e. 'C', 'D', 'E' etc. Lower case
 letters indicate sharps e.g. 'c' indicates C sharp, 'd', indicates D
 sharp.
->
+
 **MIDI Output**: each new note is output as a MIDI note message on the
 MIDI channel selected in the settings (input X/output A) or on the
 next highest channel (input Y/output B). E.g. if the settings specify
 MIDI channel 4, the notes are output on channels 4 (X/A) and 5 (Y/B).
->
+
 The MIDI Gate parameter works in the same way as for the Quantizer,
 above.
->
+
 ***H-5 Dual Euclidean Patterns***
 
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image4.png" style="width:0.30833in;height:0.21667in" />
@@ -9495,9 +6460,7 @@ above.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -9506,120 +6469,52 @@ above.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-16
-</td>
-<td>
-16
-</td>
-<td>
-Steps.
-</td>
+<td>0</td>
+<td>1</td>
+<td>16</td>
+<td>16</td>
+<td>Steps.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-1
-</td>
-<td>
-16
-</td>
-<td>
-4
-</td>
-<td>
-Pulses (pattern 1).
-</td>
+<td>1</td>
+<td>1</td>
+<td>16</td>
+<td>4</td>
+<td>Pulses (pattern 1).</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-96
-</td>
-<td>
-0
-</td>
-<td>
-A Rotation.
-</td>
+<td>2</td>
+<td>0</td>
+<td>96</td>
+<td>0</td>
+<td>A Rotation.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Pulse length.
-</td>
+<td>3</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Pulse length.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--1
-</td>
-<td>
-96
-</td>
-<td>
--1
-</td>
-<td>
-B Rotation.
-</td>
+<td>4</td>
+<td>-1</td>
+<td>96</td>
+<td>-1</td>
+<td>B Rotation.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-0
-</td>
-<td>
-96
-</td>
-<td>
-0
-</td>
-<td>
-Repeat.
-</td>
+<td>5</td>
+<td>0</td>
+<td>96</td>
+<td>0</td>
+<td>Repeat.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
--15
-</td>
-<td>
-15
-</td>
-<td>
-0
-</td>
+<td>6</td>
+<td>-15</td>
+<td>15</td>
+<td>0</td>
 <td>MIDI clock divisor.</td>
 </tr>
 </tbody>
@@ -9629,12 +6524,12 @@ This algorithm generates rhythmic patterns of output pulses known as
 Euclidean patterns. For a detailed description of these patterns and
 how they are commonly found in music around the world see e.g. 9 or
 10.
->
+
 A pattern is described by the total number of steps (controlled by
 parameter 0) and the number of pulses (i.e. the number steps on which
 a pulse is output) (controlled by parameter 1 for output A and by Z
 for output B).
->
+
 Parameter 2 sets a 'rotation' of the pattern. At zero rotation, the
 first step in the pattern will always
 
@@ -9642,9 +6537,7 @@ first step in the pattern will always
 <tbody>
 <tr class="odd">
 <td>9</td>
-<td>
-https://en.wikipedia.org/wiki/Euclidean_rhythm
-</td>
+<td>https://en.wikipedia.org/wiki/Euclidean_rhythm</td>
 </tr>
 </tbody>
 </table>
@@ -9685,12 +6578,8 @@ the last MIDI start message (and so is predictable and repeatable).
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong> 0
-</th>
-<th>
-<strong>Min</strong>0
-</th>
+<th><strong>Parameter</strong> 0</th>
+<th><strong>Min</strong>0</th>
 <th><strong>Max</strong>6</th>
 <th><strong>Default</strong>0</th>
 <th><strong>Description</strong> Z mode.</th>
@@ -9698,55 +6587,25 @@ the last MIDI start message (and so is predictable and repeatable).
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-12
-</td>
-<td>
-6
-</td>
-<td>
-Range.
-</td>
+<td>1</td>
+<td>0</td>
+<td>12</td>
+<td>6</td>
+<td>Range.</td>
 </tr>
 <tr class="even">
-<td>
-2
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
--1
-</td>
-<td>
-Delay.
-</td>
+<td>2</td>
+<td>-1</td>
+<td>31</td>
+<td>-1</td>
+<td>Delay.</td>
 </tr>
 <tr class="odd">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-7
-</td>
-<td>
-Length.
-</td>
+<td>3</td>
+<td>0</td>
+<td>31</td>
+<td>7</td>
+<td>Length.</td>
 </tr>
 </tbody>
 </table>
@@ -9771,27 +6630,19 @@ Parameter 0 controls the function of Z:
 <tbody>
 <tr class="odd">
 <td><strong>0</strong></td>
-<td>
-Z controls delay
-</td>
+<td>Z controls delay</td>
 </tr>
 <tr class="even">
 <td><strong>1</strong></td>
-<td>
-Z controls length
-</td>
+<td>Z controls length</td>
 </tr>
 <tr class="odd">
 <td><strong>2</strong></td>
-<td>
-Output override (high). Z over 1V forces both outputs high.
-</td>
+<td>Output override (high). Z over 1V forces both outputs high.</td>
 </tr>
 <tr class="even">
 <td><strong>3</strong></td>
-<td>
-Output override (low). Z over 1V forces both outputs low.
-</td>
+<td>Output override (low). Z over 1V forces both outputs low.</td>
 </tr>
 </tbody>
 </table>
@@ -9800,23 +6651,17 @@ Output override (low). Z over 1V forces both outputs low.
 <thead>
 <tr class="header">
 <th><strong>4</strong></th>
-<th>
-Input enable. Z below 1V disables input triggers.
-</th>
+<th>Input enable. Z below 1V disables input triggers.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>5</strong></td>
-<td>
-Input disable. Z above 1V disables input triggers.
-</td>
+<td>Input disable. Z above 1V disables input triggers.</td>
 </tr>
 <tr class="even">
 <td><strong>6</strong></td>
-<td>
-Z is an additional trigger input which triggers both outputs.
-</td>
+<td>Z is an additional trigger input which triggers both outputs.</td>
 </tr>
 </tbody>
 </table>
@@ -9833,9 +6678,7 @@ Z is an additional trigger input which triggers both outputs.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -9844,72 +6687,32 @@ Z is an additional trigger input which triggers both outputs.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--1
-</td>
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-Type A.
-</td>
+<td>0</td>
+<td>-1</td>
+<td>3</td>
+<td>-1</td>
+<td>Type A.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--1
-</td>
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-Type B.
-</td>
+<td>1</td>
+<td>-1</td>
+<td>3</td>
+<td>-1</td>
+<td>Type B.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
-31
-</td>
-<td>
-Attenuation A.
-</td>
+<td>2</td>
+<td>-1</td>
+<td>31</td>
+<td>31</td>
+<td>Attenuation A.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
-31
-</td>
-<td>
-Attenuation B.
-</td>
+<td>3</td>
+<td>-1</td>
+<td>31</td>
+<td>31</td>
+<td>Attenuation B.</td>
 </tr>
 </tbody>
 </table>
@@ -9948,12 +6751,8 @@ the noise output with a VCA driven by X/Y). The X/Y inputs are clamped at 0V i.e
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -9961,98 +6760,46 @@ the noise output with a VCA driven by X/Y). The X/Y inputs are clamped at 0V i.e
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
+<td>0</td>
 <td>N/A</td>
-<td>
-Pattern.
-</td>
+<td>Pattern.</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-Scale.
-</td>
+<td>1</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>Scale.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--12
-</td>
-<td>
-12
-</td>
-<td>
-0
-</td>
-<td>
-Key.
-</td>
+<td>2</td>
+<td>-12</td>
+<td>12</td>
+<td>0</td>
+<td>Key.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Input X attenuation.
-</td>
+<td>3</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Input X attenuation.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
--32
-</td>
+<td>4</td>
+<td>-32</td>
+<td>32</td>
+<td>-32</td>
 <td>Trigger mode / offset / Y attenuation.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Slew rate.
-</td>
+<td>5</td>
+<td>0</td>
+<td>32</td>
+<td>0</td>
+<td>Slew rate.</td>
 </tr>
 </tbody>
 </table>
@@ -10095,46 +6842,22 @@ Parameter 1 chooses the scale. The available options are:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-Major
-</td>
-<td>
-1, 3, 5, 6, 8, 10, 12
-</td>
-<td>
-C D E F G A B
-</td>
+<td>0</td>
+<td>Major</td>
+<td>1, 3, 5, 6, 8, 10, 12</td>
+<td>C D E F G A B</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-Natural Minor
-</td>
-<td>
-1, 3, 4, 6, 8, 9, 11
-</td>
-<td>
-C D E♭ F G A♭ B♭
-</td>
+<td>1</td>
+<td>Natural Minor</td>
+<td>1, 3, 4, 6, 8, 9, 11</td>
+<td>C D E♭ F G A♭ B♭</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-Harmonic Minor
-</td>
-<td>
-1, 3, 4, 6, 8, 9, 12
-</td>
-<td>
-C D E♭ F G A♭ B
-</td>
+<td>2</td>
+<td>Harmonic Minor</td>
+<td>1, 3, 4, 6, 8, 9, 12</td>
+<td>C D E♭ F G A♭ B</td>
 </tr>
 </tbody>
 </table>
@@ -10159,17 +6882,17 @@ from the scale that are available for the CV to adopt. The user
 interface to editing the pattern is unique to this algorithm. When
 parameter 0 is the current parameter, turning the S knob scrolls
 through the degrees of the scale e.g.
->
+
 from 1 to 7 for a major scale. (The actual notes that these scale
 degrees refer to depend on the selected key and scale.) Next to the
 number of the scale degree is either a '+', which indicates the degree
 is included in the quantizer pattern, or '.', which indicates that it
 is not. Pressing the S knob toggles between these two states.
->
+
 When the display is not showing a parameter value or name, it shows
 the note name of the pitch CV on output A (assuming, as mentioned
 above, that 0V corresponds to a C).
->
+
 **MIDI Input**: MIDI note messages received on MIDI channel 1 or 2 set
 the quantizer pattern. The notes of the C major scale (i.e. the white
 keys) turn on & off the corresponding degrees of the pattern. Note
@@ -10196,9 +6919,7 @@ MIDI channel:
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -10207,35 +6928,17 @@ MIDI channel:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Folder.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Folder.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
+<td>1</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
 <td>Envelope time.</td>
 </tr>
 </tbody>
@@ -10259,17 +6962,13 @@ you're 5 seconds into a 10 second file:
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-if you switch to a 20 second file, the position will be 5 seconds into the new file.
-</th>
+<th>if you switch to a 20 second file, the position will be 5 seconds into the new file.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-if you switch to a 2 second file, the position will be 1 second into the new file.
-</td>
+<td>if you switch to a 2 second file, the position will be 1 second into the new file.</td>
 </tr>
 </tbody>
 </table>
@@ -10303,9 +7002,7 @@ note on retriggers the sample, and if the envelope time is non-zero, a note off 
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -10314,52 +7011,24 @@ note on retriggers the sample, and if the envelope time is non-zero, a note off 
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Folder.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Folder.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Envelope time.
-</td>
+<td>1</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Envelope time.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--1
-</td>
-<td>
-99
-</td>
-<td>
--1
-</td>
+<td>2</td>
+<td>-1</td>
+<td>99</td>
+<td>-1</td>
 <td>Selects the sample and function of Z.</td>
 </tr>
 </tbody>
@@ -10377,18 +7046,18 @@ corresponds to the length of the sample).
 Y is the clock input. The speed of the sample playback is adjusted so
 that the whole sample fits into the time taken for a number of clocks,
 where that number is set (per sample) in the playlist.
->
+
 When switching between files, the playback position is maintained, as
 for the I-1Audio Playback algorithm.
->
+
 A & B are the left & right audio outputs respectively.
->
+
 Parameters 0 & 1 are the standard sample folder and envelope time
 parameters, described above.**MIDI Input**: MIDI note on & off
 messages are handled equivalently to a trigger or gate on the X input
 – that is, a note on retriggers the sample, and if the envelope time
 is non-zero, a note off will stop the playback.
->
+
 ***I-3 Audio Playback with V/Oct***
 
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image4.png" style="width:0.30833in;height:0.21667in" />
@@ -10403,9 +7072,7 @@ is non-zero, a note off will stop the playback.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -10414,86 +7081,38 @@ is non-zero, a note off will stop the playback.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Folder.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Folder.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--8
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Octave shift.
-</td>
+<td>1</td>
+<td>-8</td>
+<td>8</td>
+<td>0</td>
+<td>Octave shift.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Envelope time.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Envelope time.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-4
-</td>
-<td>
--1
-</td>
-<td>
-MIDI mode.
-</td>
+<td>3</td>
+<td>-1</td>
+<td>4</td>
+<td>-1</td>
+<td>MIDI mode.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-24
-</td>
-<td>
-2
-</td>
+<td>4</td>
+<td>0</td>
+<td>24</td>
+<td>2</td>
 <td>Pitch bend depth.</td>
 </tr>
 </tbody>
@@ -10502,20 +7121,20 @@ MIDI mode.
 This algorithm is much the same as 'I-1 Audio Playback', except that
 it forgoes the sample start position input and instead has a pitch
 input.
->
+
 Y is the pitch input, using the 1V/octave standard. 0V corresponds to
 the sample playing at its natural pitch. Positive voltages speed up
 playback; negative voltages slow it down.
->
+
 Parameter 1 shifts the pitch up or down in octave increments.
->
+
 Note that there is a limit to how fast data can be streamed from the
 SD card. If you speed playback up by a large factor, you may get
 dropouts.
->
+
 Parameters 0 & 2 are the standard sample folder and envelope time
 parameters, described above.
->
+
 **MIDI Input**: MIDI note on & off messages are handled equivalently
 to a trigger or gate on the X input – that is, a note on retriggers
 the sample, and if the envelope time is non-zero, a note off will stop
@@ -10524,16 +7143,16 @@ instead of the Y input CV, so you can effectively play the disting
 like a sampler from a MIDI keyboard. MIDI note 48 (C3) corresponds to
 a 0V input i.e. playing the sample at its natural pitch. MIDI pitch
 bend is supported; parameter 4 sets the bend depth in semitones.
->
+
 Parameter 3 'MIDI mode' allows for polyphonic operation, using
 multiple disting mk4 modules. If the parameter is -1 or 0, the module
 responds to MIDI like a monophonic synthesizer11. Otherwise, the
 parameter is a 'voice ID' in a polyphonic setup. By giving different
 voice IDs to multiple
->
+
 11 It is the intention that in future MIDI modes -1 and 0 might
 differ, for example in reusing the CV inputs that are
->
+
 likely not used if you're controlling the module via MIDI, but
 currently they are the same.
 
@@ -10564,9 +7183,7 @@ value 0 reverts to lowest voice allocation.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -10575,55 +7192,25 @@ value 0 reverts to lowest voice allocation.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Folder.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Folder.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Selects the sample.
-</td>
+<td>1</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Selects the sample.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Envelope time.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Envelope time.</td>
 </tr>
 </tbody>
 </table>
@@ -10655,9 +7242,7 @@ sample, and if the envelope time is non-zero, a note off will stop the playback.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -10666,55 +7251,25 @@ sample, and if the envelope time is non-zero, a note off will stop the playback.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Folder.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Folder.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--49
-</td>
-<td>
-49
-</td>
-<td>
-0
-</td>
-<td>
-Y offset.
-</td>
+<td>1</td>
+<td>-49</td>
+<td>49</td>
+<td>0</td>
+<td>Y offset.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Envelope time.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Envelope time.</td>
 </tr>
 </tbody>
 </table>
@@ -10750,9 +7305,7 @@ note on retriggers the sample, and if the envelope time is non-zero, a note off 
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -10761,72 +7314,32 @@ note on retriggers the sample, and if the envelope time is non-zero, a note off 
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Folder.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Folder.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-1
-</td>
-<td>
-99
-</td>
-<td>
-16
-</td>
-<td>
-Speed limit.
-</td>
+<td>1</td>
+<td>1</td>
+<td>99</td>
+<td>16</td>
+<td>Speed limit.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Slew.
-</td>
+<td>2</td>
+<td>0</td>
+<td>32</td>
+<td>0</td>
+<td>Slew.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Y offset.
-</td>
+<td>3</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Y offset.</td>
 </tr>
 </tbody>
 </table>
@@ -10864,12 +7377,8 @@ Parameter 0 is the standard sample folder parameter, described above.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -10877,53 +7386,25 @@ Parameter 0 is the standard sample folder parameter, described above.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Folder.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Folder.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
 <td>Selects the panning option.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Envelope time.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Envelope time.</td>
 </tr>
 </tbody>
 </table>
@@ -10935,13 +7416,11 @@ options are:
 <table>
 <tbody>
 <tr class="odd">
-<td>
--loop=0<br />
+<td>-loop=0<br />
 -gap=0<br />
 -fadeIn=0<br />
 -fadeOut=0<br />
--retriggerOnSampleChange=0
-</td>
+-retriggerOnSampleChange=0</td>
 </tr>
 </tbody>
 </table>
@@ -10955,29 +7434,21 @@ Parameter 1 selects between two options for how the outputs are used:
 <thead>
 <tr class="header">
 <th>–</th>
-<th>
-If the parameter is 0, then the sample triggered by X plays out of output A, and the sample
-</th>
+<th>If the parameter is 0, then the sample triggered by X plays out of output A, and the sample</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>–</td>
-<td>
-triggered by Y plays out of output B. Stereo samples are summed to mono.
-</td>
+<td>triggered by Y plays out of output B. Stereo samples are summed to mono.</td>
 </tr>
 <tr class="even">
 <td></td>
-<td>
-If the parameter is 1, then mono samples are panned centrally, and stereo samples are played
-</td>
+<td>If the parameter is 1, then mono samples are panned centrally, and stereo samples are played</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-in stereo.
-</td>
+<td>in stereo.</td>
 </tr>
 </tbody>
 </table>
@@ -11005,9 +7476,7 @@ will stop the playback. MIDI note 48 (C3) triggers sample A; note 49 triggers sa
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -11016,104 +7485,46 @@ will stop the playback. MIDI note 48 (C3) triggers sample A; note 49 triggers sa
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Folder.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Folder.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Selects sample A.
-</td>
+<td>1</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Selects sample A.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-1
-</td>
-<td>
-Selects sample B.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>1</td>
+<td>Selects sample B.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Selects the panning option.
-</td>
+<td>3</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Selects the panning option.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-3
-</td>
-<td>
-0
-</td>
+<td>4</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
 <td>Select which sample(s) are affected by Z.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Envelope time.
-</td>
+<td>5</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Envelope time.</td>
 </tr>
 </tbody>
 </table>
@@ -11135,34 +7546,20 @@ Parameter 4 selects which samples are affected by the speed control, as follows:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
+<td>0</td>
 <td>Both samples' speeds controlled by Z.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-Sample A speed fixed; B variable.
-</td>
+<td>1</td>
+<td>Sample A speed fixed; B variable.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-Sample B speed fixed; A variable.
-</td>
+<td>2</td>
+<td>Sample B speed fixed; A variable.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-Both samples' speeds are fixed.
-</td>
+<td>3</td>
+<td>Both samples' speeds are fixed.</td>
 </tr>
 </tbody>
 </table>
@@ -11191,12 +7588,8 @@ C3) triggers sample A; note 49 triggers sample B.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -11204,21 +7597,11 @@ C3) triggers sample A; note 49 triggers sample B.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
--1
-</td>
-<td>
-Selects the MIDI file.
-</td>
+<td>0</td>
+<td>-1</td>
+<td>31</td>
+<td>-1</td>
+<td>Selects the MIDI file.</td>
 </tr>
 </tbody>
 </table>
@@ -11250,12 +7633,8 @@ file being played is transmitted unaltered on the disting's MIDI output.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -11263,121 +7642,53 @@ file being played is transmitted unaltered on the disting's MIDI output.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Folder.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Folder.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--8
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Octave shift.
-</td>
+<td>1</td>
+<td>-8</td>
+<td>8</td>
+<td>0</td>
+<td>Octave shift.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Envelope time.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Envelope time.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-4
-</td>
-<td>
--1
-</td>
-<td>
-MIDI mode.
-</td>
+<td>3</td>
+<td>-1</td>
+<td>4</td>
+<td>-1</td>
+<td>MIDI mode.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-24
-</td>
-<td>
-2
-</td>
-<td>
-Pitch bend depth.
-</td>
+<td>4</td>
+<td>0</td>
+<td>24</td>
+<td>2</td>
+<td>Pitch bend depth.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-1
-</td>
+<td>5</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
 <td>Selects the panning option.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-60
-</td>
-<td>
-0
-</td>
-<td>
-Gate offset.
-</td>
+<td>6</td>
+<td>0</td>
+<td>60</td>
+<td>0</td>
+<td>Gate offset.</td>
 </tr>
 </tbody>
 </table>
@@ -11391,7 +7702,7 @@ continuously, but a more typical use would be to use the envelope time parameter
 closes – then, this being a dual algorithm, one note can
 
 continue to decay while the next one starts.
->
+
 The other main difference between this and the monophonic Multisample
 Audio Playback algorithm is in the behaviour of the pitch CV input. In
 the monophonic algorithm the pitch CV is used to choose the sample
@@ -11400,26 +7711,26 @@ allowing bends, vibrato etc. In this dual algorithm, the pitch CV is
 sampled when the playback is triggered; subsequent CV change has no
 effect until it moves by more than a semitone, in which case a new
 note is triggered.
->
+
 X is a retrigger input. A trigger pulse in excess of 1V will reset the
 playback position to the start of the sample. The trigger is 'velocity
 sensitive' – the volume of the sample depends on the voltage of the
 trigger pulse.
->
+
 The Z knob/CV provides a tuning control, with a range of approximately
 ±0.5 octaves. Note that this is applied after the sample has been
 selected using the Y CV; changing Z will not affect the sample
 selection.
->
+
 A & B are the left & right audio outputs respectively.
->
+
 Parameter 1 shifts the pitch up or down in octave increments. It is
 equivalent to offsetting the pitch CV input – it also affects the
 sample selection.
->
+
 Parameters 0 & 2 are the standard sample folder and envelope time
 parameters, described above.
->
+
 Parameter 6 offsets (delays) the retrigger/gate input relative to the
 pitch input. This is useful to allow pitch CVs to settle before they
 are sampled on the rising gate, and also to cope with modules which
@@ -11427,7 +7738,7 @@ output both a pitch and gate but change their pitch first. In both
 cases, an offset allows the algorithm to choose the correct sample,
 rather than choosing the wrong sample and then re-pitching it to match
 the CV.
->
+
 **MIDI Input**: MIDI note on & off messages are handled equivalently
 to a trigger or gate on the X input – that is, a note on retriggers
 the sample, and if the envelope time is non-zero, a note off will stop
@@ -11436,17 +7747,17 @@ instead of the Y input CV, so you can effectively play the disting
 like a sampler from a MIDI keyboard. MIDI note 48 (C3) corresponds to
 a 0V input. MIDI pitch bend is supported; parameter 4 sets the bend
 depth in semitones.
->
+
 Parameter 3 'MIDI mode' works in the same way as for algorithm I-3 –
 see above.
->
+
 Parameter 5 sets the sample panning as in the Dual Audio Playback
 algorithm above. This algorithm defaults the setting to 1 so that the
 two voices are summed, but setting it to zero can give you some nice
 stereo effects where alternate notes are panned oppositely.
->
+
 Please see below for information regarding Multisample playlists.
->
+
 ***J-3 MIDI File Playback (Free Running)***
 
 | **X is V/octave speed CV**    |
@@ -11461,12 +7772,8 @@ Please see below for information regarding Multisample playlists.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -11474,21 +7781,11 @@ Please see below for information regarding Multisample playlists.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Selects the MIDI file.
-</td>
+<td>0</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Selects the MIDI file.</td>
 </tr>
 </tbody>
 </table>
@@ -11522,9 +7819,7 @@ file being played is transmitted unaltered on the disting's MIDI output.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -11533,55 +7828,25 @@ file being played is transmitted unaltered on the disting's MIDI output.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Folder.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Folder.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Selects the sample.
-</td>
+<td>1</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Selects the sample.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Envelope time.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Envelope time.</td>
 </tr>
 </tbody>
 </table>
@@ -11595,9 +7860,7 @@ X and Z are the retrigger and end position controls.
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-If Z is negative, X is the retrigger input, and Z controls the sample end point. So, if you
-</th>
+<th>If Z is negative, X is the retrigger input, and Z controls the sample end point. So, if you</th>
 </tr>
 </thead>
 <tbody>
@@ -11607,9 +7870,7 @@ If Z is negative, X is the retrigger input, and Z controls the sample end point.
 </tr>
 <tr class="even">
 <td></td>
-<td>
-sample.
-</td>
+<td>sample.</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -11617,21 +7878,15 @@ sample.
 </tr>
 <tr class="even">
 <td></td>
-<td>
-is scaled in the same way as input Y, so varying Y and feeding X the same CV plus a small
-</td>
+<td>is scaled in the same way as input Y, so varying Y and feeding X the same CV plus a small</td>
 </tr>
 <tr class="odd">
 <td></td>
-<td>
-offset will give you a short segment of the sample that moves around with the input. The
-</td>
+<td>offset will give you a short segment of the sample that moves around with the input. The</td>
 </tr>
 <tr class="even">
 <td></td>
-<td>
-trigger fed into Z should be a positive pulse over about 1V.
-</td>
+<td>trigger fed into Z should be a positive pulse over about 1V.</td>
 </tr>
 </tbody>
 </table>
@@ -11652,23 +7907,21 @@ sample, and if the envelope time is non-zero, a note off will stop the playback.
 <table>
 <tbody>
 <tr class="odd">
-<td>
-<strong>X is left audio input</strong><br />
+<td><strong>X is left audio input</strong><br />
 <strong>Y is right audio input</strong><br />
 <strong>Z controls recording</strong><br />
 <strong>A is left audio output</strong><br />
-<strong>B is right audio output</strong>
-</td>
+<strong>B is right audio output</strong></td>
 </tr>
 </tbody>
 </table>
 
 This algorithm records the incoming audio to a WAV file on the MicroSD
 card.
->
+
 X & Y are the audio inputs. The incoming audio is echoed directly to
 the A & B outputs.
->
+
 The Z knob/CV controls recording. When Z exceeds approximately 1V,
 recording starts. When it falls below 0.5V, recording stops. If Z
 already exceeds 1V when the algorithm is started, it must fall below
@@ -11683,21 +7936,21 @@ named sequentially starting with REC00000.WAV (then REC00001.WAV,
 REC00002.WAV etc.). If there are already recordings on the card, the
 next available filename will be used; the old files will not be
 overwritten.
->
+
 The files are placed in a folder named '!RECORD'12. If this folder
 does not exist, it will be created.
->
+
 When recording is complete, a small text file will also be written to
 the card, with the same filename but with the extension '.TXT'. This
 will detail any dropouts that occurred while recording the file (or
 ideally simply 'No dropouts').
->
+
 The disting's screen shows different information than the usual
 algorithm name or parameter values in this mode. The left two columns
 of LEDs display level meters for the two audio inputs. The right
 section of the screen either shows a rectangle (for recording stopped)
 or a recording animation (when recording).
->
+
 12 The thinking behind this slightly odd name is that it places it
 alphabetically before any folder beginning with a letter, and so it is
 likely to be the first folder in the list when switching to a playback
@@ -11718,12 +7971,8 @@ you don't have to scroll through a list of folders.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -11731,106 +7980,46 @@ you don't have to scroll through a list of folders.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Folder.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Folder.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--8
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Octave shift.
-</td>
+<td>1</td>
+<td>-8</td>
+<td>8</td>
+<td>0</td>
+<td>Octave shift.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Envelope time.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Envelope time.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-4
-</td>
-<td>
--1
-</td>
-<td>
-MIDI mode.
-</td>
+<td>3</td>
+<td>-1</td>
+<td>4</td>
+<td>-1</td>
+<td>MIDI mode.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-24
-</td>
-<td>
-2
-</td>
-<td>
-Pitch bend depth.
-</td>
+<td>4</td>
+<td>0</td>
+<td>24</td>
+<td>2</td>
+<td>Pitch bend depth.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-0
-</td>
-<td>
-63
-</td>
-<td>
-0
-</td>
-<td>
-Gate offset.
-</td>
+<td>5</td>
+<td>0</td>
+<td>63</td>
+<td>0</td>
+<td>Gate offset.</td>
 </tr>
 </tbody>
 </table>
@@ -11839,24 +8028,24 @@ This algorithm plays audio files, using a 1V/octave pitch input (Y) to
 both select the sample and control its pitch. This would typically be
 used for playing a multisampled instrument across a range of pitches,
 or for mapping individual sounds (e.g. drums) to different notes.
->
+
 X is a retrigger input. A trigger pulse in excess of 1V will reset the
 playback position to the start of the sample.
->
+
 The Z knob/CV provides a tuning control, with a range of approximately
 ±0.5 octaves. Note that this is applied after the sample has been
 selected using the Y CV; changing Z will not affect the sample
 selection.
->
+
 A & B are the left & right audio outputs respectively.
->
+
 Parameter 1 shifts the pitch up or down in octave increments. It is
 equivalent to offsetting the pitch CV input – it also affects the
 sample selection.
->
+
 Parameters 0 & 2 are the standard sample folder and envelope time
 parameters, described above.
->
+
 Parameter 5 offsets (delays) the retrigger/gate input relative to the
 pitch input. This is useful to allow pitch CVs to settle before they
 are sampled on the rising gate, and also to cope with modules which
@@ -11864,7 +8053,7 @@ output both a pitch and gate but change their pitch first. In both
 cases, an offset allows the algorithm to choose the correct sample,
 rather than choosing the wrong sample and then re-pitching it to match
 the CV.
->
+
 **MIDI Input**: MIDI note on & off messages are handled equivalently
 to a trigger or gate on the X input – that is, a note on retriggers
 the sample, and if the envelope time is non-zero, a note off will stop
@@ -11873,27 +8062,26 @@ instead of the Y input CV, so you can effectively play the disting
 like a sampler from a MIDI keyboard. MIDI note 48 (C3) corresponds to
 a 0V input. MIDI pitch bend is supported; parameter 4 sets the bend
 depth in semitones.
->
+
 Parameter 3 'MIDI mode' works in the same way as for algorithm I-3 –
 see above.
 
 **Multisample playlists**
->
+
 As with other algorithms, playlist files are optional, but you will
 almost certainly want to use playlists within the folders to specify
 the “natural” and “switch” settings that determine the mapping of
 samples onto pitch.
->
+
 Within a folder, if the files looked like this:  
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image7.png" style="width:3.63333in;height:1.24861in" />
->
+
 then "playlist.txt" might contain
 
 <table>
 <tbody>
 <tr class="odd">
-<td>
-disting playlist v1<br />
+<td>disting playlist v1<br />
 -loop=0<br />
 -retriggerOnSampleChange=0<br />
 thumbf2.wav<br />
@@ -11906,8 +8094,7 @@ thumbg3.wav<br />
 -natural=55<br />
 thumbe4.wav<br />
 -switch=60<br />
--natural=64
-</td>
+-natural=64</td>
 </tr>
 </tbody>
 </table>
@@ -11915,13 +8102,13 @@ thumbe4.wav<br />
 In this case we've turned off looping (the files are quite percussive
 thumb piano samples) and turned off retriggerOnSampleChange, so a new
 sample is chosen only when a trigger is received.
->
+
 Each sample file uses the “-natural” setting to let the algorithm know
 its 'natural pitch', that is, the pitch of the audio in the sample as
 recorded. The setting uses MIDI note numbers, where 48 is C3 (see for
 example 13). For example the file 'thumbf2.wav' is a recording of an F
 at 87.3Hz, so its natural pitch is 41.
->
+
 The “-switch” setting tells the algorithm when to choose one sample
 over another. Again, MIDI note numbers are used. The files are
 arranged in order of ascending pitch, and the “-switch” setting
@@ -11929,13 +8116,13 @@ specifies the lowest pitch that will use that file. In the example
 above, thumbf2.wav will be used up to MIDI note 43, then thumbc3.wav
 up to note 51, thumbg3.wav from 52-59, and finally  
 thumbe4.wav for notes 60 and up.
->
+
 With this in mind, the pitch CV is used as follows. The incoming CV is
 converted to a MIDI note number – say 49, C♯3. First the sample is
 looked up based on the switch settings – here 49 will choose
 thumbc3.wav. This file has natural pitch of 48, so it will be pitched
 up 1 semitone to play at the desired pitch.
->
+
 13 https://newt.phys.unsw.edu.au/jw/notes.html
 
 The default for “-switch” is one up from the previous file in the
@@ -11945,8 +8132,7 @@ mapped onto neighbouring keys e.g.
 <table>
 <tbody>
 <tr class="odd">
-<td>
-disting playlist v1<br />
+<td>disting playlist v1<br />
 -loop=0<br />
 -retriggerOnSampleChange=0<br />
 -fixedPitch=1.0<br />
@@ -11955,8 +8141,7 @@ GM KICK BASS.wav<br />
 GM MED SNARE.wav<br />
 GM CLOSED HH.wav<br />
 GM OPEN HH .wav<br />
-GM PEDAL HH .wav
-</td>
+GM PEDAL HH .wav</td>
 </tr>
 </tbody>
 </table>
@@ -11964,17 +8149,17 @@ GM PEDAL HH .wav
 Here five drum samples are mapped onto the five notes from 48 up. Note
 we've also here specified “-fixedPitch=1.0” so that the drums are
 always played at their natural speed.
->
+
 ***J-7 Mono Audio Recorder***
->
+
 This algorithm is identical to 'J-5 Audio Recorder' except that the
 files recorded are in mono, using the left (X) input, and the files
 are placed in a folder named '!RECORD1'.
->
+
 This can be useful when intending to use the recorded audio in the
 disting's own playback modes, since mono samples place less stress on
 the SD card throughput, and can be re-pitched higher.
->
+
 ***J-8 Audio Playback with Crossfade***
 
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image3.png" style="width:0.30833in;height:0.21667in" />
@@ -11989,9 +8174,7 @@ the SD card throughput, and can be re-pitched higher.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -12000,70 +8183,32 @@ the SD card throughput, and can be re-pitched higher.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Folder.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Folder.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--8
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Octave shift.
-</td>
+<td>1</td>
+<td>-8</td>
+<td>8</td>
+<td>0</td>
+<td>Octave shift.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-50
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>50</td>
 <td>Crossfade time.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-2
-</td>
-<td>
-1
-</td>
-<td>
-Gate mode.
-</td>
+<td>3</td>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+<td>Gate mode.</td>
 </tr>
 </tbody>
 </table>
@@ -12073,10 +8218,10 @@ loops out of any source material14. It is particularly useful for
 material captured by the disting's own Audio Recorder modes, which
 won't have carefully edited loop points. It can also take a clock and
 adjust the loop time to fit.
->
+
 In this algorithm, the playlist settings 'loop', 'fadeIn', 'fadeOut',
 and 'gap' are ignored.
->
+
 14 Expert Sleepers have long had a love affair with crossfade sample
 looping. Our plug-in Crossfade Loop Synth dates back to 2004 () and is
 itself inspired by the Roland S-330 hardware sampler (), with which we
@@ -12094,21 +8239,15 @@ X is a gate or clock input, depending on the parameter 3, 'Gate mode':
 <tbody>
 <tr class="odd">
 <td>0</td>
-<td>
-X is a gate CV, starting and stopping sample playback.
-</td>
+<td>X is a gate CV, starting and stopping sample playback.</td>
 </tr>
 <tr class="even">
 <td>1</td>
-<td>
-The sample plays continuously.
-</td>
+<td>The sample plays continuously.</td>
 </tr>
 <tr class="odd">
 <td>2</td>
-<td>
-The sample plays continuously. X is a clock CV. The loop length is adjusted to be related to the time between clocks by a power of two e.g. 2, 4, 8 but also ½, ¼, etc. if the clocks are slower than the longest possible loop.
-</td>
+<td>The sample plays continuously. X is a clock CV. The loop length is adjusted to be related to the time between clocks by a power of two e.g. 2, 4, 8 but also ½, ¼, etc. if the clocks are slower than the longest possible loop.</td>
 </tr>
 </tbody>
 </table>
@@ -12150,9 +8289,7 @@ Parameter 2 sets the crossfade time, in percent of the sample time.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -12161,87 +8298,39 @@ Parameter 2 sets the crossfade time, in percent of the sample time.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Chooses the wavetable.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Chooses the wavetable.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--16
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Octave shift.
-</td>
+<td>1</td>
+<td>-16</td>
+<td>8</td>
+<td>0</td>
+<td>Octave shift.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Y offset.
-</td>
+<td>2</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Y offset.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--4
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
+<td>3</td>
+<td>-4</td>
+<td>99</td>
+<td>0</td>
 <td>Output B option/detune.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--1
-</td>
-<td>
-127
-</td>
-<td>
--1
-</td>
-<td>
-Phase.
-</td>
+<td>4</td>
+<td>-1</td>
+<td>127</td>
+<td>-1</td>
+<td>Phase.</td>
 </tr>
 </tbody>
 </table>
@@ -12270,44 +8359,24 @@ follows:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
--4
-</td>
-<td>
-MIDI gate.
-</td>
+<td>-4</td>
+<td>MIDI gate.</td>
 </tr>
 <tr class="even">
-<td>
--3
-</td>
-<td>
-A ±8V square wave one octave below output A
-</td>
+<td>-3</td>
+<td>A ±8V square wave one octave below output A</td>
 </tr>
 <tr class="odd">
-<td>
--2
-</td>
-<td>
-Wavetable VCO one octave below output A
-</td>
+<td>-2</td>
+<td>Wavetable VCO one octave below output A</td>
 </tr>
 <tr class="even">
-<td>
--1
-</td>
-<td>
-Wavetable VCO one octave above output A
-</td>
+<td>-1</td>
+<td>Wavetable VCO one octave above output A</td>
 </tr>
 <tr class="odd">
-<td>
-0-99
-</td>
-<td>
-Wavetable VCO detuned relative to output A; output A is also detuned in the opposite direction.
-</td>
+<td>0-99</td>
+<td>Wavetable VCO detuned relative to output A; output A is also detuned in the opposite direction.</td>
 </tr>
 </tbody>
 </table>
@@ -12321,11 +8390,11 @@ to that on input X. The 0V note is 48 (C3). MIDI notes also drive the 'MIDI gate
 **Loading wavetables**  
 All wavetable files need to be in a top-level folder on the SD card
 called 'wavetables'.
->
+
 Within the 'wavetables' folder, wavetables can take of one two forms:
 a single WAV file containing all the waveforms concatenated, or a
 folder of WAV files, one per waveform.
->
+
 By default the disting will consider all WAV files and folders of WAV
 files in the 'wavetables' folder as wavetables. Optionally (say if you
 want to reorder the tables) you can specify a playlist: the wavetables
@@ -12333,25 +8402,25 @@ are then listed in the standard playlist format as above, but with the
 dedicated name "playlist-wavetable.txt". Each entry is either a WAV
 file (as in the other playlist formats), in which case the file is
 assumed to contain all the waveforms concatenated, or a folder name.
->
+
 If a folder is specified in "playlist-wavetable.txt", the folder
 contains the individual WAV files that represent one waveform each.
 The algorithm does not use any 'playlist.txt' file within the folder –
 any files found files are used in alphabetical order.
->
+
 Waveform WAVs must be in 16 bit mono format. The sample rate is
 unimportant, since the file is assumed to contain exactly one cycle
 and so can pitched arbitrarily.
->
+
 When using a single concatenated WAV file, the disting needs to be
 know how many frames in the file make up one waveform. This is
 specified in the playlist via the -wavelength setting (default 600).
 There are no settings that apply to wavetable folders, nor to the
 individual files inside the folders.
->
+
 To reiterate – the use of playlists is entirely optional if your
 wavetables are in the form of folders of individual waveform files.15
->
+
 A typical SD card might look like this:
 
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image8.png" style="width:6.69306in;height:2.85833in" />
@@ -12366,13 +8435,11 @@ where "playlist-wavetable.txt" contains
 <table>
 <tbody>
 <tr class="odd">
-<td>
-disting playlist v1<br />
+<td>disting playlist v1<br />
 PPG_wavetable_01.wav<br />
 -wavelength=256<br />
 AKWF_0001<br />
-AKWF_0002
-</td>
+AKWF_0002</td>
 </tr>
 </tbody>
 </table>
@@ -12393,9 +8460,7 @@ length 256 frames. The remaining entries are taken as folders of individual wave
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -12404,89 +8469,39 @@ length 256 frames. The remaining entries are taken as folders of individual wave
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Chooses the wavetable.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Chooses the wavetable.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Y Offset.
-</td>
+<td>1</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Y Offset.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Output A attenuverter.
-</td>
+<td>2</td>
+<td>-32</td>
+<td>32</td>
+<td>32</td>
+<td>Output A attenuverter.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
--32
-</td>
-<td>
-Output B attenuverter.
-</td>
+<td>3</td>
+<td>-32</td>
+<td>32</td>
+<td>-32</td>
+<td>Output B attenuverter.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-LFO time multiplier.
-</td>
+<td>4</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
+<td>LFO time multiplier.</td>
 </tr>
 </tbody>
 </table>
@@ -12528,9 +8543,7 @@ Parameter 4 applies a multiplier to the LFO time, according to the table in the 
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -12539,38 +8552,18 @@ Parameter 4 applies a multiplier to the LFO time, according to the table in the 
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Chooses the wavetable.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Chooses the wavetable.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Y Offset.
-</td>
+<td>1</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Y Offset.</td>
 </tr>
 </tbody>
 </table>
@@ -12602,12 +8595,8 @@ the first wave in the table, B will be using the last and *vice versa*.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -12615,86 +8604,38 @@ the first wave in the table, B will be using the last and *vice versa*.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Chooses the wavetable.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Chooses the wavetable.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Y Offset.
-</td>
+<td>1</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Y Offset.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Output A attenuverter.
-</td>
+<td>2</td>
+<td>-32</td>
+<td>32</td>
+<td>32</td>
+<td>Output A attenuverter.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
--32
-</td>
-<td>
-Output B attenuverter.
-</td>
+<td>3</td>
+<td>-32</td>
+<td>32</td>
+<td>-32</td>
+<td>Output B attenuverter.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
+<td>4</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
 <td>Envelope time multiplier.</td>
 </tr>
 </tbody>
@@ -12735,12 +8676,8 @@ above.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -12748,106 +8685,46 @@ above.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Scale.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Scale.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Input X attenuation.
-</td>
+<td>1</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Input X attenuation.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--1
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Input Y attenuation.
-</td>
+<td>2</td>
+<td>-1</td>
+<td>32</td>
+<td>32</td>
+<td>Input Y attenuation.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--31
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Transpose.
-</td>
+<td>3</td>
+<td>-31</td>
+<td>31</td>
+<td>0</td>
+<td>Transpose.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
-<td>
-Offset.
-</td>
+<td>4</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
+<td>Offset.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Mode.
-</td>
+<td>5</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Mode.</td>
 </tr>
 </tbody>
 </table>
@@ -12913,9 +8790,7 @@ channel selected in the settings. The note value is that of the position in the 
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -12924,53 +8799,25 @@ channel selected in the settings. The note value is that of the position in the 
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
+<td>0</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
 <td>Delay time multiplier.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-8
-</td>
-<td>
-8
-</td>
-<td>
-Maximum feedback.
-</td>
+<td>1</td>
+<td>0</td>
+<td>8</td>
+<td>8</td>
+<td>Maximum feedback.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-Output mode.
-</td>
+<td>2</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>Output mode.</td>
 </tr>
 </tbody>
 </table>
@@ -12987,8 +8834,7 @@ so the audio fidelity is higher.
 
 This algorithm is continually reading from and writing to the SD card. You will want a good quality, high-speed card. A microSDHC card like that recommended above will work well.
 The algorithm creates a file on the card called 'DELAY.BIN'. This is created in a very specific way using low-level card access. Do not mess with the file, or attempt to copy it onto another SD card for another disting to use. The disting must create the file itself. You can however copy the file to your computer to process its contents, should you so wish.
-It may be that the disting cannot create the file if the card is too fragmented, even if it says it has enough free space. In this case, the easiest solution is to reformat the card.
-</td>
+It may be that the disting cannot create the file if the card is too fragmented, even if it says it has enough free space. In this case, the easiest solution is to reformat the card.</td>
 </tr>
 </tbody>
 </table>
@@ -13013,26 +8859,16 @@ Outputs A & B carry signals according to parameter 2:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
+<td>0</td>
 <td>A is mix; B is delay only.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-A &amp; B are mix.
-</td>
+<td>1</td>
+<td>A &amp; B are mix.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-A &amp; B are delay only.
-</td>
+<td>2</td>
+<td>A &amp; B are delay only.</td>
 </tr>
 </tbody>
 </table>
@@ -13061,9 +8897,7 @@ This algorithm is affected by the 'SD delay max' setting – see above.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -13072,36 +8906,18 @@ This algorithm is affected by the 'SD delay max' setting – see above.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
+<td>0</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
 <td>Delay time multiplier.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-8
-</td>
-<td>
-8
-</td>
-<td>
-Maximum feedback.
-</td>
+<td>1</td>
+<td>0</td>
+<td>8</td>
+<td>8</td>
+<td>Maximum feedback.</td>
 </tr>
 </tbody>
 </table>
@@ -13126,9 +8942,7 @@ This algorithm is affected by the 'SD delay max' setting – see above.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -13137,36 +8951,18 @@ This algorithm is affected by the 'SD delay max' setting – see above.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
+<td>0</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
 <td>Delay time multiplier.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-40
-</td>
-<td>
-16
-</td>
-<td>
-Feedback.
-</td>
+<td>1</td>
+<td>0</td>
+<td>40</td>
+<td>16</td>
+<td>Feedback.</td>
 </tr>
 </tbody>
 </table>
@@ -13196,12 +8992,8 @@ This algorithm is affected by the 'SD delay max' setting – see above.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -13209,118 +9001,52 @@ This algorithm is affected by the 'SD delay max' setting – see above.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-32
-</td>
-<td>
-16
-</td>
-<td>
-Size.
-</td>
+<td>0</td>
+<td>1</td>
+<td>32</td>
+<td>16</td>
+<td>Size.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-1
-</td>
-<td>
-32
-</td>
-<td>
-24
-</td>
-<td>
-Feedback.
-</td>
+<td>1</td>
+<td>1</td>
+<td>32</td>
+<td>24</td>
+<td>Feedback.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-5
-</td>
-<td>
-1
-</td>
-<td>
-Character.
-</td>
+<td>2</td>
+<td>0</td>
+<td>5</td>
+<td>1</td>
+<td>Character.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
-8
-</td>
+<td>3</td>
+<td>-1</td>
+<td>31</td>
+<td>8</td>
 <td>Low pass filter.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-12
-</td>
-<td>
-0
-</td>
-<td>
-Gain.
-</td>
+<td>4</td>
+<td>0</td>
+<td>12</td>
+<td>0</td>
+<td>Gain.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--33
-</td>
-<td>
-32
-</td>
-<td>
--33
-</td>
-<td>
-Wet/dry.
-</td>
+<td>5</td>
+<td>-33</td>
+<td>32</td>
+<td>-33</td>
+<td>Wet/dry.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
+<td>6</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
 <td>High pass filter.</td>
 </tr>
 </tbody>
@@ -13370,12 +9096,8 @@ Parameter 6 applies a high pass filter to the reverb input. The range of cutoff 
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -13383,118 +9105,52 @@ Parameter 6 applies a high pass filter to the reverb input. The range of cutoff 
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-32
-</td>
-<td>
-16
-</td>
-<td>
-Size.
-</td>
+<td>0</td>
+<td>1</td>
+<td>32</td>
+<td>16</td>
+<td>Size.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-1
-</td>
-<td>
-32
-</td>
-<td>
-24
-</td>
-<td>
-Feedback.
-</td>
+<td>1</td>
+<td>1</td>
+<td>32</td>
+<td>24</td>
+<td>Feedback.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-5
-</td>
-<td>
-1
-</td>
-<td>
-Character.
-</td>
+<td>2</td>
+<td>0</td>
+<td>5</td>
+<td>1</td>
+<td>Character.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
-8
-</td>
+<td>3</td>
+<td>-1</td>
+<td>31</td>
+<td>8</td>
 <td>Low pass filter.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-12
-</td>
-<td>
-0
-</td>
-<td>
-Gain.
-</td>
+<td>4</td>
+<td>0</td>
+<td>12</td>
+<td>0</td>
+<td>Gain.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--33
-</td>
-<td>
-32
-</td>
-<td>
--33
-</td>
-<td>
-Wet/dry.
-</td>
+<td>5</td>
+<td>-33</td>
+<td>32</td>
+<td>-33</td>
+<td>Wet/dry.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
+<td>6</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
 <td>High pass filter.</td>
 </tr>
 </tbody>
@@ -13542,12 +9198,8 @@ Parameter 6 applies a high pass filter to the reverb input. The range of cutoff 
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -13555,118 +9207,52 @@ Parameter 6 applies a high pass filter to the reverb input. The range of cutoff 
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-32
-</td>
-<td>
-16
-</td>
-<td>
-Size.
-</td>
+<td>0</td>
+<td>1</td>
+<td>32</td>
+<td>16</td>
+<td>Size.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-1
-</td>
-<td>
-32
-</td>
-<td>
-24
-</td>
-<td>
-Feedback.
-</td>
+<td>1</td>
+<td>1</td>
+<td>32</td>
+<td>24</td>
+<td>Feedback.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-5
-</td>
-<td>
-1
-</td>
-<td>
-Character.
-</td>
+<td>2</td>
+<td>0</td>
+<td>5</td>
+<td>1</td>
+<td>Character.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
-8
-</td>
+<td>3</td>
+<td>-1</td>
+<td>31</td>
+<td>8</td>
 <td>Low pass filter.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-12
-</td>
-<td>
-0
-</td>
-<td>
-Gain.
-</td>
+<td>4</td>
+<td>0</td>
+<td>12</td>
+<td>0</td>
+<td>Gain.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--33
-</td>
-<td>
-32
-</td>
-<td>
--33
-</td>
-<td>
-Wet/dry.
-</td>
+<td>5</td>
+<td>-33</td>
+<td>32</td>
+<td>-33</td>
+<td>Wet/dry.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
+<td>6</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
 <td>High pass filter.</td>
 </tr>
 </tbody>
@@ -13709,11 +9295,9 @@ Parameter 6 applies a high pass filter to the reverb input. The range of cutoff 
 <table>
 <tbody>
 <tr class="odd">
-<td>
-<strong>X &amp; Y are inputs</strong><br />
+<td><strong>X &amp; Y are inputs</strong><br />
 <strong>A &amp; B are outputs</strong><br />
-<strong>Z is vowel selection</strong>
-</td>
+<strong>Z is vowel selection</strong></td>
 </tr>
 </tbody>
 </table>
@@ -13721,9 +9305,7 @@ Parameter 6 applies a high pass filter to the reverb input. The range of cutoff 
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -13732,72 +9314,32 @@ Parameter 6 applies a high pass filter to the reverb input. The range of cutoff 
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--1
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Vowel A.
-</td>
+<td>0</td>
+<td>-1</td>
+<td>8</td>
+<td>0</td>
+<td>Vowel A.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--1
-</td>
-<td>
-8
-</td>
-<td>
--1
-</td>
-<td>
-Vowel B.
-</td>
+<td>1</td>
+<td>-1</td>
+<td>8</td>
+<td>-1</td>
+<td>Vowel B.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--20
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-BPF gain 2.
-</td>
+<td>2</td>
+<td>-20</td>
+<td>0</td>
+<td>0</td>
+<td>BPF gain 2.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--20
-</td>
-<td>
-0
-</td>
-<td>
--6
-</td>
-<td>
-BPF gain 3.
-</td>
+<td>3</td>
+<td>-20</td>
+<td>0</td>
+<td>-6</td>
+<td>BPF gain 3.</td>
 </tr>
 </tbody>
 </table>
@@ -13805,10 +9347,10 @@ BPF gain 3.
 A dual vowel filter effect. A set of three bandpass filters (BPFs) is
 used to mimic the response of the human vocal tract, resulting in
 vowel-like sounds when provided suitable source material.
->
+
 The algorithm can be used as a dual-mono effect, or as stereo (in
 which case you'd want to select the same vowels for each channel).
->
+
 Parameters 0 & 1 select the vowel sound for X/A and Y/B respectively.
 The available sounds are as follows:
 
@@ -13878,11 +9420,11 @@ The available sounds are as follows:
 For a good vowel effect, the input audio should be rich in harmonics.
 A simple sawtooth works reasonably well. However, you can of course
 put any audio you want through the filters.
->
+
 Parameters 2 & 3 allow fine tuning of the gains of the second and
 third BPFs, which can be used to tweak the vowel sounds if they're not
 quite right for your usage.
->
+
 16 American pronunciation!
 
 ***L-5 Stereo Chorus***
@@ -13899,12 +9441,8 @@ quite right for your usage.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -13912,138 +9450,60 @@ quite right for your usage.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-8
-</td>
-<td>
-LFO depth.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>8</td>
+<td>LFO depth.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--64
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Y offset.
-</td>
+<td>1</td>
+<td>-64</td>
+<td>32</td>
+<td>0</td>
+<td>Y offset.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--63
-</td>
-<td>
-63
-</td>
-<td>
-0
-</td>
-<td>
-Feedback.
-</td>
+<td>2</td>
+<td>-63</td>
+<td>63</td>
+<td>0</td>
+<td>Feedback.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
--1
-</td>
-<td>
-Lowpass filter.
-</td>
+<td>3</td>
+<td>-1</td>
+<td>31</td>
+<td>-1</td>
+<td>Lowpass filter.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-1
-</td>
-<td>
-64
-</td>
-<td>
-16
-</td>
-<td>
-Delay time.
-</td>
+<td>4</td>
+<td>1</td>
+<td>64</td>
+<td>16</td>
+<td>Delay time.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
+<td>5</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
 <td>Fine delay time.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-1
-</td>
-<td>
-6
-</td>
-<td>
-6
-</td>
-<td>
-Stages.
-</td>
+<td>6</td>
+<td>1</td>
+<td>6</td>
+<td>6</td>
+<td>Stages.</td>
 </tr>
 <tr class="even">
-<td>
-7
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Saturation.
-</td>
+<td>7</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Saturation.</td>
 </tr>
 </tbody>
 </table>
@@ -14089,12 +9549,8 @@ defined modulation, especially for flanging.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
-<th>
-<strong>Min</strong>
-</th>
+<th><strong>Parameter</strong></th>
+<th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
 <th><strong>Description</strong></th>
@@ -14102,140 +9558,60 @@ defined modulation, especially for flanging.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-8
-</td>
-<td>
-LFO depth.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>8</td>
+<td>LFO depth.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--64
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Y offset.
-</td>
+<td>1</td>
+<td>-64</td>
+<td>32</td>
+<td>0</td>
+<td>Y offset.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--63
-</td>
-<td>
-63
-</td>
-<td>
-0
-</td>
-<td>
-Feedback.
-</td>
+<td>2</td>
+<td>-63</td>
+<td>63</td>
+<td>0</td>
+<td>Feedback.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-31
-</td>
-<td>
--1
-</td>
-<td>
-Lowpass filter.
-</td>
+<td>3</td>
+<td>-1</td>
+<td>31</td>
+<td>-1</td>
+<td>Lowpass filter.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-1
-</td>
-<td>
-64
-</td>
-<td>
-16
-</td>
-<td>
-Delay time.
-</td>
+<td>4</td>
+<td>1</td>
+<td>64</td>
+<td>16</td>
+<td>Delay time.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Fine delay time.
-</td>
+<td>5</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Fine delay time.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-1
-</td>
-<td>
-6
-</td>
-<td>
-6
-</td>
-<td>
-Stages.
-</td>
+<td>6</td>
+<td>1</td>
+<td>6</td>
+<td>6</td>
+<td>Stages.</td>
 </tr>
 <tr class="even">
-<td>
-7
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Saturation.
-</td>
+<td>7</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Saturation.</td>
 </tr>
 </tbody>
 </table>
@@ -14279,9 +9655,7 @@ defined modulation, especially for flanging.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -14290,55 +9664,25 @@ defined modulation, especially for flanging.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--40
-</td>
-<td>
-6
-</td>
-<td>
--6
-</td>
-<td>
-Input X gain.
-</td>
+<td>0</td>
+<td>-40</td>
+<td>6</td>
+<td>-6</td>
+<td>Input X gain.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--40
-</td>
-<td>
-6
-</td>
-<td>
--6
-</td>
-<td>
-Input Y gain.
-</td>
+<td>1</td>
+<td>-40</td>
+<td>6</td>
+<td>-6</td>
+<td>Input Y gain.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Y pan.
-</td>
+<td>2</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Y pan.</td>
 </tr>
 </tbody>
 </table>
@@ -14364,9 +9708,7 @@ Z sets the pan for input X. The pan for input Y is set by parameter 2.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -14375,72 +9717,32 @@ Z sets the pan for input X. The pan for input Y is set by parameter 2.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Attack time.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Attack time.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Hold time.
-</td>
+<td>1</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Hold time.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Release time.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Release time.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Lookahead.
-</td>
+<td>3</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Lookahead.</td>
 </tr>
 </tbody>
 </table>
@@ -14457,7 +9759,7 @@ Parameter 3 sets a lookahead time, effectively delaying the audio slightly relat
 be used to ensure that sharp transients are not lost during the attack time of the envelope. The maximum lookahead is
 about 10ms.
 
-Page 100
+
 
 ***M-1 Delayed LFO***
 
@@ -14472,9 +9774,7 @@ Page 100
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -14483,102 +9783,46 @@ Page 100
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-6
-</td>
-<td>
-1
-</td>
-<td>
-Output type A.
-</td>
+<td>0</td>
+<td>0</td>
+<td>6</td>
+<td>1</td>
+<td>Output type A.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-Output type B.
-</td>
+<td>1</td>
+<td>0</td>
+<td>6</td>
+<td>0</td>
+<td>Output type B.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
+<td>2</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
 <td>LFO speed range.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
+<td>3</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
 <td>Ramp time range.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Attenuverter A.
-</td>
+<td>4</td>
+<td>-32</td>
+<td>32</td>
+<td>32</td>
+<td>Attenuverter A.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Attenuverter B.
-</td>
+<td>5</td>
+<td>-32</td>
+<td>32</td>
+<td>32</td>
+<td>Attenuverter B.</td>
 </tr>
 </tbody>
 </table>
@@ -14600,60 +9844,34 @@ Parameters 0 and 1 select the output waveforms on outputs A & B respectively. Th
 <table>
 <thead>
 <tr class="header">
-<th>
-0
-</th>
-<th>
-the ramp itself
-</th>
+<th>0</th>
+<th>the ramp itself</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-1
-</td>
+<td>1</td>
 <td>triangle affected by ramp</td>
 </tr>
 <tr class="even">
-<td>
-2
-</td>
-<td>
-sine affected by ramp
-</td>
+<td>2</td>
+<td>sine affected by ramp</td>
 </tr>
 <tr class="odd">
-<td>
-3
-</td>
-<td>
-square affected by ramp
-</td>
+<td>3</td>
+<td>square affected by ramp</td>
 </tr>
 <tr class="even">
-<td>
-4
-</td>
-<td>
-triangle
-</td>
+<td>4</td>
+<td>triangle</td>
 </tr>
 <tr class="odd">
-<td>
-5
-</td>
-<td>
-sine
-</td>
+<td>5</td>
+<td>sine</td>
 </tr>
 <tr class="even">
-<td>
-6
-</td>
-<td>
-square
-</td>
+<td>6</td>
+<td>square</td>
 </tr>
 </tbody>
 </table>
@@ -14665,7 +9883,7 @@ Parameters 4 & 5 are attenuverters for outputs A & B, which apply whatever the s
 values mean you can have a descending ramp, or LFOs with inverted phase. The unattenuated levels are 0-8V for the ramp
 and ±8V for the LFOs.
 
-Page 101
+
 
 ***M-2 Scaled LFO***
 
@@ -14679,9 +9897,7 @@ Page 101
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -14690,104 +9906,46 @@ Page 101
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-6
-</td>
-<td>
-1
-</td>
-<td>
-Output type A.
-</td>
+<td>0</td>
+<td>0</td>
+<td>6</td>
+<td>1</td>
+<td>Output type A.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-Output type B.
-</td>
+<td>1</td>
+<td>0</td>
+<td>6</td>
+<td>0</td>
+<td>Output type B.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
+<td>2</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
 <td>LFO speed range.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Mode.
-</td>
+<td>3</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Mode.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--48
-</td>
-<td>
-48
-</td>
-<td>
-0
-</td>
-<td>
-X Offset.
-</td>
+<td>4</td>
+<td>-48</td>
+<td>48</td>
+<td>0</td>
+<td>X Offset.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--48
-</td>
-<td>
-48
-</td>
-<td>
-0
-</td>
-<td>
-Y Offset.
-</td>
+<td>5</td>
+<td>-48</td>
+<td>48</td>
+<td>0</td>
+<td>Y Offset.</td>
 </tr>
 </tbody>
 </table>
@@ -14810,46 +9968,26 @@ Parameters 0 and 1 select the output waveforms on outputs A & B respectively. Th
 <table>
 <thead>
 <tr class="header">
-<th>
-0
-</th>
-<th>
-triangle
-</th>
+<th>0</th>
+<th>triangle</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-1
-</td>
-<td>
-sine
-</td>
+<td>1</td>
+<td>sine</td>
 </tr>
 <tr class="even">
-<td>
-2
-</td>
-<td>
-square
-</td>
+<td>2</td>
+<td>square</td>
 </tr>
 <tr class="odd">
-<td>
-3
-</td>
-<td>
-rising ramp
-</td>
+<td>3</td>
+<td>rising ramp</td>
 </tr>
 <tr class="even">
-<td>
-4
-</td>
-<td>
-falling ramp
-</td>
+<td>4</td>
+<td>falling ramp</td>
 </tr>
 </tbody>
 </table>
@@ -14859,7 +9997,7 @@ Parameter 2 sets the range of the LFO speed, in quarter octaves (i.e. raising th
 Parameters 4 & 5 are offsets applied to inputs X & Y respectively. They are scaled in twelfths of a Volt, so if
 interpreted as pitch CVs, in semitones.
 
-Page 102
+
 
 ***M-3 Logic***
 
@@ -14873,9 +10011,7 @@ Page 102
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -14884,79 +10020,39 @@ Page 102
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--2
-</td>
-<td>
-7
-</td>
-<td>
-0
-</td>
+<td>0</td>
+<td>-2</td>
+<td>7</td>
+<td>0</td>
 <td>Output B logical operation.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
+<td>1</td>
 <td>-100</td>
-<td>
-100
-</td>
-<td>
-20
-</td>
-<td>
-Input X threshold.
-</td>
+<td>100</td>
+<td>20</td>
+<td>Input X threshold.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
+<td>2</td>
 <td>-100</td>
-<td>
-100
-</td>
-<td>
-20
-</td>
-<td>
-Input Y threshold.
-</td>
+<td>100</td>
+<td>20</td>
+<td>Input Y threshold.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
+<td>3</td>
 <td>-100</td>
-<td>
-100
-</td>
-<td>
-10
-</td>
-<td>
-Input X hysteresis.
-</td>
+<td>100</td>
+<td>10</td>
+<td>Input X hysteresis.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
+<td>4</td>
 <td>-100</td>
-<td>
-100
-</td>
-<td>
-10
-</td>
-<td>
-Input Y hysteresis.
-</td>
+<td>100</td>
+<td>10</td>
+<td>Input Y hysteresis.</td>
 </tr>
 </tbody>
 </table>
@@ -14964,10 +10060,10 @@ Input Y hysteresis.
 This algorithm performs logical operations on the X & Y inputs. The
 inputs first pass through adjustable comparators, so you can feed X &
 Y either with straight gate/trigger signals, or with more general CVs.
->
+
 X & Y are the inputs. A & B are the outputs, which are 0/5V logical
 (on/off) signals.
->
+
 The Z knob/CV sets the logical operation performed for output A;
 parameter 0 sets the logical operation performed for output B. The
 name of the operation selected for output A is shown in the display as
@@ -14983,100 +10079,62 @@ excluding the -1 and -2 values below:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
--2
-</td>
-<td>
-Output B follows output A
-</td>
+<td>-2</td>
+<td>Output B follows output A</td>
 </tr>
 <tr class="even">
-<td>
--1
-</td>
+<td>-1</td>
 <td>Output B is inverse of output A</td>
 </tr>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-AND
-</td>
+<td>0</td>
+<td>AND</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-OR
-</td>
+<td>1</td>
+<td>OR</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-XOR
-</td>
+<td>2</td>
+<td>XOR</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-NAND
-</td>
+<td>3</td>
+<td>NAND</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-NOR
-</td>
+<td>4</td>
+<td>NOR</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-XNOR
-</td>
+<td>5</td>
+<td>XNOR</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-SR flip-flop
-</td>
+<td>6</td>
+<td>SR flip-flop</td>
 </tr>
 <tr class="even">
-<td>
-7
-</td>
-<td>
-D flip-flop
-</td>
+<td>7</td>
+<td>D flip-flop</td>
 </tr>
 </tbody>
 </table>
 
 The SR flip-flop is set high by a rising edge on input X, and cleared
 low by a rising edge on input Y.
->
+
 The D flip-flop takes the level of input X on a rising edge on input
 Y.
->
+
 Parameters 1-4 set the input comparator thresholds and hysteresis (for
 an explanation of hysteresis see 17). All are scaled such that 100
 corresponds to 5V. The input is taken as logical '1' if the input
 voltage exceeds the threshold voltage.
->
+
 17 http://en.wikipedia.org/wiki/Hysteresis\#Electronic\_circuits
 
-Page 103
+
 
 ***M-4 Half-wave Rectifier***
 
@@ -15092,9 +10150,7 @@ Page 103
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -15103,50 +10159,40 @@ Page 103
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-Mode.
-</td>
+<td>0</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>Mode.</td>
 </tr>
 </tbody>
 </table>
 
 This algorithm processes the inputs with half-wave rectification18, in
 one of two different ways.
->
+
 Equally useful for audio and CV manipulation, this allows you to split
 a bipolar signal into its positive and negative sections, and to
 combine two different waveforms, using the positive part of one and
 the negative part of the other.
->
+
 For ease of explanation, assume first that the Z knob/CV is at zero.
->
+
 If the mode (parameter 0) is 0: output A is the positive part of X,
 plus the negative part of Y. Output B is the negative part of X, plus
 the positive part of Y.
->
+
 If the mode is 1 or 2: the inputs are summed (mode 1) or subtracted
 (mode 2). Then output A is the positive part of X±Y, and output B is
 the negative part of X±Y.
->
+
 If the mode is 3: output A is the positive part of input X; output B
 is the positive part of input Y.
->
+
 Z is a threshold control, allowing the various comparisons above to be
 against a non-zero value. So for 'positive part' above read 'part
 where the value is more than Z' etc.
->
+
 ***M-5 Stereo Filter***
 
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image3.png" style="width:0.30833in;height:0.21667in" />
@@ -15163,9 +10209,7 @@ where the value is more than Z' etc.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -15174,35 +10218,17 @@ where the value is more than Z' etc.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-Mode.
-</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>Mode.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-31
-</td>
-<td>
-0
-</td>
+<td>1</td>
+<td>0</td>
+<td>31</td>
+<td>0</td>
 <td>Resonance (Q).</td>
 </tr>
 </tbody>
@@ -15210,10 +10236,10 @@ Mode.
 
 A stereo filter, switchable between low-, band-, and high-pass (via
 parameter 0).Parameter 1 sets the filter resonance.
->
+
 18 https://en.wikipedia.org/wiki/Rectifier\#Half-wave\_rectification
 
-Page 104
+
 
 ***M-6 Stereo Tape Delay***
 
@@ -15229,9 +10255,7 @@ Page 104
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -15240,87 +10264,39 @@ Page 104
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-26
-</td>
-<td>
-26
-</td>
-<td>
-Tape length.
-</td>
+<td>0</td>
+<td>0</td>
+<td>26</td>
+<td>26</td>
+<td>Tape length.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
--9
-</td>
-<td>
-9
-</td>
-<td>
-0
-</td>
+<td>1</td>
+<td>-9</td>
+<td>9</td>
+<td>0</td>
 <td>Fine length control.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--1
-</td>
-<td>
-36
-</td>
-<td>
-24
-</td>
-<td>
-Feedback.
-</td>
+<td>2</td>
+<td>-1</td>
+<td>36</td>
+<td>24</td>
+<td>Feedback.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Output mode.
-</td>
+<td>3</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Output mode.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--8
-</td>
-<td>
-16
-</td>
-<td>
-0
-</td>
-<td>
-Tape speed.
-</td>
+<td>4</td>
+<td>-8</td>
+<td>16</td>
+<td>0</td>
+<td>Tape speed.</td>
 </tr>
 </tbody>
 </table>
@@ -15338,7 +10314,7 @@ If parameter 2 is 0 or more:
 Z controls the speed of the 'tape', which also affects the delay time.
 The speed range is from half speed to double speed. Parameter 4 is
 added to the Z value as an offset.
->
+
 Parameter 2 controls the feedback. A value of 32 gives 100% feedback.
 
 If parameter 2 is -1:  
@@ -15358,20 +10334,12 @@ Outputs A & B carry signals according to parameter 3:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-A &amp; B are mix.
-</td>
+<td>0</td>
+<td>A &amp; B are mix.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-A &amp; B are delay only.
-</td>
+<td>1</td>
+<td>A &amp; B are delay only.</td>
 </tr>
 </tbody>
 </table>
@@ -15382,7 +10350,7 @@ proportion to the amount of feedback.
 'Delay only' is the delayed signal only. Use this and the input signals, plus an external mixer, if you need more
 flexibility in the dry/wet balance than is offered by the mixed mode.
 
-Page 105
+
 
 ***M-7 Granular Pitch Shifter***
 
@@ -15399,9 +10367,7 @@ Page 105
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -15410,121 +10376,53 @@ Page 105
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-50
-</td>
-<td>
-Grain length.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>50</td>
+<td>Grain length.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-Window type.
-</td>
+<td>1</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>Window type.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-16
-</td>
-<td>
-Delay.
-</td>
+<td>2</td>
+<td>0</td>
+<td>32</td>
+<td>16</td>
+<td>Delay.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-64
-</td>
-<td>
-0
-</td>
-<td>
-Feedback.
-</td>
+<td>3</td>
+<td>0</td>
+<td>64</td>
+<td>0</td>
+<td>Feedback.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--48
-</td>
-<td>
-48
-</td>
-<td>
-0
-</td>
+<td>4</td>
+<td>-48</td>
+<td>48</td>
+<td>0</td>
 <td>Y Offset (semitones).</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--99
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Fine (cents).
-</td>
+<td>5</td>
+<td>-99</td>
+<td>99</td>
+<td>0</td>
+<td>Fine (cents).</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
--65
-</td>
-<td>
-64
-</td>
-<td>
--65
-</td>
-<td>
-Mix.
-</td>
+<td>6</td>
+<td>-65</td>
+<td>64</td>
+<td>-65</td>
+<td>Mix.</td>
 </tr>
 </tbody>
 </table>
@@ -15564,13 +10462,13 @@ will continuously output the frozen material. Press Z again to unfreeze it.
 Parameter 6 allows you to set the mix and free up the Z CV input to control Freeze. When the parameter is at -65 (the
 default) Z controls the mix. Other values of the parameter set the mix
 
-Page 106
+
 
 directly (from 100% wet to dry to an equal mix, just like when
 controlling it via Z), and the Z input becomes a gate control for the
 Freeze function, freezing the buffer when the CV goes over
 approximately 1V.
->
+
 ***M-8 Chaos***
 
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image4.png" style="width:0.30833in;height:0.21667in" />
@@ -15583,9 +10481,7 @@ approximately 1V.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -15594,269 +10490,133 @@ approximately 1V.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--64
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Range.
-</td>
+<td>0</td>
+<td>-64</td>
+<td>32</td>
+<td>0</td>
+<td>Range.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-11
-</td>
-<td>
-0
-</td>
-<td>
-Outputs.
-</td>
+<td>1</td>
+<td>0</td>
+<td>11</td>
+<td>0</td>
+<td>Outputs.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
--64
-</td>
-<td>
-64
-</td>
-<td>
-32
-</td>
-<td>
-Atten A.
-</td>
+<td>2</td>
+<td>-64</td>
+<td>64</td>
+<td>32</td>
+<td>Atten A.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--64
-</td>
-<td>
-64
-</td>
-<td>
-32
-</td>
-<td>
-Atten B.
-</td>
+<td>3</td>
+<td>-64</td>
+<td>64</td>
+<td>32</td>
+<td>Atten B.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Offset A.
-</td>
+<td>4</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Offset A.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
-0
-</td>
-<td>
-Offset B.
-</td>
+<td>5</td>
+<td>-32</td>
+<td>32</td>
+<td>0</td>
+<td>Offset B.</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Clamp.
-</td>
+<td>6</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Clamp.</td>
 </tr>
 </tbody>
 </table>
 
 This algorithm generates chaotic CVs and/or gates according to the 19.
->
+
 The X & Y inputs set parameters of the equations – X affects 'r' (aka
 'ρ'), and Y affects 'b' (aka 'β'). With the CVs at 0V, the parameters
 are the classic values as studied by Lorenz (28 and 8/3 respectively).
->
+
 The A & B outputs generate the x, y or z values of the Lorenz system,
 or gates based on these values, according to parameter 1 as follows:
 
 <table>
 <thead>
 <tr class="header">
-<th>
-Parameter 1
-</th>
-<th>
-Output A
-</th>
-<th>
-Output B
-</th>
+<th>Parameter 1</th>
+<th>Output A</th>
+<th>Output B</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-x
-</td>
-<td>
-z
-</td>
+<td>0</td>
+<td>x</td>
+<td>z</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-y
-</td>
-<td>
-z
-</td>
+<td>1</td>
+<td>y</td>
+<td>z</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-x
-</td>
-<td>
-y
-</td>
+<td>2</td>
+<td>x</td>
+<td>y</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-x-based gate
-</td>
-<td>
-z
-</td>
+<td>3</td>
+<td>x-based gate</td>
+<td>z</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-y-based gate
-</td>
-<td>
-z
-</td>
+<td>4</td>
+<td>y-based gate</td>
+<td>z</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
-x-based gate
-</td>
-<td>
-y
-</td>
+<td>5</td>
+<td>x-based gate</td>
+<td>y</td>
 </tr>
 <tr class="odd">
-<td>
-6
-</td>
-<td>
-x
-</td>
+<td>6</td>
+<td>x</td>
 <td>z-based gate</td>
 </tr>
 <tr class="even">
-<td>
-7
-</td>
-<td>
-y
-</td>
+<td>7</td>
+<td>y</td>
 <td>z-based gate</td>
 </tr>
 <tr class="odd">
-<td>
-8
-</td>
-<td>
-x
-</td>
+<td>8</td>
+<td>x</td>
 <td>y-based gate</td>
 </tr>
 <tr class="even">
-<td>
-9
-</td>
-<td>
-x-based gate
-</td>
+<td>9</td>
+<td>x-based gate</td>
 <td>z-based gate</td>
 </tr>
 <tr class="odd">
-<td>
-10
-</td>
-<td>
-y-based gate
-</td>
+<td>10</td>
+<td>y-based gate</td>
 <td>z-based gate</td>
 </tr>
 <tr class="even">
-<td>
-11
-</td>
-<td>
-x-based gate
-</td>
+<td>11</td>
+<td>x-based gate</td>
 <td>y-based gate</td>
 </tr>
 </tbody>
@@ -15865,10 +10625,10 @@ x-based gate
 When a gate output is chosen, the output is 5V when the x/y/z value is
 above zero, and 0V when the value is below zero. This comparison
 happen after the scale/offset from parameters 2-5, so the
->
+
 19 https://en.wikipedia.org/wiki/Lorenz\_system
 
-Page 107
+
 
 precise gates obtainable are affected by these parameters.
 
@@ -15901,9 +10661,7 @@ Pushing Z resets the simulation to initial conditions.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -15912,72 +10670,32 @@ Pushing Z resets the simulation to initial conditions.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Mode.
-</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Mode.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-3
-</td>
-<td>
-Hysteresis.
-</td>
+<td>1</td>
+<td>0</td>
+<td>32</td>
+<td>3</td>
+<td>Hysteresis.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Fade.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Fade.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--1
-</td>
-<td>
-99
-</td>
-<td>
-99
-</td>
-<td>
-Chance.
-</td>
+<td>3</td>
+<td>-1</td>
+<td>99</td>
+<td>99</td>
+<td>Chance.</td>
 </tr>
 </tbody>
 </table>
@@ -16001,8 +10719,6 @@ When using an external CV as a switch or trigger, you may like to turn the Z kno
 A crossfade can be applied when switching to avoid clicks. The length of the fade (in milliseconds) is controlled by
 parameter 2.
 
-Page 108
-
 Parameter 3 sets the probability that a switch transition will actually occur when triggered. Add one to the parameter
 value to get the chance in %. The default value of 99 means a 100% chance of the switch transitioning; a value of -1
 means a 0% chance i.e. the switch will never change.
@@ -16020,9 +10736,7 @@ means a 0% chance i.e. the switch will never change.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -16031,89 +10745,39 @@ means a 0% chance i.e. the switch will never change.
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-32
-</td>
-<td>
-Mix.
-</td>
+<td>0</td>
+<td>0</td>
+<td>32</td>
+<td>32</td>
+<td>Mix.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-63
-</td>
-<td>
-24
-</td>
-<td>
-Depth.
-</td>
+<td>1</td>
+<td>0</td>
+<td>63</td>
+<td>24</td>
+<td>Depth.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-10
-</td>
-<td>
-Slew.
-</td>
+<td>2</td>
+<td>0</td>
+<td>99</td>
+<td>10</td>
+<td>Slew.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-32
-</td>
-<td>
-15
-</td>
-<td>
-Crossover.
-</td>
+<td>3</td>
+<td>0</td>
+<td>32</td>
+<td>15</td>
+<td>Crossover.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-64
-</td>
-<td>
-15
-</td>
-<td>
-Bass modulation.
-</td>
+<td>4</td>
+<td>0</td>
+<td>64</td>
+<td>15</td>
+<td>Bass modulation.</td>
 </tr>
 </tbody>
 </table>
@@ -16142,7 +10806,7 @@ If parameter 3 is zero, the crossover is disabled and the separate bass modulati
 If the crossover is used, but parameter 4 is zero, this essentially removes the effect entirely from the bass portion of
 the input, keeping it centre stereo and at unmodulated pitch.
 
-Page 109
+
 
 ***N-5 Pulsar VCO***
 
@@ -16159,9 +10823,7 @@ Page 109
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -16170,106 +10832,46 @@ Page 109
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Chooses the wavetable.
-</td>
+<td>0</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Chooses the wavetable.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Chooses the wave.
-</td>
+<td>1</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Chooses the wave.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-Window.
-</td>
+<td>2</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>Window.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Y Mode.
-</td>
+<td>3</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Y Mode.</td>
 </tr>
 <tr class="odd">
-<td>
-4
-</td>
-<td>
-0
-</td>
-<td>
-99
-</td>
-<td>
-0
-</td>
-<td>
-Masking.
-</td>
+<td>4</td>
+<td>0</td>
+<td>99</td>
+<td>0</td>
+<td>Masking.</td>
 </tr>
 <tr class="even">
-<td>
-5
-</td>
-<td>
--16
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
-<td>
-Octave.
-</td>
+<td>5</td>
+<td>-16</td>
+<td>8</td>
+<td>0</td>
+<td>Octave.</td>
 </tr>
 </tbody>
 </table>
@@ -16277,7 +10879,7 @@ Octave.
 This algorithm is an implementation of pulsar synthesis, inspired by
 the description in Curtis Roads's book Microsound (MIT Press)20
 pp137-157.
->
+
 In pulsar synthesis, a small grain of sound (known as a *pulsaret*,
 typically a pulse or single cycle waveform) is repeated periodically,
 followed by a small section of silence. The length of the sound within
@@ -16287,20 +10889,20 @@ pitch of the sound. By the same token, changing the fundamental pitch
 without changing the speed at which the grain of sound is played
 offers pitch change without simply shifting the entire spectrum up and
 down, an effect reminiscent of 'vocal' or 'formant' synthesis.
->
+
 This algorithm uses wavetables from the SD card as the source of the
 pulsarets. See 'Loading wavetables' above for a description of how to
 load wavetables onto the SD card.
->
+
 Input X sets the fundamental frequency – the rate at which the
 pulsaret train is generated.
->
+
 Input Y sets the 'formant' frequency – the rate at which the pulsaret
 is played. By default this is independent of the fundamental
 frequency. If parameter 3 is set to 1, the X input is added to the Y
 input, so changing the fundamental frequency also changes the formant
 frequency.
->
+
 Parameters 0 & 1 choose the wavetable and the wave within the table,
 respectively.Parameter 2 chooses the window or envelope to apply to
 the pulsaret. The options are:
@@ -16314,36 +10916,20 @@ the pulsaret. The options are:
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
-Rectangular
-</td>
+<td>0</td>
+<td>Rectangular</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-Linear attack
-</td>
+<td>1</td>
+<td>Linear attack</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-Linear decay
-</td>
+<td>2</td>
+<td>Linear decay</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
-Gaussian
-</td>
+<td>3</td>
+<td>Gaussian</td>
 </tr>
 </tbody>
 </table>
@@ -16354,11 +10940,11 @@ octaves. Otherwise, masking is applied – that is, pulsarets are
 omitted from the train. In this case, outputs A & B use inverse masks
 – output B will output a pulsaret when output A is suppressed, and
 *vice versa*. If parameter 4 is 1, stochastic
->
+
 20 Some of the text of this book is available on but I would urge you
 to pick up a physical copy.
 
-Page 110
+
 
 masking is applied i.e. pulsarets are randomly masked. The likelihood of a pulsaret being masked is set by Z. If
 parameter 4 is 2 or more, burst masking is applied – the parameter sets a number of pulsarets, and Z controls how many
@@ -16384,9 +10970,7 @@ to that on input X. The 0V note is 48 (C3).
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>Parameter</strong>
-</th>
+<th><strong>Parameter</strong></th>
 <th><strong>Min</strong></th>
 <th><strong>Max</strong></th>
 <th><strong>Default</strong></th>
@@ -16395,70 +10979,32 @@ to that on input X. The 0V note is 48 (C3).
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-0
-</td>
-<td>
--15
-</td>
-<td>
-8
-</td>
-<td>
-0
-</td>
+<td>0</td>
+<td>-15</td>
+<td>8</td>
+<td>0</td>
 <td>Delay time multiplier.</td>
 </tr>
 <tr class="even">
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-8
-</td>
-<td>
-8
-</td>
-<td>
-Maximum feedback.
-</td>
+<td>1</td>
+<td>0</td>
+<td>8</td>
+<td>8</td>
+<td>Maximum feedback.</td>
 </tr>
 <tr class="odd">
-<td>
-2
-</td>
-<td>
-0
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-Output mode.
-</td>
+<td>2</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>Output mode.</td>
 </tr>
 <tr class="even">
-<td>
-3
-</td>
-<td>
--32
-</td>
-<td>
-32
-</td>
-<td>
--32
-</td>
-<td>
-Input pan.
-</td>
+<td>3</td>
+<td>-32</td>
+<td>32</td>
+<td>-32</td>
+<td>Input pan.</td>
 </tr>
 </tbody>
 </table>
@@ -16477,7 +11023,7 @@ mixer, if you need more flexibility in the dry/wet balance than is offered by ou
 
 Parameter 2 controls the left/right pan position of the input signal.
 
-Page 111
+
 
 **MIDI I/O**
 
@@ -16512,25 +11058,25 @@ A passive breakout module which exposes the MIDI ports as 5-pin DIN sockets is a
 ***MIDI "Low-Voltage Signaling"***  
 When MIDI was first conceived, standard logic circuits ran at 5V, and the initial hardware reference
 
-Page 112
+
 
 designs worked on this assumption. However, there is nothing in the
 MIDI standard that actually requires a specific voltage, since it
 operates as a current loop via an opto-isolator.
->
+
 Nowadays it is much more common for logic to run at 3.3V or lower. The
 MIDI Manufacturers Association has now released a reference hardware
 design based on 3.3V, which they call the "Low-Voltage Signaling"
 standard, and it is this that the disting mk4 uses.
->
+
 The disting is therefore fully compatible with any device that adheres
 strictly to the MIDI specification, but may not be with devices that
 play fast and loose with the spec and assume 5V.
->
+
 Download the full MIDI electrical specification .
->
+
 ***Controlling the disting mk4 via MIDI***
->
+
 In addition to any algorithm-specific MIDI implementation, there are
 common MIDI controls shared by all algorithms. These are as follows.
 '&lt;in&gt;' for the MIDI channel indicates the MIDI input channel as
@@ -16539,10 +11085,8 @@ selected in the settings.
 <table>
 <thead>
 <tr class="header">
-<th>
-<strong>MIDI</strong><br />
-<strong>channel</strong>
-</th>
+<th><strong>MIDI</strong><br />
+<strong>channel</strong></th>
 <th><strong>Message</strong></th>
 <th><strong>Function</strong></th>
 <th><strong>Note</strong></th>
@@ -16588,56 +11132,40 @@ selected in the settings.
 <tr class="odd">
 <td>&lt;in&gt;</td>
 <td>CC 17</td>
-<td>
-Set Z
-</td>
-<td>
-Sending this CC takes control of the algorithm's Z function and overrides the Z knob and CV input.
-The Z function remains overridden until the algorithm is changed.
-</td>
+<td>Set Z</td>
+<td>Sending this CC takes control of the algorithm's Z function and overrides the Z knob and CV input.
+The Z function remains overridden until the algorithm is changed.</td>
 </tr>
 <tr class="even">
 <td>&lt;in&gt;</td>
 <td>CC 18</td>
-<td>
-Select algorithm
-</td>
+<td>Select algorithm</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>&lt;in&gt;</td>
 <td>CC 19</td>
-<td>
-Free Z
-</td>
-<td>
-If Z has been overridden by CC 17, sending this CC with a value of 64 or more cancels the override and restores Z control to the knob/CV input.
-</td>
+<td>Free Z</td>
+<td>If Z has been overridden by CC 17, sending this CC with a value of 64 or more cancels the override and restores Z control to the knob/CV input.</td>
 </tr>
 <tr class="even">
 <td>&lt;in&gt;</td>
-<td>
-Program change
-</td>
-<td>
-Select algorithm / Load preset
-</td>
-<td>
-Either selects an algorithm or loads a preset, as set in the settings.
-</td>
+<td>Program change</td>
+<td>Select algorithm / Load preset</td>
+<td>Either selects an algorithm or loads a preset, as set in the settings.</td>
 </tr>
 </tbody>
 </table>
 
 ***MIDI Thru***
->
+
 If enabled in the settings, the MIDI out port echoes any incoming MIDI
 arriving at the in port. Note that no attempt is made to process or
 merge this MIDI stream. If the disting is itself generating MIDI
 output, using the Thru function at the same time is likely to result
 in garbage MIDI output.
 
-Page 113
+
 
 **Calibration**  
 Here you will find details of
@@ -16646,9 +11174,7 @@ Here you will find details of
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-How a disting is calibrated.
-</th>
+<th>How a disting is calibrated.</th>
 </tr>
 </thead>
 <tbody>
@@ -16672,28 +11198,28 @@ The procedure is as follows:
 1. With the disting powered up and with nothing connected to it, use the menu to select option
 
 5, 'Calibrate'. The message 'GO' will be displayed.
->
+
 2\. Wait a few seconds for the display to show '1' and for the
 left-most column to flash.3. Using patch cables (as short as
 possible), connect output A to input X, and output B to input
->
+
 Y.
->
+
 4\. Press the encoder.
->
+
 5\. After a short delay, all four jack sockets should light up red.
 After another short delay, the
->
+
 display will show 'X' and the left-most column will flash.
->
+
 6\. Remove the patch cables. Connect the 3V voltage reference to input
 X.
->
+
 7\. Verify the reference voltage, and press the encoder.
->
+
 8\. Wait a few seconds for the display to show 'Y' and the left-most
 column to flash.9. Connect the 3V voltage reference to input Y.
->
+
 10\. Verify the reference voltage, and press the encoder.
 
 11\. After a short pause, the disting will reboot, at which point the reference can be removed.If after step 10 the
@@ -16712,7 +11238,7 @@ therefore grounded)
 2. Input connected to output, output outputting a nominal zero level
 3. Input connected to output, output outputting a nominal half full range level4. Input connected to known 3V reference
 
-Page 114
+
 
 From these we can derive constants A, Br, D, Er so that conversion between codec codes and actual voltages can be
 handled simply in the code as follows:
@@ -16720,26 +11246,18 @@ handled simply in the code as follows:
 <table>
 <thead>
 <tr class="header">
-<th>
-int vL = ( ( inL - A[0] ) * Br[0] ) &gt;&gt; 24;
-</th>
+<th>int vL = ( ( inL - A[0] ) * Br[0] ) &gt;&gt; 24;</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-int vR = ( ( inR - A[1] ) * Br[1] ) &gt;&gt; 24;
-</td>
+<td>int vR = ( ( inR - A[1] ) * Br[1] ) &gt;&gt; 24;</td>
 </tr>
 <tr class="even">
-<td>
-int cL = ( ( vOutL - D[0] ) * Er[0] ) &gt;&gt; 24;
-</td>
+<td>int cL = ( ( vOutL - D[0] ) * Er[0] ) &gt;&gt; 24;</td>
 </tr>
 <tr class="odd">
-<td>
-int cR = ( ( vOutR - D[1] ) * Er[1] ) &gt;&gt; 24;
-</td>
+<td>int cR = ( ( vOutR - D[1] ) * Er[1] ) &gt;&gt; 24;</td>
 </tr>
 </tbody>
 </table>
@@ -16752,24 +11270,22 @@ The derivation of A, Br, D, Er is as follows:
 <table>
 <tbody>
 <tr class="odd">
-<td>
-Let the four input samples be zeroIn, zeroOut, halfOut, threeVolt.
+<td>Let the four input samples be zeroIn, zeroOut, halfOut, threeVolt.
 A = zeroIn<br />
 B = ( threeVolt - zeroIn )/3<br />
 Br = 0x80000000000LL / B<br />
 D = ( zeroOut - zeroIn )/B<br />
-E = ( halfOut - zeroOut )/( B * 0x400000 ) Er = 0x80000000000LL / E
-</td>
+E = ( halfOut - zeroOut )/( B * 0x400000 ) Er = 0x80000000000LL / E</td>
 </tr>
 </tbody>
 </table>
 
 The above is pseudo-code - a real C implementation is left as an exercise for the reader.
 
-Page 115
+
 
 **Firmware Updates**
->
+
 <img src="ef251f30afcb4aceb4f72b4bc9795a77/media/image3.png" style="width:0.30833in;height:0.21667in" />  
 The disting mk4's firmware can be updated using a Micro SD card. The
 process is as follows:
@@ -16778,23 +11294,17 @@ process is as follows:
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-Download the firmware from the Expert Sleepers website21.
-</th>
+<th>Download the firmware from the Expert Sleepers website21.</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-Unzip the download.
-</td>
+<td>Unzip the download.</td>
 </tr>
 <tr class="even">
 <td>•</td>
-<td>
-Copy the file 'disting4.bin' (firmware versions from 4.15 for bootloader version b2) or
-</td>
+<td>Copy the file 'disting4.bin' (firmware versions from 4.15 for bootloader version b2) or</td>
 </tr>
 <tr class="odd">
 <td>•</td>
@@ -16802,9 +11312,7 @@ Copy the file 'disting4.bin' (firmware versions from 4.15 for bootloader version
 </tr>
 <tr class="even">
 <td></td>
-<td>
-download to the root folder of a Micro SD card.
-</td>
+<td>download to the root folder of a Micro SD card.</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -16815,12 +11323,12 @@ download to the root folder of a Micro SD card.
 
 ◦ The exposed contacts of the card should face towards the display;
 the angled side of the
->
+
 card itself points up.
->
+
 ◦ **You are advised to observe basic ESD (electrostatic discharge)
 precautions** - see for
->
+
 example . Don't be wearing a nylon sweater in an air conditioned room.
 
 <table>
@@ -16833,9 +11341,7 @@ example . Don't be wearing a nylon sweater in an air conditioned room.
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-sequence, showing the bootloader version number.
-</td>
+<td>sequence, showing the bootloader version number.</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -16852,29 +11358,21 @@ power, remove the card and check its contents.
 <thead>
 <tr class="header">
 <th>•</th>
-<th>
-Release the knob to begin the update process. (If you change your mind and don't want to
-</th>
+<th>Release the knob to begin the update process. (If you change your mind and don't want to</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>•</td>
-<td>
-proceed, simply turn the power off.)
-</td>
+<td>proceed, simply turn the power off.)</td>
 </tr>
 <tr class="even">
 <td></td>
-<td>
-When the update starts, the display will flash rapidly to indicate progress. Do not remove the
-</td>
+<td>When the update starts, the display will flash rapidly to indicate progress. Do not remove the</td>
 </tr>
 <tr class="odd">
 <td>•</td>
-<td>
-card or turn off the power during the update.
-</td>
+<td>card or turn off the power during the update.</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -16882,9 +11380,7 @@ card or turn off the power during the update.
 </tr>
 <tr class="odd">
 <td>•</td>
-<td>
-"Error:" plus an error code if there was a problem.
-</td>
+<td>"Error:" plus an error code if there was a problem.</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -16895,13 +11391,13 @@ card or turn off the power during the update.
 
 Note that the Micro SD card needs to be formatted as FAT32 with MBR
 partitioning (see the section on supported cards, above).
->
+
 21 https://expert-sleepers.co.uk/distingfirmwareupdates.html
 
-Page 116
+
 
 **Acknowledgments**
 
 The font used in the disting mk4 is an adapted version of 'Tom Thumb' by Robey Pointer. More on the font .
 
-Page 117
+
