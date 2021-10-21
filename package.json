@@ -1,5 +1,5 @@
 {
-    "name": "distinguished",
+    "name": "disting",
     "version": "0.1.0",
     "scripts": {
         "dev": "vite",

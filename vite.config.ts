@@ -6,7 +6,7 @@ export default {
     build: {
         sourcemap: process.env.SOURCE_MAP === 'true',
     },
-    base: '/distinguished/',
+    base: '/disting/',
     plugins: [
         react(),
         replaceCodePlugin({

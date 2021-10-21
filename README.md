@@ -1,7 +1,5 @@
-DISTINGuished
+A WebMIDI utility for the Expert Sleepers Disting Mk4
 =============
-
-### A WebMIDI utility for the Expert Sleepers Disting Mk4
 
 Doc:
 

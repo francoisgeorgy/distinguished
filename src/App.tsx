@@ -31,12 +31,9 @@ function App() {
         stores.state.setCurrentAlgorithm(window.location.hash?.substring(1));
     }, [])
 
-    const [kbSelection, setKbSelection] = useState(null);
+    const [kbSelection, setKbSelection] = useState<string|null>(null);
 
-    const handleKeyUp = (keyName, e, handle) => {
-    };
-
-    const handleKeyDown = (keyName, e, handle) => {
+    const handleKeyDown = (keyName: string, e: any, handle: any) => {
         console.log(keyName, e, handle);
         // e.preventDefault();
         switch (keyName) {
@@ -93,7 +90,6 @@ function App() {
             <Hotkeys
                 keyName={`${KEY_PREV},${KEY_NEXT},enter,a,b,c,d,e,f,g,h,i,j,k,l,m,n,1,2,3,4,5,6,7,8`}
                 onKeyDown={handleKeyDown}
-                onKeyUp={handleKeyUp}
                 allowRepeat={true}
             />
             <header>
