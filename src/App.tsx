@@ -1,4 +1,4 @@
-import {Fragment, useEffect} from "react";
+import {Fragment, useEffect, useState} from "react";
 import {stores} from "./stores";
 import {MidiPortsSelect} from "./components/midi/MidiPortsSelect";
 import {AlgorithmsList} from "./components/AlgorithmsList";
@@ -31,11 +31,9 @@ function App() {
         stores.state.setCurrentAlgorithm(window.location.hash?.substring(1));
     }, [])
 
+    const [kbSelection, setKbSelection] = useState(null);
+
     const handleKeyUp = (keyName, e, handle) => {
-        // console.log(keyName, e, handle);
-        // e.preventDefault();
-        // stores.state.selectPreviousAlgorithm();
-        // return false;
     };
 
     const handleKeyDown = (keyName, e, handle) => {
@@ -51,6 +49,40 @@ function App() {
             case 'enter':
                 stores.midi.sendCC(18, xyToIndex(stores.state.currentAlgorithm));
                 break;
+            case 'a':
+            case 'b':
+            case 'c':
+            case 'd':
+            case 'e':
+            case 'f':
+            case 'g':
+            case 'h':
+            case 'i':
+            case 'j':
+            case 'k':
+            case 'l':
+            case 'm':
+            case 'n':
+                const letter = keyName.toUpperCase();
+                setKbSelection(letter);
+                // @ts-ignore
+                document.getElementById(`selector-${letter}1`).scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+                break;
+            case '1':
+            case '2':
+            case '3':
+            case '4':
+            case '5':
+            case '6':
+            case '7':
+            case '8':
+                if (kbSelection) {
+                    stores.state.setCurrentAlgorithm(kbSelection + keyName);
+                }
+                break;
             default:
                 break;
         }
@@ -59,7 +91,7 @@ function App() {
     return (
         <Fragment>
             <Hotkeys
-                keyName={`${KEY_PREV},${KEY_NEXT},enter`}
+                keyName={`${KEY_PREV},${KEY_NEXT},enter,a,b,c,d,e,f,g,h,i,j,k,l,m,n,1,2,3,4,5,6,7,8`}
                 onKeyDown={handleKeyDown}
                 onKeyUp={handleKeyUp}
                 allowRepeat={true}
@@ -89,11 +121,6 @@ function App() {
                     <Description />
                 </div>
             </main>
-{/*
-            <footer>
-                Made by StudioCode.dev
-            </footer>
-*/}
         </Fragment>
     )
 }

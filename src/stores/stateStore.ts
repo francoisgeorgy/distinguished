@@ -7,7 +7,6 @@ export class StateStore {
 
     stores: RootStore;
 
-    // currentAlgorithm: number = 0;
     currentAlgorithm: string = "A1";
 
     constructor(stores: RootStore) {
@@ -30,7 +29,9 @@ export class StateStore {
         // } else {
         //     n = num;
         // }
-        this.currentAlgorithm = index.toUpperCase();
+        if (ALGORITHMS.hasOwnProperty(index.toUpperCase())) {
+            this.currentAlgorithm = index.toUpperCase();
+        }
     }
 
     algorithmExists(num: number): boolean {

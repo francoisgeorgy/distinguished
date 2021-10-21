@@ -279,8 +279,6 @@ export class MidiStore {
         }
     }
 
-
-
     // sendCC(controller: number, channel: number, value: number): void {
     sendCC(controller: number, value: number): void {
         this.send([MIDI_VOICE_CONTROL_CHANGE + this.channel, controller, value]);

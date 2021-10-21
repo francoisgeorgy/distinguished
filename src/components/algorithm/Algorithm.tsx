@@ -20,13 +20,10 @@ export const Algorithm = () => {
             <div className="my-20">
                 <button onClick={useIt}>USE THIS ALGORITHM</button>
             </div>
-            <div className="Xrow my-20 Xstretch">
-                {/*<div className="mr-20">*/}
-                    <IOs />
-                    <Midi />
-                    <Parameters />
-                {/*</div>*/}
-                {/*<AlgorithmDetails />*/}
+            <div className="my-20">
+                <IOs />
+                <Midi />
+                <Parameters />
             </div>
 {/*
             <div className="my-20">
