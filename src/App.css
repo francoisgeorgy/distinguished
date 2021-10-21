@@ -9,6 +9,10 @@
 }
 */
 
+a {
+    text-decoration: none;
+}
+
 header {
     background-color: #eee; /* debug */
     flex-shrink: 0;
@@ -25,7 +29,7 @@ main {
 main .left {
     /*width: 25%;*/
     /*min-width: 25%;*/
-    min-width: 350px;
+    min-width: 330px;
     padding-left: 10px;
     padding-right: 10px;
 }

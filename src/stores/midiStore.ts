@@ -1,6 +1,6 @@
 import {action, makeAutoObservable} from 'mobx';
 import {RootStore} from "./index";
-import {MIDI_VOICE_CONTROL_CHANGE, SYSEX_END, SYSEX_START} from "../utils/midi";
+import {MIDI_VOICE_CONTROL_CHANGE, MIDI_VOICE_PROGRAM_CHANGE, SYSEX_END, SYSEX_START} from "../utils/midi";
 import {loadPreferences, savePreferences} from "../utils/preferences";
 
 export interface Port {
@@ -284,6 +284,10 @@ export class MidiStore {
     // sendCC(controller: number, channel: number, value: number): void {
     sendCC(controller: number, value: number): void {
         this.send([MIDI_VOICE_CONTROL_CHANGE + this.channel, controller, value]);
+    }
+
+    sendPC(value: number): void {
+        this.send([MIDI_VOICE_PROGRAM_CHANGE + this.channel, value]);
     }
 
 

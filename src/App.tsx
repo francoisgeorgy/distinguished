@@ -2,9 +2,14 @@ import {Fragment, useEffect} from "react";
 import {stores} from "./stores";
 import {MidiPortsSelect} from "./components/midi/MidiPortsSelect";
 import {AlgorithmsList} from "./components/AlgorithmsList";
-import { Algorithm } from "./components/algorithm/Algorithm";
-import './App.css'
+import {Algorithm} from "./components/algorithm/Algorithm";
 import {Description} from "./components/algorithm/Description";
+import Hotkeys from 'react-hot-keys';
+import {xyToIndex} from "./model";
+import './App.css'
+
+const KEY_PREV = "left";
+const KEY_NEXT = "right";
 
 function App() {
 
@@ -26,38 +31,52 @@ function App() {
         stores.state.setCurrentAlgorithm(window.location.hash?.substring(1));
     }, [])
 
-    // @ts-ignore
-    // const handleKeyUp = ({ keyName, keyCode, e }) => {
-    //     console.log(keyName, keyCode, e);
-    //     e.PreventDefault();
-    //     if (stores.state.currentAlgorithm > 0) stores.state.setCurrentAlgorithm(stores.state.currentAlgorithm - 1);
-    //     return false;
-    // };
-    //
-    // // @ts-ignore
-    // const handleKeyDown = ({ keyName, keyCode, e }) => {
-    //     console.log(keyName, keyCode, e);
-    //     e.PreventDefault();
-    //     stores.state.setCurrentAlgorithm(stores.state.currentAlgorithm + 1);
-    //     return false;
-    // };
+    const handleKeyUp = (keyName, e, handle) => {
+        // console.log(keyName, e, handle);
+        // e.preventDefault();
+        // stores.state.selectPreviousAlgorithm();
+        // return false;
+    };
 
-    // const { keyCode, keyCodeHistory, keyName, keyNameHistory } = useKeyUp();
-    // useKeyUp(handleKeyUp);
-    // useKeyDown(handleKeyDown);
+    const handleKeyDown = (keyName, e, handle) => {
+        console.log(keyName, e, handle);
+        // e.preventDefault();
+        switch (keyName) {
+            case KEY_PREV:
+                stores.state.selectPreviousAlgorithm();
+                break;
+            case KEY_NEXT:
+                stores.state.selectNextAlgorithm();
+                break;
+            case 'enter':
+                stores.midi.sendCC(18, xyToIndex(stores.state.currentAlgorithm));
+                break;
+            default:
+                break;
+        }
+    };
 
     return (
         <Fragment>
+            <Hotkeys
+                keyName={`${KEY_PREV},${KEY_NEXT},enter`}
+                onKeyDown={handleKeyDown}
+                onKeyUp={handleKeyUp}
+                allowRepeat={true}
+            />
             <header>
                 <div className="row space-between">
                     <div className="title">
                         A webmidi utility for the Expert Sleepers Disting Mk4
                     </div>
                     <div>
-                        V. __CLI_VERSION__ by <a href="https://studiocode.dev/" target="_blank" rel="noopener noreferrer">StudioCode.dev</a>
+                        v__CLI_VERSION__ by <a href="https://studiocode.dev/" target="_blank" rel="noopener noreferrer">StudioCode.dev</a>
                     </div>
                 </div>
-                <MidiPortsSelect />
+                <div className="row space-between align-middle">
+                    <MidiPortsSelect />
+                    <div className="my-10">Keyboard: LEFT & RIGHT to browse - ENTER to select algorithm</div>
+                </div>
             </header>
             <main>
                 <div className="left scrollable">

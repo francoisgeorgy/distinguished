@@ -23,6 +23,8 @@ export const ParameterSlider = ({paramNumber, min, max, def}: ParameterSliderPro
         stores.midi.sendCC(paramNumber + 1, valueToMIDI(min, max, v));
     }
 
+    console.log("ParameterSlider", paramNumber, min, max, def);
+
     return (
         <div className="parameter-slider">
             <div className="span-3-cols">

@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.line140 {
+    line-height: 140%;
+}
+
 .mt-5 {
     margin-top: 5px;
 }
@@ -24,7 +28,16 @@ code {
     margin-top: 10px;
 }
 
+.mt-20 {
+    margin-top: 20px;
+}
+
 .mb-10 {
+    margin-bottom: 10px;
+}
+
+.my-10 {
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -47,4 +60,11 @@ code {
 
 .span-3-cols {
     grid-column: span 3;
+}
+
+.text-grey {
+    color: #999;
+}
+.text-small {
+    font-size: 0.85rem;
 }

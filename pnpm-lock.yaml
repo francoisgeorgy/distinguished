@@ -11,7 +11,7 @@ specifiers:
   mobx-react-lite: ^3.2.1
   react: ^17.0.0
   react-dom: ^17.0.0
-  react-keyboard-input-hook: ^1.0.3
+  react-hot-keys: ^2.7.1
   react-svg-knob: ^0.5.0
   storejs: ^2.0.1
   typescript: ^4.3.2
@@ -24,7 +24,7 @@ dependencies:
   mobx-react-lite: 3.2.1_8aec6830c9f393111667240500a3b25c
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
-  react-keyboard-input-hook: 1.0.3
+  react-hot-keys: 2.7.1_react-dom@17.0.2+react@17.0.2
   react-svg-knob: 0.5.0_react@17.0.2
   storejs: 2.0.1
   vite-plugin-replace: 0.1.1_vite@2.6.7
@@ -640,6 +640,10 @@ packages:
       function-bind: 1.1.1
     dev: true
 
+  /hotkeys-js/3.8.7:
+    resolution: {integrity: sha512-ckAx3EkUr5XjDwjEHDorHxRO2Kb7z6Z2Sxul4MbBkN8Nho7XDslQsgMJT+CiJ5Z4TgRxxvKHEpuLE3imzqy4Lg==}
+    dev: false
+
   /is-core-module/2.7.0:
     resolution: {integrity: sha512-ByY+tjCciCr+9nLryBYcSD50EOGWt95c7tIsKTG1J2ixKKXPvF7Ej3AVd+UfDydAJom3biBGDBALaO79ktwgEQ==}
     dependencies:
@@ -746,6 +750,14 @@ packages:
       source-map-js: 0.6.2
     dev: true
 
+  /prop-types/15.7.2:
+    resolution: {integrity: sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.1
+    dev: false
+
   /react-dom/17.0.2_react@17.0.2:
     resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
     peerDependencies:
@@ -757,10 +769,21 @@ packages:
       scheduler: 0.20.2
     dev: false
 
-  /react-keyboard-input-hook/1.0.3:
-    resolution: {integrity: sha512-dSm6wZzZSayaoi/ons7v+1Pu9/+KEO9UW37Wx445gZBXfTBXmt7uVNheKmI5ONsMU72A+ZqQ0hcZDg9acrm8Bg==}
+  /react-hot-keys/2.7.1_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-h2LfJGs450z58/DvKuzal1LetoEGjXUbcxJyKFvWOJPy+IRpQsyxZv7FYDAJ7W0my3ySI3sVB3h5xcgvMdxS1g==}
+    peerDependencies:
+      '@babel/runtime': '>=7.10.0'
+      react: '>=16.9.0'
+      react-dom: '>=16.9.0'
     dependencies:
+      hotkeys-js: 3.8.7
+      prop-types: 15.7.2
       react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    dev: false
+
+  /react-is/16.13.1:
+    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
 
   /react-refresh/0.10.0:

@@ -22,7 +22,7 @@ export const Parameters = observer(() => {
                 let isKnob = false;
                 let control;
                 if (parameter["values"]) {
-                    control = <ParameterList paramNumber={key} values={parameter["values"]} />;
+                    control = <ParameterList paramNumber={key} values={parameter["values"]} def={parameter["def"]} />;
                 } else {
                     if (parameter["max"] - parameter["min"] < 6) {
                         const values = [];
@@ -32,20 +32,16 @@ export const Parameters = observer(() => {
                                 label: i.toString(10)
                             })
                         }
-                        control = <ParameterList paramNumber={key} values={values} />;
+                        control = <ParameterList paramNumber={key} values={values} def={parameter["def"]} />;
                     } else {
                         control = <ParameterSlider paramNumber={key} min={parameter["min"]} max={parameter["max"]} def={parameter["def"]} />;
                     }
                 }
                 return (
                     <div key={key} className="parameter row stretch">
-                        {/*<div className="row mb-5" key={key}>*/}
-                            <div className="key">{key}</div>
-                            <div className="grow">{parameter["name"]}</div>
-
-                            {control}
-
-                        {/*</div>*/}
+                        <div className="key">{key}</div>
+                        <div className="grow">{parameter["name"]}</div>
+                        {control}
                     </div>
                 )
                 // return (
@@ -60,6 +56,10 @@ export const Parameters = observer(() => {
                 //     </div>
                 // )
             })}
+            <div className="mt-20 line140 text-grey text-small">
+                The application can not read the current Disting parameters values.<br />
+                Therefore, it shows the default value or the last value you selected if you changed it with the application.
+            </div>
         </div>
     );
 });

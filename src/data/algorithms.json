@@ -4974,8 +4974,8 @@
         "Z": "feedback",
         "X": "signal",
         "Y": "clock input",
-        "A": "A & B are stereo audio outputs",
-        "B": "",
+        "A": "audio output (stereo with B)",
+        "B": "audio output (stereo with A)",
         "midi": {
             "in": false,
             "out": false
