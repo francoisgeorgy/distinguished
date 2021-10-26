@@ -261,8 +261,10 @@
         "parameters": [
             {
                 "name": "Mode",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "Sample & Hold"},
+                    {"value": 1, "label": "Track & Hold"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -390,11 +392,13 @@
             },
             {
                 "name": "Output mode",
-                "min": 0,
-                "max": 2,
+                "values": [
+                    {"value": 0, "label": "A is mix; B is delay only"},
+                    {"value": 1, "label": "A & B are mix"},
+                    {"value": 2, "label": "A & B are delay only"}
+                ],
                 "def": 0,
                 "unit": ""
-                
             }
         ]
     },
@@ -2595,8 +2599,8 @@
         "category": "Quantizers",
         "Z-button": "",
         "Z": "trigger",
-        "X": "X",
-        "Y": "Y",
+        "X": "V/octave pitch CV",
+        "Y": "V/octave pitch CV",
         "A": "quantized( X )",
         "B": "quantized( Y )",
         "midi": {
@@ -2831,8 +2835,11 @@
             },
             {
                 "name": "Scale",
-                "min": 0,
-                "max": 2,
+                "values": [
+                    {"value": 0, "label": "Major"},
+                    {"value": 1, "label": "Natural Minor"},
+                    {"value": 2, "label": "Harmonic Minor"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -4445,16 +4452,26 @@
         "parameters": [
             {
                 "name": "Output type A",
-                "min": 0,
-                "max": 6,
+                "values": [
+                    {"value": 0, "label": "Triangle"},
+                    {"value": 1, "label": "Sin"},
+                    {"value": 2, "label": "Square"},
+                    {"value": 3, "label": "Rising ramp"},
+                    {"value": 4, "label": "Falling ramp"}
+                ],
                 "def": 1,
                 "unit": ""
                 
             },
             {
                 "name": "Output type B",
-                "min": 0,
-                "max": 6,
+                "values": [
+                    {"value": 0, "label": "Triangle"},
+                    {"value": 1, "label": "Sin"},
+                    {"value": 2, "label": "Square"},
+                    {"value": 3, "label": "Rising ramp"},
+                    {"value": 4, "label": "Falling ramp"}
+                ],
                 "def": 0,
                 "unit": ""
                 

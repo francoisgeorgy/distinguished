@@ -8,6 +8,6 @@ export const Name = observer(() => {
     // @ts-ignore
     const name = ALGORITHMS[index].name;
     return (
-        <h2>{formatIndex(index)} - {name}</h2>
+        <h2>{formatIndex(index, '')} - {name}</h2>
     );
 });

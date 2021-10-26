@@ -22,7 +22,7 @@ export const ParameterList = ({paramNumber, values, def}: ParameterListProps) =>
 
     let options = [];
     for (let v of values) {
-        options.push(<option key={v["value"]} value={v["value"]}>{v["label"]}</option>);
+        options.push(<option key={v["value"]} value={v["value"]}>{v["value"]}: {v["label"]}</option>);
     }
 
     return (

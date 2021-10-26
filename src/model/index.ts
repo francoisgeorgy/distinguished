@@ -10,11 +10,11 @@ export function xyToIndex(xy: string): number {
     return bank * 8 + num - 1;
 }
 
-export function formatIndex(index: string) {
+export function formatIndex(index: string, separator = "-") {
     if (index.includes("-")) {
         return index;
     } else {
-        return index.substr(0, 1) + "-" + index.substr(1);
+        return index.substr(0, 1) + separator + index.substr(1);
     }
 }
 
