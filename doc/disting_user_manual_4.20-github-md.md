@@ -2704,9 +2704,8 @@ to that on input X. The 0V note is 48 (C3). MIDI notes also drive the 'MIDI gate
 </tbody>
 </table>
 
-This algorithm is a VCO with a 1V/octave pitch CV input (X), and waveshape/PWM input (Y).The 0V point for the pitch
-input is C3
-(approximately 130.81Hz).
+This algorithm is a VCO with a 1V/octave pitch CV input (**X**), and waveshape/PWM input (**Y**).The 0V point for the pitch
+input is C3 (approximately 130.81Hz).
 
 The Z knob/CV provides a tuning control, with a range of approximately ±0.5 octaves (but see also parameter 6, below).
 
