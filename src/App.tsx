@@ -107,13 +107,13 @@ function App() {
                 </div>
             </header>
             <main>
-                <div className="left scrollable">
+                <div className="left scrollable-visible">
                     <AlgorithmsList />
                 </div>
-                <div className="middle scrollable">
+                <div className="middle scrollable-visible">
                     <Algorithm />
                 </div>
-                <div className="right scrollable">
+                <div className="right scrollable-visible">
                     <Description />
                 </div>
             </main>

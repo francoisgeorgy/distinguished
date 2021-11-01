@@ -17,8 +17,12 @@ export const Algorithm = () => {
     return (
         <div className="algorithm">
             <Name />
-            <div className="my-20">
+            <div className="my-20 row space-between">
                 <button onClick={useIt}>USE THIS ALGORITHM</button>
+                <div className="row">
+                    <button onClick={() => stores.state.selectPreviousAlgorithm()} className="mr-5">prev</button>
+                    <button onClick={() => stores.state.selectNextAlgorithm()}>next</button>
+                </div>
             </div>
             <div className="my-20">
                 <IOs />

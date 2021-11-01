@@ -62,6 +62,10 @@ footer {
     overflow-y: auto;
 }
 
+.scrollable-visible {
+    overflow-y: scroll;
+}
+
 /* */
 
 header .title {
