@@ -22,7 +22,13 @@ export const ParameterList = ({paramNumber, values, def}: ParameterListProps) =>
 
     let options = [];
     for (let v of values) {
-        options.push(<option key={v["value"]} value={v["value"]}>{v["value"]}: {v["label"]}</option>);
+        let s;
+        if (v["value"] == v["label"]) {     // important to use "==" instead of "===" here.
+            s = v["value"]
+        } else {
+            s = `${v["value"]}: ${v["label"]}`;
+        }
+        options.push(<option key={v["value"]} value={v["value"]}>{s}</option>);
     }
 
     return (

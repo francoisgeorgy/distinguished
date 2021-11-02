@@ -3597,8 +3597,8 @@
         "Z": "integer multiplier/divider",
         "X": "clock input",
         "Y": "wavetable input",
-        "A": "A & B are wavetable output",
-        "B": "",
+        "A": "wavetable output",
+        "B": "wavetable output",
         "midi": {
             "in": false,
             "out": false
@@ -3822,8 +3822,11 @@
             },
             {
                 "name": "Output mode",
-                "min": 0,
-                "max": 2,
+                "values": [
+                    {"value": 0, "label": "A is mix; B is delay only"},
+                    {"value": 1, "label": "A & B are mix"},
+                    {"value": 1, "label": "A & B are delay only"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -4525,10 +4528,10 @@
         "category": "CV Processing",
         "Z-button": "",
         "Z": "Z selects logical operation for output ",
-        "X": "X and Y are inputs",
-        "Y": "Y",
-        "A": "A and B are logic outputs",
-        "B": "",
+        "X": "input",
+        "Y": "input",
+        "A": "logic output",
+        "B": "logic output",
         "midi": {
             "in": false,
             "out": false
@@ -4581,10 +4584,10 @@
         "category": "Waveshaping",
         "Z-button": "",
         "Z": "threshold",
-        "X": "X and Y are inputs",
-        "Y": "Y",
-        "A": "A and B are outputs",
-        "B": "",
+        "X": "input",
+        "Y": "input",
+        "A": "output",
+        "B": "output",
         "midi": {
             "in": false,
             "out": false
@@ -4616,9 +4619,12 @@
         "knob-recorder": true,
         "parameters": [
             {
-                "name": "Mode (low-, band-, high-pass)",
-                "min": 0,
-                "max": 2,
+                "name": "Filter Mode",
+                "values": [
+                    {"value": 0, "label": "Low-pass"},
+                    {"value": 1, "label": "Band-pass"},
+                    {"value": 2, "label": "High-pass"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -4673,8 +4679,10 @@
             },
             {
                 "name": "Output mode",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "A & B are mix"},
+                    {"value": 1, "label": "A & B are delay only"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -4817,8 +4825,10 @@
             },
             {
                 "name": "Clamp",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "off"},
+                    {"value": 1, "label": "on"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -4832,8 +4842,8 @@
         "Z": "control CV or trigger",
         "X": "X",
         "Y": "Y",
-        "A": "A and B are outputs",
-        "B": "",
+        "A": "output",
+        "B": "output",
         "midi": {
             "in": false,
             "out": false
@@ -4842,8 +4852,10 @@
         "parameters": [
             {
                 "name": "Mode",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "Z is a switch"},
+                    {"value": 1, "label": "Z is a trigger"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -4962,16 +4974,22 @@
             },
             {
                 "name": "Window",
-                "min": 0,
-                "max": 3,
+                "values": [
+                    {"value": 0, "label": "Rectangular"},
+                    {"value": 1, "label": "Linear attack"},
+                    {"value": 2, "label": "Linear decay"},
+                    {"value": 3, "label": "Gaussian"}
+                ],
                 "def": 0,
                 "unit": ""
                 
             },
             {
                 "name": "Y Mode",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "0"},
+                    {"value": 1, "label": "X input is added to the Y input"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -5026,8 +5044,10 @@
             },
             {
                 "name": "Output mode",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "mix dry + delayed signal"},
+                    {"value": 1, "label": "delayed signal only"}
+                ],
                 "def": 0,
                 "unit": ""
                 
