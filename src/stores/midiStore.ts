@@ -256,14 +256,6 @@ export class MidiStore {
         return null;
     }
 
-    inputDebugLabel(id: string|null) {
-        return id ? ('[IN ' + id.substring(0, 5) + ' ' + this.inputById(id)?.name + ']').trim() : '[IN -]';
-    }
-
-    outputDebugLabel(id: string|null) {
-        return id ? ('[OUT ' + id.substring(0, 5) + ' ' + this.outputById(id)?.name + ']').trim() : '[OUT -]';
-    }
-
     send(messages: number[] | Uint8Array, outputId?: string) {
         this.outputById(outputId ?? this.outputInUse)?.send(messages);
     }
@@ -287,6 +279,5 @@ export class MidiStore {
     sendPC(value: number): void {
         this.send([MIDI_VOICE_PROGRAM_CHANGE + this.channel, value]);
     }
-
 
 }

@@ -1,5 +1,5 @@
 import {action, makeAutoObservable} from 'mobx';
-import {RootStore, stores} from "./index";
+import {RootStore} from "./index";
 import {indexToXY, xyToIndex} from "../model";
 import ALGORITHMS from "../data/algorithms.json";
 

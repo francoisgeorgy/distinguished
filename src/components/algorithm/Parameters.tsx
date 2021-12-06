@@ -1,9 +1,7 @@
 import {observer} from "mobx-react-lite";
 import {stores} from "../../stores";
-import {ParameterKnob} from "./ParameterKnob";
 import "./Parameters.css";
 import ALGORITHMS from "../../data/algorithms.json";
-import {Fragment} from "react";
 import React from "react";
 import {ParameterSlider} from "./ParameterSlider";
 import {ParameterList} from "./ParameterList";
@@ -19,7 +17,6 @@ export const Parameters = observer(() => {
                 <h3>Parameters</h3>
             </div>
             {parameters.map((parameter: any, key: number) => {
-                let isKnob = false;
                 let control;
                 if (parameter["values"]) {
                     control = <ParameterList paramNumber={key} values={parameter["values"]} def={parameter["def"]} />;
@@ -59,6 +56,12 @@ export const Parameters = observer(() => {
             <div className="mt-20 line140 text-grey text-small">
                 The application can not read the current Disting parameters values.<br />
                 Therefore, it shows the default value or the last value you selected if you changed it with the application.
+            </div>
+            <div className="mt-20 line140 text-grey text-small">
+                Always check the official documentation.
+            </div>
+            <div className="mt-20 line140 text-grey text-small">
+                Report any problem by opening a ticket in <a href="https://github.com/francoisgeorgy/distinguished/issues" target="_blank" rel="noopener noreferer">the GitHub project</a>.
             </div>
         </div>
     );

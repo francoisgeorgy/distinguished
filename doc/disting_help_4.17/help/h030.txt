@@ -1,5 +1,0 @@
-This is a filter with simultaneous band pass and high pass outputs. X is the audio input.
-
-Y sets the filter frequency, with a 1V/octave response. The 0V point is C3 (approximately 130.81Hz). Parameter 0 is added to the Y CV; its range of ±80 corresponds to ±5V.
-
-Z controls the filter resonance.

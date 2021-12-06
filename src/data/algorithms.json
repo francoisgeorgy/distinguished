@@ -174,11 +174,10 @@
         "parameters": [
             {
                 "name": "X attenuation",
-                "min": -1,
-                "max": 31,
-                "def": 31,
+                "min": 0,
+                "max": 32,
+                "def": 32,
                 "unit": ""
-                
             },
             {
                 "name": "Transpose mode",
@@ -186,7 +185,6 @@
                 "max": 1,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Key",
@@ -194,7 +192,6 @@
                 "max": 31,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Offset",
@@ -202,7 +199,6 @@
                 "max": 31,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "MIDI Gate",
@@ -210,7 +206,13 @@
                 "max": 1,
                 "def": 0,
                 "unit": ""
-                
+            },
+            {
+                "name": "Transpose",
+                "min": -48,
+                "max": 48,
+                "def": 0,
+                "unit": ""
             }
         ]
     },
@@ -227,7 +229,22 @@
             "in": false,
             "out": false
         },
-        "parameters": []
+        "parameters": [
+            {
+                "name": "X offset",
+                "min": -40,
+                "max": 40,
+                "def": 0,
+                "unit": ""
+            },
+            {
+                "name": "Y offset",
+                "min": -40,
+                "max": 40,
+                "def": 0,
+                "unit": ""
+            }
+        ]
     },
     "A8": {
         "name": "Dual Waveshaper",
@@ -293,7 +310,6 @@
                 "max": 64,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Atten B",
@@ -301,7 +317,6 @@
                 "max": 32,
                 "def": 32,
                 "unit": ""
-                
             },
             {
                 "name": "Up slew",
@@ -309,7 +324,6 @@
                 "max": 31,
                 "def": -1,
                 "unit": ""
-                
             },
             {
                 "name": "Down slew",
@@ -317,7 +331,6 @@
                 "max": 31,
                 "def": -1,
                 "unit": ""
-                
             }
         ]
     },
@@ -341,7 +354,6 @@
                 "max": 32,
                 "def": -1,
                 "unit": ""
-                
             },
             {
                 "name": "Down slew",
@@ -349,7 +361,6 @@
                 "max": 32,
                 "def": -1,
                 "unit": ""
-                
             }
         ]
     },
@@ -388,7 +399,7 @@
                 "max": 8,
                 "def": 0,
                 "unit": ""
-                
+
             },
             {
                 "name": "Output mode",
@@ -422,7 +433,7 @@
                 "max": 40,
                 "def": 32,
                 "unit": ""
-                
+
             },
             {
                 "name": "Out. B attenuation",
@@ -430,7 +441,6 @@
                 "max": 40,
                 "def": 32,
                 "unit": ""
-                
             },
             {
                 "name": "Out. A offset",
@@ -438,7 +448,6 @@
                 "max": 40,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Out. B offset",
@@ -446,7 +455,6 @@
                 "max": 40,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Y offset",
@@ -454,7 +462,6 @@
                 "max": 32,
                 "def": 0,
                 "unit": ""
-                
             }
         ]
     },
@@ -478,7 +485,6 @@
                 "max": 32,
                 "def": 32,
                 "unit": ""
-                
             },
             {
                 "name": "Out. B attenuverter",
@@ -486,7 +492,6 @@
                 "max": 32,
                 "def": 32,
                 "unit": ""
-                
             },
             {
                 "name": "Y Offset",
@@ -494,7 +499,6 @@
                 "max": 32,
                 "def": 0,
                 "unit": ""
-                
             }
         ]
     },
@@ -518,7 +522,6 @@
                 "max": 8,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Out. A attenuation",
@@ -526,7 +529,6 @@
                 "max": 32,
                 "def": 32,
                 "unit": ""
-                
             },
             {
                 "name": "Out. B attenuation",
@@ -534,7 +536,6 @@
                 "max": 32,
                 "def": 32,
                 "unit": ""
-                
             },
             {
                 "name": "Type A",
@@ -616,7 +617,6 @@
                 "max": 8,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Out. A attenuation",
@@ -624,7 +624,6 @@
                 "max": 32,
                 "def": 32,
                 "unit": ""
-                
             },
             {
                 "name": "Out. B attenuation",
@@ -632,7 +631,6 @@
                 "max": 32,
                 "def": 32,
                 "unit": ""
-                
             },
             {
                 "name": "Offset for input Y (manual shape control)",
@@ -640,12 +638,16 @@
                 "max": 32,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Selects output waveforms",
-                "min": 0,
-                "max": 2,
+                "values": [
+                    {"value": 0, "label": "A: Triangle/saw - B: Square/pulse"},
+                    {"value": 1, "label": "A: Triangle/saw - B: Sub-octave square"},
+                    {"value": 2, "label": "A: Square/pulse - B: Sub-octave square"},
+                    {"value": 3, "label": "A: Triangle/saw - B: MIDI Gate"},
+                    {"value": 4, "label": "A: Square/pulse - B: MIDI Gate"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -733,8 +735,10 @@
             },
             {
                 "name": "Enable saturation",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "off"},
+                    {"value": 1, "label": "on"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -757,8 +761,10 @@
         "parameters": [
             {
                 "name": "Output mode",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "A & B are mix of dry and delayed signal"},
+                    {"value": 1, "label": "A & B are delayed signal only"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -813,8 +819,10 @@
             },
             {
                 "name": "Output mode",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "A & B are mix of dry and delayed signal"},
+                    {"value": 1, "label": "A & B are delayed signal only"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -845,8 +853,10 @@
             },
             {
                 "name": "Mode",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "input is audio"},
+                    {"value": 1, "label": "input is trigger"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -1029,8 +1039,11 @@
             },
             {
                 "name": "Output mode",
-                "min": 0,
-                "max": 2,
+                "values": [
+                    {"value": 0, "label": "A is mix; B is delay only"},
+                    {"value": 1, "label": "A & B are mix"},
+                    {"value": 2, "label": "A & B are delay only"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -2215,7 +2228,6 @@
                 "max": 9,
                 "def": 4,
                 "unit": ""
-                
             }
         ]
     },
@@ -2247,7 +2259,15 @@
             "in": false,
             "out": false
         },
-        "parameters": []
+        "parameters": [
+            {
+                "name": "Reference frequency",
+                "min": -9,
+                "max": 99,
+                "def": 0,
+                "unit": ""
+            }
+        ]
     },
     "G6": {
         "name": "Clock",
@@ -2349,7 +2369,6 @@
                 "max": 24,
                 "def": 2,
                 "unit": ""
-                
             },
             {
                 "name": "Scale",
@@ -2357,7 +2376,6 @@
                 "max": 99,
                 "def": -1,
                 "unit": ""
-                
             },
             {
                 "name": "Portamento",
@@ -2365,7 +2383,6 @@
                 "max": 32,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Interrupt",
@@ -2373,15 +2390,26 @@
                 "max": 100,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Priority",
-                "min": 0,
-                "max": 2,
+                "values": [
+                    {"value": 0, "label": "Last"},
+                    {"value": 1, "label": "Low"},
+                    {"value": 2, "label": "High"}
+                ],
                 "def": 0,
                 "unit": ""
-                
+            },
+            {
+                "name": "Mode",
+                "values": [
+                    {"value": 0, "label": "A=pitch, B=gate"},
+                    {"value": 1, "label": "A=pitch, B=pitch"},
+                    {"value": 2, "label": "A=pitch, B=velocity"}
+                ],
+                "def": 0,
+                "unit": ""
             }
         ]
     },
@@ -3825,7 +3853,7 @@
                 "values": [
                     {"value": 0, "label": "A is mix; B is delay only"},
                     {"value": 1, "label": "A & B are mix"},
-                    {"value": 1, "label": "A & B are delay only"}
+                    {"value": 2, "label": "A & B are delay only"}
                 ],
                 "def": 0,
                 "unit": ""
@@ -4939,6 +4967,87 @@
                 "def": 15,
                 "unit": ""
                 
+            }
+        ]
+    },
+    "N3": {
+        "name": "Attenuverter/Offset",
+        "category": "",
+        "Z-button": "",
+        "Z": "",
+        "X": "",
+        "Y": "",
+        "A": "X * scale + offset",
+        "B": "Y * scale + offset",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Attenuversion A",
+                "min": -100,
+                "max": 100,
+                "def": 50,
+                "unit": ""
+            },
+            {
+                "name": "Offset A",
+                "min": -100,
+                "max": 100,
+                "def": 0,
+                "unit": ""
+            },
+            {
+                "name": "Attenuversion B",
+                "min": -100,
+                "max": 100,
+                "def": 50,
+                "unit": ""
+            },
+            {
+                "name": "Offset B",
+                "min": -100,
+                "max": 100,
+                "def": 0,
+                "unit": ""
+            }
+        ]
+    },
+    "N4": {
+        "name": "Low Pass Gate",
+        "category": "",
+        "Z-button": "",
+        "Z": "frequency/'strike'",
+        "X": "A & B are stereo audio inputs",
+        "Y": "",
+        "A": "A & B are stereo audio outputs",
+        "B": "",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Resonance",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": ""
+            },
+            {
+                "name": "Up slew",
+                "min": 1,
+                "max": 99,
+                "def": 50,
+                "unit": ""
+            },
+            {
+                "name": "Down slew",
+                "min": 1,
+                "max": 99,
+                "def": 50,
+                "unit": ""
             }
         ]
     },

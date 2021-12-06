@@ -1,9 +1,0 @@
-Similar to “I-4 Audio Playback with Z Speed” except that the playback speed is allowed to go negative i.e. the sample can play backwards. Playback speed is linear with Z, with a maximum of around 2x speed, and with 0V/center Z corresponding to a speed of zero.
-
-Input Y selects the sample. Parameter 1 is added to input Y, so you can effectively use either or a combination of both to select the sample. Note that in this algorithm a maximum of 50 samples are accessible, not the usual 100.
-
-The algorithm caches a reversed copy of each sample to the MicroSD card. It does this once only for each sample, when it finds a new sample or one that has changed. This may take a few seconds, during which time the message “Processing...” scrolls across the display. Do not remove the MicroSD card or turn off the disting during this time, in case the MicroSD card becomes corrupted.
-
-Parameters 0 & 2 are the standard sample folder and envelope time parameters, described above.
-
-MIDI Input: MIDI note on & off messages are handled equivalently to a trigger or gate on the X input – that is, a note on retriggers the sample, and if the envelope time is non-zero, a note off will stop the playback.

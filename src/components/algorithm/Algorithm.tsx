@@ -1,11 +1,9 @@
 import {Name} from "./Name";
 import {Parameters} from "./Parameters";
-import {Details} from "./Details";
-import {Description} from "./Description";
 import {IOs} from "./IOs";
 import {Midi} from "./Midi";
 import {stores} from "../../stores";
-import {valueToMIDI, xyToIndex} from "../../model";
+import {xyToIndex} from "../../model";
 
 export const Algorithm = () => {
 

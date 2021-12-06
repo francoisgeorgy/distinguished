@@ -1,7 +1,0 @@
-A simple 2 channel mono-to-stereo mixer.
-
-Parameters 0 & 1 set the gain for inputs X & Y respectively (in dB). At -40 the signal is completely
-
-attenuated (i.e. it's actually –∞dB).
-
-Z sets the pan for input X. The pan for input Y is set by parameter 2.

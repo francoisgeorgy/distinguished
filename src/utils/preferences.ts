@@ -1,6 +1,6 @@
 import store from "storejs";
 
-export const LOCAL_STORAGE_KEY = "studiocode.dummy";
+export const LOCAL_STORAGE_KEY = "studiocode.disting-browser";
 
 export const DEFAULT_PREFERENCES = {
     input_id: null,      // web midi port ID

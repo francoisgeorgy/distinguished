@@ -1,5 +1,0 @@
-This algorithm is much the same as E-4 Stereo Compressor above, except that the gain reduction is driven not by the audio signal itself, but by a side-chain input. Refer to the description of E-4 for explanation of the common parameters not detailed below.
-
-The Z knob/CV is the side-chain input. If you're using an audio signal here, you'll want to set the knob to its central (un-illuminated) position first. However, you can also use Z with any CV to control the gain reduction directly.
-
-Parameter 5 sets the compression ratio, with a range from 1 (no compression) to infinity (effectively limiting rather than compression).

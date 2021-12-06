@@ -1,5 +1,0 @@
-This algorithm provides two independent waveshaping functions. The Z knob/CV is a gain control, with a range of approximately 30x. Negative values of Z invert the signal.
-
-Input X/output A provide what is usually termed a wavefolder. This increases the harmonic content of the sound in interesting ways, especially as the gain changes.
-
-Input Y/output B provide a triangle-to-sine waveshaper. Used on most audio this is a relatively gentle form of overdrive/saturation. However, when fed with the right level of triangle wave, the output is exactly a sine wave, which is useful when you have a triangle wave VCO handy but really want a pure sine wave instead.

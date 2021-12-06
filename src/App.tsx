@@ -95,7 +95,7 @@ function App() {
             <header>
                 <div className="row space-between">
                     <div className="title">
-                        A webmidi utility for the Expert Sleepers Disting Mk4
+                        A webmidi browser for the Expert Sleepers Disting Mk4
                     </div>
                     <div>
                         v__CLI_VERSION__ by <a href="https://studiocode.dev/" target="_blank" rel="noopener noreferrer">StudioCode.dev</a>

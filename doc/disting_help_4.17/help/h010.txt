@@ -1,7 +1,0 @@
-This algorithm provides pitch and envelope tracking of an incoming audio signal. It will track frequencies down to about 27Hz, which is just below the lowest note on a standard 88 key piano.
-
-Output A is a 1V/octave pitch CV reflecting the pitch of the signal on input X. The 0V point is C3 (approximately 130.81Hz). Input Y is simply added to the pitch CV, providing a means of applying e.g. vibrato, or transposition.
-
-Output B tracks the envelope of the signal on input X. It goes to zero when the algorithm fails to track a pitch.
-
-Knob/CV Z sets the slew rate of the envelope, controlling how quickly it tracks changes in level. At the minimum value of Z, changes can be very rapid, which may produce undesirable effects, especially if pitch tracking is not working well. As Z increases, changes take place more slowly.

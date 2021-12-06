@@ -1,10 +1,5 @@
 export const SYSEX_START = 0xF0;
 export const SYSEX_END = 0xF7;
 
-export const MIDI_VOICE_NOTE_ON = 0x90;
-export const MIDI_VOICE_NOTE_OFF = 0x80;
-export const MIDI_VOICE_POLYPHONIC_KEY_PRESSURE = 0xA0;
 export const MIDI_VOICE_CONTROL_CHANGE = 0xB0;
 export const MIDI_VOICE_PROGRAM_CHANGE = 0xC0;
-export const MIDI_VOICE_CHANNEL_PRESSURE = 0xD0;
-export const MIDI_VOICE_PITCH_BEND_CHANGE = 0xE0;

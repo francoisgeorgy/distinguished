@@ -1,7 +1,0 @@
-A stereo (noise) gate. The outputs are muted unless the input signal exceeds a threshold level.
-
-The Z knob/CV sets the threshold, with a range of approximately 0-8V.
-
-The outputs are muted by an envelope, triggered by the input signal rising above the threshold level. Parameters 0-2 set the attack, hold and release times of the envelope. The hold time is the minimum amount of time the envelope is considered to be triggered. The approximate time ranges for each parameter are: attack 10ms-1.8s, hold 0-600ms, release 45ms-8s.
-
-Parameter 3 sets a lookahead time, effectively delaying the audio slightly relative to the trigger detection. This can be used to ensure that sharp transients are not lost during the attack time of the envelope. The maximum lookahead is about 10ms.
