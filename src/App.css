@@ -4,7 +4,7 @@ a {
 }
 
 header {
-    background-color: #eee;
+    background-color: var(--header-bg);
     flex-shrink: 0;
     padding: 10px 15px 0 15px;
     border-bottom: 1px solid #ddd;

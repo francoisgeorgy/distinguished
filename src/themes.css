@@ -1,0 +1,176 @@
+/* default is 'light' */
+
+/* examples:
+ - https://mui.com/customization/dark-mode/
+ - https://sarunw.com/posts/dark-color-cheat-sheet/#cheat-sheet
+ - https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/
+ */
+
+/*
+LIGHT:
+
+Typography
+palette.text.primary rgba(0, 0, 0, 0.87)
+palette.text.secondary rgba(0, 0, 0, 0.6)
+palette.text.disabled rgba(0, 0, 0, 0.38)
+
+Buttons
+palette.action.active rgba(0, 0, 0, 0.54)
+palette.action.hover rgba(0, 0, 0, 0.04)
+palette.action.selected rgba(0, 0, 0, 0.08)
+palette.action.disabled rgba(0, 0, 0, 0.26)
+palette.action.disabledBackground rgba(0, 0, 0, 0.12)
+
+Background
+palette.background.default #fff
+palette.background.paper #fff
+
+Divider
+palette.divider rgba(0, 0, 0, 0.12)
+
+DARK:
+
+Typography
+palette.text.primary #fff
+palette.text.secondary rgba(255, 255, 255, 0.7)
+palette.text.disabled rgba(255, 255, 255, 0.5)
+
+Buttons
+palette.action.active #fff
+palette.action.hover rgba(255, 255, 255, 0.08)
+palette.action.selected rgba(255, 255, 255, 0.16)
+palette.action.disabled rgba(255, 255, 255, 0.3)
+palette.action.disabledBackground rgba(255, 255, 255, 0.12)
+
+Background
+palette.background.default #121212
+palette.background.paper #121212
+
+Divider
+palette.divider rgba(255, 255, 255, 0.12)
+*/
+
+html {
+    --main-bg-color: white;
+    --header-bg: #ffffff;
+    --header-padding: 10px 0 5px 0;
+    --header-border-top: 1px solid #000;
+    --subheader-bg: #ffffff;
+    --subheader-padding: 10px 0 0 0;
+    --instruction-margin: 5px 0 0 0;
+    --panel-bg: #f7f6f7;
+    --panel-border-top: 2px solid #1e85be;
+    --panel-font-weight: 400;
+    --panel-font-color: #000;
+    --link: #7070ff;
+    --primary: #007bff;
+    --secondary: #89959f;
+    /*--success: #2db94d;*/
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --border-dark: #999;
+    --border-light: #ddd;
+    --border-dark-dark: #333;
+    --border-dark-light: #555;
+    --text: #000;
+    --text-light: #606060;
+    --text-extra-light: #808080;
+    --text-tip: inherit;
+    --text-tip-bg: yellow;
+    --text-checked: #000;
+    --panel-toggle-text: #222;
+    --action-name-name-bg: #909090;
+    --action-name-name-text: #ffffff;
+    --button-action-border-top: 1px solid #888888 !important;
+    --midi-port-bg: #e0e0e0;
+    --midi-port-ok-bg: #ACDFAC;
+}
+
+html[data-theme='dark'] {
+    --main-bg-color: #333333;
+    /*--main-bg: #333333 linear-gradient(#606060, #2f2f2f, #0f0f0f);*/
+    --header-bg: #000000;
+    --header-padding: 10px 10px 5px 10px;
+    --header-border-top: 1px solid #777;
+    --subheader-bg: #000000;
+    --subheader-padding: 10px 10px 10px 10px;
+    --instruction-margin: 5px 0 0 0;
+    --panel-bg: #efefef;
+    --panel-border-top: 2px solid #aaa;
+    --panel-font-weight: 500;
+    --panel-font-color: #2f2f2f;
+    --link: #d0d0ff;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    /*--success: #2db94d;*/
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --border-dark: #999;
+    --border-light: #ddd;
+    --border-dark-dark: #333;
+    --border-dark-light: #555;
+    --text: #f0f0f0;
+    --text-light: #a0a0af;
+    --text-extra-light: #70707a;
+    --text-checked: #fff;
+    --panel-toggle-text: #eaeaef;
+    --text-tip: yellow;
+    --text-tip-bg: inherit;
+    --action-name-name-bg: #909090;
+    --action-name-name-text: #ffffff;
+    --button-action-border-top: 1px solid #888888 !important;
+    --midi-port-bg: #e0e0e0;
+    --midi-port-ok-bg: #ACDFAC;
+}
+
+/*
+html[data-theme='darkest'] select {
+    border-color: #222831;
+}
+
+html[data-theme='darkest'] {
+    --main-bg-color: #111;
+    --main-bg: #111;
+    --header-bg: #111;
+    --header-padding: 10px 0 5px 0;
+    --header-border-top: none;
+    --subheader-bg: #111;
+    --subheader-padding: 10px 0 0 0;
+    --instruction-margin: 5px 0 0 0;
+    --panel-bg: #222831;
+    --panel-border-top: 2px solid #aaa;
+    --panel-font-weight: 500;
+    --panel-font-color: #e0e0e0;
+    --link: #d0d0ff;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #2db94d;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --border-dark: #999;
+    --border-light: #ddd;
+    --border-dark-dark: #333;
+    --border-dark-light: #555;
+    --text: #f0f0f0;
+    --text-light: #a0a0af;
+    --text-extra-light: #70707a;
+    --text-checked: #fff;
+    --panel-toggle-text: #eaeaef;
+    --text-tip: yellow;
+    --text-tip-bg: inherit;
+    --action-name-name-bg: #a0a0af;
+    --action-name-name-text: #000;
+    --button-action-border-top: 1px solid #555 !important;
+    --midi-port-bg: #000;
+    --midi-port-ok-bg: #000;
+}
+*/

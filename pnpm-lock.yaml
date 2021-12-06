@@ -13,6 +13,7 @@ specifiers:
   react-dom: ^17.0.0
   react-hot-keys: ^2.7.1
   react-svg-knob: ^0.5.0
+  react-switch: ^6.0.0
   storejs: ^2.0.1
   typescript: ^4.3.2
   vite: ^2.6.4
@@ -26,6 +27,7 @@ dependencies:
   react-dom: 17.0.2_react@17.0.2
   react-hot-keys: 2.7.1_react-dom@17.0.2+react@17.0.2
   react-svg-knob: 0.5.0_react@17.0.2
+  react-switch: 6.0.0_react-dom@17.0.2+react@17.0.2
   storejs: 2.0.1
   vite-plugin-replace: 0.1.1_vite@2.6.7
 
@@ -798,6 +800,17 @@ packages:
       react: '>=16'
     dependencies:
       react: 17.0.2
+    dev: false
+
+  /react-switch/6.0.0_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-QV3/6eRK5/5epdQzIqvDAHRoGLbCv/wDpHUi6yBMXY1Xco5XGuIZxvB49PHoV1v/SpEgOCJLD/Zo43iic+aEIw==}
+    peerDependencies:
+      react: ^15.3.0 || ^16.0.0 || ^17.0.0
+      react-dom: ^15.3.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      prop-types: 15.7.2
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
     dev: false
 
   /react/17.0.2:
