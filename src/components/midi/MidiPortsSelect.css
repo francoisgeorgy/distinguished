@@ -6,8 +6,6 @@
 .ports-row > div {
     cursor: pointer;
     user-select: none;
-    /*border: 1px solid #aaa;*/
-    /*padding: 2px;*/
     margin-right: 10px;
 }
 

@@ -19,13 +19,7 @@ export function formatIndex(index: string, separator = "-") {
 }
 
 export function valueToMIDI(min: number, max: number, value: number): number {
-
-    // int range = max - min;
-    // from MIDI: value = min + ((cc * range) / 127);
-    // to MIDI: cc = ((value - min) * 127 + range - 1) / range;
-
     const range = max - min;
     let cc = (127 * value / range) - (127 * min / range) ;
-    console.log(min, max, value, Math.round(cc));
     return cc;
 }

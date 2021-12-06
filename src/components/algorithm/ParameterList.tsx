@@ -18,12 +18,10 @@ export const ParameterList = ({paramNumber, values, def}: ParameterListProps) =>
         stores.midi.sendCC(paramNumber + 1, v);
     }
 
-    console.log("ParameterList", paramNumber, def, values);
-
     let options = [];
     for (let v of values) {
         let s;
-        if (v["value"] == v["label"]) {     // important to use "==" instead of "===" here.
+        if (v["value"] == v["label"]) {     // it's important to use "==" instead of "===" here.
             s = v["value"]
         } else {
             s = `${v["value"]}: ${v["label"]}`;

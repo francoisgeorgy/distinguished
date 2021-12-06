@@ -20,8 +20,8 @@ export const AlgorithmsList = observer(() => {
                     // @ts-ignore
                     const name = ALGORITHMS[index].name;
                     return (
-                            <a id={`selector-${index}`} key={index} href={`#${index}`} onClick={() => selectAlgorithm(index)}>{index} - {name}</a>
-                        );
+                        <a id={`selector-${index}`} key={index} href={`#${index}`} onClick={() => selectAlgorithm(index)}>{index} - {name}</a>
+                    );
                 })}
             </div>
         </div>

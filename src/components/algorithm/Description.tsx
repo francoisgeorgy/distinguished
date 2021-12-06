@@ -6,11 +6,7 @@ import "./Description.css";
 
 export const Description = observer(() => {
 
-    // const filename = "C8.md";
-
-    // const xy = indexToXY(stores.state.currentAlgorithm);
     const index = stores.state.currentAlgorithm;
-
     const [text, setText] = useState('');
 
     useEffect(() => {
@@ -18,10 +14,8 @@ export const Description = observer(() => {
             .then((response) => {
                 if (response.ok) {
                     return response.text();
-                }
-                else {
+                } else {
                     setText("");
-                    // return Promise.reject("Failed to load text");
                     return Promise.reject("text not found");
                 }
             })
@@ -30,11 +24,9 @@ export const Description = observer(() => {
             })
             .catch((error) => {
                 setText("");
-                console.log(error)
+                console.error(error)
             });
     }, [index]);
-
-    console.log("AlgorithmDescription");
 
     return (
         <div className="algorithm-description">

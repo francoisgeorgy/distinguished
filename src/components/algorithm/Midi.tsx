@@ -10,7 +10,6 @@ export const Midi = observer(() => {
     const midi = ALGORITHMS[index]?.midi;
     if (!midi) return null;
     if (!midi["in"] && !midi["out"]) return null;
-    console.log(midi);
     return (
         <div className="algorithm-midi my-20">
             <div>

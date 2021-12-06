@@ -1,15 +1,10 @@
 import {observer} from "mobx-react-lite";
 import {stores} from "../../stores";
-// import HELP_TEXTS from "../../data/help-texts.json";
-import "./IOs.css";
 import ALGORITHMS from "../../data/algorithms.json";
+import "./IOs.css";
 
 export const IOs = observer(() => {
-    // const index = xyToIndex(xy);
     // @ts-ignore
-    // console.log(HELP_TEXTS[stores.state.currentAlgorithm.toString()]);
-    // @ts-ignore
-    // const texts = HELP_TEXTS[stores.state.currentAlgorithm.toString()] ?? [];
     const algo = ALGORITHMS[stores.state.currentAlgorithm];
     return (
         <div className="algorithm-ios">

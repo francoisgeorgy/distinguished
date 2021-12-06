@@ -18,17 +18,7 @@ export class StateStore {
     }
 
     setCurrentAlgorithm(index: string) {
-        console.log(`setCurrentAlgorithm(${index})`);
         if (index === undefined || index === null || index === '') return;
-        // let n;
-        // if (typeof num === "string") {
-        //     n = parseInt(num);
-        //     if (isNaN(n)) {
-        //         console.warn("setCurrentAlgorithm: invalid parameter", num, n);
-        //     }
-        // } else {
-        //     n = num;
-        // }
         if (ALGORITHMS.hasOwnProperty(index.toUpperCase())) {
             this.currentAlgorithm = index.toUpperCase();
         }
@@ -50,7 +40,6 @@ export class StateStore {
 
     selectNextAlgorithm() {
         let num = xyToIndex(this.currentAlgorithm);
-        // const max = Object.keys(ALGORITHMS).length;
         const max = xyToIndex("N8");
         while (num < max) {
             num++;

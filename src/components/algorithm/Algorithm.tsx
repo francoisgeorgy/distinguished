@@ -8,7 +8,6 @@ import {xyToIndex} from "../../model";
 export const Algorithm = () => {
 
     const useIt = () => {
-        // stores.midi.sendPC(xyToIndex(stores.state.currentAlgorithm));
         stores.midi.sendCC(18, xyToIndex(stores.state.currentAlgorithm));
     }
 
@@ -27,11 +26,7 @@ export const Algorithm = () => {
                 <Midi />
                 <Parameters />
             </div>
-{/*
-            <div className="my-20">
-                <Description />
-            </div>
-*/}
         </div>
     );
+
 }

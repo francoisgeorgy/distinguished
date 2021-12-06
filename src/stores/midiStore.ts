@@ -22,8 +22,8 @@ export class MidiStore {
     inputs: Ports = {};
     outputs: Ports = {};
 
-    inputInUse: string = ""; //WebMidi.MIDIInput[] = [];
-    outputInUse: string = ""; //WebMidi.MIDIOutput[] = [];
+    inputInUse: string = "";
+    outputInUse: string = "";
     channel: number = 0;
 
     // for example, can be deleted:

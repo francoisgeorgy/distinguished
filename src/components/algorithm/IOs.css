@@ -5,10 +5,6 @@
     justify-content: start;
 }
 
-.ios-grid > div {
-
-}
-
 .ios-grid div.label {
     font-weight: bold;
 }

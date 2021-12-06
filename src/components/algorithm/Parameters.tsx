@@ -1,16 +1,15 @@
 import {observer} from "mobx-react-lite";
 import {stores} from "../../stores";
-import "./Parameters.css";
 import ALGORITHMS from "../../data/algorithms.json";
 import React from "react";
 import {ParameterSlider} from "./ParameterSlider";
 import {ParameterList} from "./ParameterList";
+import "./Parameters.css";
 
 export const Parameters = observer(() => {
     const index = stores.state.currentAlgorithm;
     // @ts-ignore
     const parameters = ALGORITHMS[index].parameters;
-    // console.log(parameters);
     return (
         <div className="algorithm-parameters my-20">
             <div>
@@ -41,17 +40,6 @@ export const Parameters = observer(() => {
                         {control}
                     </div>
                 )
-                // return (
-                //     <div key={key} className="parameter">
-                //         <div className="row mb-5" key={key}>
-                //             <div className="key">{key} :</div>
-                //             <div>{parameter["name"]}</div>
-                //             <div className="grow">
-                //             {control}
-                //             </div>
-                //         </div>
-                //     </div>
-                // )
             })}
             <div className="mt-20 line140 text-grey text-small">
                 The application can not read the current Disting parameters values.<br />
