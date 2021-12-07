@@ -1,6 +1,6 @@
 
 .algorithm-parameters .parameter {
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid var(--border-light);
     padding-bottom: 10px;
     margin-bottom: 10px;
     line-height: 140%;
@@ -20,6 +20,10 @@
 
 .algorithm-parameters .parameter input[type=range] {
     width: 100%;
+}
+
+.algorithm-parameters div.parameter.last {
+    border-bottom: none;
 }
 
 .parameter-slider {

@@ -15,6 +15,9 @@ export const Parameters = observer(() => {
             <div>
                 <h3>Parameters</h3>
             </div>
+            {parameters.length < 1 && <div>
+                No parameters
+            </div>}
             {parameters.map((parameter: any, key: number) => {
                 let control;
                 if (parameter["values"]) {
@@ -34,21 +37,21 @@ export const Parameters = observer(() => {
                     }
                 }
                 return (
-                    <div key={key} className="parameter row stretch">
+                    <div key={key} className={`parameter row stretch ${key === (parameters.length - 1) ? 'last' : ''}`}>
                         <div className="key">{key}</div>
                         <div className="grow">{parameter["name"]}</div>
                         {control}
                     </div>
                 )
             })}
-            <div className="mt-20 line140 text-grey text-small">
+            <div className="mt-20 line140 text-light text-small pt-5 colored-border border-top-colored">
                 The application can not read the current Disting parameters values.<br />
                 Therefore, it shows the default value or the last value you selected if you changed it with the application.
             </div>
-            <div className="mt-20 line140 text-grey text-small">
+            <div className="mt-20 line140 text-light text-small">
                 Always check the official documentation.
             </div>
-            <div className="mt-20 line140 text-grey text-small">
+            <div className="mt-20 line140 text-light text-small">
                 Report any problem by opening a ticket in <a href="https://github.com/francoisgeorgy/distinguished/issues" target="_blank" rel="noopener noreferer">the GitHub project</a>.
             </div>
         </div>

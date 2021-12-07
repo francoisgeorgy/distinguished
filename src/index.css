@@ -5,7 +5,7 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: var(--text);
+    color: var(--text-primary);
 }
 
 html {
@@ -37,6 +37,10 @@ code {
     margin-top: 10px;
 }
 
+.mr-10 {
+    margin-right: 10px;
+}
+
 .mt-20 {
     margin-top: 20px;
 }
@@ -63,6 +67,14 @@ code {
     margin-right: 20px;
 }
 
+.pt-5 {
+    padding-top: 5px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
 .span-2-cols {
     grid-column: span 2;
 }
@@ -71,9 +83,6 @@ code {
     grid-column: span 3;
 }
 
-.text-grey {
-    color: #999;
-}
 .text-small {
     font-size: 0.85rem;
 }

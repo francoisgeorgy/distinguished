@@ -1,13 +1,22 @@
 
 a {
     text-decoration: none;
+    color: var(--link);
+}
+
+a:hover {
+    color: var(--link-hover);
+}
+
+a.active {
+    color: var(--link-active);
 }
 
 header {
     background-color: var(--header-bg);
     flex-shrink: 0;
     padding: 10px 15px 0 15px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--border-colored);
 }
 
 main {
@@ -49,15 +58,14 @@ footer {
 }
 
 header .title {
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size: 1.25rem;
 }
-
 
 h3 {
     margin: 10px 0 10px 0;
     font-size: 0.85rem;
-    color: #666;
+    color: var(--text-secondary);
     text-transform: uppercase;
     font-weight: normal;
     border-bottom: 1px solid #aaa;
@@ -116,6 +124,10 @@ pre {
 
 .align-end {
     text-align: end;
+}
+
+.align-right {
+    text-align: right;
 }
 
 .grid1x3 {

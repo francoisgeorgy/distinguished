@@ -132,11 +132,11 @@ function App() {
                 allowRepeat={true}
             />
             <header>
-                <div className="row space-between">
+                <div className="row">
                     <div className="title">
                         A webmidi browser for the Expert Sleepers Disting Mk4 <span className="font-normal">(fw 4.21)</span>
                     </div>
-                    <div className="grow">
+                    <div className="grow align-end mr-10">
                         v__CLI_VERSION__ by <a href="https://studiocode.dev/" target="_blank" rel="noopener noreferrer">StudioCode.dev</a>
                     </div>
                     <Switch onChange={toggleTheme} checked={theme === NIGHT_THEME} height={18} width={36}
@@ -144,7 +144,7 @@ function App() {
                 </div>
                 <div className="row space-between align-middle">
                     <MidiPortsSelect />
-                    <div className="my-10">Keyboard: LEFT & RIGHT to browse - ENTER to select algorithm</div>
+                    <div className="my-10 text-secondary">Keyboard: LEFT & RIGHT to browse - ENTER to select algorithm</div>
                 </div>
             </header>
             <main>

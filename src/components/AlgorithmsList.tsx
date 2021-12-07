@@ -19,8 +19,11 @@ export const AlgorithmsList = observer(() => {
                 {Object.keys(ALGORITHMS).sort().map((index: string) => {
                     // @ts-ignore
                     const name = ALGORITHMS[index].name;
+                    const active = index === stores.state.currentAlgorithm;
                     return (
-                        <a id={`selector-${index}`} key={index} href={`#${index}`} onClick={() => selectAlgorithm(index)}>{index} - {name}</a>
+                        <a id={`selector-${index}`} key={index} href={`#${index}`}
+                           className={active ? 'active' : ''}
+                           onClick={() => selectAlgorithm(index)}>{index} - {name}</a>
                     );
                 })}
             </div>
