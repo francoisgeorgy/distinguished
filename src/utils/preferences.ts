@@ -4,7 +4,8 @@ export const LOCAL_STORAGE_KEY = "studiocode.disting-browser";
 
 export const DEFAULT_PREFERENCES = {
     input_id: null,      // web midi port ID
-    output_id: null      // web midi port ID
+    output_id: null,     // web midi port ID
+    theme: null
 }
 
 export function loadPreferences() {

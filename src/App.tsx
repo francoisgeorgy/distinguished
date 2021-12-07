@@ -8,6 +8,7 @@ import Hotkeys from 'react-hot-keys';
 import {xyToIndex} from "./model";
 import Switch from "react-switch";
 import './App.css'
+import {loadPreferences, savePreferences} from "./utils/preferences";
 
 const DAY_THEME = 'light';
 const NIGHT_THEME = 'dark';
@@ -38,10 +39,10 @@ const KEY_NEXT = "right";
 
 function App() {
 
-    function selectTheme(theme) {
+    function selectTheme(theme: string) {
         if (theme === "dark") theme = NIGHT_THEME;
         setTheme(theme);
-        // savePreferences({theme});
+        savePreferences({theme});
     }
 
     function toggleTheme() {
@@ -62,16 +63,19 @@ function App() {
     }, [])
 
     useEffect(() => {
-        console.log("App useEffect", window.location.hash);
+        const s = loadPreferences();
+        selectTheme(s.theme ?? DEFAULT_THEME);
+    }, [])
+
+    useEffect(() => {
         stores.state.setCurrentAlgorithm(window.location.hash?.substring(1));
     }, [])
 
     const [theme, setTheme] = useState<string>(DEFAULT_THEME);
 
-    const [kbSelection, setKbSelection] = useState<string|null>(null);
+    const [kbSelection, setKbSelection] = useState<string | null>(null);
 
     const handleKeyDown = (keyName: string, e: any, handle: any) => {
-        console.log(keyName, e, handle);
         // e.preventDefault();
         switch (keyName) {
             case KEY_PREV:
@@ -134,28 +138,31 @@ function App() {
             <header>
                 <div className="row">
                     <div className="title">
-                        A webmidi browser for the Expert Sleepers Disting Mk4 <span className="font-normal">(fw 4.21)</span>
+                        A webmidi browser for the Expert Sleepers Disting Mk4 <span
+                        className="font-normal">(fw 4.21)</span>
                     </div>
                     <div className="grow align-end mr-10">
-                        v__CLI_VERSION__ by <a href="https://studiocode.dev/" target="_blank" rel="noopener noreferrer">StudioCode.dev</a>
+                        v__CLI_VERSION__ by <a href="https://studiocode.dev/" target="_blank"
+                                               rel="noopener noreferrer">StudioCode.dev</a>
                     </div>
                     <Switch onChange={toggleTheme} checked={theme === NIGHT_THEME} height={18} width={36}
-                            uncheckedIcon={sunIcon} checkedIcon={moonIcon} />
+                            uncheckedIcon={sunIcon} checkedIcon={moonIcon}/>
                 </div>
                 <div className="row space-between align-middle">
-                    <MidiPortsSelect />
-                    <div className="my-10 text-secondary">Keyboard: LEFT & RIGHT to browse - ENTER to select algorithm</div>
+                    <MidiPortsSelect/>
+                    <div className="my-10 text-secondary">Keyboard: LEFT & RIGHT to browse - ENTER to select algorithm
+                    </div>
                 </div>
             </header>
             <main>
                 <div className="left scrollable-visible">
-                    <AlgorithmsList />
+                    <AlgorithmsList/>
                 </div>
                 <div className="middle scrollable-visible">
-                    <Algorithm />
+                    <Algorithm/>
                 </div>
                 <div className="right scrollable-visible">
-                    <Description />
+                    <Description/>
                 </div>
             </main>
         </Fragment>
