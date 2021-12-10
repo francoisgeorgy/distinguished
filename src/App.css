@@ -1,22 +1,7 @@
 
-a {
-    text-decoration: none;
-    color: var(--link);
-}
-
-a:hover {
-    color: var(--link-hover);
-}
-
-a.active {
-    color: var(--link-active);
-}
-
 header {
-    background-color: var(--header-bg);
     flex-shrink: 0;
     padding: 10px 15px 0 15px;
-    border-bottom: 1px solid var(--border-colored);
 }
 
 main {
@@ -65,10 +50,8 @@ header .title {
 h3 {
     margin: 10px 0 10px 0;
     font-size: 0.85rem;
-    color: var(--text-secondary);
     text-transform: uppercase;
     font-weight: normal;
-    border-bottom: 1px solid #aaa;
 }
 
 /* Utilities */
