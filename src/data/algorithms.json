@@ -2285,40 +2285,96 @@
         "parameters": [
             {
                 "name": "Mode",
-                "min": 0,
-                "max": 5,
+                "values": [
+                    {"value": 0, "label": "MIDI - X - Legacy disting behaviour"},
+                    {"value": 1, "label": "X - X"},
+                    {"value": 2, "label": "Internal - X"},
+                    {"value": 3, "label": "MIDI - Internal"},
+                    {"value": 4, "label": "X - Internal"},
+                    {"value": 5, "label": "Internal - Internal"}
+                ],
                 "def": 0,
                 "unit": ""
                 
             },
             {
                 "name": "Clock divisor for A",
-                "min": -2,
-                "max": 14,
+                "values": [
+                    {"value": 0, "label": "Run/stop"},
+                    {"value": 1, "label": "Reset pulse"},
+                    {"value": 2, "label": "1/96"},
+                    {"value": 3, "label": "1/48"},
+                    {"value": 4, "label": "1/32"},
+                    {"value": 5, "label": "1/24"},
+                    {"value": 6, "label": "1/16"},
+                    {"value": 7, "label": "1/12"},
+                    {"value": 8, "label": "1/8"},
+                    {"value": 9, "label": "1/6"},
+                    {"value": 10, "label": "1/4"},
+                    {"value": 11, "label": "1/3"},
+                    {"value": 12, "label": "1/2"},
+                    {"value": 13, "label": "1/1"},
+                    {"value": 14, "label": "2/1"},
+                    {"value": 15, "label": "3/1"},
+                    {"value": 16, "label": "4/1"}
+                ],
                 "def": 6,
                 "unit": ""
                 
             },
             {
                 "name": "Clock divisor for B",
-                "min": -2,
-                "max": 14,
+                "values": [
+                    {"value": -2, "label": "Run/stop"},
+                    {"value": -1, "label": "Reset pulse"},
+                    {"value": 0, "label": "1/96"},
+                    {"value": 1, "label": "1/48"},
+                    {"value": 2, "label": "1/32"},
+                    {"value": 3, "label": "1/24"},
+                    {"value": 4, "label": "1/16"},
+                    {"value": 5, "label": "1/12"},
+                    {"value": 6, "label": "1/8"},
+                    {"value": 7, "label": "1/6"},
+                    {"value": 8, "label": "1/4"},
+                    {"value": 9, "label": "1/3"},
+                    {"value": 10, "label": "1/2"},
+                    {"value": 11, "label": "1/1"},
+                    {"value": 12, "label": "2/1"},
+                    {"value": 13, "label": "3/1"},
+                    {"value": 14, "label": "4/1"}
+                ],
                 "def": -2,
                 "unit": ""
                 
             },
             {
                 "name": "Clock divisor for X",
-                "min": 0,
-                "max": 11,
+                "values": [
+                    {"value": 0, "label": "1/96"},
+                    {"value": 1, "label": "1/48"},
+                    {"value": 2, "label": "1/32"},
+                    {"value": 3, "label": "1/24"},
+                    {"value": 4, "label": "1/16"},
+                    {"value": 5, "label": "1/12"},
+                    {"value": 6, "label": "1/8"},
+                    {"value": 7, "label": "1/6"},
+                    {"value": 8, "label": "1/4"},
+                    {"value": 9, "label": "1/3"},
+                    {"value": 10, "label": "1/2"},
+                    {"value": 11, "label": "1/1"}
+                ],
                 "def": 8,
                 "unit": ""
                 
             },
             {
                 "name": "Y mode",
-                "min": 0,
-                "max": 3,
+                "values": [
+                    {"value": 0, "label": "Not used"},
+                    {"value": 1, "label": "Run/stop for X"},
+                    {"value": 2, "label": "Run/stop for internal"},
+                    {"value": 3, "label": "Run/stop for both"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -2326,18 +2382,35 @@
             {
                 "name": "Tempo",
                 "min": -120,
-                "max": -120,
+                "max": 120,
+                "def": 0,
+                "unit": "BPM"
+                
+            },
+            {
+                "name": "Z mode",
+                "values": [
+                    {"value": 0, "label": "Start/Stop"},
+                    {"value": 1, "label": "Tap Tempo"}
+                ],
                 "def": 0,
                 "unit": ""
                 
             },
             {
-                "name": "Z mode",
-                "min": 0,
-                "max": 1,
+                "name": "Ratchett mode",
+                "values": [
+                    {"value": 0, "label": "A: off - B: off"},
+                    {"value": 1, "label": "A: 2's - B: off"},
+                    {"value": 2, "label": "A: off - B: 2's"},
+                    {"value": 3, "label": "A: 2's - B: 2's"},
+                    {"value": 4, "label": "A: 2's/3's - B: off"},
+                    {"value": 5, "label": "A: off - B: 2's/3's"},
+                    {"value": 6, "label": "A: 2's/3's - B: 2's/3's"}
+                ],
                 "def": 0,
                 "unit": ""
-                
+
             }
         ]
     },

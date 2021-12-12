@@ -6,6 +6,7 @@ import './index.css';
 import './layout.css';
 
 function noop() {}
+// console.log(import.meta.env.MODE);
 if (import.meta.env.MODE !== "development") {
     console.log = noop;
     console.warn = noop;
