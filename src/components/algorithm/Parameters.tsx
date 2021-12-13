@@ -45,7 +45,7 @@ export const Parameters = observer(() => {
                 )
             })}
             <div className="mt-20 line140 text-light text-small pt-5 colored-border border-top-colored">
-                The application can not read the current Disting parameters values.<br />
+                This application can not read the current Disting parameters values.<br />
                 Therefore, it shows the default value or the last value you selected if you changed it with the application.
             </div>
             <div className="mt-20 line140 text-light text-small">

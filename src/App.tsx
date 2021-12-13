@@ -39,8 +39,10 @@ const moonIcon = (
     </svg>
 )
 
-const KEY_PREV = "left";
-const KEY_NEXT = "right";
+const KEY_PREV = "pageup";
+const KEY_NEXT = "pagedown";
+// const KEY_PREV = "left";
+// const KEY_NEXT = "right";
 
 function App() {
 
@@ -143,7 +145,7 @@ function App() {
             <header>
                 <div className="row">
                     <div className="title">
-                        A webmidi browser for the Expert Sleepers Disting Mk4 <span
+                        A simple browser for the Expert Sleepers Disting Mk4 <span
                         className="font-normal">(fw 4.21)</span>
                     </div>
                     <div className="grow align-end mr-10">
@@ -155,7 +157,7 @@ function App() {
                 </div>
                 <div className="row space-between align-middle">
                     <MidiPortsSelect/>
-                    <div className="my-10 text-secondary">Keyboard: LEFT & RIGHT to browse - ENTER to select algorithm
+                    <div className="my-10 text-secondary">Keyboard: PageUp & PageDown to browse - ENTER to select algorithm
                     </div>
                 </div>
             </header>
