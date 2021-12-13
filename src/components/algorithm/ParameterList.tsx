@@ -1,5 +1,6 @@
 import React, {FormEvent} from "react";
 import {stores} from "../../stores";
+import {valueToMIDI} from "../../model";
 
 type ParameterListProps = {
     paramNumber: number,
@@ -15,8 +16,13 @@ export const ParameterList = ({paramNumber, values, def}: ParameterListProps) =>
             console.warn("ParameterList.onChange: invalid value", e.currentTarget.value);
             return false;
         }
-        stores.midi.sendCC(paramNumber + 1, v);
+        stores.midi.sendCC(paramNumber + 1, valueToMIDI(v, min, max));
     }
+
+    let min = Math.min.apply(Math, values.map((e: any) => e["value"]));
+    let max = Math.max.apply(Math, values.map((e: any) => e["value"]));
+
+    // console.log("ParameterList: values, min, max", values, min, max);
 
     let options = [];
     for (let v of values) {

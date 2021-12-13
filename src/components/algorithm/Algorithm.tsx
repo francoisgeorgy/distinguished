@@ -15,7 +15,7 @@ export const Algorithm = () => {
         <div className="algorithm">
             <Name />
             <div className="my-20 row space-between">
-                <button onClick={useIt}>USE THIS ALGORITHM</button>
+                <button onClick={useIt} className="extra">Select this algorithm in Disting</button>
                 <div className="row">
                     <button onClick={() => stores.state.selectPreviousAlgorithm()} className="mr-5">prev</button>
                     <button onClick={() => stores.state.selectNextAlgorithm()}>next</button>

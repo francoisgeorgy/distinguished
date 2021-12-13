@@ -13,6 +13,8 @@ html {
     --header-bg: rgba(0, 0, 0, 0.1);
     --border-light: #ddd;
     --border-colored: #afafb7;
+    --load-button-bg: yellow;
+    --load-button-text: #000;
 }
 
 html[data-theme='dark'] {
@@ -26,6 +28,8 @@ html[data-theme='dark'] {
     --text-disabled: rgba(255, 255, 255, 0.66);
     --text-light: rgba(255, 255, 255, 0.33);
     --header-bg: #000000;
+    --load-button-bg: #999e4b;
+    --load-button-text: #000;
 }
 
 body {
@@ -69,4 +73,13 @@ header {
 h3 {
     color: var(--text-secondary);
     border-bottom: 1px solid #aaa;
+}
+
+button.extra {
+    font-size: 1rem;
+    background-color: var(--load-button-bg);
+    color: var(--load-button-text);
+    padding: 4px 20px 3px 20px;
+    display: table-cell;
+    vertical-align: middle;
 }

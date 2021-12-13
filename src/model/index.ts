@@ -1,3 +1,5 @@
+import {mapToRange} from "../utils/maths";
+
 export function indexToXY(index: number): string {
     let b = Math.floor(index / 8);
     let i = index % 8 + 1;
@@ -18,9 +20,10 @@ export function formatIndex(index: string, separator = "-") {
     }
 }
 
-export function valueToMIDI(min: number, max: number, value: number): number {
-    const range = max - min;
-    let cc = (127 * value / range) - (127 * min / range) ;
-    console.log(`min=${min} max=${max} value=${value} midi=${cc}`);
-    return cc;
+export function valueToMIDI(value: number, min: number, max: number): number {
+    // const range = max - min;
+    // let cc = (127 * value / range) - (127 * min / range) ;
+    // console.log(`min=${min} max=${max} value=${value} midi=${cc}`);
+    // return cc;
+    return mapToRange(value, min, max, 0, 127);
 }

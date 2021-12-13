@@ -20,7 +20,7 @@ export const ParameterSlider = ({paramNumber, min, max, def}: ParameterSliderPro
             return false;
         }
         setV(v);
-        stores.midi.sendCC(paramNumber + 1, valueToMIDI(min, max, v));
+        stores.midi.sendCC(paramNumber + 1, valueToMIDI(v, min, max));
     }
 
     return (
