@@ -6,9 +6,14 @@ import {Algorithm} from "./components/algorithm/Algorithm";
 import {Description} from "./components/algorithm/Description";
 import Hotkeys from 'react-hot-keys';
 import {xyToIndex} from "./model";
-import Switch from "react-switch";
 import './App.css'
 import {loadPreferences, savePreferences} from "./utils/preferences";
+
+// https://github.com/vitejs/vite/issues/2139 :
+// import Switch from "react-switch";
+import S from "react-switch";
+// @ts-ignore
+const Switch = S.default? S.default: S
 
 const DAY_THEME = 'light';
 const NIGHT_THEME = 'dark';
