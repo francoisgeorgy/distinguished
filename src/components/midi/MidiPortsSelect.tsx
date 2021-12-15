@@ -48,7 +48,7 @@ export const MidiPortsSelect = observer(() => {
                 </select>
             </div>
             <div>
-                <span>Channel: </span>
+                <span>channel: </span>
                 <select onChange={handleChannelSelection} value={stores.midi.channel}>
                     {[...Array(16)].map((_, channel) =>
                         <option key={channel} value={channel}>{channel + 1}</option>

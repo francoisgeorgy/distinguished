@@ -1,13 +1,14 @@
 import {Fragment, useEffect, useState} from "react";
 import {stores} from "./stores";
+import {MidiSupportWarning} from "./components/midi/MidiSupportWarning";
 import {MidiPortsSelect} from "./components/midi/MidiPortsSelect";
 import {AlgorithmsList} from "./components/AlgorithmsList";
 import {Algorithm} from "./components/algorithm/Algorithm";
 import {Description} from "./components/algorithm/Description";
 import Hotkeys from 'react-hot-keys';
 import {xyToIndex} from "./model";
-import './App.css'
 import {loadPreferences, savePreferences} from "./utils/preferences";
+import './App.css'
 
 // https://github.com/vitejs/vite/issues/2139 :
 // import Switch from "react-switch";
@@ -143,6 +144,7 @@ function App() {
                 allowRepeat={true}
             />
             <header>
+                <MidiSupportWarning />
                 <div className="row">
                     <div className="title">
                         A simple browser for the Expert Sleepers Disting Mk4 <span
@@ -157,7 +159,7 @@ function App() {
                 </div>
                 <div className="row space-between align-middle">
                     <MidiPortsSelect/>
-                    <div className="my-10 text-secondary">Keyboard: PageUp & PageDown to browse - ENTER to select algorithm
+                    <div className="my-10 text-secondary">Keyboard: PageUp & PageDown to browse, Enter to select
                     </div>
                 </div>
             </header>

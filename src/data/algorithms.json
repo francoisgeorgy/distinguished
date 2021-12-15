@@ -2551,19 +2551,24 @@
         "parameters": [
             {
                 "name": "Crossfade/pan law",
-                "min": 0,
-                "max": 3,
+                "values": [
+                    {"value": 0, "label": "Equal gain"},
+                    {"value": 1, "label": "Equal power"},
+                    {"value": 2, "label": "Transition"},
+                    {"value": 2, "label": "FX Loop"}
+                ],
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Clip mode",
-                "min": 0,
-                "max": 2,
+                "values": [
+                    {"value": 0, "label": "Legacy"},
+                    {"value": 1, "label": "Hard clip"},
+                    {"value": 2, "label": "Soft clip"}
+                ],
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Out. B option/LFO speed",
@@ -2571,7 +2576,6 @@
                 "max": 99,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Out. B attenuation",
@@ -2579,7 +2583,6 @@
                 "max": 32,
                 "def": 32,
                 "unit": ""
-                
             }
         ]
     },
@@ -2599,11 +2602,12 @@
         "parameters": [
             {
                 "name": "Mode",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "0: A is sample of X"},
+                    {"value": 1, "label": "1: A follows X"}
+                ],
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Offset",
@@ -2716,7 +2720,6 @@
                 "max": 32,
                 "def": 32,
                 "unit": ""
-                
             },
             {
                 "name": "Input Y attenuation",
@@ -2724,31 +2727,103 @@
                 "max": 32,
                 "def": 32,
                 "unit": ""
-                
             },
             {
                 "name": "X scale/trigger mode",
-                "min": -18,
-                "max": 18,
+                "values" : [
+                    {"value": -18, "label": "MIDI 2  "},
+                    {"value": -17, "label": "MIDI 1"},
+                    {"value": -16, "label": "harmonic minor"},
+                    {"value": -15, "label": "natural minor"},
+                    {"value": -14, "label": "pentatonic minor"},
+                    {"value": -13, "label": "pentatonic major"},
+                    {"value": -12, "label": "root +5th +7th"},
+                    {"value": -11, "label": "root +5th +6th"},
+                    {"value": -10, "label": "minor triad +7th"},
+                    {"value": -9, "label": "major triad +7th"},
+                    {"value": -8, "label": "minor triad +6th"},
+                    {"value": -7, "label": "major triad +6th"},
+                    {"value": -6, "label": "root +5th"},
+                    {"value": -5, "label": "minor triad"},
+                    {"value": -4, "label": "major triad"},
+                    {"value": -3, "label": "minor scale"},
+                    {"value": -2, "label": "major scale"},
+                    {"value": -1, "label": "chromatic"},
+                    {"value": 0, "label": "chromatic"},
+                    {"value": 1, "label": "chromatic"},
+                    {"value": 2, "label": "major scale"},
+                    {"value": 3, "label": "minor scale"},
+                    {"value": 4, "label": "major triad"},
+                    {"value": 5, "label": "minor triad"},
+                    {"value": 6, "label": "root +5th"},
+                    {"value": 7, "label": "major triad +6th"},
+                    {"value": 8, "label": "minor triad +6th"},
+                    {"value": 9, "label": "major triad +7th"},
+                    {"value": 10, "label": "minor triad +7th"},
+                    {"value": 11, "label": "root +5th +6th"},
+                    {"value": 12, "label": "root +5th +7th"},
+                    {"value": 13, "label": "pentatonic major"},
+                    {"value": 14, "label": "pentatonic minor"},
+                    {"value": 15, "label": "natural minor"},
+                    {"value": 16, "label": "harmonic minor"},
+                    {"value": 17, "label": "MIDI 1"},
+                    {"value": 18, "label": "MIDI 2  "}
+                ],
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Y scale/trigger mode",
-                "min": -18,
-                "max": 18,
+                "values" : [
+                    {"value": -18, "label": "MIDI 2  "},
+                    {"value": -17, "label": "MIDI 1"},
+                    {"value": -16, "label": "harmonic minor"},
+                    {"value": -15, "label": "natural minor"},
+                    {"value": -14, "label": "pentatonic minor"},
+                    {"value": -13, "label": "pentatonic major"},
+                    {"value": -12, "label": "root +5th +7th"},
+                    {"value": -11, "label": "root +5th +6th"},
+                    {"value": -10, "label": "minor triad +7th"},
+                    {"value": -9, "label": "major triad +7th"},
+                    {"value": -8, "label": "minor triad +6th"},
+                    {"value": -7, "label": "major triad +6th"},
+                    {"value": -6, "label": "root +5th"},
+                    {"value": -5, "label": "minor triad"},
+                    {"value": -4, "label": "major triad"},
+                    {"value": -3, "label": "minor scale"},
+                    {"value": -2, "label": "major scale"},
+                    {"value": -1, "label": "chromatic"},
+                    {"value": 0, "label": "chromatic"},
+                    {"value": 1, "label": "chromatic"},
+                    {"value": 2, "label": "major scale"},
+                    {"value": 3, "label": "minor scale"},
+                    {"value": 4, "label": "major triad"},
+                    {"value": 5, "label": "minor triad"},
+                    {"value": 6, "label": "root +5th"},
+                    {"value": 7, "label": "major triad +6th"},
+                    {"value": 8, "label": "minor triad +6th"},
+                    {"value": 9, "label": "major triad +7th"},
+                    {"value": 10, "label": "minor triad +7th"},
+                    {"value": 11, "label": "root +5th +6th"},
+                    {"value": 12, "label": "root +5th +7th"},
+                    {"value": 13, "label": "pentatonic major"},
+                    {"value": 14, "label": "pentatonic minor"},
+                    {"value": 15, "label": "natural minor"},
+                    {"value": 16, "label": "harmonic minor"},
+                    {"value": 17, "label": "MIDI 1"},
+                    {"value": 18, "label": "MIDI 2  "}
+                ],
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "MIDI Gate",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "0"},
+                    {"value": 1, "label": "1"}
+                ],
                 "def": 0,
                 "unit": ""
-                
             }
         ]
     },

@@ -13,7 +13,8 @@ html {
     --header-bg: rgba(0, 0, 0, 0.1);
     --border-light: #ddd;
     --border-colored: #afafb7;
-    --load-button-bg: yellow;
+    --load-button-bg: #ffff00;
+    --load-button-bg-hover: #efef00;
     --load-button-text: #000;
 }
 
@@ -29,6 +30,7 @@ html[data-theme='dark'] {
     --text-light: rgba(255, 255, 255, 0.33);
     --header-bg: #000000;
     --load-button-bg: #999e4b;
+    --load-button-bg-hover: #8a8d43;
     --load-button-text: #000;
 }
 
@@ -82,4 +84,9 @@ button.extra {
     padding: 4px 20px 3px 20px;
     display: table-cell;
     vertical-align: middle;
+    border-radius: 5px;
+}
+
+button.extra:hover {
+    background-color: var(--load-button-bg-hover);
 }
