@@ -963,7 +963,6 @@
                 "max": 7,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Selects the bit mangling mode",
@@ -971,7 +970,15 @@
                 "max": 7,
                 "def": 0,
                 "unit": ""
-                
+            },
+            {
+                "name": "Stereo mode",
+                "values": [
+                    {"value": 0, "label": "no"},
+                    {"value": 1, "label": "yes"}
+                ],
+                "def": 0,
+                "unit": ""
             }
         ]
     },
@@ -4581,16 +4588,33 @@
         "parameters": [
             {
                 "name": "Output type A",
-                "min": 0,
-                "max": 6,
+                "values": [
+                    {"value": 0, "label": "The ramp itself"},
+                    {"value": 1, "label": "Triangle affected by ramp"},
+                    {"value": 2, "label": "Sine affected by ramp"},
+                    {"value": 3, "label": "Square affected by ramp"},
+                    {"value": 4, "label": "Saw affected by ramp"},
+                    {"value": 5, "label": "Triangle"},
+                    {"value": 6, "label": "Sine"},
+                    {"value": 7, "label": "Square"},
+                    {"value": 8, "label": "Saw"}
+                ],
                 "def": 1,
                 "unit": ""
-                
             },
             {
                 "name": "Output type B",
-                "min": 0,
-                "max": 6,
+                "values": [
+                    {"value": 0, "label": "The ramp itself"},
+                    {"value": 1, "label": "Triangle affected by ramp"},
+                    {"value": 2, "label": "Sine affected by ramp"},
+                    {"value": 3, "label": "Square affected by ramp"},
+                    {"value": 4, "label": "Saw affected by ramp"},
+                    {"value": 5, "label": "Triangle"},
+                    {"value": 6, "label": "Sine"},
+                    {"value": 7, "label": "Square"},
+                    {"value": 8, "label": "Saw"}
+                ],
                 "def": 0,
                 "unit": ""
                 
@@ -5270,6 +5294,97 @@
                 "def": 0,
                 "unit": ""
                 
+            }
+        ]
+    },
+    "N6": {
+        "name": "Phase Shifter",
+        "category": "Modulation",
+        "Z-button": "",
+        "X": "input signal",
+        "Y": "phase shift",
+        "Z": "wet/dry",
+        "A": "audio output",
+        "B": "audio output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Output mode",
+                "values": [
+                    {"value": 0, "label": "A constant, B shifted"},
+                    {"value": 1, "label": "A shifted, B shifted"}
+                ],
+                "def": 0,
+                "unit": ""
+            },
+            {
+                "name": "Y offset",
+                "min": -32,
+                "max": 32,
+                "def": 0,
+                "unit": ""
+            },
+            {
+                "name": "LFO enable",
+                "values": [
+                    {"value": 0, "label": "no"},
+                    {"value": 1, "label": "yes"}
+                ],
+                "def": 1,
+                "unit": ""
+            },
+            {
+                "name": "LFO speed",
+                "min": -99,
+                "max": 99,
+                "def": 50,
+                "unit": ""
+            }
+        ]
+    },
+    "N7": {
+        "name": "Frequency Shifter",
+        "category": "Modulation",
+        "Z-button": "",
+        "Z": "frequency shift",
+        "X": "input signal",
+        "Y": "frequency shift",
+        "A": "audio output",
+        "B": "audio output",
+        "midi": {
+            "in": false,
+            "out": false
+        },
+        "parameters": [
+            {
+                "name": "Range",
+                "min": 0,
+                "max": 3,
+                "def": 1,
+                "unit": ""
+
+            },
+            {
+                "name": "B mode",
+                "values": [
+                    {"value": 0, "label": "same shift as A"},
+                    {"value": 1, "label": "opposite shift"}
+                ],
+                "def": 0,
+                "unit": ""
+
+            },
+            {
+                "name": "Include Z",
+                "values": [
+                    {"value": 0, "label": "no"},
+                    {"value": 1, "label": "yes"}
+                ],
+                "def": 1,
+                "unit": ""
             }
         ]
     },
