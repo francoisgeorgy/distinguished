@@ -148,7 +148,7 @@ function App() {
                 <div className="row">
                     <div className="title">
                         A simple browser for the Expert Sleepers Disting Mk4 <span
-                        className="font-normal">(fw 4.21)</span>
+                        className="font-normal">(fw 4.22)</span>
                     </div>
                     <div className="grow align-end mr-10">
                         v__CLI_VERSION__ by <a href="https://studiocode.dev/" target="_blank"
