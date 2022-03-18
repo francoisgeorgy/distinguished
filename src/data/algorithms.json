@@ -181,8 +181,10 @@
             },
             {
                 "name": "Transpose mode",
-                "min": 0,
-                "max": 1,
+                "values": [
+                    {"value": 0, "label": "applied to A"},
+                    {"value": 1, "label": "applied to X"}
+                ],
                 "def": 0,
                 "unit": ""
             },
@@ -211,6 +213,13 @@
                 "name": "Transpose",
                 "min": -48,
                 "max": 48,
+                "def": 0,
+                "unit": ""
+            },
+            {
+                "name": "MIDI mode",
+                "min": 0,
+                "max": 2,
                 "def": 0,
                 "unit": ""
             }
@@ -399,7 +408,6 @@
                 "max": 8,
                 "def": 0,
                 "unit": ""
-
             },
             {
                 "name": "Output mode",
@@ -409,6 +417,20 @@
                     {"value": 2, "label": "A & B are delay only"}
                 ],
                 "def": 0,
+                "unit": ""
+            },
+            {
+                "name": "Mix",
+                "min": -33,
+                "max": 32,
+                "def": -33,
+                "unit": ""
+            },
+            {
+                "name": "Feedback",
+                "min": -1,
+                "max": 32,
+                "def": -1,
                 "unit": ""
             }
         ]
@@ -594,6 +616,13 @@
                         "label": "MIDI gate"
                     }
                 ]
+            },
+            {
+                "name": "Fine tune/enable sync",
+                "min": -51,
+                "max": 50,
+                "def": -51,
+                "unit": ""
             }
         ]
     },
@@ -760,14 +789,11 @@
         },
         "parameters": [
             {
-                "name": "Output mode",
-                "values": [
-                    {"value": 0, "label": "A & B are mix of dry and delayed signal"},
-                    {"value": 1, "label": "A & B are delayed signal only"}
-                ],
-                "def": 0,
+                "name": "Mix",
+                "min": -33,
+                "max": 32,
+                "def": -33,
                 "unit": ""
-                
             },
             {
                 "name": "Delay time multiplier",
@@ -775,7 +801,6 @@
                 "max": 8,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Input pan",
@@ -783,7 +808,6 @@
                 "max": 32,
                 "def": -32,
                 "unit": ""
-                
             }
         ]
     },
@@ -818,14 +842,11 @@
                 
             },
             {
-                "name": "Output mode",
-                "values": [
-                    {"value": 0, "label": "A & B are mix of dry and delayed signal"},
-                    {"value": 1, "label": "A & B are delayed signal only"}
-                ],
-                "def": 0,
+                "name": "Mix",
+                "min": -33,
+                "max": 32,
+                "def": -33,
                 "unit": ""
-                
             }
         ]
     },
@@ -1026,7 +1047,6 @@
                 "max": 43,
                 "def": 43,
                 "unit": ""
-                
             },
             {
                 "name": "Fine length control",
@@ -1034,7 +1054,6 @@
                 "max": 9,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Tape speed",
@@ -1042,7 +1061,6 @@
                 "max": 16,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Output mode",
@@ -1053,7 +1071,20 @@
                 ],
                 "def": 0,
                 "unit": ""
-                
+            },
+            {
+                "name": "Mix",
+                "min": -33,
+                "max": 32,
+                "def": -33,
+                "unit": ""
+            },
+            {
+                "name": "Feedback",
+                "min": -1,
+                "max": 32,
+                "def": -1,
+                "unit": ""
             }
         ]
     },
@@ -1969,7 +2000,7 @@
         "X": "clock input",
         "Y": "modify input",
         "A": "unipolar output",
-        "B": "bipolar output",
+        "B": "bipolar output or trigger",
         "midi": {
             "in": true,
             "out": false
@@ -2013,7 +2044,36 @@
                 "max": 40,
                 "def": 0,
                 "unit": ""
-                
+            },
+            {
+                "name": "MIDI clock divisor",
+                "values": [
+                    {"value": 0, "label": "-"},
+                    {"value": 1, "label": "1/32"},
+                    {"value": 2, "label": "1/16 triplet"},
+                    {"value": 3, "label": "1/16"},
+                    {"value": 4, "label": "1/8 triplet"},
+                    {"value": 5, "label": "3/32"},
+                    {"value": 6, "label": "1/8"},
+                    {"value": 7, "label": "1/4 triplet"},
+                    {"value": 8, "label": "3/16"},
+                    {"value": 9, "label": "1/4"},
+                    {"value": 10, "label": "1/2 triplet"},
+                    {"value": 11, "label": "3/8"},
+                    {"value": 12, "label": "1/2"},
+                    {"value": 13, "label": "1/1 triplet"},
+                    {"value": 14, "label": "3/4"},
+                    {"value": 15, "label": "1/1"}
+                ],
+                "def": 0,
+                "unit": ""
+            },
+            {
+                "name": "Output B signal",
+                "min": 0,
+                "max": 5,
+                "def": 0,
+                "unit": ""
             }
         ]
     },
@@ -2702,7 +2762,13 @@
                 "max": 31,
                 "def": 0,
                 "unit": ""
-                
+            },
+            {
+                "name": "Key",
+                "min": -31,
+                "max": 31,
+                "def": 0,
+                "unit": ""
             }
         ]
     },
@@ -2831,6 +2897,20 @@
                 ],
                 "def": 0,
                 "unit": ""
+            },
+            {
+                "name": "Offset",
+                "min": 0,
+                "max": 31,
+                "def": 0,
+                "unit": ""
+            },
+            {
+                "name": "Key",
+                "min": -31,
+                "max": 31,
+                "def": 0,
+                "unit": ""
             }
         ]
     },
@@ -2854,7 +2934,6 @@
                 "max": 16,
                 "def": 16,
                 "unit": ""
-                
             },
             {
                 "name": "Pulses (pattern 1)",
@@ -3885,7 +3964,6 @@
                 "max": 99,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Y Offset",
@@ -3893,7 +3971,6 @@
                 "max": 32,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Out. A attenuverter",
@@ -3901,7 +3978,6 @@
                 "max": 32,
                 "def": 32,
                 "unit": ""
-                
             },
             {
                 "name": "Out. B attenuverter",
@@ -3909,7 +3985,6 @@
                 "max": 32,
                 "def": -32,
                 "unit": ""
-                
             },
             {
                 "name": "Envelope time multiplier",
@@ -3917,7 +3992,16 @@
                 "max": 8,
                 "def": 0,
                 "unit": ""
-                
+            },
+            {
+                "name": "Trigger mode",
+                "values": [
+                    {"value": 0, "label": "Envelope triggered by every pulse on Z"},
+                    {"value": 1, "label": "Envelope cannot be retriggered during a cycle"},
+                    {"value": 2, "label": "Gated – envelope ends when Z goes low"}
+                ],
+                "def": 0,
+                "unit": ""
             }
         ]
     },
@@ -4863,7 +4947,6 @@
                 "max": 26,
                 "def": 26,
                 "unit": ""
-                
             },
             {
                 "name": "Fine length control",
@@ -4871,7 +4954,6 @@
                 "max": 9,
                 "def": 0,
                 "unit": ""
-                
             },
             {
                 "name": "Feedback",
@@ -4879,17 +4961,20 @@
                 "max": 36,
                 "def": 24,
                 "unit": ""
-                
             },
             {
-                "name": "Output mode",
-                "values": [
-                    {"value": 0, "label": "A & B are mix"},
-                    {"value": 1, "label": "A & B are delay only"}
-                ],
+                "name": "Mix",
+                "min": -33,
+                "max": 32,
+                "def": -33,
+                "unit": ""
+            },
+            {
+                "name": "Tape speed",
+                "min": -8,
+                "max": 16,
                 "def": 0,
                 "unit": ""
-                
             }
         ]
     },
