@@ -58,7 +58,7 @@ function App() {
     }
 
     function handleHashChange() {
-        console.log("handleHashChange", window.location.hash);
+        // console.log("handleHashChange", window.location.hash);
         if (window.location.hash) stores.state.setCurrentAlgorithm(window.location.hash.substring(1));
     }
 

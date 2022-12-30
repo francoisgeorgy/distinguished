@@ -10,7 +10,7 @@ function noop() {}
 if (import.meta.env.MODE !== "development") {
     console.log = noop;
     console.warn = noop;
-    console.error = noop;
+    // console.error = noop;
 }
 
 ReactDOM.render(
